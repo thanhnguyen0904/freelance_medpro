@@ -3,3 +3,5 @@
 - $ npm install
 
 - Watch files for changes & reload: gulp serve
+
+- Build and serve the output from the dist build: gulp serve:dist

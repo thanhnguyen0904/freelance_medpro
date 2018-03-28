@@ -8,6 +8,10 @@ header {
   .nav-desk{
     position: relative;
     z-index: 9999;
+    display: none;
+    @media screen and (min-width: 992px){
+      display: block;
+    }
     .nav-top{
       background: #48a7f2;
       padding: 12px 0;
@@ -17,61 +21,19 @@ header {
         @media screen and (max-width: 499px){
           font-size: 10px;
         }
-        &.nav-top-phone{
-          position: relative;
-          padding-left: 25px;
-          &:before{
-            content: '';
-            background: url('../images/icons/phone.svg') no-repeat center;
-            width: 15px;
-            height: 15px;
-            position: absolute;
-            top: 2px;
-            left: 0;
-          }
+        i{
+          padding-right: 5px;
         }
         &.nav-top-mail{
           margin-left: 30px;
-          position: relative;
-          padding-left: 31px;
-          &:before{
-            content: '';
-            background: url('../images/icons/email.svg') no-repeat center;
-            width: 21px;
-            height: 15px;
-            position: absolute;
-            top: 2px;
-            left: 0;
-          }
         }
         &.nav-top-login{
           position: relative;
-          padding-left: 24px;
-          @media screen and (max-width: 499px){
-            text-indent: -9999px;
-          }
-          &:before{
-            content: '';
-            background: url('../images/icons/user.svg') no-repeat center;
-            width: 14px;
-            height: 15px;
-            position: absolute;
-            top: 2px;
-            left: 0;
-            @media screen and (max-width: 499px){
-              right: 0;
-              left: inherit;
-            }
-          }
         }
       }
 
     }
     .nav-menu{
-      display: none;
-      @media screen and (min-width: 992px){
-        display: block;
-      }
       background: #fff;
       padding: 20px 0;
       border-bottom: 1px solid #CFD8DC;
@@ -84,7 +46,7 @@ header {
           margin: 0 10px;
         }
         text-transform: uppercase;
-        &:hover, &:focus{
+        &:hover, &:focus, &.active{
           color: #1ca5ec;
         }
         &.nav-menu-logo{
@@ -104,11 +66,11 @@ header {
 
   .nav-mobile {
     position: fixed;
-    background: #fff;
+    background: #48a7f2;
     width: 100%;
     z-index: 1036;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     border-bottom: 1px solid #cfd8dc;
     transition: all .3s ease;
     left: 0;
@@ -120,6 +82,31 @@ header {
     }
     &.out {
       left: 70%;
+    }
+    a{
+      transition: all .7s ease;
+      &.hidden{
+        visibility: hidden;
+        transform: translateY(-500px);
+        height: 0;
+        padding: 0 !important;
+        img{
+          display: none;
+        }
+      }
+      &.btn.btn-success{
+        font-size: 20px;
+        padding: 10px 15px;
+        text-transform: uppercase;
+        font-weight: bold;
+        display: block;
+        box-shadow: none;
+        border: none !important;
+
+        @media screen and (max-width: 575px){
+          font-size: 16px;
+        }
+      }
     }
   }
   #toggle-menu {
@@ -145,8 +132,8 @@ header {
     }
     &:before, &:after, span {
       width: 25px;
-      height: 1px;
-      background-color: #48a7f2;
+      height: 2px;
+      background-color: #fff;
       display: block;
       opacity: 1;
       position: absolute;
@@ -159,7 +146,7 @@ header {
 
     span {
       top: 15px;
-      width: 20px;
+      width: 25px;
     }
 
     &:after {
@@ -194,7 +181,7 @@ header {
   max-width: 100%;
   position: fixed;
   transition: left 0.3s;
-  background-color: #168dc9;
+  background-color: #fff;
   z-index: 1036;
   text-align: left;
   padding-left: 0;
@@ -204,7 +191,6 @@ header {
   color: #fff;
   overflow-x: hidden;
   overflow-y: scroll;
-  padding-top: 30px;
   &::-webkit-scrollbar {
     display: none;
   }
@@ -214,11 +200,28 @@ header {
       left: -100%;
     }
   }
+  .m-menu-top{
+    background: #48a7f2;
+    padding: 20px;
+    img{
+      display: inline-block;
+      magin: 0 auto;
+    }
+    a{
+      color: #fff;
+      font-size: 14px;
+      margin-top: 30px;
+      i{
+        font-size: 20px;
+        margin-right: 10px;
+      }
+    }
+  }
   .m-menu {
-    padding: 40px 30px;
+    padding: 20px 30px;
     a{
       display: block;
-      color: #fff;
+      color: #3c3c3c;
       font-size: 14px;
       margin-bottom: 15px;
       text-transform: uppercase;
@@ -230,6 +233,15 @@ header {
         padding: 10px 30px;
         border: none;
       }
+      i{
+        font-size: 20px;
+        margin-right: 10px;
+      }
+    }
+    hr{
+      border-color: #1ca5ec;
+      margin-top: 20px;
+      margin-bottom: 20px;
     }
   }
 }
