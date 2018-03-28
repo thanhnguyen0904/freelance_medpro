@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <title></title>
+
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <!-- Web Application Manifest -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="SUNLIFE APPLICATION">
+    <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="SUNLIFE APPLICATION">
+    <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#2F3BA2">
+
+    <!-- Color the status bar on mobile devices -->
+    <meta name="theme-color" content="#2F3BA2">
+
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!--
+    <link rel="canonical" href="http://www.example.com/">
+    -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
+    <!-- Your styles -->
+    <link rel="stylesheet" href="styles/core.css">
+    <link rel="stylesheet" href="styles/components.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/page-home.css">
+  </head>
+  <body>
+    <!-- Add your site or app content here -->
+    <header>
+      <nav class="nav-header">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-3">
+              <button id="toggle-menu" class="menu-toggler mt-home">
+                <span></span>
+              </button>
+            </div>
+            <div class="col-6 text-center">
+              <img class="img-fluid d-inline-block" src="images/page-news/bitmap.svg" alt=""/>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <ul id="main-menu" class="menu-collapse in">
+        <div class="m-info d-flex align-items-end">
+          <div class="mt-auto text-center w-100">
+            <div class="m-info-name mx-auto d-inline-block">ĐÀO VIẾT HƯƠNG</div>
+            <hr>
+            <div class="d-flex justify-content-around">
+              <div class="m-info-text m-info-pass">Đổi mật khẩu</div>
+              <div class="m-info-text m-info-logout">Đăng xuất</div>
+            </div>
+          </div>
+        </div>
+        <div class="m-menu">
+          <div class="m-menu-item"><a class="nav-link nav-home" href="javascript:void(0)">Trang chủ</a></div>
+          <div class="m-menu-item"><a class="nav-link nav-search" href="javascript:void(0)">Tìm kiếm</a></div>
+          <div class="m-menu-item m-dropdown">
+            <a href="javascript:void(0)" class="nav-link nav-files">Tình trạng thẩm định</a>
+            <div class="m-dropdown-item">
+              <a href="javascript:void(0)">Chờ thẩm định</a>
+              <a href="javascript:void(0)">Yêu cầu bổ sung thông tin</a>
+              <a href="javascript:void(0)">Yêu cầu thư thỏa thuận</a>
+            </div>
+          </div>
+          <div class="m-menu-item m-dropdown">
+            <a href="javascript:void(0)" class="nav-link nav-hdong">HĐ đã phát hành</a>
+            <div class="m-dropdown-item">
+              <a href="javascript:void(0)">Chờ biên nhận bàn giao</a>
+              <a href="javascript:void(0)">Trong thời hạn cân nhắc</a>
+              <a href="javascript:void(0)">Hủy trong thời hạn cân nhắc</a>
+              <a href="javascript:void(0)">Mất hiệu lực</a>
+            </div>
+          </div>
+          <div class="m-menu-item m-dropdown">
+            <a href="javascript:void(0)" class="nav-link nav-baohiem">Tình trạng yêu cầu bồi thường</a>
+            <div class="m-dropdown-item">
+              <a href="javascript:void(0)">Chờ thẩm định</a>
+              <a href="javascript:void(0)">Yêu cầu bổ sung thông tin</a>
+              <a href="javascript:void(0)">Yêu cầu thư thỏa thuận</a>
+            </div>
+          </div>
+          <div class="m-menu-item"><a class="nav-link nav-dksd" href="javascript:void(0)">Điều khoản sử dụng</a></div>
+        </div>
+      </ul>
+    </header>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="box-slider">
+            <div data-toggle="modal" data-target="#detail-modal"><img class="img-fluid w-100" src="images/page-home/slide-01.jpg" alt="" /></div>
+            <div data-toggle="modal" data-target="#detail-modal"><img class="img-fluid w-100" src="images/page-home/slide-01.jpg" alt="" /></div>
+            <div data-toggle="modal" data-target="#detail-modal"><img class="img-fluid w-100" src="images/page-home/slide-01.jpg" alt="" /></div>
+            <div data-toggle="modal" data-target="#detail-modal"><img class="img-fluid w-100" src="images/page-home/slide-01.jpg" alt="" /></div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="row">
+        <div class="col-12">
+          <div class="page-title fall-down">BẢNG TÓM TẮT</div>
+        </div>
+        <div class="col-12">
+          <div class="box box-brief">
+            <table class="table">
+              <thead>
+                <tr>
+                  <td class="column-name"></td>
+                  <td class="column-name"><div>AFYP</div> Kết quả cá nhân*</td>
+                  <td class="column-name"><div>AFYP</div> Kết quả nhóm**</td>
+                  <td class="column-name">TVTC hoạt động</td>
+                  <td class="column-name">Tổng số TVTC</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="row-name">Trong tháng</td>
+                  <td class="cell">67.78</td>
+                  <td class="cell">67.78</td>
+                  <td class="cell">0</td>
+                  <td class="cell">0<td>
+                </tr>
+                <tr>
+                  <td class="row-name">Trong năm</td>
+                  <td class="cell">201.37</td>
+                  <td class="cell">201.37</td>
+                  <td class="cell">0</td>
+                  <td class="cell">0</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="note">*Số liệu tính tới ngày 25 JUL 2016</div>
+            <div class="note">**Đơn vị: triệu đồng</div>
+          </div>
+        </div>
+      </div> -->
+      <div class="row">
+        <div class="col-12">
+          <div class="page-title">TÍNH NĂNG CHÍNH</div>
+        </div>
+        <div class="col-4">
+          <div class="box box-feature box-feature-left">
+            <img class="img-fluid" src="images/page-home/icon-01.svg" alt="" />
+            <div class="">Lịch</div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="box box-feature box-feature-center">
+            <img class="img-fluid" src="images/page-home/icon-02.svg" alt="" />
+            <div>TÌNH TRẠNG HỢP ĐỒNG</div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="box box-feature box-feature-right">
+            <img class="img-fluid" src="images/page-home/icon-03.svg" alt="" />
+            <div>TÌM KIẾM HỢP ĐỒNG</div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="box box-feature box-feature-left">
+            <img class="img-fluid" src="images/page-home/icon-04.svg" alt="" />
+            <div>BÁO CÁO CÁ NHÂN</div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="box box-feature box-feature-center">
+            <img class="img-fluid" src="images/page-home/icon-05.svg" alt="" />
+            <div>BÁO CÁO NHÓM</div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="box box-feature box-feature-right">
+            <img class="img-fluid" src="images/page-home/icon-07.svg" alt="" />
+            <div>MDRT</div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="box box-feature box-feature-left">
+            <img class="img-fluid" src="images/page-home/icon-08.svg" alt="" />
+            <div>SUN ELITE</div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="box box-feature box-feature-center">
+            <img class="img-fluid" src="images/page-home/icon-09.svg" alt="" />
+            <div>BÁO CÁO NĂM</div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="box box-feature box-feature-right">
+            <img class="img-fluid" src="images/page-home/icon-10.svg" alt="" />
+            <div>THU NHẬP</div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="box box-feature box-feature-left">
+            <img class="img-fluid" src="images/page-home/icon-11.svg" alt="" />
+            <div>LÃI SUẤT</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="detail-modal" class="modal fade" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <img class="img-fluid close" src="images/page-home/close.svg" alt="" data-dismiss="modal" />
+          <img class="img-fluid w-100" src="images/page-home/slide-01.jpg" alt="" />
+
+          <div class="row">
+            <div class="col-11 mx-auto">
+              <p>Sony Show 2016 là nơi hội tụ những tinh hoa công nghệ bậc nhất từ Sony, trải nghiệm nhiều sản phẩm ấn tượng và hàng loạt hoạt động thú vị, đặc biệt là không khí cuồng nhiệt của đấu trường game lớn nhất trong lịch sử PlayStation® tại Việt Nam.</p>
+              <button type="button" class="btn btn-sherpa-blue btn-block">Tham gia ngay</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      @2017 Sun Life Việt Nam. Bảo lưu mọi quyền lợi.
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/page-home.js"></script>
+  </body>
+</html>
