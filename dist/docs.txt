@@ -1,0 +1,5 @@
+- $ npm install --global gulp
+
+- $ npm install
+
+- Watch files for changes & reload: gulp serve
