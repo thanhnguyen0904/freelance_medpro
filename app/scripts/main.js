@@ -37,5 +37,20 @@
       $('#popupLogin').modal('show')
     })
 
+    $('.nav-top-logged').on('click', function() {
+      $(this).find('.dropdown-menu').toggleClass('show')
+    })
+
+    $('.nav-top-logged-m').on('click', function() {
+      $(this).parent().find('.nav-top-logged-dropdown').toggleClass('show')
+    })
+
+    $('.nav-top-logged').hover(function() {
+      $(this).parent().find('.dropdown-menu').addClass('show')
+    }, function() {
+      $(this).parent().find('.dropdown-menu').removeClass('show')
+    })
+
+
   })
 })(jQuery)

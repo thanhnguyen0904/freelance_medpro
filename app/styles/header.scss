@@ -1,5 +1,5 @@
 header {
-  overflow: hidden;
+  //overflow: hidden;
   z-index: 1036;
   position: fixed;
   width: 100%;
@@ -18,6 +18,9 @@ header {
       a{
         color: #fff;
         font-size: 14px;
+        &:not(last-child){
+          font-size: 13px;
+        }
         &.nav-top-phone{
           position: relative;
           padding-left: 25px;
@@ -58,22 +61,6 @@ header {
             left: 0;
           }
         }
-        &.nav-top-logged{
-          background: #3c96dd;
-          margin: -12px 0;
-          padding: 12px 20px;
-          padding-left: 34px;
-          position: relative;
-          &:before{
-            content: '';
-            background: url('../images/icons/user.svg') no-repeat center;
-            width: 14px;
-            height: 15px;
-            position: absolute;
-            top: 13px;
-            left: 10px;
-          }
-        }
         &.nav-top-logout{
           margin-left: 20px;
           position: relative;
@@ -91,6 +78,65 @@ header {
         }
       }
 
+      .nav-top-logged{
+        background: #3c96dd;
+        margin: -12px 0;
+        padding: 12px 20px;
+        padding-left: 53px;
+        position: relative;
+        color: #fff;
+        cursor: pointer;
+        padding-right: 30px;
+        font-size: 14px;
+        &:before{
+          content: '';
+          background: url('../images/icons/user.svg') no-repeat center;
+          width: 14px;
+          height: 15px;
+          position: absolute;
+          top: 13px;
+          left: 27px;
+        }
+        ul.dropdown-menu{
+          height: auto;
+          width: 100%;
+          flex-wrap: wrap;
+          padding-left: 0;
+          list-style-type: none;
+          position: absolute;
+          background: #fff;
+          padding: 20px 10px;
+          top: 45px !important;
+          right: 0 !important;
+          left: inherit !important;
+          border: 1px solid #CFD8DC;
+          min-width: 200px;
+          z-index: 9999;
+          transform: none !important;
+          transition: all .3s ease;
+          opacity: 0;
+          display: flex;
+          visibility: hidden;
+          &.show{
+            opacity: 1;
+            visibility: visible;
+          }
+          li{
+            width: 100%;
+            &:first-child{
+              border-bottom: 1px solid #CFD8DC;
+              padding-bottom: 10px;
+            }
+            &:last-child{
+              margin-top: 10px;
+            }
+            a{
+              color: #3c3c3c;
+              font-size: 13px;
+            }
+          }
+        }
+      }
     }
     .nav-menu{
       background: #fff;
@@ -268,6 +314,8 @@ header {
   .m-menu-top{
     background: #48a7f2;
     padding: 20px;
+    transition: all .3s ease;
+    height: auto;
     img{
       display: inline-block;
       magin: 0 auto;
@@ -289,19 +337,6 @@ header {
           left: 0;
         }
       }
-      &.nav-top-logged{
-        padding-left: 24px;
-        position: relative;
-        &:before{
-          content: '';
-          background: url('../images/icons/user.svg') no-repeat center;
-          width: 14px;
-          height: 15px;
-          position: absolute;
-          top: 2px;
-          left: 0px;
-        }
-      }
       &.nav-top-logout{
         position: relative;
         text-indent: -9999px !important;
@@ -315,6 +350,53 @@ header {
           position: absolute;
           top: 0px;
           left: 0;
+        }
+      }
+    }
+    .nav-top-logged{
+      padding-left: 24px;
+      position: relative;
+      margin-top: 20px;
+      &:before{
+        content: '';
+        background: url('../images/icons/user.svg') no-repeat center;
+        width: 14px;
+        height: 15px;
+        position: absolute;
+        top: 2px;
+        left: 0px;
+      }
+    }
+    ul.nav-top-logged-dropdown{
+      display: flex;
+      height: 0;
+      width: 100%;
+      flex-wrap: wrap;
+      list-style-type: none;
+      background: transparent;
+      padding-left: 20px;
+      z-index: 9999;
+      transform: none !important;
+      transition: all .3s ease;
+      opacity: 0;
+      margin-top: 0;
+      &.show{
+        height: auto;
+        opacity: 1;
+        margin-top: 20px;
+      }
+      li{
+        width: 100%;
+        &:first-child{
+          border-bottom: 1px solid #CFD8DC;
+          padding-bottom: 10px;
+        }
+        &:last-child{
+          margin-top: 10px;
+        }
+        a{
+          color: #fff;
+          font-size: 13px;
         }
       }
     }

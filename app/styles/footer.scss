@@ -4,7 +4,7 @@ footer {
   padding-top: 30px;
   padding-bottom: 15px;
   color: #fff;
-  font-size: 14px;
+  font-size: 12px;
   margin-top: auto;
   a{
     display: block;
@@ -12,13 +12,15 @@ footer {
     margin-bottom: 13px;
   }
   h4{
-    font-size: 14px;
+    font-size: 12px;
     margin-bottom: 13px;
     font-weight: 400;
   }
   h5 {
-    font-size: 15px;
+    font-size: 13px;
     margin-bottom: 0;
+    font-weight: 400 !important;
+    font-family: 'Roboto-Slab', sans-serif; !important
   }
   .input-group{
     margin-bottom: 13px;
