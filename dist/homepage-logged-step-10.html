@@ -36,7 +36,6 @@
     <link rel="canonical" href="http://www.example.com/">
     -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css">
     <!-- Your styles -->
     <link rel="stylesheet" href="styles/core.css">
@@ -91,10 +90,6 @@
               <a class="d-block" href="/">
                 <img class="img-fluid d-inline-block" src="images/app/logo.png" alt=""/>
               </a>
-              <!--<a class="d-block nav-mobile-trans-top" href="/">-->
-                <!--<img class="img-fluid d-inline-block" src="images/app/logo.png" alt=""/>-->
-              <!--</a>-->
-              <!--<a class="btn btn-success nav-mobile-trans-bot hidden" href="javascript:void(0)">đặt lịch khám</a>-->
             </div>
           </div>
         </div>
@@ -143,53 +138,120 @@
 
     <div class="section-info">
       <div class="container">
-        <div class="group text-center">
-          <a href="javascript:void(0)" class="back-to">
-            <span><</span>
-            Quay lại</a>
-          <div class="row">
-            <div class="col-lg-6 col-md-8 mx-auto">
-              <div class="group-items group-items-register">
-                <h2>TÌM LẠI MÃ BỆNH NHÂN</h2>
-                <p class="text-md-left">(Vui lòng điền đúng những thông tin bên dưới, chúng tôi sẽ giúp bạn tìm lại mã bệnh nhân nhanh chóng)</p>
-                <div class="row">
-                  <div class="col-lg-8 mx-lg-auto">
-                    <form>
-                      <div class="form-group text-left">
-                        <label>Tên bệnh nhân <span>(trường thông tin bắt buộc)</span></label>
-                        <input type="text" class="form-control" name="name" />
+        <div class="row">
+          <div class="col-md-4 col-lg-3 col-sm-6">
+            <div class="left-columns">
+              <div class="leftc-name">Tài khoản của
+                <a href="javascript:void(0)">0909342342</a>
+              </div>
+              <div class="leftc-menu">
+                <a class="leftc-menu-1 active" href="javascript:void(0)">Hồ sơ bệnh nhân</a>
+                <a class="leftc-menu-2" href="javascript:void(0)">Quản lý phiếu khám bệnh</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8 col-lg-9">
+            <div class="group-dashed group-dashed-success">
+              <div>
+                Hồ sơ bệnh nhân đã được cập nhật thành công
+              </div>
+              <button class="group-dashed-close">
+                <img src="images/logged-step/tick-green-close.png" />
+              </button>
+            </div>
+            <div class="group group-files-update">
+              <div class="row">
+                <div class="col-xl-9">
+                  <form>
+                    <div class="form-group">
+                      <label class="gfu-name">Tên bệnh nhân</label>
+                      <input type="text" class="form-control" value="NGUYỄN QUỐC HUY" />
+                    </div>
+                    <div class="form-group">
+                      <label class="gfu-name">Mã bệnh nhân</label>
+                      <div class="input-value">N17-37427346</div>
+                    </div>
+                    <div class="form-group">
+                      <label class="gfu-name">Ngày tháng năm sinh</label>
+                      <ul class="gfu-ul">
+                        <li>
+                          <select class="form-control">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                          </select>
+                        </li>
+                        <li>
+                          <select class="form-control">
+                            <option>Tháng 1</option>
+                            <option>Tháng 2</option>
+                            <option>Tháng 3</option>
+                          </select>
+                        </li>
+                        <li>
+                          <select class="form-control">
+                            <option>1990</option>
+                            <option>1991</option>
+                            <option>1992</option>
+                          </select>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="form-group">
+                      <label class="gfu-name">Số điện thoại</label>
+                      <input type="text" class="form-control" value="0933993344" />
+                    </div>
+                    <div class="form-group">
+                      <label class="gfu-name">Số CMND</label>
+                      <div class="input-value">37427346</div>
+                    </div>
+                    <div class="form-group">
+                      <label class="gfu-name">Địa chỉ email</label>
+                      <input type="text" class="form-control" value="test@gmail.com" />
+                    </div>
+                    <div class="form-group">
+                      <label class="gfu-name">Giới tính</label>
+                      <div class="form-check form-check-inline">
+                        <label class="form-check-label">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Nam
+                        </label>
                       </div>
-                      <div class="form-group form-group-icons text-left">
-                        <label>Ngày tháng năm sinh</span></label>
-                        <input type="text" class="form-control birthday" name="birthday" />
+                      <div class="form-check form-check-inline">
+                        <label class="form-check-label">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Nữ
+                        </label>
                       </div>
-                      <div class="form-group text-left">
-                        <label>Giới tính</span></label>
-                        <select class="form-control">
-                          <option>Nam</option>
-                          <option>Nữ</option>
-                        </select>
+                    </div>
+                    <div class="form-group">
+                      <label class="gfu-name">Địa chỉ</label>
+                      <input type="text" class="form-control" value="43 Nguyễn Văn Cừ, phường 4, quận 3" />
+                    </div>
+                    <div class="form-group">
+                      <label class="gfu-name">Tỉnh/ Thành phố</label>
+                      <select class="form-control">
+                        <option>TP.HCM</option>
+                        <option>Hà Nội</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label class="gfu-name"></label>
+                      <div class="form-check text-left">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input">
+                          Dùng làm hồ sơ mặc định
+                        </label>
                       </div>
-                      <div class="form-group text-left">
-                        <label>Chọn tỉnh thành</span></label>
-                        <select class="form-control">
-                          <option>Tất cả</option>
-                          <option>TP.HCM</option>
-                          <option>Hà Nội</option>
-                        </select>
-                      </div>
-                      <div class="form-group">
-                        <button type="submit" class="btn btn-info">Xác nhận</button>
-                      </div>
-                    </form>
-                  </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="gfu-name"></label>
+                      <div class="btn btn-info">Xác nhận</div>
+                    </div>
+                  </form>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-
       </div>
     </div>
 
@@ -232,7 +294,6 @@
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
     <script src="scripts/main.js"></script>

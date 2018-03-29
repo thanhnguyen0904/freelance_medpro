@@ -18,6 +18,9 @@ header {
       a{
         color: #fff;
         font-size: 14px;
+        &:hover, &:focus{
+          color: #3c3c3c;
+        }
         &:not(last-child){
           font-size: 13px;
         }
@@ -87,14 +90,18 @@ header {
         color: #fff;
         cursor: pointer;
         padding-right: 30px;
+        transition: all .3s ease;
         font-size: 14px;
+        &:hover, &:focus{
+          color: #3c3c3c;
+        }
         &:before{
           content: '';
           background: url('../images/icons/user.svg') no-repeat center;
           width: 14px;
           height: 15px;
           position: absolute;
-          top: 13px;
+          top: 14px;
           left: 27px;
         }
         ul.dropdown-menu{
@@ -113,12 +120,14 @@ header {
           min-width: 200px;
           z-index: 9999;
           transform: none !important;
-          transition: all .3s ease;
+          transition: all .5s ease;
           opacity: 0;
           display: flex;
           visibility: hidden;
+          transform: scale(0);
           &.show{
             opacity: 1;
+            transform: scale(1);
             visibility: visible;
           }
           li{
@@ -131,6 +140,7 @@ header {
               margin-top: 10px;
             }
             a{
+              display: block;
               color: #3c3c3c;
               font-size: 13px;
               transition: all .3s ease;
@@ -156,7 +166,7 @@ header {
         }
         text-transform: uppercase;
         &:hover, &:focus, &.active{
-          color: #1ca5ec;
+          color: #48a7f2;
         }
         &.nav-menu-logo{
           margin-left: 0;
@@ -174,6 +184,10 @@ header {
           background: #f8fafc;
           padding: 25px 20px;
           margin: -20px 0;
+          transition: all .3s ease;
+          &:hover, &:focus{
+            opacity: .8;
+          }
         }
       }
     }
@@ -328,6 +342,9 @@ header {
       color: #fff;
       font-size: 14px;
       margin-top: 30px;
+      &:hover, &:focus{
+        color: #3c3c3c;
+      }
       &.nav-top-login{
         position: relative;
         padding-left: 24px;
@@ -361,6 +378,10 @@ header {
       padding-left: 24px;
       position: relative;
       margin-top: 20px;
+      transition: all .3s ease;
+      &:hover, &:focus{
+        color: #3c3c3c;
+      }
       &:before{
         content: '';
         background: url('../images/icons/user.svg') no-repeat center;
@@ -417,6 +438,9 @@ header {
       font-size: 14px;
       margin-bottom: 15px;
       text-transform: uppercase;
+      &:hover, &:focus{
+        color: #48a7f2;
+      }
       &.btn-success{
         color: #fff;
         font-size: 14px;

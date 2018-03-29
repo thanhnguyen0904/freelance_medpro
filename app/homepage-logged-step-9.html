@@ -36,7 +36,6 @@
     <link rel="canonical" href="http://www.example.com/">
     -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css">
     <!-- Your styles -->
     <link rel="stylesheet" href="styles/core.css">
@@ -91,10 +90,6 @@
               <a class="d-block" href="/">
                 <img class="img-fluid d-inline-block" src="images/app/logo.png" alt=""/>
               </a>
-              <!--<a class="d-block nav-mobile-trans-top" href="/">-->
-                <!--<img class="img-fluid d-inline-block" src="images/app/logo.png" alt=""/>-->
-              <!--</a>-->
-              <!--<a class="btn btn-success nav-mobile-trans-bot hidden" href="javascript:void(0)">đặt lịch khám</a>-->
             </div>
           </div>
         </div>
@@ -143,53 +138,55 @@
 
     <div class="section-info">
       <div class="container">
-        <div class="group text-center">
-          <a href="javascript:void(0)" class="back-to">
-            <span><</span>
-            Quay lại</a>
-          <div class="row">
-            <div class="col-lg-6 col-md-8 mx-auto">
-              <div class="group-items group-items-register">
-                <h2>TÌM LẠI MÃ BỆNH NHÂN</h2>
-                <p class="text-md-left">(Vui lòng điền đúng những thông tin bên dưới, chúng tôi sẽ giúp bạn tìm lại mã bệnh nhân nhanh chóng)</p>
-                <div class="row">
-                  <div class="col-lg-8 mx-lg-auto">
-                    <form>
-                      <div class="form-group text-left">
-                        <label>Tên bệnh nhân <span>(trường thông tin bắt buộc)</span></label>
-                        <input type="text" class="form-control" name="name" />
-                      </div>
-                      <div class="form-group form-group-icons text-left">
-                        <label>Ngày tháng năm sinh</span></label>
-                        <input type="text" class="form-control birthday" name="birthday" />
-                      </div>
-                      <div class="form-group text-left">
-                        <label>Giới tính</span></label>
-                        <select class="form-control">
-                          <option>Nam</option>
-                          <option>Nữ</option>
-                        </select>
-                      </div>
-                      <div class="form-group text-left">
-                        <label>Chọn tỉnh thành</span></label>
-                        <select class="form-control">
-                          <option>Tất cả</option>
-                          <option>TP.HCM</option>
-                          <option>Hà Nội</option>
-                        </select>
-                      </div>
-                      <div class="form-group">
-                        <button type="submit" class="btn btn-info">Xác nhận</button>
-                      </div>
-                    </form>
+        <div class="row">
+          <div class="col-md-4 col-lg-3 col-sm-6">
+            <div class="left-columns">
+              <div class="leftc-name">Tài khoản của
+                <a href="javascript:void(0)">0909342342</a>
+              </div>
+              <div class="leftc-menu">
+                <a class="leftc-menu-1 active" href="javascript:void(0)">Hồ sơ bệnh nhân</a>
+                <a class="leftc-menu-2" href="javascript:void(0)">Quản lý phiếu khám bệnh</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8 col-lg-9">
+            <div class="group-dashed group-dashed-info text-center">
+              <div>
+                Thêm hồ sơ bệnh nhân
+              </div>
+            </div>
+            <div class="group group-files">
+              <div class="group-files-item d-flex">
+                <div class="group-files-item-left">
+                  <div class="gfi-name">
+                    NGUYỄN QUỐC HUY (N17 - 1231233)
+                    <span>Tài khoản mặc định</span>
                   </div>
+                  <div class="gfi-info">Địa chỉ: Nguyễn Văn Cừ, Phường 1, Quận 3, Thành phố Hồ Chí Minh, Việt Nam</div>
+                  <div class="gfi-info">Điện thoại: 0909342342</div>
+                </div>
+                <div class="group-files-item-right ml-auto">
+                  <a class="gfi-edit" href="javascript:void(0)">Chỉnh sửa</a>
+                  <a class="gfi-delete" href="javascript:void(0)">Xóa</a>
+                </div>
+              </div>
+              <div class="group-files-item d-flex">
+                <div class="group-files-item-left">
+                  <div class="gfi-name">
+                    NGUYỄN QUỐC HUY (N17 - 1231233)
+                  </div>
+                  <div class="gfi-info">Địa chỉ: Nguyễn Văn Cừ, Phường 1, Quận 3, Thành phố Hồ Chí Minh, Việt Nam</div>
+                  <div class="gfi-info">Điện thoại: 0909342342</div>
+                </div>
+                <div class="group-files-item-right ml-auto">
+                  <a class="gfi-edit" href="javascript:void(0)">Chỉnh sửa</a>
+                  <a class="gfi-delete" href="javascript:void(0)">Xóa</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-
       </div>
     </div>
 
@@ -232,7 +229,6 @@
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
     <script src="scripts/main.js"></script>

@@ -36,7 +36,6 @@
     <link rel="canonical" href="http://www.example.com/">
     -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css">
     <!-- Your styles -->
     <link rel="stylesheet" href="styles/core.css">
@@ -91,10 +90,6 @@
               <a class="d-block" href="/">
                 <img class="img-fluid d-inline-block" src="images/app/logo.png" alt=""/>
               </a>
-              <!--<a class="d-block nav-mobile-trans-top" href="/">-->
-                <!--<img class="img-fluid d-inline-block" src="images/app/logo.png" alt=""/>-->
-              <!--</a>-->
-              <!--<a class="btn btn-success nav-mobile-trans-bot hidden" href="javascript:void(0)">đặt lịch khám</a>-->
             </div>
           </div>
         </div>
@@ -143,53 +138,20 @@
 
     <div class="section-info">
       <div class="container">
-        <div class="group text-center">
+        <div class="group group-error text-center">
           <a href="javascript:void(0)" class="back-to">
             <span><</span>
-            Quay lại</a>
+            Quay lại
+          </a>
           <div class="row">
-            <div class="col-lg-6 col-md-8 mx-auto">
-              <div class="group-items group-items-register">
-                <h2>TÌM LẠI MÃ BỆNH NHÂN</h2>
-                <p class="text-md-left">(Vui lòng điền đúng những thông tin bên dưới, chúng tôi sẽ giúp bạn tìm lại mã bệnh nhân nhanh chóng)</p>
-                <div class="row">
-                  <div class="col-lg-8 mx-lg-auto">
-                    <form>
-                      <div class="form-group text-left">
-                        <label>Tên bệnh nhân <span>(trường thông tin bắt buộc)</span></label>
-                        <input type="text" class="form-control" name="name" />
-                      </div>
-                      <div class="form-group form-group-icons text-left">
-                        <label>Ngày tháng năm sinh</span></label>
-                        <input type="text" class="form-control birthday" name="birthday" />
-                      </div>
-                      <div class="form-group text-left">
-                        <label>Giới tính</span></label>
-                        <select class="form-control">
-                          <option>Nam</option>
-                          <option>Nữ</option>
-                        </select>
-                      </div>
-                      <div class="form-group text-left">
-                        <label>Chọn tỉnh thành</span></label>
-                        <select class="form-control">
-                          <option>Tất cả</option>
-                          <option>TP.HCM</option>
-                          <option>Hà Nội</option>
-                        </select>
-                      </div>
-                      <div class="form-group">
-                        <button type="submit" class="btn btn-info">Xác nhận</button>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              </div>
+            <div class="col-lg-6 col-md-8 mx-auto text-center">
+              <img class="img-fluid" src="images/logged-step/notfound.png" />
+              <div class="notfound">Không tìm thấy thông tin nào</div>
+              <div class="sub-notfound">vui lòng thử lại hoặc đăng ký mới</div>
+              <a href="javascript:void(0)" class="btn btn-success">Quay lại</a>
             </div>
           </div>
         </div>
-
-
       </div>
     </div>
 
@@ -232,7 +194,6 @@
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
     <script src="scripts/main.js"></script>

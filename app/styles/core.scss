@@ -46,6 +46,7 @@ a{
 
 .btn{
   transition: all .3s ease;
+  cursor: pointer;
   &:hover, &:focus{
     opacity: .8;
   }
@@ -124,6 +125,9 @@ h1,h2,h3,h4,h5,h6{
     font-weight: bold;
     color: #b1b7bc;
     position: relative;
+    &:hover, &:focus{
+      color: #48a7f2;
+    }
     &.nav-bar-homepage{
       padding-left: 26px;
       &:before{
@@ -153,4 +157,8 @@ h1,h2,h3,h4,h5,h6{
       cursor: default !important;
     }
   }
+}
+
+hr{
+  border-color: #cfd8dc !important;
 }
