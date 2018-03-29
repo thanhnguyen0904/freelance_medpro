@@ -51,8 +51,13 @@
             <div class="d-flex">
               <a class="nav-top-phone" href="javascript:void(0)">+84 562354900</a>
               <a class="nav-top-mail" href="javascript:void(0)">info@medpro.vn</a>
-              <a class="nav-top-logged ml-auto" href="javascript:void(0)">0909881766</a>
-              <a class="nav-top-logout" href="javascript:void(0)">Log out</a>
+              <div class="nav-top-logged ml-auto">
+                0909881766
+                <ul class="nav-top-logged-dropdown dropdown-menu">
+                  <li><a href="javascript:void(0)">Thông tin tài khoản</a></li>
+                  <li><a href="javascript:void(0)">Thoát</a></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -93,11 +98,16 @@
       </nav>
       <ul id="main-menu" class="menu-collapse in">
         <div class="m-menu-top">
-          <a href="/">
+          <a class="d-block" href="/">
             <img class="img-fluid d-inline-block" src="images/app/logo.png" alt=""/>
           </a>
-          <a class="nav-top-logged d-block" href="javascript:void(0)">0909881766</a>
-          <a class="nav-top-logout d-inline-block" href="javascript:void(0)">Log out</a>
+          <div class="nav-top-logged nav-top-logged-m d-inline-block">
+            0909881766
+          </div>
+          <ul class="nav-top-logged-dropdown">
+            <li><a href="javascript:void(0)">Thông tin tài khoản</a></li>
+            <li><a href="javascript:void(0)">Thoát</a></li>
+          </ul>
         </div>
         <div class="m-menu">
           <a href="javascript:void(0)">trang chủ</a>
@@ -132,25 +142,51 @@
     <div class="section-info">
       <div class="container">
         <div class="group text-center">
-          <h3>BỆNH NHÂN ĐÃ TỪNG KHÁM TẠI <a href="javascript:void(0)">BV ĐẠI HỌC Y DƯỢC</a> CHƯA?</h3>
-          <a class="btn btn-default" href="javascript:void(0)" id="btn-datungkham" data-id="datungkham" role="tab" aria-controls="datungkham">Đã từng khám</a>
-          <a class="btn btn-default" href="javascript:void(0)" id="btn-chuatungkham" data-id="chuatungkham" aria-controls="chuatungkham">Chưa từng khám</a>
-          <div class="tab-content">
-            <div class="tab-pane fade datungkham"role="tabpanel" aria-labelledby="btn-datungkham">
-              <div class="tab-panel-group">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="group-items">
-                      <h3>asd</h3>
-                    </div>
+          <a href="javascript:void(0)" class="back-to">
+            <span><</span>
+            Quay lại</a>
+          <div class="row">
+            <div class="col-md-10 mx-md-auto">
+              <div class="group-items group-items-register">
+                <h2 class="h2-blue">KẾT QUẢ TÌM KIẾM</h2>
+                <p class="text-md-center">Chúng tôi tìm thấy 1 kết quả, trùng khớp với thông tin của bạn. Hãy kiểm tra và xác nhận</p>
+                <div class="group-results d-flex">
+                  <div class="gr gr-user">
+                    <img class="img-fluid" src="images/logged-step/user.png">
+                  </div>
+                  <div class="gr gr-info text-left">
+                    <div class="gr-name">NGUYỄN QUỐC HUY (N17 - 1234567)</div>
+                    <ul class="d-flex">
+                      <li class="gr-phone">0909188456</li>
+                      <li class="gr-sex">Nam</li>
+                      <li class="gr-email">quochuy123@gmail.com</li>
+                      <li class="gr-job">Xây dựng</li>
+                      <li class="gr-birthday">19/08/1984</li>
+                      <li class="gr-address">345 Lý thường Kiệt - Phường 13 - Quận 3, Thành Phó Hồ Chí Minh</li>
+                    </ul>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div class="tab-pane fade chuatungkham" role="tabpanel" aria-labelledby="btn-chuatungkham">
-              <div class="tab-panel-group">
-                a
-              </div>
+                <div class="group-results d-flex">
+                  <div class="gr gr-user">
+                    <img class="img-fluid" src="images/logged-step/user.png">
+                  </div>
+                  <div class="gr gr-info text-left">
+                    <div class="gr-name">NGUYỄN QUỐC HUY (N17 - 1234567)</div>
+                    <ul class="d-flex">
+                      <li class="gr-phone">0909188456</li>
+                      <li class="gr-sex">Nam</li>
+                      <li class="gr-email">quochuy123@gmail.com</li>
+                      <li class="gr-job">Xây dựng</li>
+                      <li class="gr-birthday">19/08/1984</li>
+                      <li class="gr-address">345 Lý thường Kiệt - Phường 13 - Quận 3, Thành Phó Hồ Chí Minh</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-4 col-md-6 mx-auto">
+                    <a href="javascript:void(0)" class="btn btn-info">Xác nhận</a>
+                  </div>
+                </div>
             </div>
           </div>
         </div>
@@ -197,34 +233,11 @@
       </div>
     </footer>
 
-
-    <div id="popupLogin" class="modal fade" tabindex="-1" role="dialog">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header text-center">
-            <img class="img-fluid d-inline-block mx-auto" src="images/app/logo-sm.png" />
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body text-center">
-            <h3>ĐĂNG NHẬP BẰNG SỐ ĐIỆN THOẠI</h3>
-            <form>
-              <div class="form-group">
-                <input type="text" class="form-control" name="phone" placeholder="Nhập số điện thoại" />
-                <button type="submit" class="btn btn-info" >Đăng nhập</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
     <script src="scripts/main.js"></script>
     <script src="scripts/logged-step.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   </body>
 </html>

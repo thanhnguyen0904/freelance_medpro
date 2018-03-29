@@ -41,7 +41,7 @@
     <link rel="stylesheet" href="styles/core.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/footer.css">
-    <link rel="stylesheet" href="styles/homepage.css">
+    <link rel="stylesheet" href="styles/logged-steps.css">
   </head>
   <body>
     <header>
@@ -51,7 +51,13 @@
             <div class="d-flex">
               <a class="nav-top-phone" href="javascript:void(0)">+84 562354900</a>
               <a class="nav-top-mail" href="javascript:void(0)">info@medpro.vn</a>
-              <a class="nav-top-login ml-auto" href="javascript:void(0)">Đăng nhập</a>
+              <div class="nav-top-logged ml-auto">
+                0909881766
+                <ul class="nav-top-logged-dropdown dropdown-menu">
+                  <li><a href="javascript:void(0)">Thông tin tài khoản</a></li>
+                  <li><a href="javascript:void(0)">Thoát</a></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -63,9 +69,12 @@
               </a>
               <a class="nav-menu-item ml-auto" href="javascript:void(0)">trang chủ</a>
               <a class="nav-menu-item" href="javascript:void(0)">danh sách bác sĩ</a>
+              <a class="nav-menu-item" href="javascript:void(0)">tra cứu</a>
               <a class="nav-menu-item" href="javascript:void(0)">thắc mắc</a>
               <a class="nav-menu-item" href="javascript:void(0)">liên hệ</a>
-              <a class="btn btn-success" href="javascript:void(0)">đặt lịch khám</a>
+              <a class="nav-menu-app" href="javascript:void(0)">
+                <img class="img-fluid d-inline-block" src="images/logged-step/medpro-app.png" />
+              </a>
             </div>
           </div>
         </div>
@@ -89,10 +98,16 @@
       </nav>
       <ul id="main-menu" class="menu-collapse in">
         <div class="m-menu-top">
-          <a href="/">
+          <a class="d-block" href="/">
             <img class="img-fluid d-inline-block" src="images/app/logo.png" alt=""/>
           </a>
-          <a class="d-block nav-top-login" href="javascript:void(0)">Đăng nhập</a>
+          <div class="nav-top-logged nav-top-logged-m d-inline-block">
+            0909881766
+          </div>
+          <ul class="nav-top-logged-dropdown">
+            <li><a href="javascript:void(0)">Thông tin tài khoản</a></li>
+            <li><a href="javascript:void(0)">Thoát</a></li>
+          </ul>
         </div>
         <div class="m-menu">
           <a href="javascript:void(0)">trang chủ</a>
@@ -109,133 +124,70 @@
     <div class="section-banner">
       <div class="container">
         <div class="row">
-          <div class="col-lg-7 ml-lg-auto text-center">
-            <h1>ĐĂNG KÝ KHÁM, ĐẶT LỊCH TÁI KHÁM</h1>
-            <h2>KHÔNG PHẢI CHỜ ĐỢI, XẾP HÀNG</h2>
-            <div class="des">
-              *Mỗi ngày có trăm, hàng ngàn lượt chờ đợi bốc số và gọi tên, khiến bạn mệt mỏi <br>
-              Với hệ thống đặt chỗ mới, bạn sẽ không lo về điều đó, hãy trải nghiệm và tận hưởng dịch vụ tốt nhất
-            </div>
-            <a class="btn btn-success" href="javascript:void(0)">đăng ký khám theo bác sĩ</a>
-            <a class="btn btn-success" href="javascript:void(0)">đăng ký khám theo ngày</a>
+          <div class="col-lg-7 mx-lg-auto text-center">
+            <h1>MEDPRO</h1>
+            <h2>HỆ THỐNG ĐẶT LỊCH KHÁM BỆNH CHUYÊN NGHIỆP</h2>
           </div>
         </div>
       </div>
     </div>
-    <div class="section-1">
-      <div class="container">
-        <ul>
-          <li>
-            <div class="group g1">
-              <img class="img-fluid" src="images/icons/support.svg" />
-              <div class="group-cont">
-                <div class="title">hỗ trợ bạn 24/7</div>
-                <div class="des">Hỗ trợ khi bạn cần trợ giúp về các dịch vụ của chúng tôi</div>
-              </div>
 
-            </div>
-          </li>
-          <li>
-            <div class="group g2">
-              <img class="img-fluid" src="images/icons/storage.svg" />
-              <div class="group-cont">
-                <div class="title">hệ thống lưu trữ</div>
-                <div class="des">Lưu trữ thông tin giúp bạn theo dõi lịch khám bệnh dễ dàng</div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="group g3">
-              <img class="img-fluid" src="images/icons/security.svg" />
-              <div class="group-cont">
-                <div class="title">bảo mật thông tin</div>
-                <div class="des">Chúng tôi cam kết bảo mật thông tin của khách hàng</div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="group g4">
-              <img class="img-fluid" src="images/icons/payment.svg" />
-              <div class="group-cont">
-                <div class="title">thanh toán linh hoạt</div>
-                <div class="des">Hỗ trợ thanh toán bằng internet banking, master card</div>
-              </div>
-            </div>
-          </li>
-        </ul>
+    <div id="navigation-bar">
+      <div class="container">
+        <a href="/" class="nav-bar-homepage">TRANG CHỦ</a>
+        <a href="javascript:void(0)" class="active">THÔNG TIN BỆNH NHÂN</a>
       </div>
     </div>
-    <div class="section-2">
+
+    <div class="section-info">
       <div class="container">
-        <div class="row">
-          <div class="col-md-6 mb-4 mb-md-0">
-            <div class="group g1">
-              <div class="title">tra cứu thông tin</div>
-              <div class="des">
-                Tra cứu thông tin đặt chỗ, thông tin bệnh nhân, lịch khám ...
+        <div class="group text-center">
+          <a href="javascript:void(0)" class="back-to">
+            <span><</span>
+            Quay lại</a>
+          <div class="row">
+            <div class="col-md-6 mx-md-auto">
+              <div class="group-items group-items-register">
+                <h2>TÌM LẠI MÃ BỆNH NHÂN</h2>
+                <p class="text-md-left">(Vui lòng điền đúng những thông tin bên dưới, chúng tôi sẽ giúp bạn tìm lại mã bệnh nhân nhanh chóng)</p>
+                <div class="row">
+                  <div class="col-lg-8 mx-lg-auto">
+                    <form>
+                      <div class="form-group text-left">
+                        <label>Tên bệnh nhân <span>(trường thông tin bắt buộc)</span></label>
+                        <input type="text" class="form-control" name="name" />
+                      </div>
+                      <div class="form-group form-group-icons text-left">
+                        <label>Ngày tháng năm sinh</span></label>
+                        <input type="text" class="form-control" name="birthday" />
+                      </div>
+                      <div class="form-group text-left">
+                        <label>Giới tính</span></label>
+                        <select class="form-control">
+                          <option>Nam</option>
+                          <option>Nữ</option>
+                        </select>
+                      </div>
+                      <div class="form-group text-left">
+                        <label>Chọn tỉnh thành</span></label>
+                        <select class="form-control">
+                          <option>Tất cả</option>
+                          <option>TP.HCM</option>
+                          <option>Hà Nội</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <button type="submit" class="btn btn-info">Xác nhận</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
               </div>
-              <div class="text-right mt-auto">
-                <div class="btn btn-info">tra cứu</div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="group g2">
-              <div class="title">những vấn đề thường gặp</div>
-              <div class="des">Tìm hiểu những vấn đề thường gặp, trong quá trình khám & tái khám</div>
-              <p>Quản lý thông tin bệnh nhân</p>
-              <p>Quy trình khám bệnh & nhận phiếu khám bệnh</p>
-              <p>Hoàn tất thanh toán</p>
-              <a class="see-more" href="javascript:void(0)">Xem thêm</a>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="section-3">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-10 mx-lg-auto">
-            <div class="title text-center">ứng dụng <span>medpro</span></div>
-            <div class="sub-title text-center">ra mắt tháng 5/2018</div>
-            <div class="text-center">
-              <img class="img-fluid sm-visible" src="images/homepage/mobile.png" />
-            </div>
-            <ul>
-              <li>
-                <div class="group text-md-right">
-                  <img class="img-fluid order-md-2" src="images/homepage/s3-1.svg" />
-                  <div class="des order-md-1">Chủ động đặt lịch khám trong vòng 1 phút</div>
-                </div>
-                <div class="group text-md-right">
-                  <img class="img-fluid order-md-2" src="images/homepage/s3-2.svg" />
-                  <div class="des order-md-1">Thay đổi & cập nhật lịch khám bệnh</div>
-                </div>
-                <div class="group text-md-right">
-                  <img class="img-fluid order-md-2" src="images/homepage/s3-3.svg" />
-                  <div class="des order-md-1">Đặt lịch nhắc nhở uống thuốc</div>
-                </div>
-              </li>
-              <li class="text-center sm-hidden">
-                <img class="img-fluid" src="images/homepage/mobile.png" />
-              </li>
-              <li>
-                <div class="group text-left">
-                  <img class="img-fluid" src="images/homepage/s3-4.svg" />
-                  <div class="des">Giao diện thân thiện dễ sử dụng</div>
-                </div>
-                <div class="group text-left">
-                  <img class="img-fluid" src="images/homepage/s3-5.svg" />
-                  <div class="des">Thanh toán nhanh chóng và cực tiện lợi</div>
-                </div>
-                <div class="group text-left">
-                  <img class="img-fluid" src="images/homepage/s3-6.svg" />
-                  <div class="des">Lưu trữ và theo dõi hồ sơ sức khỏe của chính bạn</div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
+
+
       </div>
     </div>
 
@@ -264,7 +216,7 @@
             <h4 class="font-weight-bold">ĐĂNG KÝ NHẬN TIN MỚI NHẤT</h4>
             <form>
               <div class="input-group">
-                <input type="text" class="form-control" placeholder="Vui lòng nhập địa chỉ Email">
+                <input type="text" class="form-control" placeholder="Search for...">
                 <span class="input-group-btn">
                   <button class="btn btn-secondary" type="button">ĐĂNG KÝ</button>
                 </span>
@@ -277,33 +229,11 @@
       </div>
     </footer>
 
-
-    <div id="popupLogin" class="modal fade" tabindex="-1" role="dialog">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header text-center">
-            <img class="img-fluid d-inline-block mx-auto" src="images/app/logo-sm.png" />
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body text-center">
-            <h3>ĐĂNG NHẬP BẰNG SỐ ĐIỆN THOẠI</h3>
-            <form>
-              <div class="form-group">
-                <input type="text" class="form-control" name="phone" placeholder="Nhập số điện thoại" />
-                <button type="submit" class="btn btn-info" >Đăng nhập</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
     <script src="scripts/main.js"></script>
+    <script src="scripts/logged-step.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   </body>
 </html>
