@@ -7,7 +7,7 @@ header {
   transition: all .3s ease;
   .nav-desk{
     position: relative;
-    z-index: 9999;
+    z-index: 9998;
     display: none;
     @media screen and (min-width: 992px){
       display: block;
@@ -18,17 +18,76 @@ header {
       a{
         color: #fff;
         font-size: 14px;
-        @media screen and (max-width: 499px){
-          font-size: 10px;
-        }
-        i{
-          padding-right: 5px;
+        &.nav-top-phone{
+          position: relative;
+          padding-left: 25px;
+          &:before{
+            content: '';
+            background: url('../images/icons/phone.svg') no-repeat center;
+            width: 15px;
+            height: 15px;
+            position: absolute;
+            top: 2px;
+            left: 0;
+          }
         }
         &.nav-top-mail{
           margin-left: 30px;
+          position: relative;
+          padding-left: 31px;
+          &:before{
+            content: '';
+            background: url('../images/icons/email.svg') no-repeat center;
+            width: 21px;
+            height: 15px;
+            position: absolute;
+            top: 2px;
+            left: 0;
+          }
         }
         &.nav-top-login{
           position: relative;
+          padding-left: 24px;
+          &:before{
+            content: '';
+            background: url('../images/icons/user.svg') no-repeat center;
+            width: 14px;
+            height: 15px;
+            position: absolute;
+            top: 2px;
+            left: 0;
+          }
+        }
+        &.nav-top-logged{
+          background: #3c96dd;
+          margin: -12px 0;
+          padding: 12px 20px;
+          padding-left: 34px;
+          position: relative;
+          &:before{
+            content: '';
+            background: url('../images/icons/user.svg') no-repeat center;
+            width: 14px;
+            height: 15px;
+            position: absolute;
+            top: 13px;
+            left: 10px;
+          }
+        }
+        &.nav-top-logout{
+          margin-left: 20px;
+          position: relative;
+          text-indent: -9999px !important;
+          min-width: 29px;
+          &:before{
+            content: '';
+            background: url('../images/icons/logout.svg') no-repeat center;
+            width: 29px;
+            height: 17px;
+            position: absolute;
+            top: 0px;
+            left: 0;
+          }
         }
       }
 
@@ -59,6 +118,12 @@ header {
           background: #38d46a;
           padding: 10px 30px;
           border: none;
+        }
+        &.nav-menu-app{
+          position: relative;
+          background: #f8fafc;
+          padding: 25px 20px;
+          margin: -20px 0;
         }
       }
     }
@@ -211,14 +276,51 @@ header {
       color: #fff;
       font-size: 14px;
       margin-top: 30px;
-      i{
-        font-size: 20px;
-        margin-right: 10px;
+      &.nav-top-login{
+        position: relative;
+        padding-left: 24px;
+        &:before{
+          content: '';
+          background: url('../images/icons/user.svg') no-repeat center;
+          width: 14px;
+          height: 15px;
+          position: absolute;
+          top: 2px;
+          left: 0;
+        }
+      }
+      &.nav-top-logged{
+        padding-left: 24px;
+        position: relative;
+        &:before{
+          content: '';
+          background: url('../images/icons/user.svg') no-repeat center;
+          width: 14px;
+          height: 15px;
+          position: absolute;
+          top: 2px;
+          left: 0px;
+        }
+      }
+      &.nav-top-logout{
+        position: relative;
+        text-indent: -9999px !important;
+        min-width: 29px;
+        margin-top: 15px;
+        &:before{
+          content: '';
+          background: url('../images/icons/logout.svg') no-repeat center;
+          width: 29px;
+          height: 17px;
+          position: absolute;
+          top: 0px;
+          left: 0;
+        }
       }
     }
   }
   .m-menu {
-    padding: 20px 30px;
+    padding: 20px;
     a{
       display: block;
       color: #3c3c3c;
@@ -233,10 +335,33 @@ header {
         padding: 10px 30px;
         border: none;
       }
-      i{
-        font-size: 20px;
-        margin-right: 10px;
+      &.nav-top-phone{
+        position: relative;
+        padding-left: 31px;
+        &:before{
+          content: '';
+          background: url('../images/icons/phone.svg') no-repeat center;
+          width: 21px;
+          height: 15px;
+          position: absolute;
+          top: 2px;
+          left: 0;
+        }
       }
+      &.nav-top-mail{
+        position: relative;
+        padding-left: 31px;
+        &:before{
+          content: '';
+          background: url('../images/icons/email.svg') no-repeat center;
+          width: 21px;
+          height: 15px;
+          position: absolute;
+          top: 2px;
+          left: 0;
+        }
+      }
+
     }
     hr{
       border-color: #1ca5ec;

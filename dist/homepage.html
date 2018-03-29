@@ -49,15 +49,9 @@
         <div class="nav-top">
           <div class="container">
             <div class="d-flex">
-              <a class="nav-top-phone" href="javascript:void(0)">
-                <i class="fas fa-phone-volume"></i>
-                +84 562354900</a>
-              <a class="nav-top-mail" href="javascript:void(0)">
-                <i class="far fa-envelope"></i>
-                info@medpro.vn</a>
-              <a class="nav-top-login ml-auto" href="javascript:void(0)">
-                <i class="fas fa-user"></i>
-                Đăng nhập</a>
+              <a class="nav-top-phone" href="javascript:void(0)">+84 562354900</a>
+              <a class="nav-top-mail" href="javascript:void(0)">info@medpro.vn</a>
+              <a class="nav-top-login ml-auto" href="javascript:void(0)">Đăng nhập</a>
             </div>
           </div>
         </div>
@@ -99,9 +93,7 @@
           <a href="/">
             <img class="img-fluid d-inline-block" src="images/app/logo.png" alt=""/>
           </a>
-          <a class="d-block" href="javascript:void(0)">
-            <i class="fas fa-user"></i>
-            Đăng nhập</a>
+          <a class="d-block nav-top-login" href="javascript:void(0)">Đăng nhập</a>
         </div>
         <div class="m-menu">
           <a href="javascript:void(0)">trang chủ</a>
@@ -110,12 +102,8 @@
           <a href="javascript:void(0)">thắc mắc</a>
           <a href="javascript:void(0)">liên hệ</a>
           <hr>
-          <a class="nav-top-phone" href="javascript:void(0)">
-            <i class="fas fa-phone-volume"></i>
-            +84 562354900</a>
-          <a class="nav-top-mail" href="javascript:void(0)">
-            <i class="far fa-envelope"></i>
-            info@medpro.vn</a>
+          <a class="nav-top-phone" href="javascript:void(0)">+84 562354900</a>
+          <a class="nav-top-mail" href="javascript:void(0)">info@medpro.vn</a>
         </div>
       </ul>
     </header>
@@ -295,6 +283,29 @@
         <h5 class="font-weight-bold text-center mt-4 mt-md-0">Copyright © Công Ty PHK Việt Nam</h5>
       </div>
     </footer>
+
+
+    <div id="popupLogin" class="modal fade" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <img class="img-fluid d-inline-block mx-auto" src="images/app/logo-sm.png" />
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body text-center">
+            <h3>ĐĂNG NHẬP BẰNG SỐ ĐIỆN THOẠI</h3>
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control" name="phone" placeholder="Nhập số điện thoại" />
+                <button type="submit" class="btn btn-info" >Đăng nhập</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>

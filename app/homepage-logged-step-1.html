@@ -41,7 +41,7 @@
     <link rel="stylesheet" href="styles/core.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/footer.css">
-    <link rel="stylesheet" href="styles/homepage.css">
+    <link rel="stylesheet" href="styles/logged-steps.css">
   </head>
   <body>
     <header>
@@ -51,7 +51,8 @@
             <div class="d-flex">
               <a class="nav-top-phone" href="javascript:void(0)">+84 562354900</a>
               <a class="nav-top-mail" href="javascript:void(0)">info@medpro.vn</a>
-              <a class="nav-top-login ml-auto" href="javascript:void(0)">Đăng nhập</a>
+              <a class="nav-top-logged ml-auto" href="javascript:void(0)">0909881766</a>
+              <a class="nav-top-logout" href="javascript:void(0)">Log out</a>
             </div>
           </div>
         </div>
@@ -66,7 +67,9 @@
               <a class="nav-menu-item" href="javascript:void(0)">tra cứu</a>
               <a class="nav-menu-item" href="javascript:void(0)">thắc mắc</a>
               <a class="nav-menu-item" href="javascript:void(0)">liên hệ</a>
-              <a class="btn btn-success" href="javascript:void(0)">đặt lịch khám</a>
+              <a class="nav-menu-app" href="javascript:void(0)">
+                <img class="img-fluid d-inline-block" src="images/logged-step/medpro-app.png" />
+              </a>
             </div>
           </div>
         </div>
@@ -93,7 +96,8 @@
           <a href="/">
             <img class="img-fluid d-inline-block" src="images/app/logo.png" alt=""/>
           </a>
-          <a class="d-block nav-top-login" href="javascript:void(0)">Đăng nhập</a>
+          <a class="nav-top-logged d-block" href="javascript:void(0)">0909881766</a>
+          <a class="nav-top-logout d-inline-block" href="javascript:void(0)">Log out</a>
         </div>
         <div class="m-menu">
           <a href="javascript:void(0)">trang chủ</a>
@@ -110,139 +114,42 @@
     <div class="section-banner">
       <div class="container">
         <div class="row">
-          <div class="col-lg-7 ml-lg-auto text-center">
-            <h1>ĐĂNG KÝ KHÁM, ĐẶT LỊCH TÁI KHÁM</h1>
-            <h2>KHÔNG PHẢI CHỜ ĐỢI, XẾP HÀNG</h2>
-            <div class="des">
-              *Mỗi ngày có trăm, hàng ngàn lượt chờ đợi bốc số và gọi tên, khiến bạn mệt mỏi <br>
-              Với hệ thống đặt chỗ mới, bạn sẽ không lo về điều đó, hãy trải nghiệm và tận hưởng dịch vụ tốt nhất
-            </div>
-            <a class="btn btn-success" href="javascript:void(0)">đăng ký khám theo bác sĩ</a>
-            <a class="btn btn-success" href="javascript:void(0)">đăng ký khám theo ngày</a>
+          <div class="col-lg-7 mx-lg-auto text-center">
+            <h1>MEDPRO</h1>
+            <h2>HỆ THỐNG ĐẶT LỊCH KHÁM BỆNH CHUYÊN NGHIỆP</h2>
           </div>
         </div>
       </div>
     </div>
-    <div class="section-1">
-      <div class="container">
-        <ul>
-          <li>
-            <div class="group g1">
-              <i class="fas fa-question-circle"></i>
-              <div class="group-cont">
-                <div class="title">hỗ trợ bạn 24/7</div>
-                <div class="des">Hỗ trợ khi bạn cần trợ giúp về các dịch vụ của chúng tôi</div>
-              </div>
 
-            </div>
-          </li>
-          <li>
-            <div class="group g2">
-              <i class="far fa-hdd"></i>
-              <div class="group-cont">
-                <div class="title">hệ thống lưu trữ</div>
-                <div class="des">Lưu trữ thông tin giúp bạn theo dõi lịch khám bệnh dễ dàng</div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="group g3">
-              <i class="fas fa-lock"></i>
-              <div class="group-cont">
-                <div class="title">bảo mật thông tin</div>
-                <div class="des">Chúng tôi cam kết bảo mật thông tin của khách hàng</div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="group g4">
-              <i class="fas fa-credit-card"></i>
-              <div class="group-cont">
-                <div class="title">thanh toán linh hoạt</div>
-                <div class="des">Hỗ trợ thanh toán bằng internet banking, master card</div>
-              </div>
-            </div>
-          </li>
-        </ul>
+    <div id="navigation-bar">
+      <div class="container">
+        <a href="/" class="nav-bar-homepage">TRANG CHỦ</a>
+        <a href="javascript:void(0)" class="active">THÔNG TIN BỆNH NHÂN</a>
       </div>
     </div>
-    <div class="section-2">
+
+    <div class="section-info">
       <div class="container">
-        <div class="row">
-          <div class="col-md-6 mb-4 mb-md-0">
-            <div class="group g1">
-              <div class="title">tra cứu thông tin</div>
-              <div class="des">
-                Tra cứu thông tin đặt chỗ, thông tin bệnh nhân, lịch khám ...
-              </div>
-              <div class="text-right mt-auto">
-                <div class="btn btn-info">tra cứu</div>
+        <div class="group text-center">
+          <h3>BỆNH NHÂN ĐÃ TỪNG KHÁM TẠI <a href="javascript:void(0)">BV ĐẠI HỌC Y DƯỢC</a> CHƯA?</h3>
+          <a class="btn btn-default" href="javascript:void(0)" id="btn-datungkham" data-id="datungkham" role="tab" aria-controls="datungkham">Đã từng khám</a>
+          <a class="btn btn-default" href="javascript:void(0)" id="btn-chuatungkham" data-id="chuatungkham" aria-controls="chuatungkham">Chưa từng khám</a>
+          <div class="tab-content">
+            <div class="tab-pane fade datungkham"role="tabpanel" aria-labelledby="btn-datungkham">
+              <div class="tab-panel-group">
+                a
               </div>
             </div>
-          </div>
-          <div class="col-md-6">
-            <div class="group g2">
-              <div class="title">những vấn đề thường gặp</div>
-              <div class="des">Tìm hiểu những vấn đề thường gặp, trong quá trình khám & tái khám</div>
-              <p>Quản lý thông tin bệnh nhân</p>
-              <p>Quy trình khám bệnh & nhận phiếu khám bệnh</p>
-              <p>Hoàn tất thanh toán</p>
-              <a class="see-more" href="javascript:void(0)">Xem thêm</a>
+            <div class="tab-pane fade chuatungkham" role="tabpanel" aria-labelledby="btn-chuatungkham">
+              <div class="tab-panel-group">
+                a
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="section-3">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-10 mx-lg-auto">
-            <div class="title text-center">ứng dụng <span>medpro</span></div>
-            <div class="sub-title text-center">ra mắt tháng 5/2018</div>
-            <div class="text-center">
-              <img class="img-fluid sm-visible" src="images/homepage/mobile.png" />
-            </div>
-            <ul>
-              <li>
-                <div class="group text-md-right">
-                  <!--<img class="img-fluid order-md-2" src="images/homepage/s3-1.svg" />-->
-                  <i class="far fa-calendar-alt order-md-2"></i>
-                  <div class="des order-md-1">Chủ động đặt lịch khám trong vòng 1 phút</div>
-                </div>
-                <div class="group text-md-right">
-                  <!--<img class="img-fluid order-md-2" src="images/homepage/s3-2.svg" />-->
-                  <i class="fas fa-sticky-note order-md-2"></i>
-                  <div class="des order-md-1">Thay đổi & cập nhật lịch khám bệnh</div>
-                </div>
-                <div class="group text-md-right">
-                  <!--<img class="img-fluid order-md-2" src="images/homepage/s3-3.svg" />-->
-                  <i class="fas fa-pills order-md-2"></i>
-                  <div class="des order-md-1">Đặt lịch nhắc nhở uống thuốc</div>
-                </div>
-              </li>
-              <li class="text-center sm-hidden">
-                <img class="img-fluid" src="images/homepage/mobile.png" />
-              </li>
-              <li>
-                <div class="group text-left">
-                  <!--<img class="img-fluid" src="images/homepage/s3-4.svg" />-->
-                  <i class="fas fa-mobile-alt"></i>
-                  <div class="des">Giao diện thân thiện dễ sử dụng</div>
-                </div>
-                <div class="group text-left">
-                  <!--<img class="img-fluid" src="images/homepage/s3-5.svg" />-->
-                  <i class="fas fa-credit-card"></i>
-                  <div class="des">Thanh toán nhanh chóng và cực tiện lợi</div>
-                </div>
-                <div class="group text-left">
-                  <!--<img class="img-fluid" src="images/homepage/s3-6.svg" />-->
-                  <i class="fas fa-heartbeat"></i>
-                  <div class="des">Lưu trữ và theo dõi hồ sơ sức khỏe của chính bạn</div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
+
+
       </div>
     </div>
 
@@ -312,5 +219,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
     <script src="scripts/main.js"></script>
+    <script src="scripts/logged-step.js"></script>
   </body>
 </html>

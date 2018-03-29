@@ -33,5 +33,9 @@
       }, 1000);
     })
 
+    $('.nav-top-login').on('click', function() {
+      $('#popupLogin').modal('show')
+    })
+
   })
 })(jQuery)
