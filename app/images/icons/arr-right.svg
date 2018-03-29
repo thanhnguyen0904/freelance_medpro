@@ -19,7 +19,7 @@
                                                                                                     
                                                                                                     
                                                                                                     
-                                                                                                    
+
                                                                                                     
                                                                                                     
                                                                                                     
@@ -30,6 +30,7 @@
 <defs>
     <style>
       .cls-1 {
+        fill: #696969;
         fill-rule: evenodd;
       }
     </style>

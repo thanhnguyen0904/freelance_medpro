@@ -33,9 +33,9 @@
       }, 1000);
     })
 
-    $('.nav-top-login').on('click', function() {
-      $('#popupLogin').modal('show')
-    })
+    // $('.nav-top-login').on('click', function() {
+    //   $('#popupLogin').modal('show')
+    // })
 
     $('.nav-top-logged').on('click', function() {
       $(this).find('.dropdown-menu').toggleClass('show')

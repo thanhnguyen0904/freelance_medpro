@@ -133,6 +133,10 @@ header {
             a{
               color: #3c3c3c;
               font-size: 13px;
+              transition: all .3s ease;
+              &:hover, &:focus{
+                color: #48a7f2;
+              }
             }
           }
         }
@@ -397,6 +401,10 @@ header {
         a{
           color: #fff;
           font-size: 13px;
+          transition: all .3s ease;
+          &:hover, &:focus{
+            color: #3c3c3c;
+          }
         }
       }
     }
