@@ -37,7 +37,9 @@
     //   $('#popupLogin').modal('show')
     // })
 
-    $('.nav-top-logged').on('click', function() {
+    $('.nav-top-logged').on('click', function(e) {
+      e.preventDefault();
+      console.log('123123');
       $(this).find('.dropdown-menu').toggleClass('show')
     })
 

@@ -106,6 +106,136 @@
         }
       }
     }
+    &.group-files-filter{
+      border: none;
+      padding: 0;
+      background: none;
+      margin-bottom: 15px;
+      .gff-group{
+        position: relative;
+        a.gff-name{
+          font-size: 14px;
+          font-weight: bold;
+          color: #3c3c3c;
+          transition: all .3s ease;
+          i{
+            margin-left: 10px;
+            transition: all .3s ease;
+          }
+          &:hover, &:focus{
+            i{
+              color: #48a7f2;
+            }
+          }
+        }
+        ul.dropdown-menu{
+          height: auto;
+          width: 100%;
+          flex-wrap: wrap;
+          padding-left: 0;
+          list-style-type: none;
+          position: absolute;
+          background: #fff;
+          padding: 20px 10px;
+          padding-top: 15px;
+          top: 20px !important;
+          right: 0 !important;
+          left: inherit !important;
+          border: 1px solid #CFD8DC;
+          min-width: 200px;
+          z-index: 9999;
+          transform: none !important;
+          transition: all .5s ease;
+          opacity: 0;
+          display: flex;
+          visibility: hidden;
+          transform: scale(0);
+          &.show{
+            opacity: 1;
+            transform: scale(1);
+            visibility: visible;
+          }
+          li{
+            width: 100%;
+            &:first-child{
+              border-bottom: 1px solid #CFD8DC;
+              padding-bottom: 10px;
+            }
+            &:last-child{
+              margin-top: 10px;
+            }
+            a{
+              display: block;
+              color: #3c3c3c;
+              font-size: 13px;
+              transition: all .3s ease;
+              &:hover, &:focus{
+                color: #48a7f2;
+              }
+            }
+          }
+        }
+      }
+    }
+    &.group-files-medical{
+      padding: 30px 0;
+      padding-bottom: 0;
+      .gfm-name{
+        color: #3c3c3c;
+        font-size: 13px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        padding: 0 20px;
+      }
+      .table-responsive{
+        position: relative;
+        overflow: auto;
+        margin: 0;
+        margin-bottom: 30px;
+        table{
+          border: 10px solid #eceef3;
+          @media screen and (max-width: 991px){
+            min-width: 800px;
+          }
+          th{
+            border-top: none;
+            border-bottom: 1px solid #CFD8DC;
+            padding: 20px 12px;
+            font-size: 12px;
+            color: #3c3c3c;
+            text-align: center;
+          }
+          tr{
+            background: none;
+          }
+          td{
+            border-bottom: 1px solid #CFD8DC;
+            padding: 20px 12px;
+            color: #696969;
+            font-size: 14px;
+            text-align: center;
+            transition: all .3s ease;
+            &.active{
+              color: #48a7f2;
+              font-weight: bold;
+            }
+          }
+        }
+        //.table-shade{
+        //  position:absolute;
+        //  bottom:0;
+        //  height: 130px;
+        //  width: 100%;
+        //  z-index:10;
+        //  background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(152,152,152,0) 40%, rgba(207,216,220,1) 90%, rgba(207,216,220,1) 99%); /* FF3.6+ */
+        //  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(40%,rgba(152,152,152,0)), color-stop(90%,rgba(207,216,220,1)), color-stop(99%,rgba(207,216,220,1))); /* Chrome,Safari4+ */
+        //  background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(152,152,152,0) 40%,rgba(207,216,220,1) 90%,rgba(207,216,220,1) 99%); /* Chrome10+,Safari5.1+ */
+        //  background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(152,152,152,0) 40%,rgba(207,216,220,1) 90%,rgba(207,216,220,1) 99%); /* Opera 11.10+ */
+        //  background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(152,152,152,0) 40%,rgba(207,216,220,1) 90%,rgba(207,216,220,1) 99%); /* IE10+ */
+        //  background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(152,152,152,0) 40%,rgba(207,216,220,1) 90%,rgba(207,216,220,1) 99%); /* W3C */
+        //}
+      }
+    }
     &.group-files-update{
       .form-group{
         display: flex;
@@ -469,6 +599,12 @@
           color: #48a7f2;
           margin-bottom: 20px;
         }
+        &.h2-bor-botttom{
+          color: #3c3c3c;
+          padding-bottom : 30px;
+          border-bottom: 1px solid #CFD8DC;
+          margin-bottom: 50px;
+        }
       }
       .form-group{
         margin-bottom: 20px;
@@ -522,14 +658,31 @@
         cursor: pointer;
         transition: all .3s ease;
         margin-bottom: 30px;
+        position: relative;
+        &:after{
+          content: '';
+          background: url('../images/logged-step/tick-blue.png') no-repeat center;
+          width: 14px;
+          height: 14px;
+          position: absolute;
+          top: 10px;
+          right: 10px;
+          transition: all .3s ease;
+          opacity: 0;
+        }
         @media screen and (min-width: 992px){
           align-items: center;
         }
         @media screen and (max-width: 991px){
           flex-direction: column;
         }
-        &:hover, &:focus{
+        &:hover, &:focus, &.active{
           border-color: #48a7f2;
+        }
+        &.active{
+          &:after{
+            opacity: 1;
+          }
         }
         .gr{
           height: 100%;
@@ -547,6 +700,14 @@
               color: #696969;
               margin-bottom: 15px;
               font-weight: bold;
+            }
+            .gr-name-1{
+              font-size: 13px;
+              color: #696969;
+              margin-bottom: 15px;
+            }
+            .mg-bottom-0{
+              margin-bottom: 0;
             }
             ul{
               padding-left: 0;
@@ -744,6 +905,12 @@
           position: absolute;
           top: 3px;
           left: 10px;
+        }
+        &.gdi-book{
+          color: #696969;
+          &:before{
+            background-image: url('../images/logged-step/user+-black.png');
+          }
         }
       }
     }
