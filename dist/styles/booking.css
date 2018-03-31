@@ -126,19 +126,37 @@
     border-radius: 5px;
     padding: 18px 20px;
     margin-bottom: 30px; }
+    @media screen and (max-width: 767px) {
+      .section-booking .booking-right-navigation {
+        margin-top: 30px; } }
     .section-booking .booking-right-navigation ul {
       padding-left: 0;
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
       list-style-type: none;
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap; }
       .section-booking .booking-right-navigation ul li {
         font-size: 13px;
         color: #696969;
         position: relative;
         padding-right: 25px;
         margin-left: 20px; }
+        @media screen and (max-width: 991px) {
+          .section-booking .booking-right-navigation ul li {
+            width: 50%;
+            margin-left: 0 !important;
+            margin-bottom: 12px; }
+            .section-booking .booking-right-navigation ul li:after {
+              display: none; } }
+        @media screen and (max-width: 767px) {
+          .section-booking .booking-right-navigation ul li {
+            width: 100%;
+            text-align: center;
+            padding-right: 0; } }
         .section-booking .booking-right-navigation ul li.active {
           color: #48a7f2;
           font-weight: bold; }
@@ -155,63 +173,77 @@
     border: 1px solid #CFD8DC;
     background: #fff;
     border-radius: 5px;
-    padding: 30px 40px; }
+    padding: 30px 40px;
+    height: auto;
+    transition: all .3s ease; }
+    @media screen and (max-width: 767px) {
+      .section-booking .booking-right-calendar {
+        padding: 30px 20px; } }
     .section-booking .booking-right-calendar .brc-top {
       -webkit-justify-content: center;
           -ms-flex-pack: center;
               justify-content: center;
       padding-bottom: 10px;
       margin-bottom: 5px;
-      border-bottom: 1px solid #CFD8DC; }
+      border-bottom: 1px solid #CFD8DC;
+      position: relative; }
+      @media screen and (max-width: 767px) {
+        .section-booking .booking-right-calendar .brc-top {
+          -webkit-flex-direction: column;
+              -ms-flex-direction: column;
+                  flex-direction: column; } }
       .section-booking .booking-right-calendar .brc-top .btn-group button {
         outline: none !important;
         box-shadow: none !important;
-        border: none !important; }
+        border: none !important;
+        background: transparent; }
         .section-booking .booking-right-calendar .brc-top .btn-group button.btn-default-text {
           font-size: 16px;
           font-weight: bold;
           color: #48a7f2; }
         .section-booking .booking-right-calendar .brc-top .btn-group button.btn-default-left {
           margin-right: 20px; }
+          @media screen and (max-width: 991px) {
+            .section-booking .booking-right-calendar .brc-top .btn-group button.btn-default-left {
+              margin-right: 10px; } }
         .section-booking .booking-right-calendar .brc-top .btn-group button.btn-default-right {
           margin-left: 20px; }
+          @media screen and (max-width: 991px) {
+            .section-booking .booking-right-calendar .brc-top .btn-group button.btn-default-right {
+              margin-left: 10px; } }
         .section-booking .booking-right-calendar .brc-top .btn-group button i {
           color: #cfd8dc;
           font-size: 30px;
           transition: all .3s ease; }
-      .section-booking .booking-right-calendar .brc-top .brct-month-year {
-        font-size: 16px;
-        font-weight: bold;
-        color: #48a7f2; }
-        .section-booking .booking-right-calendar .brc-top .brct-month-year span {
-          transition: all .3s ease; }
-      .section-booking .booking-right-calendar .brc-top a.brct-move {
-        color: #cfd8dc;
-        font-size: 30px;
-        transition: all .3s ease; }
-        .section-booking .booking-right-calendar .brc-top a.brct-move.brct-move-previous {
-          margin-right: 30px; }
-        .section-booking .booking-right-calendar .brc-top a.brct-move.brct-move-next {
-          margin-left: 30px; }
-        .section-booking .booking-right-calendar .brc-top a.brct-move.hidden {
-          opacity: 0;
-          visibility: hidden; }
-        .section-booking .booking-right-calendar .brc-top a.brct-move:hover, .section-booking .booking-right-calendar .brc-top a.brct-move:focus {
-          opacity: .8; }
       .section-booking .booking-right-calendar .brc-top .brct-note {
         font-size: 12px;
         color: #faa01f;
         font-weight: bold;
-        margin-left: 60px; }
+        margin-left: 60px;
+        position: absolute;
+        right: 0; }
+        @media screen and (max-width: 991px) {
+          .section-booking .booking-right-calendar .brc-top .brct-note {
+            position: relative;
+            margin-left: auto; } }
+        @media screen and (max-width: 767px) {
+          .section-booking .booking-right-calendar .brc-top .brct-note {
+            margin-top: 15px; } }
     .section-booking .booking-right-calendar .table.calTable tbody td, .section-booking .booking-right-calendar .table.calTable tbody th {
       width: 14.2857142857%;
       text-align: center;
       color: #3c3c3c;
       font-size: 13px;
       font-weight: bold; }
+      @media screen and (max-width: 991px) {
+        .section-booking .booking-right-calendar .table.calTable tbody td, .section-booking .booking-right-calendar .table.calTable tbody th {
+          font-size: 12px; } }
     .section-booking .booking-right-calendar .table.calTable tbody th {
       padding: 20px 10px;
       border-top: 0; }
+      @media screen and (max-width: 991px) {
+        .section-booking .booking-right-calendar .table.calTable tbody th {
+          padding: 10px 5px; } }
       .section-booking .booking-right-calendar .table.calTable tbody th.cn {
         color: #fa531f; }
       .section-booking .booking-right-calendar .table.calTable tbody th.t7 {
@@ -230,64 +262,122 @@
       padding-left: 16px;
       transition: all .3s ease;
       cursor: pointer; }
+      .section-booking .booking-right-calendar .table.calTable tbody td button.btn-booking-calendar-disable {
+        opacity: .4; }
       .section-booking .booking-right-calendar .table.calTable tbody td button:hover, .section-booking .booking-right-calendar .table.calTable tbody td button:focus, .section-booking .booking-right-calendar .table.calTable tbody td button.active {
         color: #fff;
         background: #48a7f2; }
     .section-booking .booking-right-calendar .brc-scroll-group {
       border: 10px solid #eaeff3;
-      margin: 0 -40px;
-      padding: 20px 40px; }
-      .section-booking .booking-right-calendar .brc-scroll-group table {
-        width: 100%; }
-        .section-booking .booking-right-calendar .brc-scroll-group table tr {
-          background: none; }
-          .section-booking .booking-right-calendar .brc-scroll-group table tr th, .section-booking .booking-right-calendar .brc-scroll-group table tr td {
+      transition: all .3s ease;
+      height: 0;
+      opacity: 0;
+      padding: 0;
+      margin: 0; }
+      .section-booking .booking-right-calendar .brc-scroll-group.show {
+        height: auto;
+        opacity: 1;
+        margin: 0 -40px;
+        padding: 20px 40px; }
+        @media screen and (max-width: 991px) {
+          .section-booking .booking-right-calendar .brc-scroll-group.show {
+            padding: 20px; } }
+        @media screen and (max-width: 767px) {
+          .section-booking .booking-right-calendar .brc-scroll-group.show {
+            margin: 0 -20px; } }
+      .section-booking .booking-right-calendar .brc-scroll-group ul {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        list-style-type: none;
+        padding-left: 0;
+        margin: 0;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap; }
+        @media screen and (max-width: 991px) {
+          .section-booking .booking-right-calendar .brc-scroll-group ul {
+            -webkit-align-items: flex-start;
+                -ms-flex-align: start;
+                    align-items: flex-start; } }
+        .section-booking .booking-right-calendar .brc-scroll-group ul.table-ul-top {
+          margin-bottom: 20px; }
+          @media screen and (max-width: 991px) {
+            .section-booking .booking-right-calendar .brc-scroll-group ul.table-ul-top {
+              margin-bottom: 0; } }
+          @media screen and (max-width: 991px) {
+            .section-booking .booking-right-calendar .brc-scroll-group ul.table-ul-top li {
+              margin-top: 0; } }
+        .section-booking .booking-right-calendar .brc-scroll-group ul.table-ul-cont {
+          border-top: 1px solid #CFD8DC;
+          padding-top: 25px;
+          margin-bottom: 25px; }
+          @media screen and (max-width: 991px) {
+            .section-booking .booking-right-calendar .brc-scroll-group ul.table-ul-cont {
+              margin-bottom: 35px; } }
+          .section-booking .booking-right-calendar .brc-scroll-group ul.table-ul-cont:hover, .section-booking .booking-right-calendar .brc-scroll-group ul.table-ul-cont:focus, .section-booking .booking-right-calendar .brc-scroll-group ul.table-ul-cont.active {
+            outline: none; }
+            .section-booking .booking-right-calendar .brc-scroll-group ul.table-ul-cont:hover li, .section-booking .booking-right-calendar .brc-scroll-group ul.table-ul-cont:focus li, .section-booking .booking-right-calendar .brc-scroll-group ul.table-ul-cont.active li {
+              color: #48a7f2;
+              font-weight: bold; }
+            .section-booking .booking-right-calendar .brc-scroll-group ul.table-ul-cont:hover a, .section-booking .booking-right-calendar .brc-scroll-group ul.table-ul-cont:focus a, .section-booking .booking-right-calendar .brc-scroll-group ul.table-ul-cont.active a {
+              color: #48a7f2;
+              border-color: #48a7f2; }
+        .section-booking .booking-right-calendar .brc-scroll-group ul li {
+          width: 40%;
+          padding: 0;
+          padding-right: 15px;
+          font-size: 13px;
+          color: #3c3c3c;
+          transition: all .3s ease; }
+          @media screen and (max-width: 991px) {
+            .section-booking .booking-right-calendar .brc-scroll-group ul li {
+              width: 50%; } }
+          @media screen and (max-width: 767px) {
+            .section-booking .booking-right-calendar .brc-scroll-group ul li:nth-child(2) {
+              text-align: right; } }
+          .section-booking .booking-right-calendar .brc-scroll-group ul li:last-child {
+            width: 20%; }
+            @media screen and (max-width: 991px) {
+              .section-booking .booking-right-calendar .brc-scroll-group ul li:last-child {
+                padding-right: 0; } }
+            @media screen and (max-width: 991px) {
+              .section-booking .booking-right-calendar .brc-scroll-group ul li:last-child {
+                width: 100%;
+                margin-top: 25px; } }
+          .section-booking .booking-right-calendar .brc-scroll-group ul li a {
+            background: none;
+            box-shadow: none;
+            outline: none;
+            border: 1px solid #aeb8c8;
+            width: 100%;
+            border-radius: 50px;
+            padding: 8px 15px;
             font-size: 13px;
-            color: #3c3c3c;
-            transition: all .3s ease; }
-          .section-booking .booking-right-calendar .brc-scroll-group table tr th {
-            border: none;
-            padding-bottom: 20px;
-            padding-top: 0;
-            padding-left: 0;
-            font-size: 13px;
-            color: #3c3c3c; }
-            .section-booking .booking-right-calendar .brc-scroll-group table tr th.w-40 {
-              width: 40%; }
-          .section-booking .booking-right-calendar .brc-scroll-group table tr td {
-            border-color: #CFD8DC;
-            padding-top: 20px;
-            padding-bottom: 20px;
-            padding-left: 0; }
-            .section-booking .booking-right-calendar .brc-scroll-group table tr td button {
-              background: none;
-              box-shadow: none;
-              outline: none;
-              border: 1px solid #aeb8c8;
-              width: 100%;
-              border-radius: 50px;
-              padding: 10px 15px;
-              font-size: 13px;
-              font-weight: bold;
-              color: #333333;
-              margin: -10px 0;
-              cursor: pointer;
-              transition: all .3s ease;
-              cursor: pointer; }
-              .section-booking .booking-right-calendar .brc-scroll-group table tr td button:hover, .section-booking .booking-right-calendar .brc-scroll-group table tr td button:focus, .section-booking .booking-right-calendar .brc-scroll-group table tr td button.active {
-                color: #48a7f2;
-                border-color: #48a7f2; }
-          .section-booking .booking-right-calendar .brc-scroll-group table tr:hover td, .section-booking .booking-right-calendar .brc-scroll-group table tr:focus td, .section-booking .booking-right-calendar .brc-scroll-group table tr.active td {
-            color: #48a7f2;
-            font-weight: bold; }
-          .section-booking .booking-right-calendar .brc-scroll-group table tr:hover button, .section-booking .booking-right-calendar .brc-scroll-group table tr:focus button, .section-booking .booking-right-calendar .brc-scroll-group table tr.active button {
-            color: #48a7f2;
-            border-color: #48a7f2; }
+            font-weight: bold;
+            color: #333333;
+            margin: -10px 0;
+            cursor: pointer;
+            transition: all .3s ease;
+            cursor: pointer;
+            display: block;
+            width: 100%;
+            text-align: center; }
+            .section-booking .booking-right-calendar .brc-scroll-group ul li a:hover, .section-booking .booking-right-calendar .brc-scroll-group ul li a:focus, .section-booking .booking-right-calendar .brc-scroll-group ul li a.active {
+              color: #48a7f2;
+              border-color: #48a7f2; }
       .section-booking .booking-right-calendar .brc-scroll-group .brc-scroll-group-btn {
         background: #eaeff3;
         padding-bottom: 30px;
         margin: 0 -40px;
-        margin-bottom: -20px; }
+        margin-bottom: -20px;
+        margin-top: 30px; }
+        @media screen and (max-width: 767px) {
+          .section-booking .booking-right-calendar .brc-scroll-group .brc-scroll-group-btn {
+            margin: 0 -20px; } }
         .section-booking .booking-right-calendar .brc-scroll-group .brc-scroll-group-btn .btn.btn-info {
           font-size: 12px;
           color: #fff;
@@ -301,5 +391,43 @@
             margin-left: 10px;
             -webkit-transform: rotate(270deg);
                     transform: rotate(270deg); }
+    .section-booking .booking-right-calendar .brc-btn {
+      margin-top: 30px; }
+      @media screen and (max-width: 991px) {
+        .section-booking .booking-right-calendar .brc-btn {
+          text-align: center; }
+          .section-booking .booking-right-calendar .brc-btn .btn {
+            display: block; }
+            .section-booking .booking-right-calendar .brc-btn .btn i {
+              top: 10px; }
+            .section-booking .booking-right-calendar .brc-btn .btn.btn-info {
+              margin-top: 15px;
+              margin-left: 0; } }
+      .section-booking .booking-right-calendar .brc-btn .btn-success {
+        border-radius: 50px;
+        padding: 12px 30px;
+        font-size: 13px;
+        color: #fff;
+        font-weight: bold;
+        border: none;
+        background: #38d46a; }
+        .section-booking .booking-right-calendar .brc-btn .btn-success i {
+          background: url("../images/booking/delete.png") no-repeat center;
+          width: 15px;
+          height: 15px;
+          display: inline-block;
+          margin-left: 10px;
+          position: relative;
+          top: 2px;
+          left: 5px; }
+      .section-booking .booking-right-calendar .brc-btn .btn-info {
+        background: #48a7f2;
+        font-size: 13px;
+        color: #fff;
+        font-weight: bold;
+        padding: 12px 30px;
+        border-radius: 5px;
+        margin-left: 20px;
+        border: none; }
 
 /*# sourceMappingURL=booking.css.map */
