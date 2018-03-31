@@ -1,10 +1,10 @@
-.section-banner {
+#section-banner {
   background: url("../images/logged-step/banner.jpg") no-repeat;
   background-position: center;
   background-size: cover;
   padding-top: 175px;
   padding-bottom: 50px; }
-  .section-banner h1 {
+  #section-banner h1 {
     display: inline-block;
     font-size: 34px;
     color: #fff;
@@ -12,7 +12,7 @@
     background: #31ca62;
     padding: 3px 30px;
     margin-bottom: 15px; }
-  .section-banner h2 {
+  #section-banner h2 {
     font-size: 16px;
     color: #4a7699;
     font-weight: bold; }
@@ -27,7 +27,7 @@
     padding: 50px 20px;
     border-radius: 5px;
     height: auto;
-    transition: all .3s ease;
+    transition: all .2s ease;
     position: relative;
     margin-bottom: 50px; }
     .section-info .group.group-files .group-files-item {
@@ -54,7 +54,7 @@
             width: 13px;
             height: 14px;
             position: absolute;
-            top: 2px;
+            top: 0;
             left: 0; }
       .section-info .group.group-files .group-files-item .group-files-item-left .gfi-info {
         color: #696969;
@@ -63,7 +63,7 @@
       .section-info .group.group-files .group-files-item .group-files-item-right a {
         color: #696969;
         font-size: 13px;
-        transition: all .3s ease;
+        transition: all .2s ease;
         position: relative;
         padding-left: 20px; }
         .section-info .group.group-files .group-files-item .group-files-item-right a:hover, .section-info .group.group-files .group-files-item .group-files-item-right a:focus {
@@ -74,7 +74,7 @@
           width: 15px;
           height: 14px;
           position: absolute;
-          top: 2px;
+          top: 0;
           left: 0; }
         .section-info .group.group-files .group-files-item .group-files-item-right a.gfi-delete {
           padding-left: 18px;
@@ -85,7 +85,7 @@
             width: 13px;
             height: 14px;
             position: absolute;
-            top: 2px;
+            top: 0;
             left: 0; }
     .section-info .group.group-files-filter {
       border: none;
@@ -98,10 +98,10 @@
           font-size: 14px;
           font-weight: bold;
           color: #3c3c3c;
-          transition: all .3s ease; }
+          transition: all .2s ease; }
           .section-info .group.group-files-filter .gff-group a.gff-name i {
             margin-left: 10px;
-            transition: all .3s ease; }
+            transition: all .2s ease; }
           .section-info .group.group-files-filter .gff-group a.gff-name:hover i, .section-info .group.group-files-filter .gff-group a.gff-name:focus i {
             color: #48a7f2; }
         .section-info .group.group-files-filter .gff-group ul.dropdown-menu {
@@ -148,7 +148,7 @@
               display: block;
               color: #3c3c3c;
               font-size: 13px;
-              transition: all .3s ease; }
+              transition: all .2s ease; }
               .section-info .group.group-files-filter .gff-group ul.dropdown-menu li a:hover, .section-info .group.group-files-filter .gff-group ul.dropdown-menu li a:focus {
                 color: #48a7f2; }
     .section-info .group.group-files-medical {
@@ -185,7 +185,7 @@
             color: #696969;
             font-size: 14px;
             text-align: center;
-            transition: all .3s ease; }
+            transition: all .2s ease; }
             .section-info .group.group-files-medical .table-responsive table td.active {
               color: #48a7f2;
               font-weight: bold; }
@@ -303,8 +303,7 @@
             font-size: 16px; } }
       .section-info .group.group-error .sub-notfound {
         color: #696969;
-        font-size: 24px;
-        font-family: 'Roboto-Slab-Light'; }
+        font-size: 24px; }
         @media screen and (max-width: 599px) {
           .section-info .group.group-error .sub-notfound {
             font-size: 20px; } }
@@ -392,7 +391,7 @@
       left: 20px;
       font-size: 14px;
       color: #48a7f2;
-      transition: all .3s ease; }
+      transition: all .2s ease; }
       .section-info .group .back-to:hover, .section-info .group .back-to:focus {
         color: #3c3c3c; }
       @media screen and (max-width: 767px) {
@@ -555,7 +554,7 @@
       border: 1px solid #CFD8DC;
       padding: 30px 20px;
       cursor: pointer;
-      transition: all .3s ease;
+      transition: all .2s ease;
       margin-bottom: 30px;
       position: relative; }
       .section-info .group .group-items-register .group-results:after {
@@ -566,7 +565,7 @@
         position: absolute;
         top: 10px;
         right: 10px;
-        transition: all .3s ease;
+        transition: all .2s ease;
         opacity: 0; }
       @media screen and (min-width: 992px) {
         .section-info .group .group-items-register .group-results {
@@ -633,11 +632,11 @@
                 width: 17px;
                 height: 13px;
                 position: absolute;
-                top: 2px;
+                top: 0px;
                 left: 0; }
               .section-info .group .group-items-register .group-results .gr.gr-info ul li.gr-sex:before {
                 content: '';
-                background: url("../images/icons/phone1.svg") no-repeat center;
+                background: url("../images/icons/sex.svg") no-repeat center;
                 width: 17px;
                 height: 13px;
                 position: absolute;
@@ -649,7 +648,7 @@
                 width: 17px;
                 height: 13px;
                 position: absolute;
-                top: 4px;
+                top: 1px;
                 left: 0; }
               .section-info .group .group-items-register .group-results .gr.gr-info ul li.gr-job:before {
                 content: '';
@@ -657,7 +656,7 @@
                 width: 17px;
                 height: 13px;
                 position: absolute;
-                top: 2px;
+                top: 0px;
                 left: 0; }
               .section-info .group .group-items-register .group-results .gr.gr-info ul li.gr-birthday:before {
                 content: '';
@@ -665,7 +664,7 @@
                 width: 17px;
                 height: 13px;
                 position: absolute;
-                top: 2px;
+                top: 1px;
                 left: 0; }
               .section-info .group .group-items-register .group-results .gr.gr-info ul li.gr-address:before {
                 content: '';
@@ -681,14 +680,14 @@
     .section-info .left-columns .leftc-name a {
       font-weight: bold;
       color: #3c3c3c;
-      transition: all .3s ease;
+      transition: all .2s ease;
       margin-left: 5px; }
       .section-info .left-columns .leftc-name a:hover, .section-info .left-columns .leftc-name a:focus {
         color: #48a7f2; }
   .section-info .left-columns .leftc-menu a {
     font-size: 14px;
     color: #3c3c3c;
-    transition: all .3s ease;
+    transition: all .2s ease;
     padding: 10px 33px;
     display: block;
     margin-bottom: 10px;
@@ -698,10 +697,10 @@
       content: '>';
       font-size: 17px;
       color: #3c3c3c;
-      transition: all .3s ease;
+      transition: all .2s ease;
       position: absolute;
       top: 50%;
-      margin-top: -13px;
+      margin-top: -10px;
       right: 10px;
       -webkit-transform: translateX(30px);
               transform: translateX(30px); }
@@ -735,7 +734,7 @@
     background: #fff;
     margin-bottom: 15px;
     cursor: pointer;
-    transition: all .3s ease;
+    transition: all .2s ease;
     position: relative; }
     .section-info .group-dashed:hover, .section-info .group-dashed:focus {
       background: #CFD8DC; }
@@ -752,7 +751,7 @@
         width: 20px;
         height: 14px;
         position: absolute;
-        top: 3px;
+        top: 0;
         left: 10px; }
       .section-info .group-dashed.group-dashed-info div.gdi-book {
         color: #696969; }
@@ -774,7 +773,7 @@
           width: 16px;
           height: 16px;
           position: absolute;
-          top: 3px;
+          top: 0;
           left: 10px; }
       .section-info .group-dashed.group-dashed-success .group-dashed-close {
         color: #40b24f;
@@ -782,12 +781,11 @@
         font-size: 18px;
         top: 10px;
         right: 10px;
-        font-family: 'robotoregular';
         border: none;
         box-shadow: none;
         outline: none;
         background: transparent;
-        transition: all .3s ease;
+        transition: all .2s ease;
         cursor: pointer; }
         .section-info .group-dashed.group-dashed-success .group-dashed-close:hover, .section-info .group-dashed.group-dashed-success .group-dashed-close:focus {
           color: #3c3c3c; }

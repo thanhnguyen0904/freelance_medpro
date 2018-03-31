@@ -11,7 +11,7 @@
     })
 
     $('header .nav-menu a.nav-menu-item').on('click', function() {
-      ($(this).parent().find('a.nav-menu-item').hasClass('active')) ? $(this).parent().find('a.nav-menu-item').removeClass('active') : ''
+      ($(this).parents('.nav-menu').find('a.nav-menu-item').hasClass('active')) ? $(this).parents('.nav-menu').find('a.nav-menu-item').removeClass('active') : ''
       $(this).addClass('active')
     })
 

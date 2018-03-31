@@ -1,4 +1,4 @@
-.section-banner{
+#section-banner{
   background: url('../images/logged-step/banner.jpg') no-repeat;
   background-position: center;
   background-size: cover;
@@ -103,16 +103,16 @@
         margin-bottom: 15px;
         position: relative;
         padding-right: 20px;
-        transition: all .3s ease;
+        transition: all .2s ease;
         cursor: pointer;
         &:after{
           content: '>';
           font-size: 13px;
           color: #696969;
           position: absolute;
-          top: 0;
+          top: 1px;
           right: 0;
-          transition: all .3s ease;
+          transition: all .2s ease;
         }
         &:hover, &:focus{
           color: #48a7f2;
@@ -136,7 +136,7 @@
         font-size: 32px;
         color: #fff;
         font-weight: bold;
-        transition: all .3s ease;
+        transition: all .2s ease;
         letter-spacing: 5px;
         &:hover, &:focus{
           color: #3c3c3c;
@@ -205,7 +205,7 @@
     border-radius: 5px;
     padding: 30px 40px;
     height: auto;
-    transition: all .3s ease;
+    transition: all .2s ease;
     @media screen and (max-width: 767px){
       padding: 30px 20px;
     }
@@ -244,7 +244,7 @@
           i{
             color: #cfd8dc;
             font-size: 30px;
-            transition: all .3s ease;
+            transition: all .2s ease;
           }
         }
       }
@@ -265,6 +265,7 @@
       }
     }
     .table.calTable{
+      margin-bottom: 0;
       tbody{
         td,th{
           width: 14.2857142857%;
@@ -290,6 +291,10 @@
           }
         }
         td{
+          transition: all .2s ease;
+          &.active{
+            background: #eaeff3;
+          }
           button{
             background: none;
             box-shadow: none;
@@ -300,16 +305,16 @@
             font-weight: 700;
             padding: 15px;
             border-radius: 100%;
-            width: 49px;
+            width: 45px;
             padding-left: 16px;
-            transition: all .3s ease;
+            transition: all .2s ease;
             cursor: pointer;
             &.btn-booking-calendar-disable{
               opacity: .4;
             }
             &:hover, &:focus, &.active{
               color: #fff;
-              background: #48a7f2;
+              background: #3ad46b;
             }
           }
         }
@@ -381,7 +386,7 @@
           padding-right: 15px;
           font-size: 13px;
           color: #3c3c3c;
-          transition: all .3s ease;
+          transition: all .2s ease;
           @media screen and (max-width: 991px){
             width: 50%;
           }
@@ -406,14 +411,14 @@
             outline: none;
             border: 1px solid #aeb8c8;
             width: 100%;
-            border-radius: 50px;
+            border-radius: 50px !important;
             padding: 8px 15px;
             font-size: 13px;
             font-weight: bold;
             color: #333333;
             margin: -10px 0;
             cursor: pointer;
-            transition: all .3s ease;
+            transition: all .2s ease;
             cursor: pointer;
             display: block;
             width: 100%;
@@ -440,8 +445,8 @@
           font-weight: bold;
           background: #48a7f2;
           padding: 10px 15px;
-          border-bottom-left-radius: 15px;
-          border-bottom-right-radius: 15px;
+          border-bottom-left-radius: 15px !important;
+          border-bottom-right-radius: 15px !important;
           border: none;
           i{
             margin-left: 10px;
@@ -451,7 +456,7 @@
       }
     }
     .brc-take-off{
-      transition: all .3s ease;
+      transition: all .2s ease;
       height: 0;
       opacity: 0;
       margin: 0;
@@ -474,7 +479,7 @@
             height: 10px;
             border-radius: 100%;
             position: absolute;
-            top: 4px;
+            top: 3px;
             left: 0;
             display: inline-block;
           }
@@ -487,7 +492,7 @@
             height: 10px;
             border-radius: 100%;
             position: absolute;
-            top: 4px;
+            top: 3px;
             left: 0;
             display: inline-block;
           }
@@ -495,7 +500,7 @@
       }
     }
     .brc-btn{
-      transition: all .3s ease;
+      transition: all .2s ease;
       height: 0;
       opacity: 0;
       margin: 0;
@@ -517,7 +522,7 @@
         }
       }
       .btn-success{
-        border-radius: 50px;
+        border-radius: 50px !important;
         padding: 12px 30px;
         font-size: 13px;
         color: #fff;
@@ -531,7 +536,7 @@
           display: inline-block;
           margin-left: 10px;
           position: relative;
-          top: 2px;
+          top: 3px;
           left: 5px;
         }
       }
@@ -541,7 +546,6 @@
         color: #fff;
         font-weight: bold;
         padding: 12px 30px;
-        border-radius: 5px;
         margin-left: 20px;
         border: none;
       }

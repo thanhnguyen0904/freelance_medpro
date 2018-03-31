@@ -42,7 +42,7 @@
   font-style: normal; }
 
 @font-face {
-  font-family: 'Baomoi';
+  font-family: 'Baomoi-bold';
   src: url("../fonts/Baomoi-SemiBold_gdi.eot");
   src: url("../fonts/Baomoi-SemiBold_gdi.eot?#iefix") format("embedded-opentype"), url("../fonts/Baomoi-SemiBold_gdi.woff") format("woff"), url("../fonts/Baomoi-SemiBold_gdi.ttf") format("truetype");
   font-weight: bold;
@@ -81,7 +81,8 @@ body {
   display: flex;
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
-          flex-direction: column; }
+          flex-direction: column;
+  line-height: 1.2; }
   @media screen and (min-width: 992px) {
     body.opened::after {
       content: '';
@@ -98,21 +99,28 @@ body {
   max-width: 1170px; }
 
 a {
-  text-decoration: none !important;
-  transition: all .3s ease; }
-  a:hover, a:focus {
+  transition: all .2s ease; }
+  a:hover, a:focus, a:link, a:active {
     border: none;
     box-shadow: none !important;
-    outline: none !important; }
+    outline: none !important;
+    text-decoration: none !important; }
 
 .btn {
-  transition: all .3s ease;
-  cursor: pointer; }
+  transition: all .2s ease;
+  cursor: pointer;
+  box-shadow: none !important;
+  outline: none !important;
+  border-radius: 3px !important; }
+  .btn.btn-info {
+    border: 1px solid #3c99e3; }
+  .btn.btn-sucess {
+    border: 1px solid #38d46a; }
   .btn:hover, .btn:focus {
     opacity: .8; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto-Slab-Bold', serif; }
+  font-family: 'Baomoi-bold', serif; }
 
 #popupLogin {
   top: 100px; }
@@ -185,7 +193,7 @@ h1, h2, h3, h4, h5, h6 {
         width: 16px;
         height: 14px;
         position: absolute;
-        top: 1px;
+        top: -1px;
         left: 0px; }
     #navigation-bar a:not(.active) {
       padding-right: 20px; }
@@ -194,7 +202,7 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 16px;
         color: #b1b7bc;
         position: absolute;
-        top: -5px;
+        top: -2px;
         right: 0px; }
     #navigation-bar a.active {
       padding-left: 10px;

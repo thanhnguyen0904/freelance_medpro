@@ -42,7 +42,7 @@
   font-style: normal; }
 
 @font-face {
-  font-family: 'Baomoi';
+  font-family: 'Baomoi-bold';
   src: url("../fonts/Baomoi-SemiBold_gdi.eot");
   src: url("../fonts/Baomoi-SemiBold_gdi.eot?#iefix") format("embedded-opentype"), url("../fonts/Baomoi-SemiBold_gdi.woff") format("woff"), url("../fonts/Baomoi-SemiBold_gdi.ttf") format("truetype");
   font-weight: bold;

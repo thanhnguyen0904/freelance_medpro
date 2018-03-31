@@ -6,6 +6,16 @@ footer {
   color: #fff;
   font-size: 12px;
   margin-top: auto;
+  ul{
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+    flex-wrap: wrap;
+    li{
+      width: 100%;
+    }
+  }
   a{
     display: block;
     color: #fff;

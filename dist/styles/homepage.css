@@ -1,55 +1,55 @@
 body {
   background-color: #fff; }
 
-.section-banner {
+#section-banner-home {
   background: url("../images/homepage/banner.jpg") no-repeat;
   background-position: 25% 0;
   background-size: cover;
   padding-top: 250px;
   padding-bottom: 150px; }
-  .section-banner h1 {
+  #section-banner-home h1 {
     display: inline-block;
-    font-size: 28px;
+    font-size: 30px;
     color: #fff;
     font-weight: bold;
     background: rgba(72, 167, 242, 0.8);
     padding: 5px 15px;
     margin-bottom: 3px; }
-  .section-banner h2 {
+  #section-banner-home h2 {
     display: inline-block;
     font-size: 32px;
     color: #fff;
     font-weight: bold;
     background: rgba(72, 167, 242, 0.8);
     padding: 5px 7px; }
-  .section-banner .des {
+  #section-banner-home .des {
     margin: 25px 0;
-    font-size: 12px; }
-  .section-banner a.btn.btn-success {
+    font-size: 14px; }
+  #section-banner-home a.btn.btn-success {
     background: #38d46a;
-    padding: 15px 20px;
+    padding: 10px 30px;
     color: #fff;
     border: none;
     margin: 0 7.5px;
     text-transform: uppercase;
     font-weight: bold; }
     @media screen and (max-width: 767px) {
-      .section-banner a.btn.btn-success {
+      #section-banner-home a.btn.btn-success {
         display: block;
         margin-bottom: 15px; } }
   @media screen and (max-width: 767px) {
-    .section-banner {
+    #section-banner-home {
       background: url(../images/homepage/banner.jpg) no-repeat;
       background-position: 25% 0;
       background-size: cover;
       padding-top: 180px;
       padding-bottom: 150px; }
-      .section-banner h1 {
+      #section-banner-home h1 {
         font-size: 26px;
         background: rgba(72, 167, 242, 0.8);
         padding: 3px 12px;
         margin-bottom: 3px; }
-      .section-banner h2 {
+      #section-banner-home h2 {
         font-size: 26px;
         background: rgba(72, 167, 242, 0.8);
         padding: 3px 7px; } }
@@ -100,11 +100,12 @@ body {
         background: #1794d4; }
       .section-1 ul li .group.g4 {
         background: #168dc9; }
-      .section-1 ul li .group .title {
+      .section-1 ul li .group h4.title {
+        font-size: 14px;
         font-weight: bold;
         margin-bottom: 10px;
         text-transform: uppercase; }
-      .section-1 ul li .group .des {
+      .section-1 ul li .group span.des {
         font-size: 12px; }
 
 .section-2 {
@@ -170,12 +171,13 @@ body {
       color: #696969;
       margin-bottom: 5px; }
     .section-2 .group .btn.btn-info {
-      background: #48a7f2;
-      padding: 15px 40px;
+      background: #3c99e3;
+      padding: 10px 40px;
       color: #fff;
       border: none;
       margin: 0 7.5px;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      border: 1px solid #3c99e3; }
     .section-2 .group p {
       margin-bottom: 5px;
       position: relative;
@@ -204,7 +206,7 @@ body {
     margin-bottom: 5px; }
     .section-3 .title span {
       background: #229cd9;
-      padding: 5px;
+      padding: 5px 13px;
       color: #fff;
       font-weight: bold; }
   .section-3 .sub-title {
@@ -266,7 +268,7 @@ body {
             .section-3 ul li .group .g-img-3-sm {
               display: block; } }
         .section-3 ul li .group .des {
-          font-size: 16px;
+          font-size: 17px;
           color: #3c3c3c;
           line-height: 1.2; }
         .section-3 ul li .group i {
@@ -274,11 +276,13 @@ body {
           color: #48a7f2;
           min-width: 50px; }
         .section-3 ul li .group.text-md-right img {
-          margin-left: 25px; }
+          margin-left: auto; }
           @media screen and (max-width: 767px) {
             .section-3 ul li .group.text-md-right img {
               margin-right: 25px;
               margin-left: 0; } }
+        .section-3 ul li .group.text-md-right .des {
+          margin-right: 25px; }
         .section-3 ul li .group.text-left img {
           margin-right: 25px; }
 

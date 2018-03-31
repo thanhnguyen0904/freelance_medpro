@@ -6,6 +6,18 @@ footer {
   color: #fff;
   font-size: 12px;
   margin-top: auto; }
+  footer ul {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+    footer ul li {
+      width: 100%; }
   footer a {
     display: block;
     color: #fff;

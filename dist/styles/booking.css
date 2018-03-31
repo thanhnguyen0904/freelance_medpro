@@ -1,10 +1,10 @@
-.section-banner {
+#section-banner {
   background: url("../images/logged-step/banner.jpg") no-repeat;
   background-position: center;
   background-size: cover;
   padding-top: 175px;
   padding-bottom: 50px; }
-  .section-banner h1 {
+  #section-banner h1 {
     display: inline-block;
     font-size: 34px;
     color: #fff;
@@ -12,7 +12,7 @@
     background: #31ca62;
     padding: 3px 30px;
     margin-bottom: 15px; }
-  .section-banner h2 {
+  #section-banner h2 {
     font-size: 16px;
     color: #4a7699;
     font-weight: bold; }
@@ -89,16 +89,16 @@
       margin-bottom: 15px;
       position: relative;
       padding-right: 20px;
-      transition: all .3s ease;
+      transition: all .2s ease;
       cursor: pointer; }
       .section-booking .booking-left-menu .booking-left-menu-process .blmp-link:after {
         content: '>';
         font-size: 13px;
         color: #696969;
         position: absolute;
-        top: 0;
+        top: 1px;
         right: 0;
-        transition: all .3s ease; }
+        transition: all .2s ease; }
       .section-booking .booking-left-menu .booking-left-menu-process .blmp-link:hover, .section-booking .booking-left-menu .booking-left-menu-process .blmp-link:focus {
         color: #48a7f2; }
         .section-booking .booking-left-menu .booking-left-menu-process .blmp-link:hover:after, .section-booking .booking-left-menu .booking-left-menu-process .blmp-link:focus:after {
@@ -116,7 +116,7 @@
       font-size: 32px;
       color: #fff;
       font-weight: bold;
-      transition: all .3s ease;
+      transition: all .2s ease;
       letter-spacing: 5px; }
       .section-booking .booking-left-menu .booking-left-menu-hotline a:hover, .section-booking .booking-left-menu .booking-left-menu-hotline a:focus {
         color: #3c3c3c; }
@@ -176,7 +176,7 @@
     border-radius: 5px;
     padding: 30px 40px;
     height: auto;
-    transition: all .3s ease; }
+    transition: all .2s ease; }
     @media screen and (max-width: 767px) {
       .section-booking .booking-right-calendar {
         padding: 30px 20px; } }
@@ -215,7 +215,7 @@
         .section-booking .booking-right-calendar .brc-top .btn-group button i {
           color: #cfd8dc;
           font-size: 30px;
-          transition: all .3s ease; }
+          transition: all .2s ease; }
       .section-booking .booking-right-calendar .brc-top .brct-note {
         font-size: 12px;
         color: #faa01f;
@@ -230,44 +230,50 @@
         @media screen and (max-width: 767px) {
           .section-booking .booking-right-calendar .brc-top .brct-note {
             margin-top: 15px; } }
-    .section-booking .booking-right-calendar .table.calTable tbody td, .section-booking .booking-right-calendar .table.calTable tbody th {
-      width: 14.2857142857%;
-      text-align: center;
-      color: #3c3c3c;
-      font-size: 13px;
-      font-weight: bold; }
-      @media screen and (max-width: 991px) {
-        .section-booking .booking-right-calendar .table.calTable tbody td, .section-booking .booking-right-calendar .table.calTable tbody th {
-          font-size: 12px; } }
-    .section-booking .booking-right-calendar .table.calTable tbody th {
-      padding: 20px 10px;
-      border-top: 0; }
-      @media screen and (max-width: 991px) {
-        .section-booking .booking-right-calendar .table.calTable tbody th {
-          padding: 10px 5px; } }
-      .section-booking .booking-right-calendar .table.calTable tbody th.cn {
-        color: #fa531f; }
-      .section-booking .booking-right-calendar .table.calTable tbody th.t7 {
-        color: #faa01f; }
-    .section-booking .booking-right-calendar .table.calTable tbody td button {
-      background: none;
-      box-shadow: none;
-      outline: none;
-      border: none;
-      color: #3c3c3c;
-      font-size: 13px;
-      font-weight: 700;
-      padding: 15px;
-      border-radius: 100%;
-      width: 49px;
-      padding-left: 16px;
-      transition: all .3s ease;
-      cursor: pointer; }
-      .section-booking .booking-right-calendar .table.calTable tbody td button.btn-booking-calendar-disable {
-        opacity: .4; }
-      .section-booking .booking-right-calendar .table.calTable tbody td button:hover, .section-booking .booking-right-calendar .table.calTable tbody td button:focus, .section-booking .booking-right-calendar .table.calTable tbody td button.active {
-        color: #fff;
-        background: #48a7f2; }
+    .section-booking .booking-right-calendar .table.calTable {
+      margin-bottom: 0; }
+      .section-booking .booking-right-calendar .table.calTable tbody td, .section-booking .booking-right-calendar .table.calTable tbody th {
+        width: 14.2857142857%;
+        text-align: center;
+        color: #3c3c3c;
+        font-size: 13px;
+        font-weight: bold; }
+        @media screen and (max-width: 991px) {
+          .section-booking .booking-right-calendar .table.calTable tbody td, .section-booking .booking-right-calendar .table.calTable tbody th {
+            font-size: 12px; } }
+      .section-booking .booking-right-calendar .table.calTable tbody th {
+        padding: 20px 10px;
+        border-top: 0; }
+        @media screen and (max-width: 991px) {
+          .section-booking .booking-right-calendar .table.calTable tbody th {
+            padding: 10px 5px; } }
+        .section-booking .booking-right-calendar .table.calTable tbody th.cn {
+          color: #fa531f; }
+        .section-booking .booking-right-calendar .table.calTable tbody th.t7 {
+          color: #faa01f; }
+      .section-booking .booking-right-calendar .table.calTable tbody td {
+        transition: all .2s ease; }
+        .section-booking .booking-right-calendar .table.calTable tbody td.active {
+          background: #eaeff3; }
+        .section-booking .booking-right-calendar .table.calTable tbody td button {
+          background: none;
+          box-shadow: none;
+          outline: none;
+          border: none;
+          color: #3c3c3c;
+          font-size: 13px;
+          font-weight: 700;
+          padding: 15px;
+          border-radius: 100%;
+          width: 45px;
+          padding-left: 16px;
+          transition: all .2s ease;
+          cursor: pointer; }
+          .section-booking .booking-right-calendar .table.calTable tbody td button.btn-booking-calendar-disable {
+            opacity: .4; }
+          .section-booking .booking-right-calendar .table.calTable tbody td button:hover, .section-booking .booking-right-calendar .table.calTable tbody td button:focus, .section-booking .booking-right-calendar .table.calTable tbody td button.active {
+            color: #fff;
+            background: #3ad46b; }
     .section-booking .booking-right-calendar .brc-scroll-group {
       border: 10px solid #eaeff3;
       transition: all .3s ease;
@@ -333,7 +339,7 @@
           padding-right: 15px;
           font-size: 13px;
           color: #3c3c3c;
-          transition: all .3s ease; }
+          transition: all .2s ease; }
           @media screen and (max-width: 991px) {
             .section-booking .booking-right-calendar .brc-scroll-group ul li {
               width: 50%; } }
@@ -355,14 +361,14 @@
             outline: none;
             border: 1px solid #aeb8c8;
             width: 100%;
-            border-radius: 50px;
+            border-radius: 50px !important;
             padding: 8px 15px;
             font-size: 13px;
             font-weight: bold;
             color: #333333;
             margin: -10px 0;
             cursor: pointer;
-            transition: all .3s ease;
+            transition: all .2s ease;
             cursor: pointer;
             display: block;
             width: 100%;
@@ -385,15 +391,15 @@
           font-weight: bold;
           background: #48a7f2;
           padding: 10px 15px;
-          border-bottom-left-radius: 15px;
-          border-bottom-right-radius: 15px;
+          border-bottom-left-radius: 15px !important;
+          border-bottom-right-radius: 15px !important;
           border: none; }
           .section-booking .booking-right-calendar .brc-scroll-group .brc-scroll-group-btn .btn.btn-info i {
             margin-left: 10px;
             -webkit-transform: rotate(270deg);
                     transform: rotate(270deg); }
     .section-booking .booking-right-calendar .brc-take-off {
-      transition: all .3s ease;
+      transition: all .2s ease;
       height: 0;
       opacity: 0;
       margin: 0; }
@@ -415,7 +421,7 @@
             height: 10px;
             border-radius: 100%;
             position: absolute;
-            top: 4px;
+            top: 3px;
             left: 0;
             display: inline-block; }
         .section-booking .booking-right-calendar .brc-take-off div.take-off-orange:before {
@@ -425,11 +431,11 @@
           height: 10px;
           border-radius: 100%;
           position: absolute;
-          top: 4px;
+          top: 3px;
           left: 0;
           display: inline-block; }
     .section-booking .booking-right-calendar .brc-btn {
-      transition: all .3s ease;
+      transition: all .2s ease;
       height: 0;
       opacity: 0;
       margin: 0; }
@@ -446,7 +452,7 @@
             margin-top: 15px;
             margin-left: 0; } }
       .section-booking .booking-right-calendar .brc-btn .btn-success {
-        border-radius: 50px;
+        border-radius: 50px !important;
         padding: 12px 30px;
         font-size: 13px;
         color: #fff;
@@ -460,7 +466,7 @@
           display: inline-block;
           margin-left: 10px;
           position: relative;
-          top: 2px;
+          top: 3px;
           left: 5px; }
       .section-booking .booking-right-calendar .brc-btn .btn-info {
         background: #48a7f2;
@@ -468,7 +474,6 @@
         color: #fff;
         font-weight: bold;
         padding: 12px 30px;
-        border-radius: 5px;
         margin-left: 20px;
         border: none; }
 
