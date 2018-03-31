@@ -181,6 +181,7 @@
         &.active{
           color: #48a7f2;
           font-weight: bold;
+          cursor: pointer;
         }
         &:first-child{
           margin-left: 0;
@@ -305,9 +306,6 @@
             cursor: pointer;
             &.btn-booking-calendar-disable{
               opacity: .4;
-            }
-              @media screen and (max-width: 991px){
-              //padding: 10px;
             }
             &:hover, &:focus, &.active{
               color: #fff;
@@ -452,10 +450,61 @@
         }
       }
     }
+    .brc-take-off{
+      transition: all .3s ease;
+      height: 0;
+      opacity: 0;
+      margin: 0;
+      &.show{
+        height: auto;
+        opacity: 1;
+        margin-top: 30px;
+      }
+      div{
+        font-size: 13px;
+        color: #4d4d4d;
+        padding-left: 20px;
+        position: relative;
+        &.take-off-red{
+          margin-bottom: 10px;
+          &:before{
+            content: '';
+            background: #fa531f;
+            width: 10px;
+            height: 10px;
+            border-radius: 100%;
+            position: absolute;
+            top: 4px;
+            left: 0;
+            display: inline-block;
+          }
+        }
+        &.take-off-orange{
+          &:before{
+            content: '';
+            background: #faa01f;
+            width: 10px;
+            height: 10px;
+            border-radius: 100%;
+            position: absolute;
+            top: 4px;
+            left: 0;
+            display: inline-block;
+          }
+        }
+      }
+    }
     .brc-btn{
-      margin-top: 30px;
+      transition: all .3s ease;
+      height: 0;
+      opacity: 0;
+      margin: 0;
+      &.show{
+        height: auto;
+        opacity: 1;
+        margin-top: 30px;
+      }
       @media screen and (max-width: 991px){
-        text-align: center;
         .btn{
           display: block;
           i{

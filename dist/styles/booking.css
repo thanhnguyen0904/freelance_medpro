@@ -159,7 +159,8 @@
             padding-right: 0; } }
         .section-booking .booking-right-navigation ul li.active {
           color: #48a7f2;
-          font-weight: bold; }
+          font-weight: bold;
+          cursor: pointer; }
         .section-booking .booking-right-navigation ul li:first-child {
           margin-left: 0; }
         .section-booking .booking-right-navigation ul li:not(:last-child):after {
@@ -391,18 +392,59 @@
             margin-left: 10px;
             -webkit-transform: rotate(270deg);
                     transform: rotate(270deg); }
+    .section-booking .booking-right-calendar .brc-take-off {
+      transition: all .3s ease;
+      height: 0;
+      opacity: 0;
+      margin: 0; }
+      .section-booking .booking-right-calendar .brc-take-off.show {
+        height: auto;
+        opacity: 1;
+        margin-top: 30px; }
+      .section-booking .booking-right-calendar .brc-take-off div {
+        font-size: 13px;
+        color: #4d4d4d;
+        padding-left: 20px;
+        position: relative; }
+        .section-booking .booking-right-calendar .brc-take-off div.take-off-red {
+          margin-bottom: 10px; }
+          .section-booking .booking-right-calendar .brc-take-off div.take-off-red:before {
+            content: '';
+            background: #fa531f;
+            width: 10px;
+            height: 10px;
+            border-radius: 100%;
+            position: absolute;
+            top: 4px;
+            left: 0;
+            display: inline-block; }
+        .section-booking .booking-right-calendar .brc-take-off div.take-off-orange:before {
+          content: '';
+          background: #faa01f;
+          width: 10px;
+          height: 10px;
+          border-radius: 100%;
+          position: absolute;
+          top: 4px;
+          left: 0;
+          display: inline-block; }
     .section-booking .booking-right-calendar .brc-btn {
-      margin-top: 30px; }
+      transition: all .3s ease;
+      height: 0;
+      opacity: 0;
+      margin: 0; }
+      .section-booking .booking-right-calendar .brc-btn.show {
+        height: auto;
+        opacity: 1;
+        margin-top: 30px; }
       @media screen and (max-width: 991px) {
-        .section-booking .booking-right-calendar .brc-btn {
-          text-align: center; }
-          .section-booking .booking-right-calendar .brc-btn .btn {
-            display: block; }
-            .section-booking .booking-right-calendar .brc-btn .btn i {
-              top: 10px; }
-            .section-booking .booking-right-calendar .brc-btn .btn.btn-info {
-              margin-top: 15px;
-              margin-left: 0; } }
+        .section-booking .booking-right-calendar .brc-btn .btn {
+          display: block; }
+          .section-booking .booking-right-calendar .brc-btn .btn i {
+            top: 10px; }
+          .section-booking .booking-right-calendar .brc-btn .btn.btn-info {
+            margin-top: 15px;
+            margin-left: 0; } }
       .section-booking .booking-right-calendar .brc-btn .btn-success {
         border-radius: 50px;
         padding: 12px 30px;
