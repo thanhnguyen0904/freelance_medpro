@@ -94,7 +94,7 @@ gulp.task('styles', () => {
     .pipe($.autoprefixer(AUTOPREFIXER_BROWSERS))
     .pipe(gulp.dest('.tmp/styles'))
     // Concatenate and minify styles
-    .pipe($.if('*.css', $.cssnano({zindex: false})))
+    // .pipe($.if('*.css', $.cssnano({zindex: true})))
     .pipe($.size({title: 'styles'}))
     .pipe($.sourcemaps.write('./'))
     .pipe(gulp.dest('dist/styles'))
@@ -124,7 +124,7 @@ gulp.task('scripts', () =>
       .pipe($.sourcemaps.write())
       .pipe(gulp.dest('.tmp/scripts'))
       // .pipe($.concat('main.min.js'))
-      .pipe($.uglify({preserveComments: 'some'}))
+      // .pipe($.uglify({preserveComments: 'some'}))
       // Output files
       .pipe($.size({title: 'scripts'}))
       .pipe($.sourcemaps.write('.'))

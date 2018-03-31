@@ -1,2 +1,55 @@
-@font-face{font-family:robotoregular;src:url(../fonts/roboto-regular.woff2) format("woff2"),url(../fonts/roboto-regular.woff) format("woff");font-weight:400;font-style:normal}@font-face{font-family:Roboto-light;src:url(../fonts/Roboto-Light.woff2) format("woff2"),url(../fonts/Roboto-Light.woff) format("woff");font-weight:300;font-style:normal}@font-face{font-family:Roboto-bold;src:url(../fonts/Roboto-Bold.woff2) format("woff2"),url(../fonts/Roboto-Bold.woff) format("woff");font-weight:700;font-style:normal}@font-face{font-family:Roboto-Slab;src:url(../fonts/RobotoSlab-Regular.woff2) format("woff2"),url(../fonts/RobotoSlab-Regular.woff) format("woff");font-weight:400;font-style:normal}@font-face{font-family:Roboto-Slab-Light;src:url(../fonts/RobotoSlab-Light.woff2) format("woff2"),url(../fonts/RobotoSlab-Light.woff) format("woff");font-weight:300;font-style:normal}@font-face{font-family:Roboto-Slab-Bold;src:url(../fonts/RobotoSlab-Bold.woff2) format("woff2"),url(../fonts/RobotoSlab-Bold.woff) format("woff");font-weight:700;font-style:normal}.rboto{font-family:robotoregular,serif!important}.rbotol{font-family:Roboto-light,serif!important}.rbotob{font-family:Roboto-bold,serif!important}.rbotos{font-family:Roboto-Slab,serif!important}.rbotosl{font-family:Roboto-Slab-Light,serif!important}.rbotosb{font-family:Roboto-Slab-Bold,serif!important}
+@font-face {
+  font-family: 'robotoregular';
+  src: url("../fonts/roboto-regular.woff2") format("woff2"), url("../fonts/roboto-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Roboto-light';
+  src: url("../fonts/Roboto-Light.woff2") format("woff2"), url("../fonts/Roboto-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Roboto-bold';
+  src: url("../fonts/Roboto-Bold.woff2") format("woff2"), url("../fonts/Roboto-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Roboto-Slab';
+  src: url("../fonts/RobotoSlab-Regular.woff2") format("woff2"), url("../fonts/RobotoSlab-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Roboto-Slab-Light';
+  src: url("../fonts/RobotoSlab-Light.woff2") format("woff2"), url("../fonts/RobotoSlab-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Roboto-Slab-Bold';
+  src: url("../fonts/RobotoSlab-Bold.woff2") format("woff2"), url("../fonts/RobotoSlab-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal; }
+
+.rboto {
+  font-family: 'robotoregular', serif !important; }
+
+.rbotol {
+  font-family: 'Roboto-light', serif !important; }
+
+.rbotob {
+  font-family: 'Roboto-bold', serif !important; }
+
+.rbotos {
+  font-family: 'Roboto-Slab', serif !important; }
+
+.rbotosl {
+  font-family: 'Roboto-Slab-Light', serif !important; }
+
+.rbotosb {
+  font-family: 'Roboto-Slab-Bold', serif !important; }
+
 /*# sourceMappingURL=fonts.css.map */
