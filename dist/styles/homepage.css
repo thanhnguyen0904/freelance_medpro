@@ -106,7 +106,7 @@ body {
         margin-bottom: 10px;
         text-transform: uppercase; }
       .section-1 ul li .group span.des {
-        font-size: 12px; }
+        font-size: 13px; }
 
 .section-2 {
   margin-top: 50px;
@@ -152,7 +152,8 @@ body {
         bottom: 10px;
         right: 10px;
         font-size: 12px;
-        color: #1e61c6; }
+        color: #1e61c6;
+        transition: all .2s ease; }
         .section-2 .group.g2 a.see-more:hover, .section-2 .group.g2 a.see-more:focus {
           color: #48a7f2; }
         @media screen and (max-width: 767px) {
@@ -178,18 +179,21 @@ body {
       margin: 0 7.5px;
       text-transform: uppercase;
       border: 1px solid #3c99e3; }
-    .section-2 .group p {
+    .section-2 .group a.arr-right {
       margin-bottom: 5px;
       position: relative;
       padding-left: 10px;
-      color: #696969; }
-      .section-2 .group p:before {
+      color: #696969;
+      transition: all .2s ease; }
+      .section-2 .group a.arr-right:hover, .section-2 .group a.arr-right:focus {
+        color: #48a7f2; }
+      .section-2 .group a.arr-right:before {
         content: '';
         background: url("../images/icons/arr-right.svg") no-repeat center;
         width: 4px;
         height: 6px;
         position: absolute;
-        top: 6px;
+        top: 4px;
         left: 0; }
 
 .section-3 {

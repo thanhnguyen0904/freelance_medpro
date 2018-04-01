@@ -112,7 +112,7 @@ body{
           text-transform: uppercase;
         }
         span.des{
-          font-size: 12px;
+          font-size: 13px;
         }
       }
     }
@@ -162,6 +162,7 @@ body{
         right: 10px;
         font-size: 12px;
         color: #1e61c6;
+        transition: all .2s ease;
         &:hover, &:focus{
           color: #48a7f2;
         }
@@ -193,18 +194,22 @@ body{
       text-transform: uppercase;
       border: 1px solid rgb(60, 153, 227);
     }
-    p{
+    a.arr-right{
       margin-bottom: 5px;
       position: relative;
       padding-left: 10px;
       color: #696969;
+      transition: all .2s ease;
+      &:hover, &:focus{
+        color: #48a7f2;
+      }
       &:before{
         content: '';
         background: url('../images/icons/arr-right.svg') no-repeat center;
         width: 4px;
         height: 6px;
         position: absolute;
-        top: 6px;
+        top: 4px;
         left: 0;
       }
     }

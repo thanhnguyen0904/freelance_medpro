@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <title></title>
+
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <!-- Web Application Manifest -->
+    <link rel="manifest" href="../manifest.json">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="SUNLIFE APPLICATION">
+    <link rel="icon" sizes="192x192" href="../images/touch/chrome-touch-icon-192x192.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="SUNLIFE APPLICATION">
+    <link rel="apple-touch-icon" href="../images/touch/apple-touch-icon.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#2F3BA2">
+
+    <!-- Color the status bar on mobile devices -->
+    <meta name="theme-color" content="#2F3BA2">
+
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!--
+    <link rel="canonical" href="http://www.example.com/">
+    -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css">
+    <!-- Your styles -->
+    <link rel="stylesheet" href="../styles/core.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/booking.css">
+  </head>
+  <body>
+    <header>
+      <div class="nav-desk">
+        <div class="nav-top">
+          <div class="container">
+            <ul class="d-flex">
+              <li><a class="nav-top-phone" href="javascript:void(0)">+84 562354900</a></li>
+              <li><a class="nav-top-mail" href="javascript:void(0)">info@medpro.vn</a></li>
+              <li class="ml-auto">
+                <div class="nav-top-logged">
+                  0909881766
+                  <ul class="nav-top-logged-dropdown dropdown-menu">
+                    <li><a href="javascript:void(0)">Thông tin tài khoản</a></li>
+                    <li><a href="javascript:void(0)">Thoát</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="nav-menu">
+          <div class="container">
+            <div class="d-flex align-items-center">
+              <ul class="d-flex">
+                <li>
+                  <a class="nav-menu-logo" href="/">
+                    <img class="img-fluid" src="../images/app/logo.png" />
+                  </a>
+                </li>
+                <li class="ml-auto">
+                  <a class="nav-menu-item" href="javascript:void(0)">trang chủ</a>
+                </li>
+                <li>
+                  <a class="nav-menu-item" href="javascript:void(0)">danh sách bác sĩ</a>
+                </li>
+                <li>
+                  <a class="nav-menu-item" href="javascript:void(0)">thắc mắc</a>
+                </li>
+                <li>
+                  <a class="nav-menu-item" href="javascript:void(0)">liên hệ</a>
+                </li>
+                <a class="nav-menu-app" href="javascript:void(0)">
+                  <img class="img-fluid d-inline-block" src="../images/logged-step/medpro-app.png" />
+                </a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="nav-mobile">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-3">
+              <button id="toggle-menu" class="menu-toggler mt-home">
+                <span></span>
+              </button>
+            </div>
+            <div class="col-sm-6 col-8 text-center">
+              <a class="d-block" href="/">
+                <img class="img-fluid d-inline-block" src="../images/app/logo.png" alt=""/>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <ul id="main-menu" class="menu-collapse in">
+        <div class="m-menu-top">
+          <a class="d-block" href="/">
+            <img class="img-fluid d-inline-block" src="../images/app/logo.png" alt=""/>
+          </a>
+          <div class="nav-top-logged nav-top-logged-m d-inline-block">
+            0909881766
+          </div>
+          <ul class="nav-top-logged-dropdown">
+            <li><a href="javascript:void(0)">Thông tin tài khoản</a></li>
+            <li><a href="javascript:void(0)">Thoát</a></li>
+          </ul>
+        </div>
+        <div class="m-menu">
+          <a href="javascript:void(0)">trang chủ</a>
+          <a href="javascript:void(0)">danh sách bác sĩ</a>
+          <a href="javascript:void(0)">thắc mắc</a>
+          <a href="javascript:void(0)">liên hệ</a>
+          <hr>
+          <a class="nav-top-phone" href="javascript:void(0)">+84 562354900</a>
+          <a class="nav-top-mail" href="javascript:void(0)">info@medpro.vn</a>
+        </div>
+      </ul>
+    </header>
+    <div id="section-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 mx-lg-auto text-center">
+            <h1>MEDPRO</h1>
+            <h2>HỆ THỐNG ĐẶT LỊCH KHÁM BỆNH CHUYÊN NGHIỆP</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="navigation-bar">
+      <div class="container">
+        <a href="/" class="nav-bar-homepage">TRANG CHỦ</a>
+        <a href="javascript:void(0)" class="active">THÔNG TIN BỆNH NHÂN</a>
+      </div>
+    </div>
+
+    <div class="section-booking">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-lg-3">
+            <div class="booking-left-menu">
+              <div class="booking-left-menu-top">
+                <div class="blmt-name">NGUYỄN QUỐC HUY (N17 - 123123)</div>
+                <div class="blmt-info">Địa chỉ: Nguyễn Văn Cừ, Phường 1, Quận 3, Thành phố Hồ Chí Minh</div>
+                <div class="blmt-info">Điện thoại: 0909342342</div>
+                <form>
+                  <div class="form-group">
+                    <select class="form-control">
+                      <option disabled selected>Đổi hồ sơ bệnh nhân</option>
+                      <option>Bệnh nhân A</option>
+                      <option>Bệnh nhân B</option>
+                      <option>Bệnh nhân C</option>
+                    </select>
+                  </div>
+                </form>
+              </div>
+              <div class="booking-left-menu-process">
+                <div class="blmp-name">QUY TRÌNH ĐẶT LỊCH</div>
+                <div class="blmp-bv">Bệnh viện Đại Học Y Dược</div>
+                <a href="javascript:void(0)" class="d-block blmp-link">Ngày đặt lịch và dịch vụ</a>
+                <a href="javascript:void(0)" class="d-block blmp-link mg-bottom-0">Phòng khám & đặt giờ</a>
+              </div>
+              <div class="booking-left-menu-hotline text-center">
+                <div class="blmh-name">HOTLINE HỖ TRỢ 24/7</div>
+                <a href="tel:19006079" class="d-block">19006079</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8 col-lg-9">
+            <div class="booking-right-navigation">
+              <ul>
+                <li><a class="active" href="javascript:void(0)">Ngày khám & Chuyên khoa</a></li>
+                <li><a class="active" href="javascript:void(0)">Phòng khám & Đặt giờ</a></li>
+                <li><a class="active mg-bottom-md-0" href="javascript:void(0)">Nhập thông tin</a></li>
+                <li><a class="active mg-bottom-md-0" href="javascript:void(0)">Thanh toán</a></li>
+              </ul>
+            </div>
+            <div class="booking-right-payment">
+              <div class="row">
+                <div class="col-lg-4 order-lg-2">
+                  <div class="brp-right">
+                    <p>Nguyễn Quốc Huy</p>
+                    <p>SĐT: +84 909343232</p>
+                    <p>Email: quochuyen332@gmail.com</p>
+                    <hr>
+                    <h4>HÓA ĐƠN THANH TOÁN</h4>
+                    <div class="d-flex">
+                      <p class="df-l">Chuyên khoa</p>
+                      <p class="df-r">Thăm dò chức năng hô hấp</p>
+                    </div>
+                    <div class="d-flex">
+                      <p class="df-l">Tiền khám</p>
+                      <p class="df-r">160.000 vnđ</p>
+                    </div>
+                    <div class="d-flex">
+                      <p class="df-l">Phí đăng ký</p>
+                      <p class="df-r">10.000 vnđ</p>
+                    </div>
+                    <hr>
+                    <h5 class="text-right">TỔNG CỘNG: 160.000 VNĐ</h5>
+                  </div>
+                </div>
+                <div class="col-lg-8 order-lg-1">
+                  <div class="brp-left">
+                    <div class="brp-left-progress">
+                      <ul class="brp-left-progress-1">
+                        <li class="text-left">
+                          <i class="fas fa-arrow-right"></i>
+                          <p>Chọn hình thức <br>thanh toán</p>
+                        </li>
+                        <li class="text-center">
+                          <i class="fas fa-arrow-right"></i>
+                          <p>Thanh toán</p>
+                        </li>
+                        <li class="text-right">
+                          <i class="fas fa-arrow-right"></i>
+                          <p>Nhận phiếu <br>khám bệnh</p>
+                        </li>
+                      </ul>
+                      <ul class="brp-left-progress-2">
+                        <li></li>
+                        <li></li>
+                      </ul>
+                      <ul class="brp-left-progress-3">
+                        <li></li>
+                        <li></li>
+                      </ul>
+                    </div>
+                    <h4>CHỌN HÌNH THỨC THANH TOÁN</h4>
+                    <div class="form-group">
+                      <div class="form-check form-check-inline">
+                        <label class="form-check-label form-check-label-visa">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                          Thanh toán bằng thẻ quốc tế Visa, Master, JCB
+                        </label>
+                        <img class="img-fluid" src="../images/booking/visa-master.png" />
+                      </div>
+                      <div class="brp-visa-group">
+                        <form>
+                          <div class="d-md-flex align-items-start">
+                            <img class="img-fluid order-md-2" src="../images/booking/atm.png" />
+                            <div class="brp-visa-left order-md-1">
+                              <img class="img-fluid mg-bottom-2" src="../images/booking/visa-master-md.png" />
+                              <div class="form-group">
+                                <label>Số thẻ:</label>
+                                <input type="text" class="form-control" placeholder="VD: 3133 4324 4342 9737" />
+                              </div>
+                              <div class="form-group">
+                                <label>Tên in trên thẻ:</label>
+                                <input type="text" class="form-control" placeholder="VD: NGUYEN VAN A" />
+                              </div>
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label>Ngày hết hạn:</label>
+                                    <input type="text" class="form-control" placeholder="MM/YY" />
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-md-6 col-8">
+                                  <div class="form-group form-group-atm-code">
+                                    <img class="img-fluid" src="../images/booking/atm-code.png" />
+                                    <label>Mã bảo mật:</label>
+                                    <input type="text" class="form-control" placeholder="VD: 123" />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <div class="form-check text-left">
+                              <label class="form-check-label">
+                                <input type="checkbox" class="form-check-input">
+                                Lưu và bảo mật thẻ cho lần thanh toán sau
+                              </label>
+                            </div>
+                          </div>
+                          <p>
+                            MEDPRO không trực tiếp lưu thẻ của bạn. Để đảm bảo an toàn, thông tin thẻ của bạn chỉ được lưu bởi CyberSource,
+                            công ty quản lý thanh toán lớn nhất thế giới (thuộc tổ chức VISA)
+                          </p>
+                        </form>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <label class="form-check-label form-check-label-atm">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                          Thẻ ATM nội địa/Internet Banking (Miễn phí thanh toán)
+                        </label>
+                      </div>
+                      <div class="brp-atm-group">
+                        <ul>
+                          <li>
+                            <a href="javascript:void(0)">
+                              <img class="img-fluid" src="../images/banks/vietcombank.png" />
+                            </a>
+                          </li>
+                          <li>
+                            <a href="javascript:void(0)">
+                              <img class="img-fluid" src="../images/banks/sacombank.png" />
+                            </a>
+                          </li>
+                          <li>
+                            <a href="javascript:void(0)">
+                              <img class="img-fluid" src="../images/banks/acb.png" />
+                            </a>
+                          </li>
+                          <li>
+                            <a href="javascript:void(0)">
+                              <img class="img-fluid" src="../images/banks/vietin.png" />
+                            </a>
+                          </li>
+                          <li>
+                            <a href="javascript:void(0)">
+                              <img class="img-fluid" src="../images/banks/agri.png" />
+                            </a>
+                          </li>
+                          <li>
+                            <a href="javascript:void(0)">
+                              <img class="img-fluid" src="../images/banks/bac.png" />
+                            </a>
+                          </li>
+                          <li>
+                            <a href="javascript:void(0)">
+                              <img class="img-fluid" src="../images/banks/bidv.png" />
+                            </a>
+                          </li>
+                          <li>
+                            <a href="javascript:void(0)">
+                              <img class="img-fluid" src="../images/banks/donga.png" />
+                            </a>
+                          </li>
+                          <li>
+                            <a href="javascript:void(0)">
+                              <img class="img-fluid" src="../images/banks/gp.gif" />
+                            </a>
+                          </li>
+                          <li>
+                            <a href="javascript:void(0)">
+                              <img class="img-fluid" src="../images/banks/hd.png" />
+                            </a>
+                          </li>
+                          <li>
+                            <a href="javascript:void(0)">
+                              <img class="img-fluid" src="../images/banks/martime.png" />
+                            </a>
+                          </li>
+                          <li>
+                            <a href="javascript:void(0)">
+                              <img class="img-fluid" src="../images/banks/mb.png" />
+                            </a>
+                          </li>
+                          <li>
+                            <a href="javascript:void(0)">
+                              <img class="img-fluid" src="../images/banks/nama.png" />
+                            </a>
+                          </li>
+                          <li>
+                            <a href="javascript:void(0)">
+                              <img class="img-fluid" src="../images/banks/sea.png" />
+                            </a>
+                          </li>
+                          <li>
+                            <a href="javascript:void(0)">
+                              <img class="img-fluid" src="../images/banks/shb.png" />
+                            </a>
+                          </li>
+                          <li>
+                            <a href="javascript:void(0)">
+                              <img class="img-fluid" src="../images/banks/techcom.png" />
+                            </a>
+                          </li>
+                          <li>
+                            <a href="javascript:void(0)">
+                              <img class="img-fluid" src="../images/banks/tp.png" />
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="brp-payment-btn text-right">
+                <button class="btn btn-info">THANH TOÁN</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-5 mb-md-0">
+            <ul>
+              <li>
+                <a class="f-logo" href="javascript:void(0)">
+                  <img class="img-fluid" src="../images/app/f-logo.png" />
+                </a>
+              </li>
+              <li>
+                <p><span class="font-weight-bold">Địa chỉ:</span> 97 Trần Quang Diệu, Quận 3, TP.HCM</p>
+              </li>
+              <li>
+                <p><span class="font-weight-bold">Điện thoại:</span> (08) 434.65.79</p>
+              </li>
+              <li>
+                <p><span class="font-weight-bold">Fax:</span> (08) 434.65.80</p>
+              </li>
+              <li>
+                <a href="mailto:info@medpro.vn"><span class="font-weight-bold">Email:</span> info@medpro.vn</a>
+              </li>
+              <li>
+                <a href="http://medpro.vn"><span class="font-weight-bold">Website:</span> http://medpro.vn</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 mb-5 mb-md-0">
+            <ul>
+              <li>
+                <h4>Về <span class="font-weight-bold">MEDPRO</span></h4>
+              </li>
+              <li>
+                <a href="javascript:void(0)">Liên Hệ</a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">Hỏi Đáp</a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">Thỏa Thuận Sử Dụng</a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">Quy Định Bảo Mật</a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">Ứng Dụng Di Động</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h4 class="font-weight-bold">ĐĂNG KÝ NHẬN TIN MỚI NHẤT</h4>
+            <form>
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Vui lòng nhập địa chỉ Email">
+                <span class="input-group-btn">
+                  <button class="btn btn-secondary" type="button">ĐĂNG KÝ</button>
+                </span>
+              </div>
+            </form>
+            <p>* Chúng tôi cam kết không spam những thông tin không cần thiết. Bạn có thể hủy bỏ đăng ký bất cứ lúc nào</p>
+          </div>
+        </div>
+        <h5 class="font-weight-bold text-center mt-4 mt-md-0">Copyright © Công Ty PHK Việt Nam</h5>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.js"></script>
+    <script src="../scripts/main.js"></script>
+    <script src="../scripts/booking.js"></script>
+  </body>
+</html>

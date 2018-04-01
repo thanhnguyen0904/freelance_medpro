@@ -25,7 +25,7 @@
     border: 1px solid #CFD8DC;
     background: #fff;
     padding: 50px 20px;
-    border-radius: 5px;
+    border-radius: 3px;
     height: auto;
     transition: all .2s ease;
     position: relative;
@@ -730,7 +730,7 @@
   .section-info .group-dashed {
     padding: 15px 20px;
     border: 1px dashed #CFD8DC;
-    border-radius: 5px;
+    border-radius: 3px;
     background: #fff;
     margin-bottom: 15px;
     cursor: pointer;
