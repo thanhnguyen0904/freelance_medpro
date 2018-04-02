@@ -429,4 +429,67 @@ header {
       margin-top: 20px;
       margin-bottom: 20px; }
 
+.booking-right-navigation {
+  border: 1px solid #CFD8DC;
+  background: #fff;
+  border-radius: 5px;
+  padding: 18px 20px;
+  margin-bottom: 30px; }
+  @media screen and (max-width: 767px) {
+    .booking-right-navigation {
+      margin-top: 30px; } }
+  .booking-right-navigation ul {
+    padding-left: 0;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 0;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+    .booking-right-navigation ul li a {
+      font-size: 13px;
+      color: #696969;
+      position: relative;
+      padding-right: 25px;
+      margin-left: 20px;
+      cursor: default;
+      display: block; }
+      .booking-right-navigation ul li a.active {
+        color: #48a7f2;
+        font-weight: bold;
+        cursor: pointer; }
+        .booking-right-navigation ul li a.active:hover, .booking-right-navigation ul li a.active:focus {
+          color: #3c3c3c; }
+    @media screen and (max-width: 991px) {
+      .booking-right-navigation ul li {
+        width: 50%; }
+        .booking-right-navigation ul li a {
+          margin-left: 0 !important; }
+          .booking-right-navigation ul li a:after {
+            display: none; } }
+    @media screen and (max-width: 767px) {
+      .booking-right-navigation ul li {
+        width: 100%;
+        text-align: center; }
+        .booking-right-navigation ul li a {
+          margin-bottom: 15px;
+          padding-right: 0; } }
+    .booking-right-navigation ul li:first-child a {
+      margin-left: 0; }
+    @media screen and (max-width: 991px) {
+      .booking-right-navigation ul li:first-child a, .booking-right-navigation ul li:nth-child(2) a {
+        margin-bottom: 15px; } }
+    @media screen and (max-width: 767px) {
+      .booking-right-navigation ul li:last-child a {
+        margin-bottom: 0; } }
+    .booking-right-navigation ul li:not(:last-child) a:after {
+      content: '>';
+      font-size: 13px;
+      color: #d6d7dd;
+      position: absolute;
+      top: 0;
+      right: 0; }
+
 /*# sourceMappingURL=header.css.map */

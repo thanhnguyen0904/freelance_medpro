@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <title></title>
+
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <!-- Web Application Manifest -->
+    <link rel="manifest" href="../manifest.json">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="SUNLIFE APPLICATION">
+    <link rel="icon" sizes="192x192" href="../images/touch/chrome-touch-icon-192x192.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="SUNLIFE APPLICATION">
+    <link rel="apple-touch-icon" href="../images/touch/apple-touch-icon.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#2F3BA2">
+
+    <!-- Color the status bar on mobile devices -->
+    <meta name="theme-color" content="#2F3BA2">
+
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!--
+    <link rel="canonical" href="http://www.example.com/">
+    -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css">
+    <!-- Your styles -->
+    <link rel="stylesheet" href="../styles/core.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/find-doctor.css">
+  </head>
+  <body>
+    <header>
+      <div class="nav-desk">
+        <div class="nav-top">
+          <div class="container">
+            <ul class="d-flex">
+              <li><a class="nav-top-phone" href="javascript:void(0)">+84 562354900</a></li>
+              <li><a class="nav-top-mail" href="javascript:void(0)">info@medpro.vn</a></li>
+              <li class="ml-auto">
+                <div class="nav-top-logged">
+                  0909881766
+                  <ul class="nav-top-logged-dropdown dropdown-menu">
+                    <li><a href="javascript:void(0)">Thông tin tài khoản</a></li>
+                    <li><a href="javascript:void(0)">Thoát</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="nav-menu">
+          <div class="container">
+            <div class="d-flex align-items-center">
+              <ul class="d-flex">
+                <li>
+                  <a class="nav-menu-logo" href="/">
+                    <img class="img-fluid" src="../images/app/logo.png" />
+                  </a>
+                </li>
+                <li class="ml-auto">
+                  <a class="nav-menu-item" href="javascript:void(0)">trang chủ</a>
+                </li>
+                <li>
+                  <a class="nav-menu-item" href="javascript:void(0)">danh sách bác sĩ</a>
+                </li>
+                <li>
+                  <a class="nav-menu-item" href="javascript:void(0)">thắc mắc</a>
+                </li>
+                <li>
+                  <a class="nav-menu-item" href="javascript:void(0)">liên hệ</a>
+                </li>
+                <a class="nav-menu-app" href="javascript:void(0)">
+                  <img class="img-fluid d-inline-block" src="../images/logged-step/medpro-app.png" />
+                </a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="nav-mobile">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-3">
+              <button id="toggle-menu" class="menu-toggler mt-home">
+                <span></span>
+              </button>
+            </div>
+            <div class="col-sm-6 col-8 text-center">
+              <a class="d-block" href="/">
+                <img class="img-fluid d-inline-block" src="../images/app/logo.png" alt=""/>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <ul id="main-menu" class="menu-collapse in">
+        <div class="m-menu-top">
+          <a class="d-block" href="/">
+            <img class="img-fluid d-inline-block" src="../images/app/logo.png" alt=""/>
+          </a>
+          <div class="nav-top-logged nav-top-logged-m d-inline-block">
+            0909881766
+          </div>
+          <ul class="nav-top-logged-dropdown">
+            <li><a href="javascript:void(0)">Thông tin tài khoản</a></li>
+            <li><a href="javascript:void(0)">Thoát</a></li>
+          </ul>
+        </div>
+        <div class="m-menu">
+          <a href="javascript:void(0)">trang chủ</a>
+          <a href="javascript:void(0)">danh sách bác sĩ</a>
+          <a href="javascript:void(0)">thắc mắc</a>
+          <a href="javascript:void(0)">liên hệ</a>
+          <hr>
+          <a class="nav-top-phone" href="javascript:void(0)">+84 562354900</a>
+          <a class="nav-top-mail" href="javascript:void(0)">info@medpro.vn</a>
+        </div>
+      </ul>
+    </header>
+    <div id="section-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 mx-lg-auto text-center">
+            <h1>MEDPRO</h1>
+            <h2>HỆ THỐNG ĐẶT LỊCH KHÁM BỆNH CHUYÊN NGHIỆP</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="navigation-bar">
+      <div class="container">
+        <a href="/" class="nav-bar-homepage">TRANG CHỦ</a>
+        <a href="javascript:void(0)" class="active">ĐẶT LỊCH KHÁM</a>
+      </div>
+    </div>
+
+    <div class="section-find-doctor">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-lg-3">
+            <div class="find-doctor-left-1">
+              <h4 class="title1">QUY TRÌNH ĐẶT LỊCH</h4>
+              <hr>
+              <p class="circle">Bệnh viện khám:</p>
+              <ul>
+                <li><img src="../images/booking/location.png"> BỆNH VIỆN ĐẠI HỌC Y DƯỢC</li>
+              </ul>
+              <p class="circle">Ngày đặt lịch & dịch vụ:</p>
+              <p>Phòng khám & đặt giờ:</p>
+            </div>
+          </div>
+          <div class="col-md-8 col-lg-9">
+            <div class="booking-right-navigation">
+              <ul>
+                <li><a class="active" href="javascript:void(0)">Ngày khám & Chuyên khoa</a></li>
+                <li><a class="active" href="javascript:void(0)">Phòng khám & Đặt giờ</a></li>
+                <li><a class="mg-bottom-md-0" href="javascript:void(0)">Nhập thông tin</a></li>
+                <li><a class="mg-bottom-md-0" href="javascript:void(0)">Thanh toán</a></li>
+              </ul>
+            </div>
+            <div class="booking-right-calendar">
+              <div class="brc-top d-flex align-items-center text-center" data-count="0">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-default btn-default-left">
+                    <i class="fas fa-angle-left"></i>
+                  </button>
+                  <button type="button" class="btn btn-default btn-default-text">Tháng 03 - 2018</button>
+                  <button type="button" class="btn btn-default btn-default-right">
+                    <i class="fas fa-angle-right"></i>
+                  </button>
+                </div>
+              </div>
+              <table class="calTable table">
+                <tbody>
+                  <tr>
+                    <th class="cn">Chủ Nhật</th>
+                    <th>Hai</th>
+                    <th>Ba</th>
+                    <th>Tư</th>
+                    <th>Năm</th>
+                    <th>Sáu</th>
+                    <th class="t7">Bảy</th>
+                  </tr>
+                  <tr>
+                    <td><button class="btn-booking-calendar-disable"  type="button" >25</button></td>
+                    <td><button type="button" >26</button></td>
+                    <td><button type="button" >27</button></td>
+                    <td><button type="button" >28</button></td>
+                    <td><button type="button" class="round-button round-button-default">01</button></td>
+                    <td><button type="button" class="round-button round-button-default">02</button></td>
+                    <td><button calmonth="2" type="button" class="round-button round-button-default">03</button></td>
+                  </tr>
+                  <tr class="brc-scoll">
+                    <td colspan="7">
+                      <div class="brc-scroll-group">
+                        <ul class="table-ul-top">
+                          <li>Chuyên khoa</li>
+                          <li>Bảng giá tham khảo</li>
+                          <li></li>
+                        </ul>
+                        <ul class="table-ul-cont">
+                          <li>Khám tư vấn tiêm ngừa cho người lớn</li>
+                          <li>150.000 vnđ</li>
+                          <li><a>Chọn</a></li>
+                        </ul>
+                        <ul class="table-ul-cont">
+                          <li>Khám tư vấn tiêm ngừa cho người lớn</li>
+                          <li>150.000 vnđ</li>
+                          <li><a>Chọn</a></li>
+                        </ul>
+                        <ul class="table-ul-cont">
+                          <li>Khám tư vấn tiêm ngừa cho người lớn</li>
+                          <li>150.000 vnđ</li>
+                          <li><a>Chọn</a></li>
+                        </ul>
+                        <div class="brc-scroll-group-btn text-center">
+                          <div class="btn btn-info">ẨN VÀ CHỌN NGÀY KHÁC <i class="fas fa-angle-right"></i></div>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><button class="btn-booking-calendar-disable"  type="button" >25</button></td>
+                    <td><button type="button" >26</button></td>
+                    <td><button type="button" >27</button></td>
+                    <td><button type="button" >28</button></td>
+                    <td><button type="button" class="round-button round-button-default">01</button></td>
+                    <td><button type="button" class="round-button round-button-default">02</button></td>
+                    <td><button calmonth="2" type="button" class="round-button round-button-default">03</button></td>
+                  </tr>
+                  <tr class="brc-scoll">
+                    <td colspan="7">
+                      <div class="brc-scroll-group">
+                        <ul class="table-ul-top">
+                          <li>Chuyên khoa</li>
+                          <li>Bảng giá tham khảo</li>
+                          <li></li>
+                        </ul>
+                        <ul class="table-ul-cont">
+                          <li>Khám tư vấn tiêm ngừa cho người lớn</li>
+                          <li>150.000 vnđ</li>
+                          <li><a>Chọn</a></li>
+                        </ul>
+                        <ul class="table-ul-cont">
+                          <li>Khám tư vấn tiêm ngừa cho người lớn</li>
+                          <li>150.000 vnđ</li>
+                          <li><a>Chọn</a></li>
+                        </ul>
+                        <ul class="table-ul-cont">
+                          <li>Khám tư vấn tiêm ngừa cho người lớn</li>
+                          <li>150.000 vnđ</li>
+                          <li><a>Chọn</a></li>
+                        </ul>
+                        <div class="brc-scroll-group-btn text-center">
+                          <div class="btn btn-info">ẨN VÀ CHỌN NGÀY KHÁC <i class="fas fa-angle-right"></i></div>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><button class="btn-booking-calendar-disable"  type="button" >25</button></td>
+                    <td><button type="button" >26</button></td>
+                    <td><button type="button" >27</button></td>
+                    <td><button type="button" >28</button></td>
+                    <td><button type="button" class="round-button round-button-default">01</button></td>
+                    <td><button type="button" class="round-button round-button-default">02</button></td>
+                    <td><button calmonth="2" type="button" class="round-button round-button-default">03</button></td>
+                  </tr>
+                  <tr class="brc-scoll">
+                    <td colspan="7">
+                      <div class="brc-scroll-group">
+                        <ul class="table-ul-top">
+                          <li>Chuyên khoa</li>
+                          <li>Bảng giá tham khảo</li>
+                          <li></li>
+                        </ul>
+                        <ul class="table-ul-cont">
+                          <li>Khám tư vấn tiêm ngừa cho người lớn</li>
+                          <li>150.000 vnđ</li>
+                          <li><a>Chọn</a></li>
+                        </ul>
+                        <ul class="table-ul-cont">
+                          <li>Khám tư vấn tiêm ngừa cho người lớn</li>
+                          <li>150.000 vnđ</li>
+                          <li><a>Chọn</a></li>
+                        </ul>
+                        <ul class="table-ul-cont">
+                          <li>Khám tư vấn tiêm ngừa cho người lớn</li>
+                          <li>150.000 vnđ</li>
+                          <li><a>Chọn</a></li>
+                        </ul>
+                        <div class="brc-scroll-group-btn text-center">
+                          <div class="btn btn-info">ẨN VÀ CHỌN NGÀY KHÁC <i class="fas fa-angle-right"></i></div>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-5 mb-md-0">
+            <ul>
+              <li>
+                <a class="f-logo" href="javascript:void(0)">
+                  <img class="img-fluid" src="../images/app/f-logo.png" />
+                </a>
+              </li>
+              <li>
+                <p><span class="font-weight-bold">Địa chỉ:</span> 97 Trần Quang Diệu, Quận 3, TP.HCM</p>
+              </li>
+              <li>
+                <p><span class="font-weight-bold">Điện thoại:</span> (08) 434.65.79</p>
+              </li>
+              <li>
+                <p><span class="font-weight-bold">Fax:</span> (08) 434.65.80</p>
+              </li>
+              <li>
+                <a href="mailto:info@medpro.vn"><span class="font-weight-bold">Email:</span> info@medpro.vn</a>
+              </li>
+              <li>
+                <a href="http://medpro.vn"><span class="font-weight-bold">Website:</span> http://medpro.vn</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 mb-5 mb-md-0">
+            <ul>
+              <li>
+                <h4>Về <span class="font-weight-bold">MEDPRO</span></h4>
+              </li>
+              <li>
+                <a href="javascript:void(0)">Liên Hệ</a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">Hỏi Đáp</a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">Thỏa Thuận Sử Dụng</a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">Quy Định Bảo Mật</a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">Ứng Dụng Di Động</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h4 class="font-weight-bold">ĐĂNG KÝ NHẬN TIN MỚI NHẤT</h4>
+            <form>
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Vui lòng nhập địa chỉ Email">
+                <span class="input-group-btn">
+                  <button class="btn btn-secondary" type="button">ĐĂNG KÝ</button>
+                </span>
+              </div>
+            </form>
+            <p>* Chúng tôi cam kết không spam những thông tin không cần thiết. Bạn có thể hủy bỏ đăng ký bất cứ lúc nào</p>
+          </div>
+        </div>
+        <h5 class="font-weight-bold text-center mt-4 mt-md-0">Copyright © Công Ty PHK Việt Nam</h5>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.js"></script>
+    <script src="../scripts/main.js"></script>
+    <script src="../scripts/find-doctor.js"></script>
+  </body>
+</html>
