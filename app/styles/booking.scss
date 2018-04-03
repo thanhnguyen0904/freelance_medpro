@@ -20,7 +20,9 @@
   }
 }
 
-.section-booking{
+#section-booking-3, #section-booking-45,
+#section-booking-6, #section-booking-9,
+#section-booking-10, #section-booking-78{
   margin-bottom: 80px;
   .booking-left-menu{
     .booking-left-menu-top{
@@ -40,6 +42,9 @@
         margin-bottom: 15px;
         color: #696969;
       }
+      .mg-bottom-0{
+        margin-bottom: 0;
+      }
       form{
         padding: 0 15px;
         padding-top: 20px;
@@ -48,7 +53,7 @@
         .form-group{
           margin-bottom: 0;
           select{
-            height: 40px;
+            height: 42px;
             font-size: 12px;
             color: #696969;
             outline: none;
@@ -63,7 +68,7 @@
       background: #fff;
       margin-bottom: 20px;
       .blmp-name{
-        font-size: 12px;
+        font-size: 14px;
         font-weight: bold;
         color: #3c3c3c;
         margin-bottom: 20px;
@@ -80,45 +85,31 @@
           right: 10%;
         }
       }
+      i.fa-map-marker-alt{
+        margin-right: 10px;
+      }
       .blmp-bv{
-        color: #36afe0;
-        font-size: 13px;
+        color: #48a7f2;;
+        font-size: 14px;
         font-weight: bold;
         position: relative;
-        padding-left: 21px;
         margin-bottom: 25px;
-        &:before{
-          content: '';
-          background: url('../images/booking/location.png') no-repeat center;
-          width: 11px;
-          height: 15px;
-          position: absolute;
-          top: 2px;
-          left: 0;
-        }
       }
       .blmp-link{
-        font-size: 13px;
+        font-size: 14px;
         color: #696969;
         margin-bottom: 15px;
         position: relative;
         padding-right: 20px;
         transition: all .2s ease;
-        cursor: pointer;
-        &:after{
-          content: '>';
-          font-size: 13px;
-          color: #696969;
+        i{
           position: absolute;
           top: 1px;
           right: 0;
           transition: all .2s ease;
         }
-        &:hover, &:focus{
+        &.active{
           color: #48a7f2;
-          &:after{
-            color: #48a7f2;
-          }
         }
       }
     }
@@ -148,7 +139,7 @@
     border: 1px solid #CFD8DC;
     background: #fff;
     border-radius: 5px;
-    padding: 30px 40px;
+    padding: 30px 42px;
     height: auto;
     transition: all .2s ease;
     @media screen and (max-width: 767px){
@@ -276,8 +267,8 @@
       &.show{
         height: auto;
         opacity: 1;
-        margin: 0 -40px;
-        padding: 20px 40px;
+        margin: 0 -42px;
+        padding: 20px 42px;
         @media screen and (max-width: 991px){
           padding: 20px;
         }
@@ -330,7 +321,7 @@
           width: 40%;
           padding: 0;
           padding-right: 15px;
-          font-size: 13px;
+          font-size: 14px;
           color: #3c3c3c;
           transition: all .2s ease;
           @media screen and (max-width: 991px){
@@ -379,7 +370,7 @@
       .brc-scroll-group-btn{
         background: #eaeff3;
         padding-bottom: 30px;
-        margin: 0 -40px;
+        margin: 0 -42px;
         margin-bottom: -20px;
         margin-top: 30px;
         @media screen and (max-width: 767px){
@@ -476,14 +467,9 @@
         border: none;
         background: #38d46a;
         i{
-          background: url('../images/booking/delete.png') no-repeat center;
-          width: 15px;
-          height: 15px;
-          display: inline-block;
-          margin-left: 10px;
+          margin-left: 5px;
           position: relative;
-          top: 3px;
-          left: 5px;
+          top: 1px;
         }
       }
       .btn-info{
@@ -501,7 +487,7 @@
     border: 1px solid #CFD8DC;
     background: #fff;
     border-radius: 5px;
-    padding: 30px 40px;
+    padding: 30px 42px;
     height: auto;
     transition: all .2s ease;
     @media screen and (max-width: 767px){
@@ -512,7 +498,7 @@
       h4{
         color: #48a7f2;
         font-weight: bold;
-        font-size: 14px;
+        font-size: 15px;
         margin-bottom: 0;
         @media screen and (max-width: 991px){
           margin-bottom: 20px;
@@ -551,7 +537,7 @@
     }
     .btn.btn-info{
       background: #3c99e3;
-      padding: 10px 40px;
+      padding: 10px 42px;
       color: #fff;
       border: none;
       margin: 0 7.5px;
@@ -669,7 +655,7 @@
     h4{
       color: #48a7f2;
       font-weight: bold;
-      font-size: 14px;
+      font-size: 15px;
       padding: 0 35px;
       padding-bottom: 30px;
       border-bottom: 1px solid #CFD8DC;
@@ -686,7 +672,7 @@
       }
       p{
         font-size: 14px;
-        color: #696969;
+        color: #3c3c3c;
         margin-bottom: 10px;
         span{
           font-weight: bold;
@@ -697,7 +683,7 @@
       }
       .btn.btn-success{
         background: #38d46a;
-        padding: 10px 40px;
+        padding: 10px 42px;
         color: #fff;
         border: none;
         text-transform: uppercase;
@@ -706,21 +692,21 @@
     }
     .brb-bill{
       border: 5px solid #CFD8DC;
-      margin: 40px 0;
+      margin: 42px 0;
       margin-bottom: 20px;
       padding: 15px;
       .brb-bill-sub-title{
         font-size: 14px;
-        color: #696969;
+        color: #3c3c3c;
         margin-bottom: 20px;
       }
       .brb-bill-sub-title-1{
         font-size: 18px;
-        color: #696969;
+        color: #3c3c3c;
         margin-bottom: 15px;
       }
       h6{
-        color: #696969;
+        color: #3c3c3c;
         font-size: 14px;
         margin-bottom: 5px;
       }
@@ -732,7 +718,7 @@
       }
       p{
         font-size: 14px;
-        color: #696969;
+        color: #3c3c3c;
         margin-bottom: 10px;
         span{
           font-weight: bold;
@@ -772,13 +758,16 @@
     padding-top: 60px;
     height: auto;
     transition: all .2s ease;
-    img{
-      margin-bottom: 40px;
+    i{
+      font-size: 150px;
+      margin-bottom: 42px;
+      color: #48a7f2;
+
     }
     h4{
       font-weight: 400;
-      font-size: 16px;
       margin-bottom: 10px;
+      font-size: 15px;
       span{
         color: #48a7f2;
         font-weight: bold;
@@ -792,7 +781,7 @@
       margin-top: 60px;
       .btn.btn-info{
         background: #3c99e3;
-        padding: 10px 40px;
+        padding: 10px 42px;
         color: #fff;
         border: none;
         margin: 0 7.5px;
@@ -811,9 +800,9 @@
     h4{
       color: #48a7f2;
       font-weight: bold;
-      font-size: 14px;
+      font-size: 15px;
       margin-bottom: 20px;
-      padding: 0 40px;
+      padding: 0 42px;
     }
     .table-responsive{
       position: relative;
@@ -831,7 +820,7 @@
           border-top: none;
           border-bottom: 1px solid #CFD8DC;
           padding: 20px 12px;
-          font-size: 12px;
+          font-size: 14px;
           color: #3c3c3c;
           text-align: center;
         }
@@ -878,14 +867,13 @@
       }
     }
     .bri-price{
-      padding: 0 40px;
+      padding: 0 42px;
       .btn.btn-default{
         background: #fff;
         padding: 10px 30px;
         color: #48a7f2;
-        font-size: 13px;
+        font-size: 14px;
         border: none;
-        text-transform: uppercase;
         border: 1px solid #48a7f2;
         @media screen and (max-width: 991px){
           margin-top: 10px;
@@ -914,7 +902,7 @@
     .bri-profile{
       margin-top: 30px;
       padding-top: 30px;
-      padding-left: 40px;
+      padding-left: 42px;
       padding-right: 20px;
       border-top: 1px solid #CFD8DC;
       @media screen and (max-width: 767px){
@@ -924,7 +912,7 @@
       h4{
         color: #48a7f2;
         font-weight: bold;
-        font-size: 14px;
+        font-size: 15px;
         margin-bottom: 0;
         margin-right: 20px;
         padding: 0;
@@ -938,7 +926,7 @@
         margin-bottom: 0;
         width: 100%;
         select{
-          height: 40px;
+          height: 42px;
           font-size: 12px;
           color: #696969;
           outline: none;
@@ -948,7 +936,7 @@
         display: flex;
         flex-wrap: wrap;
         margin: 0 -10px;
-        margin-top: 40px;
+        margin-top: 42px;
         list-style-type: none;
         padding-left: 0;
         li{
@@ -961,12 +949,12 @@
             text-align: center;
           }
           .conf-f{
-            font-size: 12px;
+            font-size: 13px;
             font-weight: bold;
             margin-bottom: 25px;
           }
           .conf-t{
-            font-size: 13px;
+            font-size: 15px;
             font-weight: bold;
             color: #696969;
             margin-bottom: 35px;
@@ -983,7 +971,7 @@
       padding-bottom: 0;
       .btn.btn-info{
         background: #3c99e3;
-        padding: 10px 40px;
+        padding: 10px 42px;
         color: #fff;
         border: none;
         margin: 0 7.5px;
@@ -1010,7 +998,7 @@
       p{
         padding: 0 15px;
         color: #3c3c3c;
-        font-size: 13px;
+        font-size: 14px;
         margin-bottom: 15px;
         &.df-r{
           width: 60%;
@@ -1028,7 +1016,7 @@
       }
       h4{
         padding: 0 15px;
-        font-size: 14px;
+        font-size: 15px;
         font-weight: bold;
         color: #3c3c3c;
         margin-bottom: 15px;
@@ -1036,7 +1024,7 @@
       h5{
         font-weight: 400;
         padding: 0 15px;
-        font-size: 14px;
+        font-size: 15px;
         margin-bottom: 0;
       }
     }
@@ -1045,7 +1033,7 @@
     }
     .brp-left{
       .brp-left-progress{
-        margin-bottom: 40px;
+        margin-bottom: 42px;
         position: relative;
         ul{
           display: flex;
@@ -1086,7 +1074,7 @@
               }
             }
             p{
-              font-size: 12px;
+              font-size: 13px;
               color: #3c3c3c;
               margin-bottom: 0;
               margin-top: 10px;
@@ -1158,7 +1146,7 @@
       h4{
         color: #3c3c3c;
         font-weight: bold;
-        font-size: 14px;
+        font-size: 15px;
         margin-bottom: 20px;
         @media screen and (max-width: 991px){
           padding-top: 30px;
@@ -1169,7 +1157,7 @@
         .form-check.form-check-inline{
           margin-left: 0;
           color: #3c3c3c;
-          font-size: 13px;
+          font-size: 14px;
           img{
             margin-left: 10px;
           }
@@ -1209,7 +1197,7 @@
               margin-top: 20px;
               maring-bottom: 0;
               .form-check-label{
-                font-size: 13px;
+                font-size: 14px;
                 color: #3c3c3c;
                 input{
                   height: auto;
@@ -1217,12 +1205,12 @@
               }
             }
             label{
-              font-size: 13px;
+              font-size: 14px;
               color: #3c3c3c;
               margin-bottom: 10px;
             }
             input{
-              height: 40px;
+              height: 42px;
               color: #333333;
             }
             ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -1243,12 +1231,12 @@
                 position: absolute;
                 right: -80px;
                 bottom: 0;
-                min-height: 40px;
+                min-height: 42px;
               }
             }
           }
           p{
-            font-size: 13px;
+            font-size: 12px;
             color: #3c3c3c;
             margin-bottom: 0;
             margin-top: 10px;
@@ -1315,7 +1303,7 @@
       }
       .btn.btn-info{
         background: #3c99e3;
-        padding: 10px 40px;
+        padding: 10px 42px;
         color: #fff;
         border: none;
         margin: 0 7.5px;

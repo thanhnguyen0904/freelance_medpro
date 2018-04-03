@@ -20,7 +20,11 @@
   }
 }
 
-.section-info{
+#section-info-123,#section-info-4, #section-info-5,
+#section-info-6, #section-info-7,
+#section-info-9, #section-info-10,
+#section-info-11, #section-info-12,
+#section-info-13{
   margin-bottom: 100px;
   height: auto;
   transition: all .5s ease;
@@ -44,27 +48,20 @@
         .group-files-item-left{
           .gfi-name{
             font-weight: bold;
-            font-size: 13px;
+            font-size: 14px;
             margin-bottom: 20px;
             span{
+              i{
+                margin-right: 5px;
+              }
               color: #40b24f;
               position: relative;
               margin-left: 5px;
-              padding-left: 18px;
-              &:before{
-                content: '';
-                background: url('../images/logged-step/tick-green.png') no-repeat center;
-                width: 13px;
-                height: 14px;
-                position: absolute;
-                top: 0;
-                left: 0;
-              }
             }
           }
           .gfi-info{
             color: #696969;
-            font-size: 13px;
+            font-size: 14px;
             margin-bottom: 20px;
           }
         }
@@ -78,29 +75,11 @@
             &:hover, &:focus{
               color: #48a7f2;
             }
-            &.gfi-edit{
-              &:before{
-                content: '';
-                background: url('../images/logged-step/edit.png') no-repeat center;
-                width: 15px;
-                height: 14px;
-                position: absolute;
-                top: 0;
-                left: 0;
-              }
+            i{
+              margin-right: 5px;
             }
             &.gfi-delete{
-              padding-left: 18px;
               margin-left: 15px;
-              &:before{
-                content: '';
-                background: url('../images/logged-step/delete.png') no-repeat center;
-                width: 13px;
-                height: 14px;
-                position: absolute;
-                top: 0;
-                left: 0;
-              }
             }
           }
         }
@@ -182,7 +161,7 @@
       padding-bottom: 0;
       .gfm-name{
         color: #3c3c3c;
-        font-size: 13px;
+        font-size: 15px;
         font-weight: bold;
         margin-bottom: 20px;
         padding: 0 20px;
@@ -201,12 +180,17 @@
             border-top: none;
             border-bottom: 1px solid #CFD8DC;
             padding: 20px 12px;
-            font-size: 12px;
+            font-size: 13px;
             color: #3c3c3c;
             text-align: center;
           }
           tr{
             background: none;
+            &.active{
+              td{
+                opacity: .5;
+              }
+            }
           }
           td{
             border-bottom: 1px solid #CFD8DC;
@@ -236,7 +220,7 @@
         input{
           color: #696969;
           font-size: 13px;
-          height: 40px;
+          height: 42px;
           padding: 10px 20px;
           &.form-check-input{
             height: auto;
@@ -249,7 +233,7 @@
         select{
           color: #696969;
           font-size: 13px;
-          height: 40px;
+          height: 42px;
           padding: 10px 20px;
         }
         ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -334,7 +318,7 @@
       .notfound{
         color: #696969;
         font-size: 24px;
-        margin-top: 40px;
+        margin-top: 42px;
         @media screen and (max-width: 599px){
           font-size: 20px;
         }
@@ -376,7 +360,7 @@
       ul{
         display: flex;
         flex-wrap: wrap;
-        margin-top: 40px;
+        margin-top: 42px;
         list-style-type: none;
         padding-left: 0;
         li{
@@ -389,12 +373,12 @@
             text-align: center;
           }
           .conf-f{
-            font-size: 12px;
+            font-size: 13px;
             font-weight: bold;
             margin-bottom: 25px;
           }
           .conf-t{
-            font-size: 13px;
+            font-size: 15px;
             font-weight: bold;
             color: #696969;
             margin-bottom: 35px;
@@ -405,44 +389,45 @@
         }
       }
       hr{
-        margin: 60px -20px;
-        margin-top: 35px;
+        margin: 40px -20px;
+        margin-top: 0;
         @media screen and (max-width: 767px){
-          margin-top: 10px;
-          margin-bottom: 30px;
+          margin-top: 20px;
+          margin-bottom: 0;
         }
       }
       .form-check{
         margin-bottom: 10px;
         label{
-          font-size: 13px;
+          font-size: 14px;
           &:hover, &:focus{
             outline: none !important;
             input{
               outline: none !important;
             }
           }
-          input{
-            margin-right: 6px;
-            position: relative;
-            top: 2px;
-          }
+          //input{
+          //  margin-right: 6px;
+          //  position: relative;
+          //  top: 2px;
+          //}
         }
       }
     }
     .btn.btn-info{
       background: #48a7f2;
-      padding: 15px 30px;
+      padding: 11px 30px;
+      font-size: 14px;
       display: block;
       width: 100%;
       color: #fff;
       border: none;
-      margin-top: 25px;
+      //margin-top: 25px;
       margin-bottom: 24px;
     }
     .back-to{
       position: absolute;
-      top: 40px;
+      top: 42px;
       left: 20px;
       font-size: 14px;
       color: #48a7f2;
@@ -454,10 +439,10 @@
         top: 10px;
         left: 10px;
       }
-      span{
-        font-size: 18px;
-        font-weight: bold;
+      i{
         margin-right: 5px;
+        position: relative;
+        top: 1px;
       }
     }
     h3{
@@ -477,7 +462,7 @@
       margin: 0 15px;
       display: inline-block;
       &:hover, &:focus, &.active{
-        background: #48a7f2;
+        //background: #48a7f2;
         color: #fff;
         border-color: transparent;
       }
@@ -529,7 +514,7 @@
           margin-bottom: 20px;
         }
         input{
-          height: 40px;
+          height: 42px;
           font-size: 12px;
           color: #3c3c3c;
           border-color: #cfd8dc;
@@ -552,6 +537,10 @@
           position: relative;
           padding-left: 10px;
           text-align: left;
+          transition: all .2s ease;
+          &:hover, &:focus{
+            color: #48a7f2;
+          }
           @media screen and (max-width: 767px){
             margin-bottom: 30px;
           }
@@ -561,7 +550,7 @@
             width: 4px;
             height: 6px;
             position: absolute;
-            top: 6px;
+            top: 3px;
             left: 0;
           }
         }
@@ -580,7 +569,7 @@
       }
       h2{
         font-size: 18px;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
         &.h2-blue{
           color: #48a7f2;
           margin-bottom: 20px;
@@ -610,7 +599,7 @@
           }
         }
         label{
-          font-size: 12px;
+          font-size: 13px;
           font-weight: bold;
           margin-bottom: 15px;
           span{
@@ -618,46 +607,41 @@
           }
         }
         input, select{
-          height: 40px;
+          height: 42px;
         }
       }
       .form-check{
+        margin-top: 10px;
         margin-bottom: 10px;
         label{
-          font-size: 13px;
+          font-size: 14px;
           &:hover, &:focus{
             outline: none !important;
             input{
               outline: none !important;
             }
           }
-          input{
-            margin-right: 6px;
-            position: relative;
-            top: 2px;
-          }
         }
       }
       .group-results{
         border: 1px solid #CFD8DC;
         padding: 30px 20px;
+        padding-bottom: 0;
         cursor: pointer;
         transition: all .2s ease;
         margin-bottom: 30px;
         position: relative;
-        &:after{
-          content: '';
-          background: url('../images/logged-step/tick-blue.png') no-repeat center;
-          width: 14px;
-          height: 14px;
+        &.group-results-13{
+          padding-top: 20px;
+          padding-bottom: 20px;
+        }
+        i{
+          color: #48a7f2;
+          opacity: 0;
           position: absolute;
           top: 10px;
           right: 10px;
-          transition: all .2s ease;
-          opacity: 0;
-        }
-        @media screen and (min-width: 992px){
-          align-items: center;
+          transition: all .3s ease;
         }
         @media screen and (max-width: 991px){
           flex-direction: column;
@@ -666,7 +650,7 @@
           border-color: #48a7f2;
         }
         &.active{
-          &:after{
+          i{
             opacity: 1;
           }
         }
@@ -702,7 +686,7 @@
               height: 100%;
               li{
                 color: #696969;
-                font-size: 12px;
+                font-size: 13px;
                 margin-bottom: 0;
                 position: relative;
                 padding-left: 30px;
@@ -809,7 +793,7 @@
     }
     .leftc-menu{
       a{
-        font-size: 14px;
+        font-size: 15px;
         color: #3c3c3c;
         transition: all .2s ease;
         padding: 10px 33px;
@@ -817,46 +801,29 @@
         margin-bottom: 10px;
         position: relative;
         overflow: hidden;
-        &:after{
-          content: '>';
-          font-size: 17px;
-          color: #3c3c3c;
-          transition: all .2s ease;
-          position: absolute;
-          top: 50%;
-          margin-top: -10px;
-          right: 10px;
-          transform: translateX(30px);
-        }
         &:hover, &:focus, &.active{
           background: #f0f3f8;
-          &:after{
+          i.fa-angle-right{
             transform: translateX(0);
           }
         }
-        &.leftc-menu-1{
-          &:before{
-            content: '';
-            background: url('../images/logged-step/left-menu-1.png') no-repeat center;
-            width: 13px;
-            height: 15px;
-            position: absolute;
-            top: 50%;
-            margin-top: -8px;
-            left: 10px;
-          }
+        i.fa-angle-right{
+          width: 13px;
+          height: 15px;
+          position: absolute;
+          top: 50%;
+          margin-top: -8px;
+          right: 10px;
+          transition: all .2s ease;
+          transform: translateX(30px);
         }
-        &.leftc-menu-2{
-          &:before{
-            content: '';
-            background: url('../images/logged-step/left-menu-2.png') no-repeat center;
-            width: 13px;
-            height: 15px;
-            position: absolute;
-            top: 50%;
-            margin-top: -8px;
-            left: 10px;
-          }
+        i.fa-address-book, i.fa-file-medical{
+          width: 13px;
+          height: 15px;
+          position: absolute;
+          top: 50%;
+          margin-top: -8px;
+          left: 10px;
         }
       }
     }
@@ -871,32 +838,39 @@
     transition: all .2s ease;
     position: relative;
     &:hover, &:focus{
-      background: #CFD8DC;
+      //background: #CFD8DC;
+      border-color: #48a7f2;
+      div, i{
+        color: #48a7f2 !important;
+      }
     }
     div{
       font-size: 14px;
       position: relative;
-      padding-left: 40px;
       display: inline-block;
-
+      transition: all .2s ease;
     }
     &.group-dashed-info{
+      i{
+        margin-right: 5px;
+        transition: all .2s ease;
+      }
       div{
-        color: #48a7f2;
-        &:before{
-          content: '';
-          background: url('../images/logged-step/user+.png') no-repeat center;
-          width: 20px;
-          height: 14px;
-          position: absolute;
-          top: 0;
-          left: 10px;
-        }
+        color: #696969;
+        //&:before{
+        //  content: '';
+        //  background: url('../images/logged-step/user+.png') no-repeat center;
+        //  width: 20px;
+        //  height: 14px;
+        //  position: absolute;
+        //  top: 0;
+        //  left: 10px;
+        //}
         &.gdi-book{
           color: #696969;
-          &:before{
-            background-image: url('../images/logged-step/user+-black.png');
-          }
+          //&:before{
+          //  background-image: url('../images/logged-step/user+-black.png');
+          //}
         }
       }
     }
@@ -907,37 +881,52 @@
       cursor: default;
       background: transparent;
       &:hover, &:focus{
+        color: #40b24f !important;
+        div{
+          color: #40b24f !important;
+        }
+        i{
+          color: #40b24f !important;
+        }
         background: transparent;
+      }
+      i{
+        margin-right: 5px;
+        margin-right: 5px;
       }
       div{
         color: #40b24f;
-        &:before{
-          content: '';
-          background: url('../images/logged-step/tick-green-i.png') no-repeat center;
-          width: 16px;
-          height: 16px;
-          position: absolute;
-          top: 0;
-          left: 10px;
-        }
       }
       .group-dashed-close{
         color: #40b24f;
         position: absolute;
-        font-size: 18px;
-        top: 10px;
+        font-size: 14px;
+        top: 15px;
         right: 10px;
-        //font-family: 'robotoregular';
         border: none;
         box-shadow: none;
         outline: none;
         background: transparent;
         transition: all .2s ease;
         cursor: pointer;
-        &:hover, &:focus{
-          color: #3c3c3c;
-        }
+        //&:hover, &:focus{
+        //  color: #3c3c3c;
+        //}
       }
     }
+  }
+}
+
+#section-info-7{
+  hr{
+    margin-bottom: 30px !important;
+  }
+  .form-check-label{
+    input{
+      margin-top: 1px;
+    }
+  }
+  .btn.btn-info{
+    margin-top: 30px;
   }
 }

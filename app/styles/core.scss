@@ -53,13 +53,44 @@ a{
   outline: none !important;
   border-radius: 3px !important;
   &.btn-info{
-    border: 1px solid rgb(60, 153, 227) !important;
+    background: rgb(72, 167, 242) !important;
+    border: 1px solid rgba(60, 153, 227,1) !important;
+    background: -moz-linear-gradient(-45deg, #48a7f2 0%, #40a2ef 50%, #2a8bd8 51%, #1e77bd 71%, #075490 100%) !important;
+    background: -webkit-linear-gradient(-45deg, #48a7f2 0%,#40a2ef 50%,#2a8bd8 51%,#1e77bd 71%,#075490 100%) !important;
+    background: linear-gradient(135deg, #48a7f2 0%,#40a2ef 50%,#2a8bd8 51%,#1e77bd 71%,#075490 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48a7f2', endColorstr='#48a7f2',GradientType=1 ) !important;
+    background-size: 400% 400% !important;
+    -webkit-animation: BtnMove 3s ease infinite !important;
+    -moz-animation: BtnMove 3s ease infinite !important;
+    animation: BtnMove 3s ease infinite !important;
+    -webkit-animation: BtnMove 3s ease infinite !important;
+    -moz-animation: BtnMove 3s ease infinite !important;
+    animation: BtnMove 3s ease infinite !important;
   }
   &.btn-success{
-    border: 1px solid rgb(56, 212, 106) !important;
+    background: #38d46a !important;
+    border: 1px solid #38d46a !important;
+    background: -moz-linear-gradient(-45deg, #38d46a 0%, #3ad26b 50%, #3bcd6a 51%, #3dc469 71%, #3bb863 100%) !important;
+    background: -webkit-linear-gradient(-45deg, #38d46a 0%,#3ad26b 50%,#3bcd6a 51%,#3dc469 71%,#3bb863 100%) !important;
+    background: linear-gradient(135deg, #38d46a 0%,#3ad26b 50%,#3bcd6a 51%,#3dc469 71%,#3bb863 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#38d46a', endColorstr='#38d46a',GradientType=1 ) !important;
+    background-size: 400% 400% !important;
+    -webkit-animation: BtnMove 3s ease infinite !important;
+    -moz-animation: BtnMove 3s ease infinite !important;
+    animation: BtnMove 3s ease infinite !important;
+    -webkit-animation: BtnMove 3s ease infinite !important;
+    -moz-animation: BtnMove 3s ease infinite !important;
+    animation: BtnMove 3s ease infinite !important;
   }
-  &:hover, &:focus{
-    opacity: .8;
+  &:hover, &:focus, &.active{
+    opacity: 1;
+  }
+  &.btn-default{
+    &:hover, &:focus, &.active{
+      color: #31c460 !important;
+      border: 1px solid #31c460 !important;
+      opacity: 1;
+    }
   }
 }
 
@@ -136,6 +167,7 @@ h1,h2,h3,h4,h5,h6{
     font-weight: bold;
     color: #b1b7bc;
     position: relative;
+    cursor: pointer;
     &:hover, &:focus{
       color: #48a7f2;
     }
@@ -153,13 +185,9 @@ h1,h2,h3,h4,h5,h6{
     }
     &:not(.active){
       padding-right: 20px;
-      &:after{
-        content: '>';
-        font-size: 16px;
-        color: #b1b7bc;
+      i.fas{
         position: absolute;
-        top: -2px;
-        right: 0px;
+        right: 3px;
       }
     }
     &.active{
@@ -170,6 +198,125 @@ h1,h2,h3,h4,h5,h6{
   }
 }
 
+.booking-right-navigation{
+  border: 1px solid #CFD8DC;
+  background: #fff;
+  border-radius: 5px;
+  padding: 18px 20px;
+  margin-bottom: 30px;
+  @media screen and (max-width: 767px){
+    margin-top: 30px;
+  }
+  ul{
+    padding-left: 0;
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 0;
+    flex-wrap: wrap;
+    li{
+      a{
+        font-size: 13px;
+        color: #696969;
+        position: relative;
+        padding-right: 25px;
+        margin-left: 20px;
+        cursor: default;
+        display: block;
+        &.active{
+          color: #48a7f2;
+          font-weight: bold;
+          cursor: pointer;
+          &:hover, &:focus{
+            color: #3c3c3c;
+          }
+        }
+      }
+      @media screen and (max-width: 991px){
+        width: 50%;
+        a{
+          margin-left: 0 !important;
+          i.fas{
+            display: none;
+          }
+        }
+      }
+      @media screen and (max-width: 767px){
+        width: 100%;
+        text-align: center;
+        a{
+          margin-bottom: 15px;
+          padding-right: 0;
+        }
+      }
+      &:first-child{
+        a{
+          margin-left: 0;
+        }
+      }
+      &:first-child, &:nth-child(2){
+        @media screen and (max-width: 991px){
+          a{
+            margin-bottom: 15px;
+          }
+        }
+      }
+      &:last-child{
+        a{
+          margin-left: 15px;
+        }
+        @media screen and (max-width: 767px){
+          a{
+            margin-bottom: 0;
+          }
+        }
+      }
+      &:not(:last-child){
+        a{
+          i.fas{
+            position: absolute;
+            top: 0;
+            right: 3px;
+          }
+        }
+      }
+    }
+  }
+}
+
 hr{
   border-color: #cfd8dc !important;
+}
+
+@-webkit-keyframes BtnMove {
+  0%{
+    background-position:0% 31%;
+  }
+  50%{
+    background-position:100% 70%;
+  }
+  100%{
+    background-position:0% 31%;
+  }
+}
+@-moz-keyframes BtnMove {
+  0%{
+    background-position:0% 31%;
+  }
+  50%{
+    background-position:100% 70%;
+  }
+  100%{
+    background-position:0% 31%;
+  }
+}
+@keyframes BtnMove {
+  0%{
+    background-position:0% 31%;
+  }
+  50%{
+    background-position:100% 70%;
+  }
+  100%{
+    background-position:0% 31%;
+  }
 }

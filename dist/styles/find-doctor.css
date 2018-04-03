@@ -17,54 +17,54 @@
     color: #4a7699;
     font-weight: bold; }
 
-.section-find-doctor {
+#section-find-doctor-1, #section-find-doctor-2 {
   margin-bottom: 80px; }
-  .section-find-doctor .find-doctor-left {
+  #section-find-doctor-1 .find-doctor-left, #section-find-doctor-2 .find-doctor-left {
     padding: 30px 0;
     border: 1px solid #CFD8DC;
     border-radius: 5px;
     background: #fff;
     margin-top: 33px; }
     @media screen and (max-width: 767px) {
-      .section-find-doctor .find-doctor-left {
+      #section-find-doctor-1 .find-doctor-left, #section-find-doctor-2 .find-doctor-left {
         margin-bottom: 30px;
         margin-top: 0; } }
-    .section-find-doctor .find-doctor-left h4 {
+    #section-find-doctor-1 .find-doctor-left h4, #section-find-doctor-2 .find-doctor-left h4 {
       padding: 0 20px;
       color: #48a7f2;
       font-weight: bold;
       font-size: 14px;
       margin-bottom: 30px; }
-    .section-find-doctor .find-doctor-left hr {
+    #section-find-doctor-1 .find-doctor-left hr, #section-find-doctor-2 .find-doctor-left hr {
       margin: 0; }
-    .section-find-doctor .find-doctor-left form {
+    #section-find-doctor-1 .find-doctor-left form, #section-find-doctor-2 .find-doctor-left form {
       padding: 0 20px;
       padding-top: 20px; }
-      .section-find-doctor .find-doctor-left form .form-group {
+      #section-find-doctor-1 .find-doctor-left form .form-group, #section-find-doctor-2 .find-doctor-left form .form-group {
         margin-bottom: 15px; }
-        .section-find-doctor .find-doctor-left form .form-group.mg-bottom-0 {
+        #section-find-doctor-1 .find-doctor-left form .form-group.mg-bottom-0, #section-find-doctor-2 .find-doctor-left form .form-group.mg-bottom-0 {
           margin-bottom: 0; }
-        .section-find-doctor .find-doctor-left form .form-group label {
+        #section-find-doctor-1 .find-doctor-left form .form-group label, #section-find-doctor-2 .find-doctor-left form .form-group label {
           font-size: 13px;
           font-weight: bold;
           color: #3c3c3c;
           margin-bottom: 10px; }
-        .section-find-doctor .find-doctor-left form .form-group input, .section-find-doctor .find-doctor-left form .form-group select {
+        #section-find-doctor-1 .find-doctor-left form .form-group input, #section-find-doctor-1 .find-doctor-left form .form-group select, #section-find-doctor-2 .find-doctor-left form .form-group input, #section-find-doctor-2 .find-doctor-left form .form-group select {
           height: 40px !important;
           color: #333333; }
-        .section-find-doctor .find-doctor-left form .form-group ::-webkit-input-placeholder {
+        #section-find-doctor-1 .find-doctor-left form .form-group ::-webkit-input-placeholder, #section-find-doctor-2 .find-doctor-left form .form-group ::-webkit-input-placeholder {
           /* Chrome/Opera/Safari */
           color: #333333; }
-        .section-find-doctor .find-doctor-left form .form-group ::-moz-placeholder {
+        #section-find-doctor-1 .find-doctor-left form .form-group ::-moz-placeholder, #section-find-doctor-2 .find-doctor-left form .form-group ::-moz-placeholder {
           /* Firefox 19+ */
           color: #333333; }
-        .section-find-doctor .find-doctor-left form .form-group :-ms-input-placeholder {
+        #section-find-doctor-1 .find-doctor-left form .form-group :-ms-input-placeholder, #section-find-doctor-2 .find-doctor-left form .form-group :-ms-input-placeholder {
           /* IE 10+ */
           color: #333333; }
-        .section-find-doctor .find-doctor-left form .form-group :-moz-placeholder {
+        #section-find-doctor-1 .find-doctor-left form .form-group :-moz-placeholder, #section-find-doctor-2 .find-doctor-left form .form-group :-moz-placeholder {
           /* Firefox 18- */
           color: #333333; }
-        .section-find-doctor .find-doctor-left form .form-group .btn.btn.btn-info {
+        #section-find-doctor-1 .find-doctor-left form .form-group .btn.btn.btn-info, #section-find-doctor-2 .find-doctor-left form .form-group .btn.btn.btn-info {
           margin-top: 10px;
           background: #3c99e3;
           padding: 10px 40px;
@@ -72,26 +72,26 @@
           border: none;
           text-transform: uppercase;
           border: 1px solid #3c99e3; }
-  .section-find-doctor .find-doctor-left-1 {
+  #section-find-doctor-1 .find-doctor-left-1, #section-find-doctor-2 .find-doctor-left-1 {
     padding: 20px;
     border: 1px solid #CFD8DC;
     border-radius: 5px;
     background: #fff; }
-    .section-find-doctor .find-doctor-left-1 h4 {
+    #section-find-doctor-1 .find-doctor-left-1 h4, #section-find-doctor-2 .find-doctor-left-1 h4 {
       color: #3c3c3c;
       font-weight: bold;
       font-size: 14px;
       margin-bottom: 20px; }
-    .section-find-doctor .find-doctor-left-1 hr {
+    #section-find-doctor-1 .find-doctor-left-1 hr, #section-find-doctor-2 .find-doctor-left-1 hr {
       margin: 0;
       margin-bottom: 20px; }
-    .section-find-doctor .find-doctor-left-1 p {
+    #section-find-doctor-1 .find-doctor-left-1 p, #section-find-doctor-2 .find-doctor-left-1 p {
       color: #3c3c3c;
       font-size: 13px;
       position: relative;
       padding-left: 15px;
       margin-bottom: 20px; }
-      .section-find-doctor .find-doctor-left-1 p.circle:before {
+      #section-find-doctor-1 .find-doctor-left-1 p.circle:before, #section-find-doctor-2 .find-doctor-left-1 p.circle:before {
         content: '';
         border: 1px solid #48a7f2;
         height: 10px;
@@ -100,64 +100,64 @@
         top: 2px;
         left: 0;
         border-radius: 100%; }
-    .section-find-doctor .find-doctor-left-1 ul {
+    #section-find-doctor-1 .find-doctor-left-1 ul, #section-find-doctor-2 .find-doctor-left-1 ul {
       list-style-type: none;
       margin-bottom: 20px;
       padding-left: 10px; }
-      .section-find-doctor .find-doctor-left-1 ul li {
+      #section-find-doctor-1 .find-doctor-left-1 ul li, #section-find-doctor-2 .find-doctor-left-1 ul li {
         font-size: 12px;
         font-weight: bold;
         color: #48a7f2; }
-        .section-find-doctor .find-doctor-left-1 ul li img {
+        #section-find-doctor-1 .find-doctor-left-1 ul li img, #section-find-doctor-2 .find-doctor-left-1 ul li img {
           margin-right: 5px;
           position: relative;
           top: -2px; }
-  .section-find-doctor .find-doctor-right ul.find-doctor-right-top {
+  #section-find-doctor-1 .find-doctor-right ul.find-doctor-right-top, #section-find-doctor-2 .find-doctor-right ul.find-doctor-right-top {
     padding-left: 0;
     list-style-type: none;
     marign-bottom: 0; }
-    .section-find-doctor .find-doctor-right ul.find-doctor-right-top li {
+    #section-find-doctor-1 .find-doctor-right ul.find-doctor-right-top li, #section-find-doctor-2 .find-doctor-right ul.find-doctor-right-top li {
       color: #696969;
       font-size: 12px;
       font-weight: bold;
       padding: 0 12px; }
-      .section-find-doctor .find-doctor-right ul.find-doctor-right-top li:nth-child(1) {
+      #section-find-doctor-1 .find-doctor-right ul.find-doctor-right-top li:nth-child(1), #section-find-doctor-2 .find-doctor-right ul.find-doctor-right-top li:nth-child(1) {
         width: 5%; }
-      .section-find-doctor .find-doctor-right ul.find-doctor-right-top li:nth-child(2) {
+      #section-find-doctor-1 .find-doctor-right ul.find-doctor-right-top li:nth-child(2), #section-find-doctor-2 .find-doctor-right ul.find-doctor-right-top li:nth-child(2) {
         width: 20%; }
-      .section-find-doctor .find-doctor-right ul.find-doctor-right-top li:nth-child(3), .section-find-doctor .find-doctor-right ul.find-doctor-right-top li:nth-child(4), .section-find-doctor .find-doctor-right ul.find-doctor-right-top li:nth-child(5), .section-find-doctor .find-doctor-right ul.find-doctor-right-top li:nth-child(6), .section-find-doctor .find-doctor-right ul.find-doctor-right-top li:nth-child(7) {
+      #section-find-doctor-1 .find-doctor-right ul.find-doctor-right-top li:nth-child(3), #section-find-doctor-1 .find-doctor-right ul.find-doctor-right-top li:nth-child(4), #section-find-doctor-1 .find-doctor-right ul.find-doctor-right-top li:nth-child(5), #section-find-doctor-1 .find-doctor-right ul.find-doctor-right-top li:nth-child(6), #section-find-doctor-1 .find-doctor-right ul.find-doctor-right-top li:nth-child(7), #section-find-doctor-2 .find-doctor-right ul.find-doctor-right-top li:nth-child(3), #section-find-doctor-2 .find-doctor-right ul.find-doctor-right-top li:nth-child(4), #section-find-doctor-2 .find-doctor-right ul.find-doctor-right-top li:nth-child(5), #section-find-doctor-2 .find-doctor-right ul.find-doctor-right-top li:nth-child(6), #section-find-doctor-2 .find-doctor-right ul.find-doctor-right-top li:nth-child(7) {
         width: 15%; }
-  .section-find-doctor .find-doctor-right .table-responsive.find-doctor-right-cont {
+  #section-find-doctor-1 .find-doctor-right .table-responsive.find-doctor-right-cont, #section-find-doctor-2 .find-doctor-right .table-responsive.find-doctor-right-cont {
     position: relative;
     overflow: auto;
     margin: 0;
     margin-bottom: 30px; }
     @media screen and (max-width: 991px) {
-      .section-find-doctor .find-doctor-right .table-responsive.find-doctor-right-cont table {
+      #section-find-doctor-1 .find-doctor-right .table-responsive.find-doctor-right-cont table, #section-find-doctor-2 .find-doctor-right .table-responsive.find-doctor-right-cont table {
         min-width: 800px; } }
-    .section-find-doctor .find-doctor-right .table-responsive.find-doctor-right-cont table thead {
+    #section-find-doctor-1 .find-doctor-right .table-responsive.find-doctor-right-cont table thead, #section-find-doctor-2 .find-doctor-right .table-responsive.find-doctor-right-cont table thead {
       background: none;
       border: none; }
-      .section-find-doctor .find-doctor-right .table-responsive.find-doctor-right-cont table thead th {
+      #section-find-doctor-1 .find-doctor-right .table-responsive.find-doctor-right-cont table thead th, #section-find-doctor-2 .find-doctor-right .table-responsive.find-doctor-right-cont table thead th {
         border: none; }
-    .section-find-doctor .find-doctor-right .table-responsive.find-doctor-right-cont table tbody {
+    #section-find-doctor-1 .find-doctor-right .table-responsive.find-doctor-right-cont table tbody, #section-find-doctor-2 .find-doctor-right .table-responsive.find-doctor-right-cont table tbody {
       border: 1px solid #CFD8DC;
       background: #fff;
       margin: 0;
       border-radius: 5px; }
-    .section-find-doctor .find-doctor-right .table-responsive.find-doctor-right-cont table tr {
+    #section-find-doctor-1 .find-doctor-right .table-responsive.find-doctor-right-cont table tr, #section-find-doctor-2 .find-doctor-right .table-responsive.find-doctor-right-cont table tr {
       background: none; }
-    .section-find-doctor .find-doctor-right .table-responsive.find-doctor-right-cont table td {
+    #section-find-doctor-1 .find-doctor-right .table-responsive.find-doctor-right-cont table td, #section-find-doctor-2 .find-doctor-right .table-responsive.find-doctor-right-cont table td {
       border-bottom: 1px solid #CFD8DC;
       border-top: none;
       padding: 15px 12px;
       color: #696969;
-      font-size: 14px;
+      font-size: 15px;
       transition: all .2s ease; }
-      .section-find-doctor .find-doctor-right .table-responsive.find-doctor-right-cont table td:nth-child(7) {
+      #section-find-doctor-1 .find-doctor-right .table-responsive.find-doctor-right-cont table td:nth-child(7), #section-find-doctor-2 .find-doctor-right .table-responsive.find-doctor-right-cont table td:nth-child(7) {
         padding: 8px 12px;
         border-right: 2px solid #CFD8DC; }
-        .section-find-doctor .find-doctor-right .table-responsive.find-doctor-right-cont table td:nth-child(7) .btn.btn.btn-info {
+        #section-find-doctor-1 .find-doctor-right .table-responsive.find-doctor-right-cont table td:nth-child(7) .btn.btn.btn-info, #section-find-doctor-2 .find-doctor-right .table-responsive.find-doctor-right-cont table td:nth-child(7) .btn.btn.btn-info {
           background: #3c99e3;
           padding: 6px 15px;
           width: 100%;
@@ -165,54 +165,54 @@
           border: none;
           text-transform: uppercase;
           border: 1px solid #3c99e3; }
-  .section-find-doctor .booking-right-calendar {
+  #section-find-doctor-1 .booking-right-calendar, #section-find-doctor-2 .booking-right-calendar {
     border: 1px solid #CFD8DC;
     background: #fff;
     border-radius: 5px;
-    padding: 30px 40px;
+    padding: 30px 42px;
     height: auto;
     transition: all .2s ease; }
     @media screen and (max-width: 767px) {
-      .section-find-doctor .booking-right-calendar {
+      #section-find-doctor-1 .booking-right-calendar, #section-find-doctor-2 .booking-right-calendar {
         padding: 30px 20px; } }
-    .section-find-doctor .booking-right-calendar .brc-top {
+    #section-find-doctor-1 .booking-right-calendar .brc-top, #section-find-doctor-2 .booking-right-calendar .brc-top {
       -webkit-justify-content: center;
           -ms-flex-pack: center;
               justify-content: center;
       padding-bottom: 10px;
-      margin: -10px -40px 5px -40px;
+      margin-bottom: 5px;
+      margin-top: -10px;
       border-bottom: 1px solid #CFD8DC;
       position: relative; }
       @media screen and (max-width: 767px) {
-        .section-find-doctor .booking-right-calendar .brc-top {
-          margin: -10px -40px 5px -40px;
+        #section-find-doctor-1 .booking-right-calendar .brc-top, #section-find-doctor-2 .booking-right-calendar .brc-top {
           -webkit-flex-direction: column;
               -ms-flex-direction: column;
                   flex-direction: column; } }
-      .section-find-doctor .booking-right-calendar .brc-top .btn-group button {
+      #section-find-doctor-1 .booking-right-calendar .brc-top .btn-group button, #section-find-doctor-2 .booking-right-calendar .brc-top .btn-group button {
         outline: none !important;
         box-shadow: none !important;
         border: none !important;
         background: transparent; }
-        .section-find-doctor .booking-right-calendar .brc-top .btn-group button.btn-default-text {
+        #section-find-doctor-1 .booking-right-calendar .brc-top .btn-group button.btn-default-text, #section-find-doctor-2 .booking-right-calendar .brc-top .btn-group button.btn-default-text {
           font-size: 16px;
           font-weight: bold;
           color: #48a7f2; }
-        .section-find-doctor .booking-right-calendar .brc-top .btn-group button.btn-default-left {
+        #section-find-doctor-1 .booking-right-calendar .brc-top .btn-group button.btn-default-left, #section-find-doctor-2 .booking-right-calendar .brc-top .btn-group button.btn-default-left {
           margin-right: 20px; }
           @media screen and (max-width: 991px) {
-            .section-find-doctor .booking-right-calendar .brc-top .btn-group button.btn-default-left {
+            #section-find-doctor-1 .booking-right-calendar .brc-top .btn-group button.btn-default-left, #section-find-doctor-2 .booking-right-calendar .brc-top .btn-group button.btn-default-left {
               margin-right: 10px; } }
-        .section-find-doctor .booking-right-calendar .brc-top .btn-group button.btn-default-right {
+        #section-find-doctor-1 .booking-right-calendar .brc-top .btn-group button.btn-default-right, #section-find-doctor-2 .booking-right-calendar .brc-top .btn-group button.btn-default-right {
           margin-left: 20px; }
           @media screen and (max-width: 991px) {
-            .section-find-doctor .booking-right-calendar .brc-top .btn-group button.btn-default-right {
+            #section-find-doctor-1 .booking-right-calendar .brc-top .btn-group button.btn-default-right, #section-find-doctor-2 .booking-right-calendar .brc-top .btn-group button.btn-default-right {
               margin-left: 10px; } }
-        .section-find-doctor .booking-right-calendar .brc-top .btn-group button i {
+        #section-find-doctor-1 .booking-right-calendar .brc-top .btn-group button i, #section-find-doctor-2 .booking-right-calendar .brc-top .btn-group button i {
           color: #cfd8dc;
           font-size: 30px;
           transition: all .2s ease; }
-      .section-find-doctor .booking-right-calendar .brc-top .brct-note {
+      #section-find-doctor-1 .booking-right-calendar .brc-top .brct-note, #section-find-doctor-2 .booking-right-calendar .brc-top .brct-note {
         font-size: 12px;
         color: #faa01f;
         font-weight: bold;
@@ -220,49 +220,38 @@
         position: absolute;
         right: 0; }
         @media screen and (max-width: 991px) {
-          .section-find-doctor .booking-right-calendar .brc-top .brct-note {
+          #section-find-doctor-1 .booking-right-calendar .brc-top .brct-note, #section-find-doctor-2 .booking-right-calendar .brc-top .brct-note {
             position: relative;
             margin-left: auto; } }
         @media screen and (max-width: 767px) {
-          .section-find-doctor .booking-right-calendar .brc-top .brct-note {
+          #section-find-doctor-1 .booking-right-calendar .brc-top .brct-note, #section-find-doctor-2 .booking-right-calendar .brc-top .brct-note {
             margin-top: 15px; } }
-    .section-find-doctor .booking-right-calendar .table.calTable {
+    #section-find-doctor-1 .booking-right-calendar .table.calTable, #section-find-doctor-2 .booking-right-calendar .table.calTable {
       margin-bottom: 0; }
-      .section-find-doctor .booking-right-calendar .table.calTable tbody tr.brc-scoll td {
-        border: none;
-        height: 0;
-        padding: 0; }
-      .section-find-doctor .booking-right-calendar .table.calTable tbody tr.brc-scoll.show td {
-        padding: 20px 10px;
-        padding-top: 0;
-        height: auto; }
-      @media screen and (max-width: 991px) {
-        .section-find-doctor .booking-right-calendar .table.calTable tbody tr.brc-scoll.show {
-          padding: 10px 5px;
-          padding-top: 0; } }
-      .section-find-doctor .booking-right-calendar .table.calTable tbody td, .section-find-doctor .booking-right-calendar .table.calTable tbody th {
+      #section-find-doctor-1 .booking-right-calendar .table.calTable tbody td, #section-find-doctor-1 .booking-right-calendar .table.calTable tbody th, #section-find-doctor-2 .booking-right-calendar .table.calTable tbody td, #section-find-doctor-2 .booking-right-calendar .table.calTable tbody th {
         width: 14.2857142857%;
         text-align: center;
         color: #3c3c3c;
         font-size: 13px;
-        font-weight: bold;
-        padding: 20px 10px;
-        transition: all .2s ease; }
+        font-weight: bold; }
         @media screen and (max-width: 991px) {
-          .section-find-doctor .booking-right-calendar .table.calTable tbody td, .section-find-doctor .booking-right-calendar .table.calTable tbody th {
-            font-size: 12px;
-            padding: 10px 5px; } }
-      .section-find-doctor .booking-right-calendar .table.calTable tbody th {
+          #section-find-doctor-1 .booking-right-calendar .table.calTable tbody td, #section-find-doctor-1 .booking-right-calendar .table.calTable tbody th, #section-find-doctor-2 .booking-right-calendar .table.calTable tbody td, #section-find-doctor-2 .booking-right-calendar .table.calTable tbody th {
+            font-size: 12px; } }
+      #section-find-doctor-1 .booking-right-calendar .table.calTable tbody th, #section-find-doctor-2 .booking-right-calendar .table.calTable tbody th {
+        padding: 20px 10px;
         border-top: 0; }
-        .section-find-doctor .booking-right-calendar .table.calTable tbody th.cn {
+        @media screen and (max-width: 991px) {
+          #section-find-doctor-1 .booking-right-calendar .table.calTable tbody th, #section-find-doctor-2 .booking-right-calendar .table.calTable tbody th {
+            padding: 10px 5px; } }
+        #section-find-doctor-1 .booking-right-calendar .table.calTable tbody th.cn, #section-find-doctor-2 .booking-right-calendar .table.calTable tbody th.cn {
           color: #fa531f; }
-        .section-find-doctor .booking-right-calendar .table.calTable tbody th.t7 {
+        #section-find-doctor-1 .booking-right-calendar .table.calTable tbody th.t7, #section-find-doctor-2 .booking-right-calendar .table.calTable tbody th.t7 {
           color: #faa01f; }
-      .section-find-doctor .booking-right-calendar .table.calTable tbody td {
+      #section-find-doctor-1 .booking-right-calendar .table.calTable tbody td, #section-find-doctor-2 .booking-right-calendar .table.calTable tbody td {
         transition: all .2s ease; }
-        .section-find-doctor .booking-right-calendar .table.calTable tbody td.active {
+        #section-find-doctor-1 .booking-right-calendar .table.calTable tbody td.active, #section-find-doctor-2 .booking-right-calendar .table.calTable tbody td.active {
           background: #eaeff3; }
-        .section-find-doctor .booking-right-calendar .table.calTable tbody td button {
+        #section-find-doctor-1 .booking-right-calendar .table.calTable tbody td button, #section-find-doctor-2 .booking-right-calendar .table.calTable tbody td button {
           background: none;
           box-shadow: none;
           outline: none;
@@ -276,127 +265,118 @@
           padding-left: 16px;
           transition: all .2s ease;
           cursor: pointer; }
-          .section-find-doctor .booking-right-calendar .table.calTable tbody td button.btn-booking-calendar-disable {
-            opacity: .4;
-            cursor: default; }
-          .section-find-doctor .booking-right-calendar .table.calTable tbody td button:hover:not(.btn-booking-calendar-disable), .section-find-doctor .booking-right-calendar .table.calTable tbody td button:focus:not(.btn-booking-calendar-disable), .section-find-doctor .booking-right-calendar .table.calTable tbody td button.active:not(.btn-booking-calendar-disable) {
+          #section-find-doctor-1 .booking-right-calendar .table.calTable tbody td button.btn-booking-calendar-disable, #section-find-doctor-2 .booking-right-calendar .table.calTable tbody td button.btn-booking-calendar-disable {
+            opacity: .4; }
+          #section-find-doctor-1 .booking-right-calendar .table.calTable tbody td button:hover, #section-find-doctor-1 .booking-right-calendar .table.calTable tbody td button:focus, #section-find-doctor-1 .booking-right-calendar .table.calTable tbody td button.active, #section-find-doctor-2 .booking-right-calendar .table.calTable tbody td button:hover, #section-find-doctor-2 .booking-right-calendar .table.calTable tbody td button:focus, #section-find-doctor-2 .booking-right-calendar .table.calTable tbody td button.active {
             color: #fff;
             background: #3ad46b; }
-    .section-find-doctor .booking-right-calendar .brc-scroll-group {
+    #section-find-doctor-1 .booking-right-calendar .brc-scroll-group, #section-find-doctor-2 .booking-right-calendar .brc-scroll-group {
+      border: 10px solid #eaeff3;
       transition: all .3s ease;
       height: 0;
       opacity: 0;
       padding: 0;
-      margin: 0;
-      border: none;
-      visibility: hidden; }
-      .section-find-doctor .booking-right-calendar .brc-scroll-group.show {
-        border: 10px solid #eaeff3;
+      margin: 0; }
+      #section-find-doctor-1 .booking-right-calendar .brc-scroll-group.show, #section-find-doctor-2 .booking-right-calendar .brc-scroll-group.show {
         height: auto;
         opacity: 1;
-        margin: 0 -50px;
-        padding: 20px 40px;
-        visibility: visible; }
+        margin: 0 -42px;
+        padding: 20px 42px; }
         @media screen and (max-width: 991px) {
-          .section-find-doctor .booking-right-calendar .brc-scroll-group.show {
+          #section-find-doctor-1 .booking-right-calendar .brc-scroll-group.show, #section-find-doctor-2 .booking-right-calendar .brc-scroll-group.show {
             padding: 20px; } }
         @media screen and (max-width: 767px) {
-          .section-find-doctor .booking-right-calendar .brc-scroll-group.show {
+          #section-find-doctor-1 .booking-right-calendar .brc-scroll-group.show, #section-find-doctor-2 .booking-right-calendar .brc-scroll-group.show {
             margin: 0 -20px; } }
-      .section-find-doctor .booking-right-calendar .brc-scroll-group ul {
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        list-style-type: none;
-        padding-left: 0;
-        margin: 0;
-        -webkit-align-items: center;
-            -ms-flex-align: center;
-                align-items: center;
-        -webkit-flex-wrap: wrap;
-            -ms-flex-wrap: wrap;
-                flex-wrap: wrap; }
-        @media screen and (max-width: 991px) {
-          .section-find-doctor .booking-right-calendar .brc-scroll-group ul {
-            -webkit-align-items: flex-start;
-                -ms-flex-align: start;
-                    align-items: flex-start; } }
-        .section-find-doctor .booking-right-calendar .brc-scroll-group ul.table-ul-top {
-          margin-bottom: 20px; }
-          @media screen and (max-width: 991px) {
-            .section-find-doctor .booking-right-calendar .brc-scroll-group ul.table-ul-top {
-              margin-bottom: 0; } }
-          @media screen and (max-width: 991px) {
-            .section-find-doctor .booking-right-calendar .brc-scroll-group ul.table-ul-top li {
-              margin-top: 0; } }
-        .section-find-doctor .booking-right-calendar .brc-scroll-group ul.table-ul-cont {
-          border-top: 1px solid #CFD8DC;
-          padding-top: 25px;
-          margin-bottom: 25px; }
-          @media screen and (max-width: 991px) {
-            .section-find-doctor .booking-right-calendar .brc-scroll-group ul.table-ul-cont {
-              margin-bottom: 35px; } }
-          .section-find-doctor .booking-right-calendar .brc-scroll-group ul.table-ul-cont:hover, .section-find-doctor .booking-right-calendar .brc-scroll-group ul.table-ul-cont:focus, .section-find-doctor .booking-right-calendar .brc-scroll-group ul.table-ul-cont.active {
-            outline: none; }
-            .section-find-doctor .booking-right-calendar .brc-scroll-group ul.table-ul-cont:hover li, .section-find-doctor .booking-right-calendar .brc-scroll-group ul.table-ul-cont:focus li, .section-find-doctor .booking-right-calendar .brc-scroll-group ul.table-ul-cont.active li {
-              color: #48a7f2;
-              font-weight: bold; }
-            .section-find-doctor .booking-right-calendar .brc-scroll-group ul.table-ul-cont:hover a, .section-find-doctor .booking-right-calendar .brc-scroll-group ul.table-ul-cont:focus a, .section-find-doctor .booking-right-calendar .brc-scroll-group ul.table-ul-cont.active a {
-              color: #48a7f2;
-              border-color: #48a7f2; }
-        .section-find-doctor .booking-right-calendar .brc-scroll-group ul li {
-          width: 40%;
-          padding: 0;
-          padding-right: 15px;
-          font-size: 13px;
-          color: #3c3c3c;
+      #section-find-doctor-1 .booking-right-calendar .brc-scroll-group .brc-scroll-group-1, #section-find-doctor-2 .booking-right-calendar .brc-scroll-group .brc-scroll-group-1 {
+        margin-bottom: 30px; }
+        #section-find-doctor-1 .booking-right-calendar .brc-scroll-group .brc-scroll-group-1 .brt-btn, #section-find-doctor-2 .booking-right-calendar .brc-scroll-group .brc-scroll-group-1 .brt-btn {
+          font-size: 10px;
+          padding: 5px 8px;
           transition: all .2s ease; }
-          @media screen and (max-width: 991px) {
-            .section-find-doctor .booking-right-calendar .brc-scroll-group ul li {
-              width: 50%; } }
-          @media screen and (max-width: 767px) {
-            .section-find-doctor .booking-right-calendar .brc-scroll-group ul li:nth-child(2) {
-              text-align: right; } }
-          .section-find-doctor .booking-right-calendar .brc-scroll-group ul li:last-child {
-            width: 20%; }
+          @media screen and (max-width: 500px) {
+            #section-find-doctor-1 .booking-right-calendar .brc-scroll-group .brc-scroll-group-1 .brt-btn, #section-find-doctor-2 .booking-right-calendar .brc-scroll-group .brc-scroll-group-1 .brt-btn {
+              display: block;
+              margin-bottom: 10px;
+              text-align: center; } }
+          #section-find-doctor-1 .booking-right-calendar .brc-scroll-group .brc-scroll-group-1 .brt-btn.brt-btn-1, #section-find-doctor-2 .booking-right-calendar .brc-scroll-group .brc-scroll-group-1 .brt-btn.brt-btn-1 {
+            color: #fff;
+            background: #48a7f2;
+            border: 1px solid #48a7f2; }
+          #section-find-doctor-1 .booking-right-calendar .brc-scroll-group .brc-scroll-group-1 .brt-btn.brt-btn-2, #section-find-doctor-2 .booking-right-calendar .brc-scroll-group .brc-scroll-group-1 .brt-btn.brt-btn-2 {
+            color: #3c3c3c;
+            border: 1px solid #CFD8DC;
+            background: #fff;
+            margin: 0 20px; }
+            @media screen and (max-width: 500px) {
+              #section-find-doctor-1 .booking-right-calendar .brc-scroll-group .brc-scroll-group-1 .brt-btn.brt-btn-2, #section-find-doctor-2 .booking-right-calendar .brc-scroll-group .brc-scroll-group-1 .brt-btn.brt-btn-2 {
+                margin: 0;
+                margin-bottom: 10px; } }
+          #section-find-doctor-1 .booking-right-calendar .brc-scroll-group .brc-scroll-group-1 .brt-btn.brt-btn-3, #section-find-doctor-2 .booking-right-calendar .brc-scroll-group .brc-scroll-group-1 .brt-btn.brt-btn-3 {
+            color: #f26522;
+            border: 1px solid #f26522;
+            background: #fff; }
+      #section-find-doctor-1 .booking-right-calendar .brc-scroll-group .brc-scroll-group-2, #section-find-doctor-2 .booking-right-calendar .brc-scroll-group .brc-scroll-group-2 {
+        border-top: 1px solid #CFD8DC;
+        transition: all .2s ease;
+        height: auto;
+        padding: 20px 10px;
+        margin-bottom: -20px; }
+        @media screen and (max-width: 767px) {
+          #section-find-doctor-1 .booking-right-calendar .brc-scroll-group .brc-scroll-group-2, #section-find-doctor-2 .booking-right-calendar .brc-scroll-group .brc-scroll-group-2 {
+            padding: 20px 0; } }
+        #section-find-doctor-1 .booking-right-calendar .brc-scroll-group .brc-scroll-group-2 ul, #section-find-doctor-2 .booking-right-calendar .brc-scroll-group .brc-scroll-group-2 ul {
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          padding-left: 0;
+          margin-bottom: 0;
+          list-style-type: none;
+          -webkit-flex-wrap: wrap;
+              -ms-flex-wrap: wrap;
+                  flex-wrap: wrap;
+          width: 100%; }
+          #section-find-doctor-1 .booking-right-calendar .brc-scroll-group .brc-scroll-group-2 ul li, #section-find-doctor-2 .booking-right-calendar .brc-scroll-group .brc-scroll-group-2 ul li {
+            width: 20%;
+            padding: 0 10px;
+            margin-bottom: 20px; }
             @media screen and (max-width: 991px) {
-              .section-find-doctor .booking-right-calendar .brc-scroll-group ul li:last-child {
-                padding-right: 0; } }
-            @media screen and (max-width: 991px) {
-              .section-find-doctor .booking-right-calendar .brc-scroll-group ul li:last-child {
-                width: 100%;
-                margin-top: 25px; } }
-          .section-find-doctor .booking-right-calendar .brc-scroll-group ul li a {
-            background: none;
-            box-shadow: none;
-            outline: none;
-            border: 1px solid #aeb8c8;
-            width: 100%;
-            border-radius: 50px !important;
-            padding: 8px 15px;
-            font-size: 13px;
-            font-weight: bold;
-            color: #333333;
-            margin: -10px 0;
-            cursor: pointer;
-            transition: all .2s ease;
-            cursor: pointer;
-            display: block;
-            width: 100%;
-            text-align: center; }
-            .section-find-doctor .booking-right-calendar .brc-scroll-group ul li a:hover, .section-find-doctor .booking-right-calendar .brc-scroll-group ul li a:focus, .section-find-doctor .booking-right-calendar .brc-scroll-group ul li a.active {
-              color: #48a7f2;
-              border-color: #48a7f2; }
-      .section-find-doctor .booking-right-calendar .brc-scroll-group .brc-scroll-group-btn {
+              #section-find-doctor-1 .booking-right-calendar .brc-scroll-group .brc-scroll-group-2 ul li, #section-find-doctor-2 .booking-right-calendar .brc-scroll-group .brc-scroll-group-2 ul li {
+                width: 33.3333%; } }
+            @media screen and (max-width: 500px) {
+              #section-find-doctor-1 .booking-right-calendar .brc-scroll-group .brc-scroll-group-2 ul li, #section-find-doctor-2 .booking-right-calendar .brc-scroll-group .brc-scroll-group-2 ul li {
+                width: 50%; } }
+            #section-find-doctor-1 .booking-right-calendar .brc-scroll-group .brc-scroll-group-2 ul li a, #section-find-doctor-2 .booking-right-calendar .brc-scroll-group .brc-scroll-group-2 ul li a {
+              color: #333333;
+              font-size: 13px;
+              padding: 8px 15px;
+              border: 1px solid #CFD8DC;
+              transition: all .2s ease;
+              display: block;
+              text-align: center; }
+              #section-find-doctor-1 .booking-right-calendar .brc-scroll-group .brc-scroll-group-2 ul li a:hover, #section-find-doctor-1 .booking-right-calendar .brc-scroll-group .brc-scroll-group-2 ul li a:focus, #section-find-doctor-1 .booking-right-calendar .brc-scroll-group .brc-scroll-group-2 ul li a.active, #section-find-doctor-2 .booking-right-calendar .brc-scroll-group .brc-scroll-group-2 ul li a:hover, #section-find-doctor-2 .booking-right-calendar .brc-scroll-group .brc-scroll-group-2 ul li a:focus, #section-find-doctor-2 .booking-right-calendar .brc-scroll-group .brc-scroll-group-2 ul li a.active {
+                background: #48a7f2;
+                color: #fff;
+                border-color: #48a7f2; }
+              #section-find-doctor-1 .booking-right-calendar .brc-scroll-group .brc-scroll-group-2 ul li a.active-full, #section-find-doctor-2 .booking-right-calendar .brc-scroll-group .brc-scroll-group-2 ul li a.active-full {
+                cursor: default;
+                background: #ff7335;
+                color: #fff;
+                border-color: #ff7335; }
+                #section-find-doctor-1 .booking-right-calendar .brc-scroll-group .brc-scroll-group-2 ul li a.active-full i, #section-find-doctor-2 .booking-right-calendar .brc-scroll-group .brc-scroll-group-2 ul li a.active-full i {
+                  margin-left: 5px;
+                  position: relative;
+                  top: 1px; }
+      #section-find-doctor-1 .booking-right-calendar .brc-scroll-group .brc-scroll-group-btn, #section-find-doctor-2 .booking-right-calendar .brc-scroll-group .brc-scroll-group-btn {
         background: #eaeff3;
         padding-bottom: 30px;
-        margin: 0 -40px;
+        margin: 0 -42px;
         margin-bottom: -20px;
         margin-top: 30px; }
         @media screen and (max-width: 767px) {
-          .section-find-doctor .booking-right-calendar .brc-scroll-group .brc-scroll-group-btn {
+          #section-find-doctor-1 .booking-right-calendar .brc-scroll-group .brc-scroll-group-btn, #section-find-doctor-2 .booking-right-calendar .brc-scroll-group .brc-scroll-group-btn {
             margin: 0 -20px; } }
-        .section-find-doctor .booking-right-calendar .brc-scroll-group .brc-scroll-group-btn .btn.btn-info {
+        #section-find-doctor-1 .booking-right-calendar .brc-scroll-group .brc-scroll-group-btn .btn.btn-info, #section-find-doctor-2 .booking-right-calendar .brc-scroll-group .brc-scroll-group-btn .btn.btn-info {
           font-size: 12px;
           color: #fff;
           font-weight: bold;
@@ -405,27 +385,27 @@
           border-bottom-left-radius: 15px !important;
           border-bottom-right-radius: 15px !important;
           border: none; }
-          .section-find-doctor .booking-right-calendar .brc-scroll-group .brc-scroll-group-btn .btn.btn-info i {
+          #section-find-doctor-1 .booking-right-calendar .brc-scroll-group .brc-scroll-group-btn .btn.btn-info i, #section-find-doctor-2 .booking-right-calendar .brc-scroll-group .brc-scroll-group-btn .btn.btn-info i {
             margin-left: 10px;
             -webkit-transform: rotate(270deg);
                     transform: rotate(270deg); }
-    .section-find-doctor .booking-right-calendar .brc-take-off {
+    #section-find-doctor-1 .booking-right-calendar .brc-take-off, #section-find-doctor-2 .booking-right-calendar .brc-take-off {
       transition: all .2s ease;
       height: 0;
       opacity: 0;
       margin: 0; }
-      .section-find-doctor .booking-right-calendar .brc-take-off.show {
+      #section-find-doctor-1 .booking-right-calendar .brc-take-off.show, #section-find-doctor-2 .booking-right-calendar .brc-take-off.show {
         height: auto;
         opacity: 1;
         margin-top: 30px; }
-      .section-find-doctor .booking-right-calendar .brc-take-off div {
+      #section-find-doctor-1 .booking-right-calendar .brc-take-off div, #section-find-doctor-2 .booking-right-calendar .brc-take-off div {
         font-size: 13px;
         color: #4d4d4d;
         padding-left: 20px;
         position: relative; }
-        .section-find-doctor .booking-right-calendar .brc-take-off div.take-off-red {
+        #section-find-doctor-1 .booking-right-calendar .brc-take-off div.take-off-red, #section-find-doctor-2 .booking-right-calendar .brc-take-off div.take-off-red {
           margin-bottom: 10px; }
-          .section-find-doctor .booking-right-calendar .brc-take-off div.take-off-red:before {
+          #section-find-doctor-1 .booking-right-calendar .brc-take-off div.take-off-red:before, #section-find-doctor-2 .booking-right-calendar .brc-take-off div.take-off-red:before {
             content: '';
             background: #fa531f;
             width: 10px;
@@ -435,7 +415,7 @@
             top: 3px;
             left: 0;
             display: inline-block; }
-        .section-find-doctor .booking-right-calendar .brc-take-off div.take-off-orange:before {
+        #section-find-doctor-1 .booking-right-calendar .brc-take-off div.take-off-orange:before, #section-find-doctor-2 .booking-right-calendar .brc-take-off div.take-off-orange:before {
           content: '';
           background: #faa01f;
           width: 10px;
@@ -445,24 +425,24 @@
           top: 3px;
           left: 0;
           display: inline-block; }
-    .section-find-doctor .booking-right-calendar .brc-btn {
+    #section-find-doctor-1 .booking-right-calendar .brc-btn, #section-find-doctor-2 .booking-right-calendar .brc-btn {
       transition: all .2s ease;
       height: 0;
       opacity: 0;
       margin: 0; }
-      .section-find-doctor .booking-right-calendar .brc-btn.show {
+      #section-find-doctor-1 .booking-right-calendar .brc-btn.show, #section-find-doctor-2 .booking-right-calendar .brc-btn.show {
         height: auto;
         opacity: 1;
         margin-top: 30px; }
       @media screen and (max-width: 991px) {
-        .section-find-doctor .booking-right-calendar .brc-btn .btn {
+        #section-find-doctor-1 .booking-right-calendar .brc-btn .btn, #section-find-doctor-2 .booking-right-calendar .brc-btn .btn {
           display: block; }
-          .section-find-doctor .booking-right-calendar .brc-btn .btn i {
+          #section-find-doctor-1 .booking-right-calendar .brc-btn .btn i, #section-find-doctor-2 .booking-right-calendar .brc-btn .btn i {
             top: 10px; }
-          .section-find-doctor .booking-right-calendar .brc-btn .btn.btn-info {
+          #section-find-doctor-1 .booking-right-calendar .brc-btn .btn.btn-info, #section-find-doctor-2 .booking-right-calendar .brc-btn .btn.btn-info {
             margin-top: 15px;
             margin-left: 0; } }
-      .section-find-doctor .booking-right-calendar .brc-btn .btn-success {
+      #section-find-doctor-1 .booking-right-calendar .brc-btn .btn-success, #section-find-doctor-2 .booking-right-calendar .brc-btn .btn-success {
         border-radius: 50px !important;
         padding: 12px 30px;
         font-size: 13px;
@@ -470,16 +450,11 @@
         font-weight: bold;
         border: none;
         background: #38d46a; }
-        .section-find-doctor .booking-right-calendar .brc-btn .btn-success i {
-          background: url("../images/booking/delete.png") no-repeat center;
-          width: 15px;
-          height: 15px;
-          display: inline-block;
-          margin-left: 10px;
+        #section-find-doctor-1 .booking-right-calendar .brc-btn .btn-success i, #section-find-doctor-2 .booking-right-calendar .brc-btn .btn-success i {
+          margin-left: 5px;
           position: relative;
-          top: 3px;
-          left: 5px; }
-      .section-find-doctor .booking-right-calendar .brc-btn .btn-info {
+          top: 1px; }
+      #section-find-doctor-1 .booking-right-calendar .brc-btn .btn-info, #section-find-doctor-2 .booking-right-calendar .brc-btn .btn-info {
         background: #48a7f2;
         font-size: 13px;
         color: #fff;

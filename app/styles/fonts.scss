@@ -50,22 +50,22 @@
 
 @font-face {
   font-family: 'Baomoi';
-  src: url('../fonts/Baomoi_gdi.eot');
-  src: url('../fonts/Baomoi_gdi.eot?#iefix')
+  src: url('../../dist/fonts/Baomoi_gdi.eot');
+  src: url('../../dist/fonts/Baomoi_gdi.eot?#iefix')
   format('embedded-opentype'),
-  url('../fonts/Baomoi_gdi.woff') format('woff'),
-  url('../fonts/Baomoi_gdi.ttf') format('truetype');
+  url('../../dist/fonts/Baomoi_gdi.woff') format('woff'),
+  url('../../dist/fonts/Baomoi_gdi.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Baomoi-bold';
-  src: url('../fonts/Baomoi-SemiBold_gdi.eot');
-  src: url('../fonts/Baomoi-SemiBold_gdi.eot?#iefix')
+  src: url('../../dist/fonts/Baomoi-SemiBold_gdi.eot');
+  src: url('../../dist/fonts/Baomoi-SemiBold_gdi.eot?#iefix')
   format('embedded-opentype'),
-  url('../fonts/Baomoi-SemiBold_gdi.woff') format('woff'),
-  url('../fonts/Baomoi-SemiBold_gdi.ttf') format('truetype');
+  url('../../dist/fonts/Baomoi-SemiBold_gdi.woff') format('woff'),
+  url('../../dist/fonts/Baomoi-SemiBold_gdi.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }

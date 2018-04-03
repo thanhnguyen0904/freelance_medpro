@@ -20,7 +20,7 @@
   }
 }
 
-.section-find-doctor{
+#section-find-doctor-1, #section-find-doctor-2{
   margin-bottom: 80px;
   .find-doctor-left{
     padding: 30px 0;
@@ -185,7 +185,7 @@
           border-top: none;
           padding: 15px 12px;
           color: #696969;
-          font-size: 14px;
+          font-size: 15px;
           transition: all .2s ease;
           &:nth-child(7){
             padding: 8px 12px;
@@ -208,7 +208,7 @@
     border: 1px solid #CFD8DC;
     background: #fff;
     border-radius: 5px;
-    padding: 30px 40px;
+    padding: 30px 42px;
     height: auto;
     transition: all .2s ease;
     @media screen and (max-width: 767px){
@@ -217,11 +217,11 @@
     .brc-top{
       justify-content: center;
       padding-bottom: 10px;
-      margin: -10px -40px 5px -40px;
+      margin-bottom: 5px;
+      margin-top: -10px;
       border-bottom: 1px solid #CFD8DC;
       position: relative;
       @media screen and (max-width: 767px){
-        margin: -10px -40px 5px -40px;
         flex-direction: column;
       }
       .btn-group{
@@ -273,39 +273,22 @@
     .table.calTable{
       margin-bottom: 0;
       tbody{
-        tr.brc-scoll{
-          td{
-            border: none;
-            height: 0;
-            padding: 0;
-          }
-          &.show{
-            td{
-              padding: 20px 10px;
-              padding-top: 0;
-              height: auto;
-            }
-            @media screen and (max-width: 991px){
-              padding: 10px 5px;
-              padding-top: 0;
-            }
-          }
-        }
         td,th{
           width: 14.2857142857%;
           text-align: center;
           color: #3c3c3c;
           font-size: 13px;
           font-weight: bold;
-          padding: 20px 10px;
-          transition: all .2s ease;
           @media screen and (max-width: 991px){
             font-size: 12px;
-            padding: 10px 5px;
           }
         }
         th{
+          padding: 20px 10px;
           border-top: 0;
+          @media screen and (max-width: 991px){
+            padding: 10px 5px;
+          }
           &.cn{
             color: #fa531f
           }
@@ -334,33 +317,27 @@
             cursor: pointer;
             &.btn-booking-calendar-disable{
               opacity: .4;
-              cursor: default;
             }
             &:hover, &:focus, &.active{
-              &:not(.btn-booking-calendar-disable){
-                color: #fff;
-                background: #3ad46b;
-              }
+              color: #fff;
+              background: #3ad46b;
             }
           }
         }
       }
     }
     .brc-scroll-group{
+      border: 10px solid #eaeff3;
       transition: all .3s ease;
       height: 0;
       opacity: 0;
       padding: 0;
       margin: 0;
-      border: none;
-      visibility: hidden;
       &.show{
-        border: 10px solid #eaeff3;
         height: auto;
         opacity: 1;
-        margin: 0 -50px;
-        padding: 20px 40px;
-        visibility: visible;
+        margin: 0 -42px;
+        padding: 20px 42px;
         @media screen and (max-width: 991px){
           padding: 20px;
         }
@@ -368,93 +345,89 @@
           margin: 0 -20px;
         }
       }
-      ul{
-        display: flex;
-        list-style-type: none;
-        padding-left: 0;
-        margin: 0;
-        align-items: center;
-        flex-wrap: wrap;
-        @media screen and (max-width: 991px){
-          align-items: flex-start;
-        }
-        &.table-ul-top{
-          margin-bottom: 20px;
-          @media screen and (max-width: 991px){
-            margin-bottom: 0;
+      .brc-scroll-group-1{
+        margin-bottom: 30px;
+        .brt-btn{
+          font-size: 10px;
+          padding: 5px 8px;
+          transition: all .2s ease;
+          @media screen and (max-width: 500px){
+            display: block;
+            margin-bottom: 10px;
+            text-align: center;
           }
-          li{
-            @media screen and (max-width: 991px){
-              margin-top: 0;
+          &.brt-btn-1{
+            color: #fff;
+            background: #48a7f2;
+            border: 1px solid #48a7f2;
+          }
+          &.brt-btn-2{
+            color: #3c3c3c;
+            border: 1px solid #CFD8DC;
+            background: #fff;
+            margin: 0 20px;
+            @media screen and (max-width: 500px){
+              margin: 0;
+              margin-bottom: 10px;
             }
           }
-
-        }
-        &.table-ul-cont{
-          border-top: 1px solid #CFD8DC;
-          padding-top: 25px;
-          margin-bottom: 25px;
-          @media screen and (max-width: 991px){
-            margin-bottom: 35px;
+          &.brt-btn-3{
+            color: #f26522;
+            border: 1px solid #f26522;
+            background: #fff;
           }
-          &:hover, &:focus, &.active{
-            outline: none;
-            li{
-              color: #48a7f2;
-              font-weight: bold;
+        }
+      }
+      .brc-scroll-group-2{
+        border-top: 1px solid #CFD8DC;
+        transition: all .2s ease;
+        height: auto;
+        padding: 20px 10px;
+        margin-bottom: -20px;
+        @media screen and (max-width: 767px){
+          padding: 20px 0;
+        }
+        ul{
+          display: flex;
+          padding-left: 0;
+          margin-bottom: 0;
+          list-style-type: none;
+          flex-wrap: wrap;
+          width: 100%;
+          li{
+            width: 20%;
+            padding: 0 10px;
+            margin-bottom: 20px;
+            @media screen and (max-width: 991px){
+              width: 33.3333%;
+            }
+            @media screen and (max-width: 500px){
+              width: 50%;
             }
             a{
-              color: #48a7f2;
-              border-color: #48a7f2;
-            }
-          }
-        }
-        li{
-          width: 40%;
-          padding: 0;
-          padding-right: 15px;
-          font-size: 13px;
-          color: #3c3c3c;
-          transition: all .2s ease;
-          @media screen and (max-width: 991px){
-            width: 50%;
-          }
-          @media screen and (max-width: 767px){
-            &:nth-child(2) {
-              text-align: right;
-            }
-          }
-          &:last-child{
-            @media screen and (max-width: 991px){
-              padding-right: 0;
-            }
-            width: 20%;
-            @media screen and (max-width: 991px){
-              width: 100%;
-              margin-top: 25px;
-            }
-          }
-          a{
-            background: none;
-            box-shadow: none;
-            outline: none;
-            border: 1px solid #aeb8c8;
-            width: 100%;
-            border-radius: 50px !important;
-            padding: 8px 15px;
-            font-size: 13px;
-            font-weight: bold;
-            color: #333333;
-            margin: -10px 0;
-            cursor: pointer;
-            transition: all .2s ease;
-            cursor: pointer;
-            display: block;
-            width: 100%;
-            text-align: center;
-            &:hover, &:focus, &.active{
-              color: #48a7f2;
-              border-color: #48a7f2;
+              color: #333333;
+              font-size: 13px;
+              padding: 8px 15px;
+              border: 1px solid #CFD8DC;
+              transition: all .2s ease;
+              display: block;
+              text-align: center;
+              &:hover, &:focus, &.active{
+                background: #48a7f2;
+                color: #fff;
+                border-color: #48a7f2;
+              }
+              &.active-full{
+                cursor: default;
+                background: #ff7335;
+                color: #fff;
+                border-color: #ff7335;
+                i{
+                  margin-left: 5px;
+                  position: relative;
+                  top: 1px;
+                }
+              }
             }
           }
         }
@@ -462,7 +435,7 @@
       .brc-scroll-group-btn{
         background: #eaeff3;
         padding-bottom: 30px;
-        margin: 0 -40px;
+        margin: 0 -42px;
         margin-bottom: -20px;
         margin-top: 30px;
         @media screen and (max-width: 767px){
@@ -559,14 +532,9 @@
         border: none;
         background: #38d46a;
         i{
-          background: url('../images/booking/delete.png') no-repeat center;
-          width: 15px;
-          height: 15px;
-          display: inline-block;
-          margin-left: 10px;
+          margin-left: 5px;
           position: relative;
-          top: 3px;
-          left: 5px;
+          top: 1px;
         }
       }
       .btn-info{

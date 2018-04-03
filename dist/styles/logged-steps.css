@@ -17,11 +17,19 @@
     color: #4a7699;
     font-weight: bold; }
 
-.section-info {
+#section-info-123, #section-info-4, #section-info-5,
+#section-info-6, #section-info-7,
+#section-info-9, #section-info-10,
+#section-info-11, #section-info-12,
+#section-info-13 {
   margin-bottom: 100px;
   height: auto;
   transition: all .5s ease; }
-  .section-info .group {
+  #section-info-123 .group, #section-info-4 .group, #section-info-5 .group,
+  #section-info-6 .group, #section-info-7 .group,
+  #section-info-9 .group, #section-info-10 .group,
+  #section-info-11 .group, #section-info-12 .group,
+  #section-info-13 .group {
     border: 1px solid #CFD8DC;
     background: #fff;
     padding: 50px 20px;
@@ -30,81 +38,131 @@
     transition: all .2s ease;
     position: relative;
     margin-bottom: 50px; }
-    .section-info .group.group-files .group-files-item {
+    #section-info-123 .group.group-files .group-files-item, #section-info-4 .group.group-files .group-files-item, #section-info-5 .group.group-files .group-files-item,
+    #section-info-6 .group.group-files .group-files-item, #section-info-7 .group.group-files .group-files-item,
+    #section-info-9 .group.group-files .group-files-item, #section-info-10 .group.group-files .group-files-item,
+    #section-info-11 .group.group-files .group-files-item, #section-info-12 .group.group-files .group-files-item,
+    #section-info-13 .group.group-files .group-files-item {
       border-bottom: 1px dashed #CFD8DC;
       margin-bottom: 20px; }
       @media screen and (max-width: 991px) {
-        .section-info .group.group-files .group-files-item {
+        #section-info-123 .group.group-files .group-files-item, #section-info-4 .group.group-files .group-files-item, #section-info-5 .group.group-files .group-files-item,
+        #section-info-6 .group.group-files .group-files-item, #section-info-7 .group.group-files .group-files-item,
+        #section-info-9 .group.group-files .group-files-item, #section-info-10 .group.group-files .group-files-item,
+        #section-info-11 .group.group-files .group-files-item, #section-info-12 .group.group-files .group-files-item,
+        #section-info-13 .group.group-files .group-files-item {
           -webkit-flex-direction: column;
               -ms-flex-direction: column;
                   flex-direction: column;
           padding-bottom: 20px; } }
-      .section-info .group.group-files .group-files-item .group-files-item-left .gfi-name {
+      #section-info-123 .group.group-files .group-files-item .group-files-item-left .gfi-name, #section-info-4 .group.group-files .group-files-item .group-files-item-left .gfi-name, #section-info-5 .group.group-files .group-files-item .group-files-item-left .gfi-name,
+      #section-info-6 .group.group-files .group-files-item .group-files-item-left .gfi-name, #section-info-7 .group.group-files .group-files-item .group-files-item-left .gfi-name,
+      #section-info-9 .group.group-files .group-files-item .group-files-item-left .gfi-name, #section-info-10 .group.group-files .group-files-item .group-files-item-left .gfi-name,
+      #section-info-11 .group.group-files .group-files-item .group-files-item-left .gfi-name, #section-info-12 .group.group-files .group-files-item .group-files-item-left .gfi-name,
+      #section-info-13 .group.group-files .group-files-item .group-files-item-left .gfi-name {
         font-weight: bold;
-        font-size: 13px;
+        font-size: 14px;
         margin-bottom: 20px; }
-        .section-info .group.group-files .group-files-item .group-files-item-left .gfi-name span {
+        #section-info-123 .group.group-files .group-files-item .group-files-item-left .gfi-name span, #section-info-4 .group.group-files .group-files-item .group-files-item-left .gfi-name span, #section-info-5 .group.group-files .group-files-item .group-files-item-left .gfi-name span,
+        #section-info-6 .group.group-files .group-files-item .group-files-item-left .gfi-name span, #section-info-7 .group.group-files .group-files-item .group-files-item-left .gfi-name span,
+        #section-info-9 .group.group-files .group-files-item .group-files-item-left .gfi-name span, #section-info-10 .group.group-files .group-files-item .group-files-item-left .gfi-name span,
+        #section-info-11 .group.group-files .group-files-item .group-files-item-left .gfi-name span, #section-info-12 .group.group-files .group-files-item .group-files-item-left .gfi-name span,
+        #section-info-13 .group.group-files .group-files-item .group-files-item-left .gfi-name span {
           color: #40b24f;
           position: relative;
-          margin-left: 5px;
-          padding-left: 18px; }
-          .section-info .group.group-files .group-files-item .group-files-item-left .gfi-name span:before {
-            content: '';
-            background: url("../images/logged-step/tick-green.png") no-repeat center;
-            width: 13px;
-            height: 14px;
-            position: absolute;
-            top: 0;
-            left: 0; }
-      .section-info .group.group-files .group-files-item .group-files-item-left .gfi-info {
+          margin-left: 5px; }
+          #section-info-123 .group.group-files .group-files-item .group-files-item-left .gfi-name span i, #section-info-4 .group.group-files .group-files-item .group-files-item-left .gfi-name span i, #section-info-5 .group.group-files .group-files-item .group-files-item-left .gfi-name span i,
+          #section-info-6 .group.group-files .group-files-item .group-files-item-left .gfi-name span i, #section-info-7 .group.group-files .group-files-item .group-files-item-left .gfi-name span i,
+          #section-info-9 .group.group-files .group-files-item .group-files-item-left .gfi-name span i, #section-info-10 .group.group-files .group-files-item .group-files-item-left .gfi-name span i,
+          #section-info-11 .group.group-files .group-files-item .group-files-item-left .gfi-name span i, #section-info-12 .group.group-files .group-files-item .group-files-item-left .gfi-name span i,
+          #section-info-13 .group.group-files .group-files-item .group-files-item-left .gfi-name span i {
+            margin-right: 5px; }
+      #section-info-123 .group.group-files .group-files-item .group-files-item-left .gfi-info, #section-info-4 .group.group-files .group-files-item .group-files-item-left .gfi-info, #section-info-5 .group.group-files .group-files-item .group-files-item-left .gfi-info,
+      #section-info-6 .group.group-files .group-files-item .group-files-item-left .gfi-info, #section-info-7 .group.group-files .group-files-item .group-files-item-left .gfi-info,
+      #section-info-9 .group.group-files .group-files-item .group-files-item-left .gfi-info, #section-info-10 .group.group-files .group-files-item .group-files-item-left .gfi-info,
+      #section-info-11 .group.group-files .group-files-item .group-files-item-left .gfi-info, #section-info-12 .group.group-files .group-files-item .group-files-item-left .gfi-info,
+      #section-info-13 .group.group-files .group-files-item .group-files-item-left .gfi-info {
         color: #696969;
-        font-size: 13px;
+        font-size: 14px;
         margin-bottom: 20px; }
-      .section-info .group.group-files .group-files-item .group-files-item-right a {
+      #section-info-123 .group.group-files .group-files-item .group-files-item-right a, #section-info-4 .group.group-files .group-files-item .group-files-item-right a, #section-info-5 .group.group-files .group-files-item .group-files-item-right a,
+      #section-info-6 .group.group-files .group-files-item .group-files-item-right a, #section-info-7 .group.group-files .group-files-item .group-files-item-right a,
+      #section-info-9 .group.group-files .group-files-item .group-files-item-right a, #section-info-10 .group.group-files .group-files-item .group-files-item-right a,
+      #section-info-11 .group.group-files .group-files-item .group-files-item-right a, #section-info-12 .group.group-files .group-files-item .group-files-item-right a,
+      #section-info-13 .group.group-files .group-files-item .group-files-item-right a {
         color: #696969;
         font-size: 13px;
         transition: all .2s ease;
         position: relative;
         padding-left: 20px; }
-        .section-info .group.group-files .group-files-item .group-files-item-right a:hover, .section-info .group.group-files .group-files-item .group-files-item-right a:focus {
+        #section-info-123 .group.group-files .group-files-item .group-files-item-right a:hover, #section-info-123 .group.group-files .group-files-item .group-files-item-right a:focus, #section-info-4 .group.group-files .group-files-item .group-files-item-right a:hover, #section-info-4 .group.group-files .group-files-item .group-files-item-right a:focus, #section-info-5 .group.group-files .group-files-item .group-files-item-right a:hover, #section-info-5 .group.group-files .group-files-item .group-files-item-right a:focus,
+        #section-info-6 .group.group-files .group-files-item .group-files-item-right a:hover,
+        #section-info-6 .group.group-files .group-files-item .group-files-item-right a:focus, #section-info-7 .group.group-files .group-files-item .group-files-item-right a:hover, #section-info-7 .group.group-files .group-files-item .group-files-item-right a:focus,
+        #section-info-9 .group.group-files .group-files-item .group-files-item-right a:hover,
+        #section-info-9 .group.group-files .group-files-item .group-files-item-right a:focus, #section-info-10 .group.group-files .group-files-item .group-files-item-right a:hover, #section-info-10 .group.group-files .group-files-item .group-files-item-right a:focus,
+        #section-info-11 .group.group-files .group-files-item .group-files-item-right a:hover,
+        #section-info-11 .group.group-files .group-files-item .group-files-item-right a:focus, #section-info-12 .group.group-files .group-files-item .group-files-item-right a:hover, #section-info-12 .group.group-files .group-files-item .group-files-item-right a:focus,
+        #section-info-13 .group.group-files .group-files-item .group-files-item-right a:hover,
+        #section-info-13 .group.group-files .group-files-item .group-files-item-right a:focus {
           color: #48a7f2; }
-        .section-info .group.group-files .group-files-item .group-files-item-right a.gfi-edit:before {
-          content: '';
-          background: url("../images/logged-step/edit.png") no-repeat center;
-          width: 15px;
-          height: 14px;
-          position: absolute;
-          top: 0;
-          left: 0; }
-        .section-info .group.group-files .group-files-item .group-files-item-right a.gfi-delete {
-          padding-left: 18px;
+        #section-info-123 .group.group-files .group-files-item .group-files-item-right a i, #section-info-4 .group.group-files .group-files-item .group-files-item-right a i, #section-info-5 .group.group-files .group-files-item .group-files-item-right a i,
+        #section-info-6 .group.group-files .group-files-item .group-files-item-right a i, #section-info-7 .group.group-files .group-files-item .group-files-item-right a i,
+        #section-info-9 .group.group-files .group-files-item .group-files-item-right a i, #section-info-10 .group.group-files .group-files-item .group-files-item-right a i,
+        #section-info-11 .group.group-files .group-files-item .group-files-item-right a i, #section-info-12 .group.group-files .group-files-item .group-files-item-right a i,
+        #section-info-13 .group.group-files .group-files-item .group-files-item-right a i {
+          margin-right: 5px; }
+        #section-info-123 .group.group-files .group-files-item .group-files-item-right a.gfi-delete, #section-info-4 .group.group-files .group-files-item .group-files-item-right a.gfi-delete, #section-info-5 .group.group-files .group-files-item .group-files-item-right a.gfi-delete,
+        #section-info-6 .group.group-files .group-files-item .group-files-item-right a.gfi-delete, #section-info-7 .group.group-files .group-files-item .group-files-item-right a.gfi-delete,
+        #section-info-9 .group.group-files .group-files-item .group-files-item-right a.gfi-delete, #section-info-10 .group.group-files .group-files-item .group-files-item-right a.gfi-delete,
+        #section-info-11 .group.group-files .group-files-item .group-files-item-right a.gfi-delete, #section-info-12 .group.group-files .group-files-item .group-files-item-right a.gfi-delete,
+        #section-info-13 .group.group-files .group-files-item .group-files-item-right a.gfi-delete {
           margin-left: 15px; }
-          .section-info .group.group-files .group-files-item .group-files-item-right a.gfi-delete:before {
-            content: '';
-            background: url("../images/logged-step/delete.png") no-repeat center;
-            width: 13px;
-            height: 14px;
-            position: absolute;
-            top: 0;
-            left: 0; }
-    .section-info .group.group-files-filter {
+    #section-info-123 .group.group-files-filter, #section-info-4 .group.group-files-filter, #section-info-5 .group.group-files-filter,
+    #section-info-6 .group.group-files-filter, #section-info-7 .group.group-files-filter,
+    #section-info-9 .group.group-files-filter, #section-info-10 .group.group-files-filter,
+    #section-info-11 .group.group-files-filter, #section-info-12 .group.group-files-filter,
+    #section-info-13 .group.group-files-filter {
       border: none;
       padding: 0;
       background: none;
       margin-bottom: 15px; }
-      .section-info .group.group-files-filter .gff-group {
+      #section-info-123 .group.group-files-filter .gff-group, #section-info-4 .group.group-files-filter .gff-group, #section-info-5 .group.group-files-filter .gff-group,
+      #section-info-6 .group.group-files-filter .gff-group, #section-info-7 .group.group-files-filter .gff-group,
+      #section-info-9 .group.group-files-filter .gff-group, #section-info-10 .group.group-files-filter .gff-group,
+      #section-info-11 .group.group-files-filter .gff-group, #section-info-12 .group.group-files-filter .gff-group,
+      #section-info-13 .group.group-files-filter .gff-group {
         position: relative; }
-        .section-info .group.group-files-filter .gff-group a.gff-name {
+        #section-info-123 .group.group-files-filter .gff-group a.gff-name, #section-info-4 .group.group-files-filter .gff-group a.gff-name, #section-info-5 .group.group-files-filter .gff-group a.gff-name,
+        #section-info-6 .group.group-files-filter .gff-group a.gff-name, #section-info-7 .group.group-files-filter .gff-group a.gff-name,
+        #section-info-9 .group.group-files-filter .gff-group a.gff-name, #section-info-10 .group.group-files-filter .gff-group a.gff-name,
+        #section-info-11 .group.group-files-filter .gff-group a.gff-name, #section-info-12 .group.group-files-filter .gff-group a.gff-name,
+        #section-info-13 .group.group-files-filter .gff-group a.gff-name {
           font-size: 14px;
           font-weight: bold;
           color: #3c3c3c;
           transition: all .2s ease; }
-          .section-info .group.group-files-filter .gff-group a.gff-name i {
+          #section-info-123 .group.group-files-filter .gff-group a.gff-name i, #section-info-4 .group.group-files-filter .gff-group a.gff-name i, #section-info-5 .group.group-files-filter .gff-group a.gff-name i,
+          #section-info-6 .group.group-files-filter .gff-group a.gff-name i, #section-info-7 .group.group-files-filter .gff-group a.gff-name i,
+          #section-info-9 .group.group-files-filter .gff-group a.gff-name i, #section-info-10 .group.group-files-filter .gff-group a.gff-name i,
+          #section-info-11 .group.group-files-filter .gff-group a.gff-name i, #section-info-12 .group.group-files-filter .gff-group a.gff-name i,
+          #section-info-13 .group.group-files-filter .gff-group a.gff-name i {
             margin-left: 10px;
             transition: all .2s ease; }
-          .section-info .group.group-files-filter .gff-group a.gff-name:hover i, .section-info .group.group-files-filter .gff-group a.gff-name:focus i {
+          #section-info-123 .group.group-files-filter .gff-group a.gff-name:hover i, #section-info-123 .group.group-files-filter .gff-group a.gff-name:focus i, #section-info-4 .group.group-files-filter .gff-group a.gff-name:hover i, #section-info-4 .group.group-files-filter .gff-group a.gff-name:focus i, #section-info-5 .group.group-files-filter .gff-group a.gff-name:hover i, #section-info-5 .group.group-files-filter .gff-group a.gff-name:focus i,
+          #section-info-6 .group.group-files-filter .gff-group a.gff-name:hover i,
+          #section-info-6 .group.group-files-filter .gff-group a.gff-name:focus i, #section-info-7 .group.group-files-filter .gff-group a.gff-name:hover i, #section-info-7 .group.group-files-filter .gff-group a.gff-name:focus i,
+          #section-info-9 .group.group-files-filter .gff-group a.gff-name:hover i,
+          #section-info-9 .group.group-files-filter .gff-group a.gff-name:focus i, #section-info-10 .group.group-files-filter .gff-group a.gff-name:hover i, #section-info-10 .group.group-files-filter .gff-group a.gff-name:focus i,
+          #section-info-11 .group.group-files-filter .gff-group a.gff-name:hover i,
+          #section-info-11 .group.group-files-filter .gff-group a.gff-name:focus i, #section-info-12 .group.group-files-filter .gff-group a.gff-name:hover i, #section-info-12 .group.group-files-filter .gff-group a.gff-name:focus i,
+          #section-info-13 .group.group-files-filter .gff-group a.gff-name:hover i,
+          #section-info-13 .group.group-files-filter .gff-group a.gff-name:focus i {
             color: #48a7f2; }
-        .section-info .group.group-files-filter .gff-group ul.dropdown-menu {
+        #section-info-123 .group.group-files-filter .gff-group ul.dropdown-menu, #section-info-4 .group.group-files-filter .gff-group ul.dropdown-menu, #section-info-5 .group.group-files-filter .gff-group ul.dropdown-menu,
+        #section-info-6 .group.group-files-filter .gff-group ul.dropdown-menu, #section-info-7 .group.group-files-filter .gff-group ul.dropdown-menu,
+        #section-info-9 .group.group-files-filter .gff-group ul.dropdown-menu, #section-info-10 .group.group-files-filter .gff-group ul.dropdown-menu,
+        #section-info-11 .group.group-files-filter .gff-group ul.dropdown-menu, #section-info-12 .group.group-files-filter .gff-group ul.dropdown-menu,
+        #section-info-13 .group.group-files-filter .gff-group ul.dropdown-menu {
           height: auto;
           width: 100%;
           -webkit-flex-wrap: wrap;
@@ -132,126 +190,260 @@
           visibility: hidden;
           -webkit-transform: scale(0);
                   transform: scale(0); }
-          .section-info .group.group-files-filter .gff-group ul.dropdown-menu.show {
+          #section-info-123 .group.group-files-filter .gff-group ul.dropdown-menu.show, #section-info-4 .group.group-files-filter .gff-group ul.dropdown-menu.show, #section-info-5 .group.group-files-filter .gff-group ul.dropdown-menu.show,
+          #section-info-6 .group.group-files-filter .gff-group ul.dropdown-menu.show, #section-info-7 .group.group-files-filter .gff-group ul.dropdown-menu.show,
+          #section-info-9 .group.group-files-filter .gff-group ul.dropdown-menu.show, #section-info-10 .group.group-files-filter .gff-group ul.dropdown-menu.show,
+          #section-info-11 .group.group-files-filter .gff-group ul.dropdown-menu.show, #section-info-12 .group.group-files-filter .gff-group ul.dropdown-menu.show,
+          #section-info-13 .group.group-files-filter .gff-group ul.dropdown-menu.show {
             opacity: 1;
             -webkit-transform: scale(1);
                     transform: scale(1);
             visibility: visible; }
-          .section-info .group.group-files-filter .gff-group ul.dropdown-menu li {
+          #section-info-123 .group.group-files-filter .gff-group ul.dropdown-menu li, #section-info-4 .group.group-files-filter .gff-group ul.dropdown-menu li, #section-info-5 .group.group-files-filter .gff-group ul.dropdown-menu li,
+          #section-info-6 .group.group-files-filter .gff-group ul.dropdown-menu li, #section-info-7 .group.group-files-filter .gff-group ul.dropdown-menu li,
+          #section-info-9 .group.group-files-filter .gff-group ul.dropdown-menu li, #section-info-10 .group.group-files-filter .gff-group ul.dropdown-menu li,
+          #section-info-11 .group.group-files-filter .gff-group ul.dropdown-menu li, #section-info-12 .group.group-files-filter .gff-group ul.dropdown-menu li,
+          #section-info-13 .group.group-files-filter .gff-group ul.dropdown-menu li {
             width: 100%; }
-            .section-info .group.group-files-filter .gff-group ul.dropdown-menu li:first-child {
+            #section-info-123 .group.group-files-filter .gff-group ul.dropdown-menu li:first-child, #section-info-4 .group.group-files-filter .gff-group ul.dropdown-menu li:first-child, #section-info-5 .group.group-files-filter .gff-group ul.dropdown-menu li:first-child,
+            #section-info-6 .group.group-files-filter .gff-group ul.dropdown-menu li:first-child, #section-info-7 .group.group-files-filter .gff-group ul.dropdown-menu li:first-child,
+            #section-info-9 .group.group-files-filter .gff-group ul.dropdown-menu li:first-child, #section-info-10 .group.group-files-filter .gff-group ul.dropdown-menu li:first-child,
+            #section-info-11 .group.group-files-filter .gff-group ul.dropdown-menu li:first-child, #section-info-12 .group.group-files-filter .gff-group ul.dropdown-menu li:first-child,
+            #section-info-13 .group.group-files-filter .gff-group ul.dropdown-menu li:first-child {
               border-bottom: 1px solid #CFD8DC;
               padding-bottom: 10px; }
-            .section-info .group.group-files-filter .gff-group ul.dropdown-menu li:last-child {
+            #section-info-123 .group.group-files-filter .gff-group ul.dropdown-menu li:last-child, #section-info-4 .group.group-files-filter .gff-group ul.dropdown-menu li:last-child, #section-info-5 .group.group-files-filter .gff-group ul.dropdown-menu li:last-child,
+            #section-info-6 .group.group-files-filter .gff-group ul.dropdown-menu li:last-child, #section-info-7 .group.group-files-filter .gff-group ul.dropdown-menu li:last-child,
+            #section-info-9 .group.group-files-filter .gff-group ul.dropdown-menu li:last-child, #section-info-10 .group.group-files-filter .gff-group ul.dropdown-menu li:last-child,
+            #section-info-11 .group.group-files-filter .gff-group ul.dropdown-menu li:last-child, #section-info-12 .group.group-files-filter .gff-group ul.dropdown-menu li:last-child,
+            #section-info-13 .group.group-files-filter .gff-group ul.dropdown-menu li:last-child {
               margin-top: 10px; }
-            .section-info .group.group-files-filter .gff-group ul.dropdown-menu li a {
+            #section-info-123 .group.group-files-filter .gff-group ul.dropdown-menu li a, #section-info-4 .group.group-files-filter .gff-group ul.dropdown-menu li a, #section-info-5 .group.group-files-filter .gff-group ul.dropdown-menu li a,
+            #section-info-6 .group.group-files-filter .gff-group ul.dropdown-menu li a, #section-info-7 .group.group-files-filter .gff-group ul.dropdown-menu li a,
+            #section-info-9 .group.group-files-filter .gff-group ul.dropdown-menu li a, #section-info-10 .group.group-files-filter .gff-group ul.dropdown-menu li a,
+            #section-info-11 .group.group-files-filter .gff-group ul.dropdown-menu li a, #section-info-12 .group.group-files-filter .gff-group ul.dropdown-menu li a,
+            #section-info-13 .group.group-files-filter .gff-group ul.dropdown-menu li a {
               display: block;
               color: #3c3c3c;
               font-size: 13px;
               transition: all .2s ease; }
-              .section-info .group.group-files-filter .gff-group ul.dropdown-menu li a:hover, .section-info .group.group-files-filter .gff-group ul.dropdown-menu li a:focus {
+              #section-info-123 .group.group-files-filter .gff-group ul.dropdown-menu li a:hover, #section-info-123 .group.group-files-filter .gff-group ul.dropdown-menu li a:focus, #section-info-4 .group.group-files-filter .gff-group ul.dropdown-menu li a:hover, #section-info-4 .group.group-files-filter .gff-group ul.dropdown-menu li a:focus, #section-info-5 .group.group-files-filter .gff-group ul.dropdown-menu li a:hover, #section-info-5 .group.group-files-filter .gff-group ul.dropdown-menu li a:focus,
+              #section-info-6 .group.group-files-filter .gff-group ul.dropdown-menu li a:hover,
+              #section-info-6 .group.group-files-filter .gff-group ul.dropdown-menu li a:focus, #section-info-7 .group.group-files-filter .gff-group ul.dropdown-menu li a:hover, #section-info-7 .group.group-files-filter .gff-group ul.dropdown-menu li a:focus,
+              #section-info-9 .group.group-files-filter .gff-group ul.dropdown-menu li a:hover,
+              #section-info-9 .group.group-files-filter .gff-group ul.dropdown-menu li a:focus, #section-info-10 .group.group-files-filter .gff-group ul.dropdown-menu li a:hover, #section-info-10 .group.group-files-filter .gff-group ul.dropdown-menu li a:focus,
+              #section-info-11 .group.group-files-filter .gff-group ul.dropdown-menu li a:hover,
+              #section-info-11 .group.group-files-filter .gff-group ul.dropdown-menu li a:focus, #section-info-12 .group.group-files-filter .gff-group ul.dropdown-menu li a:hover, #section-info-12 .group.group-files-filter .gff-group ul.dropdown-menu li a:focus,
+              #section-info-13 .group.group-files-filter .gff-group ul.dropdown-menu li a:hover,
+              #section-info-13 .group.group-files-filter .gff-group ul.dropdown-menu li a:focus {
                 color: #48a7f2; }
-    .section-info .group.group-files-medical {
+    #section-info-123 .group.group-files-medical, #section-info-4 .group.group-files-medical, #section-info-5 .group.group-files-medical,
+    #section-info-6 .group.group-files-medical, #section-info-7 .group.group-files-medical,
+    #section-info-9 .group.group-files-medical, #section-info-10 .group.group-files-medical,
+    #section-info-11 .group.group-files-medical, #section-info-12 .group.group-files-medical,
+    #section-info-13 .group.group-files-medical {
       padding: 30px 0;
       padding-bottom: 0; }
-      .section-info .group.group-files-medical .gfm-name {
+      #section-info-123 .group.group-files-medical .gfm-name, #section-info-4 .group.group-files-medical .gfm-name, #section-info-5 .group.group-files-medical .gfm-name,
+      #section-info-6 .group.group-files-medical .gfm-name, #section-info-7 .group.group-files-medical .gfm-name,
+      #section-info-9 .group.group-files-medical .gfm-name, #section-info-10 .group.group-files-medical .gfm-name,
+      #section-info-11 .group.group-files-medical .gfm-name, #section-info-12 .group.group-files-medical .gfm-name,
+      #section-info-13 .group.group-files-medical .gfm-name {
         color: #3c3c3c;
-        font-size: 13px;
+        font-size: 15px;
         font-weight: bold;
         margin-bottom: 20px;
         padding: 0 20px; }
-      .section-info .group.group-files-medical .table-responsive {
+      #section-info-123 .group.group-files-medical .table-responsive, #section-info-4 .group.group-files-medical .table-responsive, #section-info-5 .group.group-files-medical .table-responsive,
+      #section-info-6 .group.group-files-medical .table-responsive, #section-info-7 .group.group-files-medical .table-responsive,
+      #section-info-9 .group.group-files-medical .table-responsive, #section-info-10 .group.group-files-medical .table-responsive,
+      #section-info-11 .group.group-files-medical .table-responsive, #section-info-12 .group.group-files-medical .table-responsive,
+      #section-info-13 .group.group-files-medical .table-responsive {
         position: relative;
         overflow: auto;
         margin: 0;
         margin-bottom: 30px; }
-        .section-info .group.group-files-medical .table-responsive table {
+        #section-info-123 .group.group-files-medical .table-responsive table, #section-info-4 .group.group-files-medical .table-responsive table, #section-info-5 .group.group-files-medical .table-responsive table,
+        #section-info-6 .group.group-files-medical .table-responsive table, #section-info-7 .group.group-files-medical .table-responsive table,
+        #section-info-9 .group.group-files-medical .table-responsive table, #section-info-10 .group.group-files-medical .table-responsive table,
+        #section-info-11 .group.group-files-medical .table-responsive table, #section-info-12 .group.group-files-medical .table-responsive table,
+        #section-info-13 .group.group-files-medical .table-responsive table {
           border: 10px solid #eceef3; }
           @media screen and (max-width: 991px) {
-            .section-info .group.group-files-medical .table-responsive table {
+            #section-info-123 .group.group-files-medical .table-responsive table, #section-info-4 .group.group-files-medical .table-responsive table, #section-info-5 .group.group-files-medical .table-responsive table,
+            #section-info-6 .group.group-files-medical .table-responsive table, #section-info-7 .group.group-files-medical .table-responsive table,
+            #section-info-9 .group.group-files-medical .table-responsive table, #section-info-10 .group.group-files-medical .table-responsive table,
+            #section-info-11 .group.group-files-medical .table-responsive table, #section-info-12 .group.group-files-medical .table-responsive table,
+            #section-info-13 .group.group-files-medical .table-responsive table {
               min-width: 800px; } }
-          .section-info .group.group-files-medical .table-responsive table th {
+          #section-info-123 .group.group-files-medical .table-responsive table th, #section-info-4 .group.group-files-medical .table-responsive table th, #section-info-5 .group.group-files-medical .table-responsive table th,
+          #section-info-6 .group.group-files-medical .table-responsive table th, #section-info-7 .group.group-files-medical .table-responsive table th,
+          #section-info-9 .group.group-files-medical .table-responsive table th, #section-info-10 .group.group-files-medical .table-responsive table th,
+          #section-info-11 .group.group-files-medical .table-responsive table th, #section-info-12 .group.group-files-medical .table-responsive table th,
+          #section-info-13 .group.group-files-medical .table-responsive table th {
             border-top: none;
             border-bottom: 1px solid #CFD8DC;
             padding: 20px 12px;
-            font-size: 12px;
+            font-size: 13px;
             color: #3c3c3c;
             text-align: center; }
-          .section-info .group.group-files-medical .table-responsive table tr {
+          #section-info-123 .group.group-files-medical .table-responsive table tr, #section-info-4 .group.group-files-medical .table-responsive table tr, #section-info-5 .group.group-files-medical .table-responsive table tr,
+          #section-info-6 .group.group-files-medical .table-responsive table tr, #section-info-7 .group.group-files-medical .table-responsive table tr,
+          #section-info-9 .group.group-files-medical .table-responsive table tr, #section-info-10 .group.group-files-medical .table-responsive table tr,
+          #section-info-11 .group.group-files-medical .table-responsive table tr, #section-info-12 .group.group-files-medical .table-responsive table tr,
+          #section-info-13 .group.group-files-medical .table-responsive table tr {
             background: none; }
-          .section-info .group.group-files-medical .table-responsive table td {
+            #section-info-123 .group.group-files-medical .table-responsive table tr.active td, #section-info-4 .group.group-files-medical .table-responsive table tr.active td, #section-info-5 .group.group-files-medical .table-responsive table tr.active td,
+            #section-info-6 .group.group-files-medical .table-responsive table tr.active td, #section-info-7 .group.group-files-medical .table-responsive table tr.active td,
+            #section-info-9 .group.group-files-medical .table-responsive table tr.active td, #section-info-10 .group.group-files-medical .table-responsive table tr.active td,
+            #section-info-11 .group.group-files-medical .table-responsive table tr.active td, #section-info-12 .group.group-files-medical .table-responsive table tr.active td,
+            #section-info-13 .group.group-files-medical .table-responsive table tr.active td {
+              opacity: .5; }
+          #section-info-123 .group.group-files-medical .table-responsive table td, #section-info-4 .group.group-files-medical .table-responsive table td, #section-info-5 .group.group-files-medical .table-responsive table td,
+          #section-info-6 .group.group-files-medical .table-responsive table td, #section-info-7 .group.group-files-medical .table-responsive table td,
+          #section-info-9 .group.group-files-medical .table-responsive table td, #section-info-10 .group.group-files-medical .table-responsive table td,
+          #section-info-11 .group.group-files-medical .table-responsive table td, #section-info-12 .group.group-files-medical .table-responsive table td,
+          #section-info-13 .group.group-files-medical .table-responsive table td {
             border-bottom: 1px solid #CFD8DC;
             padding: 20px 12px;
             color: #696969;
             font-size: 14px;
             text-align: center;
             transition: all .2s ease; }
-            .section-info .group.group-files-medical .table-responsive table td.active {
+            #section-info-123 .group.group-files-medical .table-responsive table td.active, #section-info-4 .group.group-files-medical .table-responsive table td.active, #section-info-5 .group.group-files-medical .table-responsive table td.active,
+            #section-info-6 .group.group-files-medical .table-responsive table td.active, #section-info-7 .group.group-files-medical .table-responsive table td.active,
+            #section-info-9 .group.group-files-medical .table-responsive table td.active, #section-info-10 .group.group-files-medical .table-responsive table td.active,
+            #section-info-11 .group.group-files-medical .table-responsive table td.active, #section-info-12 .group.group-files-medical .table-responsive table td.active,
+            #section-info-13 .group.group-files-medical .table-responsive table td.active {
               color: #48a7f2;
               font-weight: bold; }
-    .section-info .group.group-files-update .form-group {
+    #section-info-123 .group.group-files-update .form-group, #section-info-4 .group.group-files-update .form-group, #section-info-5 .group.group-files-update .form-group,
+    #section-info-6 .group.group-files-update .form-group, #section-info-7 .group.group-files-update .form-group,
+    #section-info-9 .group.group-files-update .form-group, #section-info-10 .group.group-files-update .form-group,
+    #section-info-11 .group.group-files-update .form-group, #section-info-12 .group.group-files-update .form-group,
+    #section-info-13 .group.group-files-update .form-group {
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
       -webkit-align-items: center;
           -ms-flex-align: center;
               align-items: center; }
-      .section-info .group.group-files-update .form-group label.gfu-name {
+      #section-info-123 .group.group-files-update .form-group label.gfu-name, #section-info-4 .group.group-files-update .form-group label.gfu-name, #section-info-5 .group.group-files-update .form-group label.gfu-name,
+      #section-info-6 .group.group-files-update .form-group label.gfu-name, #section-info-7 .group.group-files-update .form-group label.gfu-name,
+      #section-info-9 .group.group-files-update .form-group label.gfu-name, #section-info-10 .group.group-files-update .form-group label.gfu-name,
+      #section-info-11 .group.group-files-update .form-group label.gfu-name, #section-info-12 .group.group-files-update .form-group label.gfu-name,
+      #section-info-13 .group.group-files-update .form-group label.gfu-name {
         color: #3c3c3c;
         font-size: 14px;
         min-width: 200px;
         margin-bottom: 0; }
-      .section-info .group.group-files-update .form-group input {
+      #section-info-123 .group.group-files-update .form-group input, #section-info-4 .group.group-files-update .form-group input, #section-info-5 .group.group-files-update .form-group input,
+      #section-info-6 .group.group-files-update .form-group input, #section-info-7 .group.group-files-update .form-group input,
+      #section-info-9 .group.group-files-update .form-group input, #section-info-10 .group.group-files-update .form-group input,
+      #section-info-11 .group.group-files-update .form-group input, #section-info-12 .group.group-files-update .form-group input,
+      #section-info-13 .group.group-files-update .form-group input {
         color: #696969;
         font-size: 13px;
-        height: 40px;
+        height: 42px;
         padding: 10px 20px; }
-        .section-info .group.group-files-update .form-group input.form-check-input {
+        #section-info-123 .group.group-files-update .form-group input.form-check-input, #section-info-4 .group.group-files-update .form-group input.form-check-input, #section-info-5 .group.group-files-update .form-group input.form-check-input,
+        #section-info-6 .group.group-files-update .form-group input.form-check-input, #section-info-7 .group.group-files-update .form-group input.form-check-input,
+        #section-info-9 .group.group-files-update .form-group input.form-check-input, #section-info-10 .group.group-files-update .form-group input.form-check-input,
+        #section-info-11 .group.group-files-update .form-group input.form-check-input, #section-info-12 .group.group-files-update .form-group input.form-check-input,
+        #section-info-13 .group.group-files-update .form-group input.form-check-input {
           height: auto;
           margin-right: 10px;
           outline: none;
           position: relative;
           top: 2px; }
-      .section-info .group.group-files-update .form-group select {
+      #section-info-123 .group.group-files-update .form-group select, #section-info-4 .group.group-files-update .form-group select, #section-info-5 .group.group-files-update .form-group select,
+      #section-info-6 .group.group-files-update .form-group select, #section-info-7 .group.group-files-update .form-group select,
+      #section-info-9 .group.group-files-update .form-group select, #section-info-10 .group.group-files-update .form-group select,
+      #section-info-11 .group.group-files-update .form-group select, #section-info-12 .group.group-files-update .form-group select,
+      #section-info-13 .group.group-files-update .form-group select {
         color: #696969;
         font-size: 13px;
-        height: 40px;
+        height: 42px;
         padding: 10px 20px; }
-      .section-info .group.group-files-update .form-group ::-webkit-input-placeholder {
+      #section-info-123 .group.group-files-update .form-group ::-webkit-input-placeholder, #section-info-4 .group.group-files-update .form-group ::-webkit-input-placeholder, #section-info-5 .group.group-files-update .form-group ::-webkit-input-placeholder,
+      #section-info-6 .group.group-files-update .form-group ::-webkit-input-placeholder, #section-info-7 .group.group-files-update .form-group ::-webkit-input-placeholder,
+      #section-info-9 .group.group-files-update .form-group ::-webkit-input-placeholder, #section-info-10 .group.group-files-update .form-group ::-webkit-input-placeholder,
+      #section-info-11 .group.group-files-update .form-group ::-webkit-input-placeholder, #section-info-12 .group.group-files-update .form-group ::-webkit-input-placeholder,
+      #section-info-13 .group.group-files-update .form-group ::-webkit-input-placeholder {
         /* Chrome/Opera/Safari */
         color: #696969; }
-      .section-info .group.group-files-update .form-group ::-moz-placeholder {
+      #section-info-123 .group.group-files-update .form-group ::-moz-placeholder, #section-info-4 .group.group-files-update .form-group ::-moz-placeholder, #section-info-5 .group.group-files-update .form-group ::-moz-placeholder,
+      #section-info-6 .group.group-files-update .form-group ::-moz-placeholder, #section-info-7 .group.group-files-update .form-group ::-moz-placeholder,
+      #section-info-9 .group.group-files-update .form-group ::-moz-placeholder, #section-info-10 .group.group-files-update .form-group ::-moz-placeholder,
+      #section-info-11 .group.group-files-update .form-group ::-moz-placeholder, #section-info-12 .group.group-files-update .form-group ::-moz-placeholder,
+      #section-info-13 .group.group-files-update .form-group ::-moz-placeholder {
         /* Firefox 19+ */
         color: #696969; }
-      .section-info .group.group-files-update .form-group :-ms-input-placeholder {
+      #section-info-123 .group.group-files-update .form-group :-ms-input-placeholder, #section-info-4 .group.group-files-update .form-group :-ms-input-placeholder, #section-info-5 .group.group-files-update .form-group :-ms-input-placeholder,
+      #section-info-6 .group.group-files-update .form-group :-ms-input-placeholder, #section-info-7 .group.group-files-update .form-group :-ms-input-placeholder,
+      #section-info-9 .group.group-files-update .form-group :-ms-input-placeholder, #section-info-10 .group.group-files-update .form-group :-ms-input-placeholder,
+      #section-info-11 .group.group-files-update .form-group :-ms-input-placeholder, #section-info-12 .group.group-files-update .form-group :-ms-input-placeholder,
+      #section-info-13 .group.group-files-update .form-group :-ms-input-placeholder {
         /* IE 10+ */
         color: #696969; }
-      .section-info .group.group-files-update .form-group :-moz-placeholder {
+      #section-info-123 .group.group-files-update .form-group :-moz-placeholder, #section-info-4 .group.group-files-update .form-group :-moz-placeholder, #section-info-5 .group.group-files-update .form-group :-moz-placeholder,
+      #section-info-6 .group.group-files-update .form-group :-moz-placeholder, #section-info-7 .group.group-files-update .form-group :-moz-placeholder,
+      #section-info-9 .group.group-files-update .form-group :-moz-placeholder, #section-info-10 .group.group-files-update .form-group :-moz-placeholder,
+      #section-info-11 .group.group-files-update .form-group :-moz-placeholder, #section-info-12 .group.group-files-update .form-group :-moz-placeholder,
+      #section-info-13 .group.group-files-update .form-group :-moz-placeholder {
         /* Firefox 18- */
         color: #696969; }
-      .section-info .group.group-files-update .form-group .input-value {
+      #section-info-123 .group.group-files-update .form-group .input-value, #section-info-4 .group.group-files-update .form-group .input-value, #section-info-5 .group.group-files-update .form-group .input-value,
+      #section-info-6 .group.group-files-update .form-group .input-value, #section-info-7 .group.group-files-update .form-group .input-value,
+      #section-info-9 .group.group-files-update .form-group .input-value, #section-info-10 .group.group-files-update .form-group .input-value,
+      #section-info-11 .group.group-files-update .form-group .input-value, #section-info-12 .group.group-files-update .form-group .input-value,
+      #section-info-13 .group.group-files-update .form-group .input-value {
         color: #696969;
         font-size: 13px;
         padding: 10px 20px;
         font-weight: bold; }
-      .section-info .group.group-files-update .form-group .form-check-label {
+      #section-info-123 .group.group-files-update .form-group .form-check-label, #section-info-4 .group.group-files-update .form-group .form-check-label, #section-info-5 .group.group-files-update .form-group .form-check-label,
+      #section-info-6 .group.group-files-update .form-group .form-check-label, #section-info-7 .group.group-files-update .form-group .form-check-label,
+      #section-info-9 .group.group-files-update .form-group .form-check-label, #section-info-10 .group.group-files-update .form-group .form-check-label,
+      #section-info-11 .group.group-files-update .form-group .form-check-label, #section-info-12 .group.group-files-update .form-group .form-check-label,
+      #section-info-13 .group.group-files-update .form-group .form-check-label {
         color: #696969;
         font-size: 13px; }
-      .section-info .group.group-files-update .form-group .form-check.form-check-inline .form-check-label {
+      #section-info-123 .group.group-files-update .form-group .form-check.form-check-inline .form-check-label, #section-info-4 .group.group-files-update .form-group .form-check.form-check-inline .form-check-label, #section-info-5 .group.group-files-update .form-group .form-check.form-check-inline .form-check-label,
+      #section-info-6 .group.group-files-update .form-group .form-check.form-check-inline .form-check-label, #section-info-7 .group.group-files-update .form-group .form-check.form-check-inline .form-check-label,
+      #section-info-9 .group.group-files-update .form-group .form-check.form-check-inline .form-check-label, #section-info-10 .group.group-files-update .form-group .form-check.form-check-inline .form-check-label,
+      #section-info-11 .group.group-files-update .form-group .form-check.form-check-inline .form-check-label, #section-info-12 .group.group-files-update .form-group .form-check.form-check-inline .form-check-label,
+      #section-info-13 .group.group-files-update .form-group .form-check.form-check-inline .form-check-label {
         color: #696969;
         font-size: 13px; }
-      .section-info .group.group-files-update .form-group .form-check.form-check-inline input {
+      #section-info-123 .group.group-files-update .form-group .form-check.form-check-inline input, #section-info-4 .group.group-files-update .form-group .form-check.form-check-inline input, #section-info-5 .group.group-files-update .form-group .form-check.form-check-inline input,
+      #section-info-6 .group.group-files-update .form-group .form-check.form-check-inline input, #section-info-7 .group.group-files-update .form-group .form-check.form-check-inline input,
+      #section-info-9 .group.group-files-update .form-group .form-check.form-check-inline input, #section-info-10 .group.group-files-update .form-group .form-check.form-check-inline input,
+      #section-info-11 .group.group-files-update .form-group .form-check.form-check-inline input, #section-info-12 .group.group-files-update .form-group .form-check.form-check-inline input,
+      #section-info-13 .group.group-files-update .form-group .form-check.form-check-inline input {
         height: auto;
         outline: none;
         position: relative;
         top: 2px; }
-      .section-info .group.group-files-update .form-group .form-check.form-check-inline.form-check-inline + .form-check-inline {
+      #section-info-123 .group.group-files-update .form-group .form-check.form-check-inline.form-check-inline + .form-check-inline, #section-info-4 .group.group-files-update .form-group .form-check.form-check-inline.form-check-inline + .form-check-inline, #section-info-5 .group.group-files-update .form-group .form-check.form-check-inline.form-check-inline + .form-check-inline,
+      #section-info-6 .group.group-files-update .form-group .form-check.form-check-inline.form-check-inline + .form-check-inline, #section-info-7 .group.group-files-update .form-group .form-check.form-check-inline.form-check-inline + .form-check-inline,
+      #section-info-9 .group.group-files-update .form-group .form-check.form-check-inline.form-check-inline + .form-check-inline, #section-info-10 .group.group-files-update .form-group .form-check.form-check-inline.form-check-inline + .form-check-inline,
+      #section-info-11 .group.group-files-update .form-group .form-check.form-check-inline.form-check-inline + .form-check-inline, #section-info-12 .group.group-files-update .form-group .form-check.form-check-inline.form-check-inline + .form-check-inline,
+      #section-info-13 .group.group-files-update .form-group .form-check.form-check-inline.form-check-inline + .form-check-inline {
         margin-left: 20px; }
         @media screen and (max-width: 991px) {
-          .section-info .group.group-files-update .form-group .form-check.form-check-inline.form-check-inline + .form-check-inline {
+          #section-info-123 .group.group-files-update .form-group .form-check.form-check-inline.form-check-inline + .form-check-inline, #section-info-4 .group.group-files-update .form-group .form-check.form-check-inline.form-check-inline + .form-check-inline, #section-info-5 .group.group-files-update .form-group .form-check.form-check-inline.form-check-inline + .form-check-inline,
+          #section-info-6 .group.group-files-update .form-group .form-check.form-check-inline.form-check-inline + .form-check-inline, #section-info-7 .group.group-files-update .form-group .form-check.form-check-inline.form-check-inline + .form-check-inline,
+          #section-info-9 .group.group-files-update .form-group .form-check.form-check-inline.form-check-inline + .form-check-inline, #section-info-10 .group.group-files-update .form-group .form-check.form-check-inline.form-check-inline + .form-check-inline,
+          #section-info-11 .group.group-files-update .form-group .form-check.form-check-inline.form-check-inline + .form-check-inline, #section-info-12 .group.group-files-update .form-group .form-check.form-check-inline.form-check-inline + .form-check-inline,
+          #section-info-13 .group.group-files-update .form-group .form-check.form-check-inline.form-check-inline + .form-check-inline {
             margin-left: 0; } }
       @media screen and (max-width: 991px) {
-        .section-info .group.group-files-update .form-group {
+        #section-info-123 .group.group-files-update .form-group, #section-info-4 .group.group-files-update .form-group, #section-info-5 .group.group-files-update .form-group,
+        #section-info-6 .group.group-files-update .form-group, #section-info-7 .group.group-files-update .form-group,
+        #section-info-9 .group.group-files-update .form-group, #section-info-10 .group.group-files-update .form-group,
+        #section-info-11 .group.group-files-update .form-group, #section-info-12 .group.group-files-update .form-group,
+        #section-info-13 .group.group-files-update .form-group {
           -webkit-align-items: flex-start;
               -ms-flex-align: start;
                   align-items: flex-start;
@@ -259,9 +451,17 @@
               -ms-flex-direction: column;
                   flex-direction: column;
           margin-bottom: 20px; }
-          .section-info .group.group-files-update .form-group label.gfu-name {
+          #section-info-123 .group.group-files-update .form-group label.gfu-name, #section-info-4 .group.group-files-update .form-group label.gfu-name, #section-info-5 .group.group-files-update .form-group label.gfu-name,
+          #section-info-6 .group.group-files-update .form-group label.gfu-name, #section-info-7 .group.group-files-update .form-group label.gfu-name,
+          #section-info-9 .group.group-files-update .form-group label.gfu-name, #section-info-10 .group.group-files-update .form-group label.gfu-name,
+          #section-info-11 .group.group-files-update .form-group label.gfu-name, #section-info-12 .group.group-files-update .form-group label.gfu-name,
+          #section-info-13 .group.group-files-update .form-group label.gfu-name {
             margin-bottom: 15px; } }
-    .section-info .group.group-files-update .gfu-ul {
+    #section-info-123 .group.group-files-update .gfu-ul, #section-info-4 .group.group-files-update .gfu-ul, #section-info-5 .group.group-files-update .gfu-ul,
+    #section-info-6 .group.group-files-update .gfu-ul, #section-info-7 .group.group-files-update .gfu-ul,
+    #section-info-9 .group.group-files-update .gfu-ul, #section-info-10 .group.group-files-update .gfu-ul,
+    #section-info-11 .group.group-files-update .gfu-ul, #section-info-12 .group.group-files-update .gfu-ul,
+    #section-info-13 .group.group-files-update .gfu-ul {
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
@@ -270,47 +470,103 @@
       width: 100%;
       margin-bottom: 0; }
       @media screen and (max-width: 767px) {
-        .section-info .group.group-files-update .gfu-ul {
+        #section-info-123 .group.group-files-update .gfu-ul, #section-info-4 .group.group-files-update .gfu-ul, #section-info-5 .group.group-files-update .gfu-ul,
+        #section-info-6 .group.group-files-update .gfu-ul, #section-info-7 .group.group-files-update .gfu-ul,
+        #section-info-9 .group.group-files-update .gfu-ul, #section-info-10 .group.group-files-update .gfu-ul,
+        #section-info-11 .group.group-files-update .gfu-ul, #section-info-12 .group.group-files-update .gfu-ul,
+        #section-info-13 .group.group-files-update .gfu-ul {
           -webkit-flex-wrap: wrap;
               -ms-flex-wrap: wrap;
                   flex-wrap: wrap; } }
-      .section-info .group.group-files-update .gfu-ul li {
+      #section-info-123 .group.group-files-update .gfu-ul li, #section-info-4 .group.group-files-update .gfu-ul li, #section-info-5 .group.group-files-update .gfu-ul li,
+      #section-info-6 .group.group-files-update .gfu-ul li, #section-info-7 .group.group-files-update .gfu-ul li,
+      #section-info-9 .group.group-files-update .gfu-ul li, #section-info-10 .group.group-files-update .gfu-ul li,
+      #section-info-11 .group.group-files-update .gfu-ul li, #section-info-12 .group.group-files-update .gfu-ul li,
+      #section-info-13 .group.group-files-update .gfu-ul li {
         width: 30%; }
-        .section-info .group.group-files-update .gfu-ul li:nth-child(2) {
+        #section-info-123 .group.group-files-update .gfu-ul li:nth-child(2), #section-info-4 .group.group-files-update .gfu-ul li:nth-child(2), #section-info-5 .group.group-files-update .gfu-ul li:nth-child(2),
+        #section-info-6 .group.group-files-update .gfu-ul li:nth-child(2), #section-info-7 .group.group-files-update .gfu-ul li:nth-child(2),
+        #section-info-9 .group.group-files-update .gfu-ul li:nth-child(2), #section-info-10 .group.group-files-update .gfu-ul li:nth-child(2),
+        #section-info-11 .group.group-files-update .gfu-ul li:nth-child(2), #section-info-12 .group.group-files-update .gfu-ul li:nth-child(2),
+        #section-info-13 .group.group-files-update .gfu-ul li:nth-child(2) {
           width: 40%;
           margin: 0 10px; }
           @media screen and (max-width: 767px) {
-            .section-info .group.group-files-update .gfu-ul li:nth-child(2) {
+            #section-info-123 .group.group-files-update .gfu-ul li:nth-child(2), #section-info-4 .group.group-files-update .gfu-ul li:nth-child(2), #section-info-5 .group.group-files-update .gfu-ul li:nth-child(2),
+            #section-info-6 .group.group-files-update .gfu-ul li:nth-child(2), #section-info-7 .group.group-files-update .gfu-ul li:nth-child(2),
+            #section-info-9 .group.group-files-update .gfu-ul li:nth-child(2), #section-info-10 .group.group-files-update .gfu-ul li:nth-child(2),
+            #section-info-11 .group.group-files-update .gfu-ul li:nth-child(2), #section-info-12 .group.group-files-update .gfu-ul li:nth-child(2),
+            #section-info-13 .group.group-files-update .gfu-ul li:nth-child(2) {
               width: 100%;
               margin: 10px 0; } }
         @media screen and (max-width: 767px) {
-          .section-info .group.group-files-update .gfu-ul li {
+          #section-info-123 .group.group-files-update .gfu-ul li, #section-info-4 .group.group-files-update .gfu-ul li, #section-info-5 .group.group-files-update .gfu-ul li,
+          #section-info-6 .group.group-files-update .gfu-ul li, #section-info-7 .group.group-files-update .gfu-ul li,
+          #section-info-9 .group.group-files-update .gfu-ul li, #section-info-10 .group.group-files-update .gfu-ul li,
+          #section-info-11 .group.group-files-update .gfu-ul li, #section-info-12 .group.group-files-update .gfu-ul li,
+          #section-info-13 .group.group-files-update .gfu-ul li {
             width: 100%; } }
-    .section-info .group.group-error {
+    #section-info-123 .group.group-error, #section-info-4 .group.group-error, #section-info-5 .group.group-error,
+    #section-info-6 .group.group-error, #section-info-7 .group.group-error,
+    #section-info-9 .group.group-error, #section-info-10 .group.group-error,
+    #section-info-11 .group.group-error, #section-info-12 .group.group-error,
+    #section-info-13 .group.group-error {
       padding-top: 150px; }
       @media screen and (max-width: 767px) {
-        .section-info .group.group-error {
+        #section-info-123 .group.group-error, #section-info-4 .group.group-error, #section-info-5 .group.group-error,
+        #section-info-6 .group.group-error, #section-info-7 .group.group-error,
+        #section-info-9 .group.group-error, #section-info-10 .group.group-error,
+        #section-info-11 .group.group-error, #section-info-12 .group.group-error,
+        #section-info-13 .group.group-error {
           padding-top: 80px; } }
-      .section-info .group.group-error .notfound {
+      #section-info-123 .group.group-error .notfound, #section-info-4 .group.group-error .notfound, #section-info-5 .group.group-error .notfound,
+      #section-info-6 .group.group-error .notfound, #section-info-7 .group.group-error .notfound,
+      #section-info-9 .group.group-error .notfound, #section-info-10 .group.group-error .notfound,
+      #section-info-11 .group.group-error .notfound, #section-info-12 .group.group-error .notfound,
+      #section-info-13 .group.group-error .notfound {
         color: #696969;
         font-size: 24px;
-        margin-top: 40px; }
+        margin-top: 42px; }
         @media screen and (max-width: 599px) {
-          .section-info .group.group-error .notfound {
+          #section-info-123 .group.group-error .notfound, #section-info-4 .group.group-error .notfound, #section-info-5 .group.group-error .notfound,
+          #section-info-6 .group.group-error .notfound, #section-info-7 .group.group-error .notfound,
+          #section-info-9 .group.group-error .notfound, #section-info-10 .group.group-error .notfound,
+          #section-info-11 .group.group-error .notfound, #section-info-12 .group.group-error .notfound,
+          #section-info-13 .group.group-error .notfound {
             font-size: 20px; } }
         @media screen and (max-width: 399px) {
-          .section-info .group.group-error .notfound {
+          #section-info-123 .group.group-error .notfound, #section-info-4 .group.group-error .notfound, #section-info-5 .group.group-error .notfound,
+          #section-info-6 .group.group-error .notfound, #section-info-7 .group.group-error .notfound,
+          #section-info-9 .group.group-error .notfound, #section-info-10 .group.group-error .notfound,
+          #section-info-11 .group.group-error .notfound, #section-info-12 .group.group-error .notfound,
+          #section-info-13 .group.group-error .notfound {
             font-size: 16px; } }
-      .section-info .group.group-error .sub-notfound {
+      #section-info-123 .group.group-error .sub-notfound, #section-info-4 .group.group-error .sub-notfound, #section-info-5 .group.group-error .sub-notfound,
+      #section-info-6 .group.group-error .sub-notfound, #section-info-7 .group.group-error .sub-notfound,
+      #section-info-9 .group.group-error .sub-notfound, #section-info-10 .group.group-error .sub-notfound,
+      #section-info-11 .group.group-error .sub-notfound, #section-info-12 .group.group-error .sub-notfound,
+      #section-info-13 .group.group-error .sub-notfound {
         color: #696969;
         font-size: 24px; }
         @media screen and (max-width: 599px) {
-          .section-info .group.group-error .sub-notfound {
+          #section-info-123 .group.group-error .sub-notfound, #section-info-4 .group.group-error .sub-notfound, #section-info-5 .group.group-error .sub-notfound,
+          #section-info-6 .group.group-error .sub-notfound, #section-info-7 .group.group-error .sub-notfound,
+          #section-info-9 .group.group-error .sub-notfound, #section-info-10 .group.group-error .sub-notfound,
+          #section-info-11 .group.group-error .sub-notfound, #section-info-12 .group.group-error .sub-notfound,
+          #section-info-13 .group.group-error .sub-notfound {
             font-size: 20px; } }
         @media screen and (max-width: 399px) {
-          .section-info .group.group-error .sub-notfound {
+          #section-info-123 .group.group-error .sub-notfound, #section-info-4 .group.group-error .sub-notfound, #section-info-5 .group.group-error .sub-notfound,
+          #section-info-6 .group.group-error .sub-notfound, #section-info-7 .group.group-error .sub-notfound,
+          #section-info-9 .group.group-error .sub-notfound, #section-info-10 .group.group-error .sub-notfound,
+          #section-info-11 .group.group-error .sub-notfound, #section-info-12 .group.group-error .sub-notfound,
+          #section-info-13 .group.group-error .sub-notfound {
             font-size: 15px; } }
-      .section-info .group.group-error .btn-success {
+      #section-info-123 .group.group-error .btn-success, #section-info-4 .group.group-error .btn-success, #section-info-5 .group.group-error .btn-success,
+      #section-info-6 .group.group-error .btn-success, #section-info-7 .group.group-error .btn-success,
+      #section-info-9 .group.group-error .btn-success, #section-info-10 .group.group-error .btn-success,
+      #section-info-11 .group.group-error .btn-success, #section-info-12 .group.group-error .btn-success,
+      #section-info-13 .group.group-error .btn-success {
         color: #fff;
         font-size: 13px;
         margin-right: 0;
@@ -318,97 +574,193 @@
         padding: 10px 60px;
         border: none;
         margin-top: 30px; }
-    .section-info .group.group-confirm .conf-title {
+    #section-info-123 .group.group-confirm .conf-title, #section-info-4 .group.group-confirm .conf-title, #section-info-5 .group.group-confirm .conf-title,
+    #section-info-6 .group.group-confirm .conf-title, #section-info-7 .group.group-confirm .conf-title,
+    #section-info-9 .group.group-confirm .conf-title, #section-info-10 .group.group-confirm .conf-title,
+    #section-info-11 .group.group-confirm .conf-title, #section-info-12 .group.group-confirm .conf-title,
+    #section-info-13 .group.group-confirm .conf-title {
       font-size: 18px;
       color: #696969;
       margin-bottom: 5px; }
-    .section-info .group.group-confirm .conf-code {
+    #section-info-123 .group.group-confirm .conf-code, #section-info-4 .group.group-confirm .conf-code, #section-info-5 .group.group-confirm .conf-code,
+    #section-info-6 .group.group-confirm .conf-code, #section-info-7 .group.group-confirm .conf-code,
+    #section-info-9 .group.group-confirm .conf-code, #section-info-10 .group.group-confirm .conf-code,
+    #section-info-11 .group.group-confirm .conf-code, #section-info-12 .group.group-confirm .conf-code,
+    #section-info-13 .group.group-confirm .conf-code {
       font-size: 14px;
       font-weight: bold;
       color: #48a7f2; }
-    .section-info .group.group-confirm ul {
+    #section-info-123 .group.group-confirm ul, #section-info-4 .group.group-confirm ul, #section-info-5 .group.group-confirm ul,
+    #section-info-6 .group.group-confirm ul, #section-info-7 .group.group-confirm ul,
+    #section-info-9 .group.group-confirm ul, #section-info-10 .group.group-confirm ul,
+    #section-info-11 .group.group-confirm ul, #section-info-12 .group.group-confirm ul,
+    #section-info-13 .group.group-confirm ul {
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
       -webkit-flex-wrap: wrap;
           -ms-flex-wrap: wrap;
               flex-wrap: wrap;
-      margin-top: 40px;
+      margin-top: 42px;
       list-style-type: none;
       padding-left: 0; }
-      .section-info .group.group-confirm ul li {
+      #section-info-123 .group.group-confirm ul li, #section-info-4 .group.group-confirm ul li, #section-info-5 .group.group-confirm ul li,
+      #section-info-6 .group.group-confirm ul li, #section-info-7 .group.group-confirm ul li,
+      #section-info-9 .group.group-confirm ul li, #section-info-10 .group.group-confirm ul li,
+      #section-info-11 .group.group-confirm ul li, #section-info-12 .group.group-confirm ul li,
+      #section-info-13 .group.group-confirm ul li {
         width: 50%;
         text-align: left;
         padding: 0 10px; }
         @media screen and (max-width: 767px) {
-          .section-info .group.group-confirm ul li {
+          #section-info-123 .group.group-confirm ul li, #section-info-4 .group.group-confirm ul li, #section-info-5 .group.group-confirm ul li,
+          #section-info-6 .group.group-confirm ul li, #section-info-7 .group.group-confirm ul li,
+          #section-info-9 .group.group-confirm ul li, #section-info-10 .group.group-confirm ul li,
+          #section-info-11 .group.group-confirm ul li, #section-info-12 .group.group-confirm ul li,
+          #section-info-13 .group.group-confirm ul li {
             width: 100%;
             padding: 0;
             text-align: center; } }
-        .section-info .group.group-confirm ul li .conf-f {
-          font-size: 12px;
+        #section-info-123 .group.group-confirm ul li .conf-f, #section-info-4 .group.group-confirm ul li .conf-f, #section-info-5 .group.group-confirm ul li .conf-f,
+        #section-info-6 .group.group-confirm ul li .conf-f, #section-info-7 .group.group-confirm ul li .conf-f,
+        #section-info-9 .group.group-confirm ul li .conf-f, #section-info-10 .group.group-confirm ul li .conf-f,
+        #section-info-11 .group.group-confirm ul li .conf-f, #section-info-12 .group.group-confirm ul li .conf-f,
+        #section-info-13 .group.group-confirm ul li .conf-f {
+          font-size: 13px;
           font-weight: bold;
           margin-bottom: 25px; }
-        .section-info .group.group-confirm ul li .conf-t {
-          font-size: 13px;
+        #section-info-123 .group.group-confirm ul li .conf-t, #section-info-4 .group.group-confirm ul li .conf-t, #section-info-5 .group.group-confirm ul li .conf-t,
+        #section-info-6 .group.group-confirm ul li .conf-t, #section-info-7 .group.group-confirm ul li .conf-t,
+        #section-info-9 .group.group-confirm ul li .conf-t, #section-info-10 .group.group-confirm ul li .conf-t,
+        #section-info-11 .group.group-confirm ul li .conf-t, #section-info-12 .group.group-confirm ul li .conf-t,
+        #section-info-13 .group.group-confirm ul li .conf-t {
+          font-size: 15px;
           font-weight: bold;
           color: #696969;
           margin-bottom: 35px; }
           @media screen and (max-width: 767px) {
-            .section-info .group.group-confirm ul li .conf-t {
+            #section-info-123 .group.group-confirm ul li .conf-t, #section-info-4 .group.group-confirm ul li .conf-t, #section-info-5 .group.group-confirm ul li .conf-t,
+            #section-info-6 .group.group-confirm ul li .conf-t, #section-info-7 .group.group-confirm ul li .conf-t,
+            #section-info-9 .group.group-confirm ul li .conf-t, #section-info-10 .group.group-confirm ul li .conf-t,
+            #section-info-11 .group.group-confirm ul li .conf-t, #section-info-12 .group.group-confirm ul li .conf-t,
+            #section-info-13 .group.group-confirm ul li .conf-t {
               margin-bottom: 30px; } }
-    .section-info .group.group-confirm hr {
-      margin: 60px -20px;
-      margin-top: 35px; }
+    #section-info-123 .group.group-confirm hr, #section-info-4 .group.group-confirm hr, #section-info-5 .group.group-confirm hr,
+    #section-info-6 .group.group-confirm hr, #section-info-7 .group.group-confirm hr,
+    #section-info-9 .group.group-confirm hr, #section-info-10 .group.group-confirm hr,
+    #section-info-11 .group.group-confirm hr, #section-info-12 .group.group-confirm hr,
+    #section-info-13 .group.group-confirm hr {
+      margin: 40px -20px;
+      margin-top: 0; }
       @media screen and (max-width: 767px) {
-        .section-info .group.group-confirm hr {
-          margin-top: 10px;
-          margin-bottom: 30px; } }
-    .section-info .group.group-confirm .form-check {
+        #section-info-123 .group.group-confirm hr, #section-info-4 .group.group-confirm hr, #section-info-5 .group.group-confirm hr,
+        #section-info-6 .group.group-confirm hr, #section-info-7 .group.group-confirm hr,
+        #section-info-9 .group.group-confirm hr, #section-info-10 .group.group-confirm hr,
+        #section-info-11 .group.group-confirm hr, #section-info-12 .group.group-confirm hr,
+        #section-info-13 .group.group-confirm hr {
+          margin-top: 20px;
+          margin-bottom: 0; } }
+    #section-info-123 .group.group-confirm .form-check, #section-info-4 .group.group-confirm .form-check, #section-info-5 .group.group-confirm .form-check,
+    #section-info-6 .group.group-confirm .form-check, #section-info-7 .group.group-confirm .form-check,
+    #section-info-9 .group.group-confirm .form-check, #section-info-10 .group.group-confirm .form-check,
+    #section-info-11 .group.group-confirm .form-check, #section-info-12 .group.group-confirm .form-check,
+    #section-info-13 .group.group-confirm .form-check {
       margin-bottom: 10px; }
-      .section-info .group.group-confirm .form-check label {
-        font-size: 13px; }
-        .section-info .group.group-confirm .form-check label:hover, .section-info .group.group-confirm .form-check label:focus {
+      #section-info-123 .group.group-confirm .form-check label, #section-info-4 .group.group-confirm .form-check label, #section-info-5 .group.group-confirm .form-check label,
+      #section-info-6 .group.group-confirm .form-check label, #section-info-7 .group.group-confirm .form-check label,
+      #section-info-9 .group.group-confirm .form-check label, #section-info-10 .group.group-confirm .form-check label,
+      #section-info-11 .group.group-confirm .form-check label, #section-info-12 .group.group-confirm .form-check label,
+      #section-info-13 .group.group-confirm .form-check label {
+        font-size: 14px; }
+        #section-info-123 .group.group-confirm .form-check label:hover, #section-info-123 .group.group-confirm .form-check label:focus, #section-info-4 .group.group-confirm .form-check label:hover, #section-info-4 .group.group-confirm .form-check label:focus, #section-info-5 .group.group-confirm .form-check label:hover, #section-info-5 .group.group-confirm .form-check label:focus,
+        #section-info-6 .group.group-confirm .form-check label:hover,
+        #section-info-6 .group.group-confirm .form-check label:focus, #section-info-7 .group.group-confirm .form-check label:hover, #section-info-7 .group.group-confirm .form-check label:focus,
+        #section-info-9 .group.group-confirm .form-check label:hover,
+        #section-info-9 .group.group-confirm .form-check label:focus, #section-info-10 .group.group-confirm .form-check label:hover, #section-info-10 .group.group-confirm .form-check label:focus,
+        #section-info-11 .group.group-confirm .form-check label:hover,
+        #section-info-11 .group.group-confirm .form-check label:focus, #section-info-12 .group.group-confirm .form-check label:hover, #section-info-12 .group.group-confirm .form-check label:focus,
+        #section-info-13 .group.group-confirm .form-check label:hover,
+        #section-info-13 .group.group-confirm .form-check label:focus {
           outline: none !important; }
-          .section-info .group.group-confirm .form-check label:hover input, .section-info .group.group-confirm .form-check label:focus input {
+          #section-info-123 .group.group-confirm .form-check label:hover input, #section-info-123 .group.group-confirm .form-check label:focus input, #section-info-4 .group.group-confirm .form-check label:hover input, #section-info-4 .group.group-confirm .form-check label:focus input, #section-info-5 .group.group-confirm .form-check label:hover input, #section-info-5 .group.group-confirm .form-check label:focus input,
+          #section-info-6 .group.group-confirm .form-check label:hover input,
+          #section-info-6 .group.group-confirm .form-check label:focus input, #section-info-7 .group.group-confirm .form-check label:hover input, #section-info-7 .group.group-confirm .form-check label:focus input,
+          #section-info-9 .group.group-confirm .form-check label:hover input,
+          #section-info-9 .group.group-confirm .form-check label:focus input, #section-info-10 .group.group-confirm .form-check label:hover input, #section-info-10 .group.group-confirm .form-check label:focus input,
+          #section-info-11 .group.group-confirm .form-check label:hover input,
+          #section-info-11 .group.group-confirm .form-check label:focus input, #section-info-12 .group.group-confirm .form-check label:hover input, #section-info-12 .group.group-confirm .form-check label:focus input,
+          #section-info-13 .group.group-confirm .form-check label:hover input,
+          #section-info-13 .group.group-confirm .form-check label:focus input {
             outline: none !important; }
-        .section-info .group.group-confirm .form-check label input {
-          margin-right: 6px;
-          position: relative;
-          top: 2px; }
-    .section-info .group .btn.btn-info {
+    #section-info-123 .group .btn.btn-info, #section-info-4 .group .btn.btn-info, #section-info-5 .group .btn.btn-info,
+    #section-info-6 .group .btn.btn-info, #section-info-7 .group .btn.btn-info,
+    #section-info-9 .group .btn.btn-info, #section-info-10 .group .btn.btn-info,
+    #section-info-11 .group .btn.btn-info, #section-info-12 .group .btn.btn-info,
+    #section-info-13 .group .btn.btn-info {
       background: #48a7f2;
-      padding: 15px 30px;
+      padding: 11px 30px;
+      font-size: 14px;
       display: block;
       width: 100%;
       color: #fff;
       border: none;
-      margin-top: 25px;
       margin-bottom: 24px; }
-    .section-info .group .back-to {
+    #section-info-123 .group .back-to, #section-info-4 .group .back-to, #section-info-5 .group .back-to,
+    #section-info-6 .group .back-to, #section-info-7 .group .back-to,
+    #section-info-9 .group .back-to, #section-info-10 .group .back-to,
+    #section-info-11 .group .back-to, #section-info-12 .group .back-to,
+    #section-info-13 .group .back-to {
       position: absolute;
-      top: 40px;
+      top: 42px;
       left: 20px;
       font-size: 14px;
       color: #48a7f2;
       transition: all .2s ease; }
-      .section-info .group .back-to:hover, .section-info .group .back-to:focus {
+      #section-info-123 .group .back-to:hover, #section-info-123 .group .back-to:focus, #section-info-4 .group .back-to:hover, #section-info-4 .group .back-to:focus, #section-info-5 .group .back-to:hover, #section-info-5 .group .back-to:focus,
+      #section-info-6 .group .back-to:hover,
+      #section-info-6 .group .back-to:focus, #section-info-7 .group .back-to:hover, #section-info-7 .group .back-to:focus,
+      #section-info-9 .group .back-to:hover,
+      #section-info-9 .group .back-to:focus, #section-info-10 .group .back-to:hover, #section-info-10 .group .back-to:focus,
+      #section-info-11 .group .back-to:hover,
+      #section-info-11 .group .back-to:focus, #section-info-12 .group .back-to:hover, #section-info-12 .group .back-to:focus,
+      #section-info-13 .group .back-to:hover,
+      #section-info-13 .group .back-to:focus {
         color: #3c3c3c; }
       @media screen and (max-width: 767px) {
-        .section-info .group .back-to {
+        #section-info-123 .group .back-to, #section-info-4 .group .back-to, #section-info-5 .group .back-to,
+        #section-info-6 .group .back-to, #section-info-7 .group .back-to,
+        #section-info-9 .group .back-to, #section-info-10 .group .back-to,
+        #section-info-11 .group .back-to, #section-info-12 .group .back-to,
+        #section-info-13 .group .back-to {
           top: 10px;
           left: 10px; } }
-      .section-info .group .back-to span {
-        font-size: 18px;
-        font-weight: bold;
-        margin-right: 5px; }
-    .section-info .group h3 {
+      #section-info-123 .group .back-to i, #section-info-4 .group .back-to i, #section-info-5 .group .back-to i,
+      #section-info-6 .group .back-to i, #section-info-7 .group .back-to i,
+      #section-info-9 .group .back-to i, #section-info-10 .group .back-to i,
+      #section-info-11 .group .back-to i, #section-info-12 .group .back-to i,
+      #section-info-13 .group .back-to i {
+        margin-right: 5px;
+        position: relative;
+        top: 1px; }
+    #section-info-123 .group h3, #section-info-4 .group h3, #section-info-5 .group h3,
+    #section-info-6 .group h3, #section-info-7 .group h3,
+    #section-info-9 .group h3, #section-info-10 .group h3,
+    #section-info-11 .group h3, #section-info-12 .group h3,
+    #section-info-13 .group h3 {
       font-size: 14px;
       font-weight: bold;
       margin-bottom: 30px; }
-      .section-info .group h3 span {
+      #section-info-123 .group h3 span, #section-info-4 .group h3 span, #section-info-5 .group h3 span,
+      #section-info-6 .group h3 span, #section-info-7 .group h3 span,
+      #section-info-9 .group h3 span, #section-info-10 .group h3 span,
+      #section-info-11 .group h3 span, #section-info-12 .group h3 span,
+      #section-info-13 .group h3 span {
         color: #48a7f2; }
-    .section-info .group .btn.btn-default {
+    #section-info-123 .group .btn.btn-default, #section-info-4 .group .btn.btn-default, #section-info-5 .group .btn.btn-default,
+    #section-info-6 .group .btn.btn-default, #section-info-7 .group .btn.btn-default,
+    #section-info-9 .group .btn.btn-default, #section-info-10 .group .btn.btn-default,
+    #section-info-11 .group .btn.btn-default, #section-info-12 .group .btn.btn-default,
+    #section-info-13 .group .btn.btn-default {
       font-size: 13px;
       background: transparent;
       padding: 10px 30px;
@@ -416,16 +768,35 @@
       color: #3c3c3c;
       margin: 0 15px;
       display: inline-block; }
-      .section-info .group .btn.btn-default:hover, .section-info .group .btn.btn-default:focus, .section-info .group .btn.btn-default.active {
-        background: #48a7f2;
+      #section-info-123 .group .btn.btn-default:hover, #section-info-123 .group .btn.btn-default:focus, #section-info-123 .group .btn.btn-default.active, #section-info-4 .group .btn.btn-default:hover, #section-info-4 .group .btn.btn-default:focus, #section-info-4 .group .btn.btn-default.active, #section-info-5 .group .btn.btn-default:hover, #section-info-5 .group .btn.btn-default:focus, #section-info-5 .group .btn.btn-default.active,
+      #section-info-6 .group .btn.btn-default:hover,
+      #section-info-6 .group .btn.btn-default:focus,
+      #section-info-6 .group .btn.btn-default.active, #section-info-7 .group .btn.btn-default:hover, #section-info-7 .group .btn.btn-default:focus, #section-info-7 .group .btn.btn-default.active,
+      #section-info-9 .group .btn.btn-default:hover,
+      #section-info-9 .group .btn.btn-default:focus,
+      #section-info-9 .group .btn.btn-default.active, #section-info-10 .group .btn.btn-default:hover, #section-info-10 .group .btn.btn-default:focus, #section-info-10 .group .btn.btn-default.active,
+      #section-info-11 .group .btn.btn-default:hover,
+      #section-info-11 .group .btn.btn-default:focus,
+      #section-info-11 .group .btn.btn-default.active, #section-info-12 .group .btn.btn-default:hover, #section-info-12 .group .btn.btn-default:focus, #section-info-12 .group .btn.btn-default.active,
+      #section-info-13 .group .btn.btn-default:hover,
+      #section-info-13 .group .btn.btn-default:focus,
+      #section-info-13 .group .btn.btn-default.active {
         color: #fff;
         border-color: transparent; }
       @media screen and (max-width: 767px) {
-        .section-info .group .btn.btn-default {
+        #section-info-123 .group .btn.btn-default, #section-info-4 .group .btn.btn-default, #section-info-5 .group .btn.btn-default,
+        #section-info-6 .group .btn.btn-default, #section-info-7 .group .btn.btn-default,
+        #section-info-9 .group .btn.btn-default, #section-info-10 .group .btn.btn-default,
+        #section-info-11 .group .btn.btn-default, #section-info-12 .group .btn.btn-default,
+        #section-info-13 .group .btn.btn-default {
           display: block;
           margin: 0;
           margin-bottom: 15px; } }
-    .section-info .group .tab-panel-group {
+    #section-info-123 .group .tab-panel-group, #section-info-4 .group .tab-panel-group, #section-info-5 .group .tab-panel-group,
+    #section-info-6 .group .tab-panel-group, #section-info-7 .group .tab-panel-group,
+    #section-info-9 .group .tab-panel-group, #section-info-10 .group .tab-panel-group,
+    #section-info-11 .group .tab-panel-group, #section-info-12 .group .tab-panel-group,
+    #section-info-13 .group .tab-panel-group {
       margin: 0 -20px;
       margin-top: 30px;
       padding: 30px 200px;
@@ -435,18 +806,34 @@
       transition: all .5s ease;
       height: auto; }
       @media screen and (max-width: 1199px) {
-        .section-info .group .tab-panel-group {
+        #section-info-123 .group .tab-panel-group, #section-info-4 .group .tab-panel-group, #section-info-5 .group .tab-panel-group,
+        #section-info-6 .group .tab-panel-group, #section-info-7 .group .tab-panel-group,
+        #section-info-9 .group .tab-panel-group, #section-info-10 .group .tab-panel-group,
+        #section-info-11 .group .tab-panel-group, #section-info-12 .group .tab-panel-group,
+        #section-info-13 .group .tab-panel-group {
           padding: 30px 150px;
           padding-top: 50px; } }
       @media screen and (max-width: 991px) {
-        .section-info .group .tab-panel-group {
+        #section-info-123 .group .tab-panel-group, #section-info-4 .group .tab-panel-group, #section-info-5 .group .tab-panel-group,
+        #section-info-6 .group .tab-panel-group, #section-info-7 .group .tab-panel-group,
+        #section-info-9 .group .tab-panel-group, #section-info-10 .group .tab-panel-group,
+        #section-info-11 .group .tab-panel-group, #section-info-12 .group .tab-panel-group,
+        #section-info-13 .group .tab-panel-group {
           padding: 30px 50px;
           padding-top: 50px; } }
       @media screen and (max-width: 767px) {
-        .section-info .group .tab-panel-group {
+        #section-info-123 .group .tab-panel-group, #section-info-4 .group .tab-panel-group, #section-info-5 .group .tab-panel-group,
+        #section-info-6 .group .tab-panel-group, #section-info-7 .group .tab-panel-group,
+        #section-info-9 .group .tab-panel-group, #section-info-10 .group .tab-panel-group,
+        #section-info-11 .group .tab-panel-group, #section-info-12 .group .tab-panel-group,
+        #section-info-13 .group .tab-panel-group {
           padding: 30px 20px;
           padding-top: 30px; } }
-      .section-info .group .tab-panel-group:before {
+      #section-info-123 .group .tab-panel-group:before, #section-info-4 .group .tab-panel-group:before, #section-info-5 .group .tab-panel-group:before,
+      #section-info-6 .group .tab-panel-group:before, #section-info-7 .group .tab-panel-group:before,
+      #section-info-9 .group .tab-panel-group:before, #section-info-10 .group .tab-panel-group:before,
+      #section-info-11 .group .tab-panel-group:before, #section-info-12 .group .tab-panel-group:before,
+      #section-info-13 .group .tab-panel-group:before {
         content: '';
         display: block;
         position: absolute;
@@ -459,68 +846,159 @@
         border-bottom: 1px solid #CFD8DC;
         -moz-transform: rotate(45deg);
         -webkit-transform: rotate(45deg); }
-      .section-info .group .tab-panel-group .group-items {
+      #section-info-123 .group .tab-panel-group .group-items, #section-info-4 .group .tab-panel-group .group-items, #section-info-5 .group .tab-panel-group .group-items,
+      #section-info-6 .group .tab-panel-group .group-items, #section-info-7 .group .tab-panel-group .group-items,
+      #section-info-9 .group .tab-panel-group .group-items, #section-info-10 .group .tab-panel-group .group-items,
+      #section-info-11 .group .tab-panel-group .group-items, #section-info-12 .group .tab-panel-group .group-items,
+      #section-info-13 .group .tab-panel-group .group-items {
         height: 100%; }
-        .section-info .group .tab-panel-group .group-items h3 {
+        #section-info-123 .group .tab-panel-group .group-items h3, #section-info-4 .group .tab-panel-group .group-items h3, #section-info-5 .group .tab-panel-group .group-items h3,
+        #section-info-6 .group .tab-panel-group .group-items h3, #section-info-7 .group .tab-panel-group .group-items h3,
+        #section-info-9 .group .tab-panel-group .group-items h3, #section-info-10 .group .tab-panel-group .group-items h3,
+        #section-info-11 .group .tab-panel-group .group-items h3, #section-info-12 .group .tab-panel-group .group-items h3,
+        #section-info-13 .group .tab-panel-group .group-items h3 {
           font-size: 14px;
           margin-bottom: 20px; }
-        .section-info .group .tab-panel-group .group-items input {
-          height: 40px;
+        #section-info-123 .group .tab-panel-group .group-items input, #section-info-4 .group .tab-panel-group .group-items input, #section-info-5 .group .tab-panel-group .group-items input,
+        #section-info-6 .group .tab-panel-group .group-items input, #section-info-7 .group .tab-panel-group .group-items input,
+        #section-info-9 .group .tab-panel-group .group-items input, #section-info-10 .group .tab-panel-group .group-items input,
+        #section-info-11 .group .tab-panel-group .group-items input, #section-info-12 .group .tab-panel-group .group-items input,
+        #section-info-13 .group .tab-panel-group .group-items input {
+          height: 42px;
           font-size: 12px;
           color: #3c3c3c;
           border-color: #cfd8dc; }
-        .section-info .group .tab-panel-group .group-items ::-webkit-input-placeholder {
+        #section-info-123 .group .tab-panel-group .group-items ::-webkit-input-placeholder, #section-info-4 .group .tab-panel-group .group-items ::-webkit-input-placeholder, #section-info-5 .group .tab-panel-group .group-items ::-webkit-input-placeholder,
+        #section-info-6 .group .tab-panel-group .group-items ::-webkit-input-placeholder, #section-info-7 .group .tab-panel-group .group-items ::-webkit-input-placeholder,
+        #section-info-9 .group .tab-panel-group .group-items ::-webkit-input-placeholder, #section-info-10 .group .tab-panel-group .group-items ::-webkit-input-placeholder,
+        #section-info-11 .group .tab-panel-group .group-items ::-webkit-input-placeholder, #section-info-12 .group .tab-panel-group .group-items ::-webkit-input-placeholder,
+        #section-info-13 .group .tab-panel-group .group-items ::-webkit-input-placeholder {
           /* Chrome/Opera/Safari */
           color: #cfd8dc; }
-        .section-info .group .tab-panel-group .group-items ::-moz-placeholder {
+        #section-info-123 .group .tab-panel-group .group-items ::-moz-placeholder, #section-info-4 .group .tab-panel-group .group-items ::-moz-placeholder, #section-info-5 .group .tab-panel-group .group-items ::-moz-placeholder,
+        #section-info-6 .group .tab-panel-group .group-items ::-moz-placeholder, #section-info-7 .group .tab-panel-group .group-items ::-moz-placeholder,
+        #section-info-9 .group .tab-panel-group .group-items ::-moz-placeholder, #section-info-10 .group .tab-panel-group .group-items ::-moz-placeholder,
+        #section-info-11 .group .tab-panel-group .group-items ::-moz-placeholder, #section-info-12 .group .tab-panel-group .group-items ::-moz-placeholder,
+        #section-info-13 .group .tab-panel-group .group-items ::-moz-placeholder {
           /* Firefox 19+ */
           color: #cfd8dc; }
-        .section-info .group .tab-panel-group .group-items :-ms-input-placeholder {
+        #section-info-123 .group .tab-panel-group .group-items :-ms-input-placeholder, #section-info-4 .group .tab-panel-group .group-items :-ms-input-placeholder, #section-info-5 .group .tab-panel-group .group-items :-ms-input-placeholder,
+        #section-info-6 .group .tab-panel-group .group-items :-ms-input-placeholder, #section-info-7 .group .tab-panel-group .group-items :-ms-input-placeholder,
+        #section-info-9 .group .tab-panel-group .group-items :-ms-input-placeholder, #section-info-10 .group .tab-panel-group .group-items :-ms-input-placeholder,
+        #section-info-11 .group .tab-panel-group .group-items :-ms-input-placeholder, #section-info-12 .group .tab-panel-group .group-items :-ms-input-placeholder,
+        #section-info-13 .group .tab-panel-group .group-items :-ms-input-placeholder {
           /* IE 10+ */
           color: #cfd8dc; }
-        .section-info .group .tab-panel-group .group-items :-moz-placeholder {
+        #section-info-123 .group .tab-panel-group .group-items :-moz-placeholder, #section-info-4 .group .tab-panel-group .group-items :-moz-placeholder, #section-info-5 .group .tab-panel-group .group-items :-moz-placeholder,
+        #section-info-6 .group .tab-panel-group .group-items :-moz-placeholder, #section-info-7 .group .tab-panel-group .group-items :-moz-placeholder,
+        #section-info-9 .group .tab-panel-group .group-items :-moz-placeholder, #section-info-10 .group .tab-panel-group .group-items :-moz-placeholder,
+        #section-info-11 .group .tab-panel-group .group-items :-moz-placeholder, #section-info-12 .group .tab-panel-group .group-items :-moz-placeholder,
+        #section-info-13 .group .tab-panel-group .group-items :-moz-placeholder {
           /* Firefox 18- */
           color: #cfd8dc; }
-        .section-info .group .tab-panel-group .group-items .miss-code {
+        #section-info-123 .group .tab-panel-group .group-items .miss-code, #section-info-4 .group .tab-panel-group .group-items .miss-code, #section-info-5 .group .tab-panel-group .group-items .miss-code,
+        #section-info-6 .group .tab-panel-group .group-items .miss-code, #section-info-7 .group .tab-panel-group .group-items .miss-code,
+        #section-info-9 .group .tab-panel-group .group-items .miss-code, #section-info-10 .group .tab-panel-group .group-items .miss-code,
+        #section-info-11 .group .tab-panel-group .group-items .miss-code, #section-info-12 .group .tab-panel-group .group-items .miss-code,
+        #section-info-13 .group .tab-panel-group .group-items .miss-code {
           color: #696969;
           font-size: 13px;
           position: relative;
           padding-left: 10px;
-          text-align: left; }
+          text-align: left;
+          transition: all .2s ease; }
+          #section-info-123 .group .tab-panel-group .group-items .miss-code:hover, #section-info-123 .group .tab-panel-group .group-items .miss-code:focus, #section-info-4 .group .tab-panel-group .group-items .miss-code:hover, #section-info-4 .group .tab-panel-group .group-items .miss-code:focus, #section-info-5 .group .tab-panel-group .group-items .miss-code:hover, #section-info-5 .group .tab-panel-group .group-items .miss-code:focus,
+          #section-info-6 .group .tab-panel-group .group-items .miss-code:hover,
+          #section-info-6 .group .tab-panel-group .group-items .miss-code:focus, #section-info-7 .group .tab-panel-group .group-items .miss-code:hover, #section-info-7 .group .tab-panel-group .group-items .miss-code:focus,
+          #section-info-9 .group .tab-panel-group .group-items .miss-code:hover,
+          #section-info-9 .group .tab-panel-group .group-items .miss-code:focus, #section-info-10 .group .tab-panel-group .group-items .miss-code:hover, #section-info-10 .group .tab-panel-group .group-items .miss-code:focus,
+          #section-info-11 .group .tab-panel-group .group-items .miss-code:hover,
+          #section-info-11 .group .tab-panel-group .group-items .miss-code:focus, #section-info-12 .group .tab-panel-group .group-items .miss-code:hover, #section-info-12 .group .tab-panel-group .group-items .miss-code:focus,
+          #section-info-13 .group .tab-panel-group .group-items .miss-code:hover,
+          #section-info-13 .group .tab-panel-group .group-items .miss-code:focus {
+            color: #48a7f2; }
           @media screen and (max-width: 767px) {
-            .section-info .group .tab-panel-group .group-items .miss-code {
+            #section-info-123 .group .tab-panel-group .group-items .miss-code, #section-info-4 .group .tab-panel-group .group-items .miss-code, #section-info-5 .group .tab-panel-group .group-items .miss-code,
+            #section-info-6 .group .tab-panel-group .group-items .miss-code, #section-info-7 .group .tab-panel-group .group-items .miss-code,
+            #section-info-9 .group .tab-panel-group .group-items .miss-code, #section-info-10 .group .tab-panel-group .group-items .miss-code,
+            #section-info-11 .group .tab-panel-group .group-items .miss-code, #section-info-12 .group .tab-panel-group .group-items .miss-code,
+            #section-info-13 .group .tab-panel-group .group-items .miss-code {
               margin-bottom: 30px; } }
-          .section-info .group .tab-panel-group .group-items .miss-code:before {
+          #section-info-123 .group .tab-panel-group .group-items .miss-code:before, #section-info-4 .group .tab-panel-group .group-items .miss-code:before, #section-info-5 .group .tab-panel-group .group-items .miss-code:before,
+          #section-info-6 .group .tab-panel-group .group-items .miss-code:before, #section-info-7 .group .tab-panel-group .group-items .miss-code:before,
+          #section-info-9 .group .tab-panel-group .group-items .miss-code:before, #section-info-10 .group .tab-panel-group .group-items .miss-code:before,
+          #section-info-11 .group .tab-panel-group .group-items .miss-code:before, #section-info-12 .group .tab-panel-group .group-items .miss-code:before,
+          #section-info-13 .group .tab-panel-group .group-items .miss-code:before {
             content: '';
             background: url("../images/icons/arr-right.svg") no-repeat center;
             width: 4px;
             height: 6px;
             position: absolute;
-            top: 6px;
+            top: 3px;
             left: 0; }
-        .section-info .group .tab-panel-group .group-items p {
+        #section-info-123 .group .tab-panel-group .group-items p, #section-info-4 .group .tab-panel-group .group-items p, #section-info-5 .group .tab-panel-group .group-items p,
+        #section-info-6 .group .tab-panel-group .group-items p, #section-info-7 .group .tab-panel-group .group-items p,
+        #section-info-9 .group .tab-panel-group .group-items p, #section-info-10 .group .tab-panel-group .group-items p,
+        #section-info-11 .group .tab-panel-group .group-items p, #section-info-12 .group .tab-panel-group .group-items p,
+        #section-info-13 .group .tab-panel-group .group-items p {
           font-size: 13px;
           color: #696969; }
-        .section-info .group .tab-panel-group .group-items .group-images-left {
+        #section-info-123 .group .tab-panel-group .group-items .group-images-left, #section-info-4 .group .tab-panel-group .group-items .group-images-left, #section-info-5 .group .tab-panel-group .group-items .group-images-left,
+        #section-info-6 .group .tab-panel-group .group-items .group-images-left, #section-info-7 .group .tab-panel-group .group-items .group-images-left,
+        #section-info-9 .group .tab-panel-group .group-items .group-images-left, #section-info-10 .group .tab-panel-group .group-items .group-images-left,
+        #section-info-11 .group .tab-panel-group .group-items .group-images-left, #section-info-12 .group .tab-panel-group .group-items .group-images-left,
+        #section-info-13 .group .tab-panel-group .group-items .group-images-left {
           margin-right: 20px; }
-    .section-info .group .group-items-register p.text-md-left, .section-info .group .group-items-register p.text-md-center {
+    #section-info-123 .group .group-items-register p.text-md-left, #section-info-123 .group .group-items-register p.text-md-center, #section-info-4 .group .group-items-register p.text-md-left, #section-info-4 .group .group-items-register p.text-md-center, #section-info-5 .group .group-items-register p.text-md-left, #section-info-5 .group .group-items-register p.text-md-center,
+    #section-info-6 .group .group-items-register p.text-md-left,
+    #section-info-6 .group .group-items-register p.text-md-center, #section-info-7 .group .group-items-register p.text-md-left, #section-info-7 .group .group-items-register p.text-md-center,
+    #section-info-9 .group .group-items-register p.text-md-left,
+    #section-info-9 .group .group-items-register p.text-md-center, #section-info-10 .group .group-items-register p.text-md-left, #section-info-10 .group .group-items-register p.text-md-center,
+    #section-info-11 .group .group-items-register p.text-md-left,
+    #section-info-11 .group .group-items-register p.text-md-center, #section-info-12 .group .group-items-register p.text-md-left, #section-info-12 .group .group-items-register p.text-md-center,
+    #section-info-13 .group .group-items-register p.text-md-left,
+    #section-info-13 .group .group-items-register p.text-md-center {
       margin-bottom: 30px; }
-    .section-info .group .group-items-register h2 {
+    #section-info-123 .group .group-items-register h2, #section-info-4 .group .group-items-register h2, #section-info-5 .group .group-items-register h2,
+    #section-info-6 .group .group-items-register h2, #section-info-7 .group .group-items-register h2,
+    #section-info-9 .group .group-items-register h2, #section-info-10 .group .group-items-register h2,
+    #section-info-11 .group .group-items-register h2, #section-info-12 .group .group-items-register h2,
+    #section-info-13 .group .group-items-register h2 {
       font-size: 18px;
-      margin-bottom: 30px; }
-      .section-info .group .group-items-register h2.h2-blue {
+      margin-bottom: 50px; }
+      #section-info-123 .group .group-items-register h2.h2-blue, #section-info-4 .group .group-items-register h2.h2-blue, #section-info-5 .group .group-items-register h2.h2-blue,
+      #section-info-6 .group .group-items-register h2.h2-blue, #section-info-7 .group .group-items-register h2.h2-blue,
+      #section-info-9 .group .group-items-register h2.h2-blue, #section-info-10 .group .group-items-register h2.h2-blue,
+      #section-info-11 .group .group-items-register h2.h2-blue, #section-info-12 .group .group-items-register h2.h2-blue,
+      #section-info-13 .group .group-items-register h2.h2-blue {
         color: #48a7f2;
         margin-bottom: 20px; }
-      .section-info .group .group-items-register h2.h2-bor-botttom {
+      #section-info-123 .group .group-items-register h2.h2-bor-botttom, #section-info-4 .group .group-items-register h2.h2-bor-botttom, #section-info-5 .group .group-items-register h2.h2-bor-botttom,
+      #section-info-6 .group .group-items-register h2.h2-bor-botttom, #section-info-7 .group .group-items-register h2.h2-bor-botttom,
+      #section-info-9 .group .group-items-register h2.h2-bor-botttom, #section-info-10 .group .group-items-register h2.h2-bor-botttom,
+      #section-info-11 .group .group-items-register h2.h2-bor-botttom, #section-info-12 .group .group-items-register h2.h2-bor-botttom,
+      #section-info-13 .group .group-items-register h2.h2-bor-botttom {
         color: #3c3c3c;
         padding-bottom: 30px;
         border-bottom: 1px solid #CFD8DC;
         margin-bottom: 50px; }
-    .section-info .group .group-items-register .form-group {
+    #section-info-123 .group .group-items-register .form-group, #section-info-4 .group .group-items-register .form-group, #section-info-5 .group .group-items-register .form-group,
+    #section-info-6 .group .group-items-register .form-group, #section-info-7 .group .group-items-register .form-group,
+    #section-info-9 .group .group-items-register .form-group, #section-info-10 .group .group-items-register .form-group,
+    #section-info-11 .group .group-items-register .form-group, #section-info-12 .group .group-items-register .form-group,
+    #section-info-13 .group .group-items-register .form-group {
       margin-bottom: 20px; }
-      .section-info .group .group-items-register .form-group.form-group-icons {
+      #section-info-123 .group .group-items-register .form-group.form-group-icons, #section-info-4 .group .group-items-register .form-group.form-group-icons, #section-info-5 .group .group-items-register .form-group.form-group-icons,
+      #section-info-6 .group .group-items-register .form-group.form-group-icons, #section-info-7 .group .group-items-register .form-group.form-group-icons,
+      #section-info-9 .group .group-items-register .form-group.form-group-icons, #section-info-10 .group .group-items-register .form-group.form-group-icons,
+      #section-info-11 .group .group-items-register .form-group.form-group-icons, #section-info-12 .group .group-items-register .form-group.form-group-icons,
+      #section-info-13 .group .group-items-register .form-group.form-group-icons {
         position: relative; }
-        .section-info .group .group-items-register .form-group.form-group-icons:after {
+        #section-info-123 .group .group-items-register .form-group.form-group-icons:after, #section-info-4 .group .group-items-register .form-group.form-group-icons:after, #section-info-5 .group .group-items-register .form-group.form-group-icons:after,
+        #section-info-6 .group .group-items-register .form-group.form-group-icons:after, #section-info-7 .group .group-items-register .form-group.form-group-icons:after,
+        #section-info-9 .group .group-items-register .form-group.form-group-icons:after, #section-info-10 .group .group-items-register .form-group.form-group-icons:after,
+        #section-info-11 .group .group-items-register .form-group.form-group-icons:after, #section-info-12 .group .group-items-register .form-group.form-group-icons:after,
+        #section-info-13 .group .group-items-register .form-group.form-group-icons:after {
           content: '';
           background: url("../images/icons/calendar1.svg") no-repeat center;
           width: 17px;
@@ -528,105 +1006,230 @@
           position: absolute;
           bottom: 14px;
           right: 10px; }
-        .section-info .group .group-items-register .form-group.form-group-icons input {
+        #section-info-123 .group .group-items-register .form-group.form-group-icons input, #section-info-4 .group .group-items-register .form-group.form-group-icons input, #section-info-5 .group .group-items-register .form-group.form-group-icons input,
+        #section-info-6 .group .group-items-register .form-group.form-group-icons input, #section-info-7 .group .group-items-register .form-group.form-group-icons input,
+        #section-info-9 .group .group-items-register .form-group.form-group-icons input, #section-info-10 .group .group-items-register .form-group.form-group-icons input,
+        #section-info-11 .group .group-items-register .form-group.form-group-icons input, #section-info-12 .group .group-items-register .form-group.form-group-icons input,
+        #section-info-13 .group .group-items-register .form-group.form-group-icons input {
           padding-right: 30px; }
-      .section-info .group .group-items-register .form-group label {
-        font-size: 12px;
+      #section-info-123 .group .group-items-register .form-group label, #section-info-4 .group .group-items-register .form-group label, #section-info-5 .group .group-items-register .form-group label,
+      #section-info-6 .group .group-items-register .form-group label, #section-info-7 .group .group-items-register .form-group label,
+      #section-info-9 .group .group-items-register .form-group label, #section-info-10 .group .group-items-register .form-group label,
+      #section-info-11 .group .group-items-register .form-group label, #section-info-12 .group .group-items-register .form-group label,
+      #section-info-13 .group .group-items-register .form-group label {
+        font-size: 13px;
         font-weight: bold;
         margin-bottom: 15px; }
-        .section-info .group .group-items-register .form-group label span {
+        #section-info-123 .group .group-items-register .form-group label span, #section-info-4 .group .group-items-register .form-group label span, #section-info-5 .group .group-items-register .form-group label span,
+        #section-info-6 .group .group-items-register .form-group label span, #section-info-7 .group .group-items-register .form-group label span,
+        #section-info-9 .group .group-items-register .form-group label span, #section-info-10 .group .group-items-register .form-group label span,
+        #section-info-11 .group .group-items-register .form-group label span, #section-info-12 .group .group-items-register .form-group label span,
+        #section-info-13 .group .group-items-register .form-group label span {
           font-weight: 400; }
-      .section-info .group .group-items-register .form-group input, .section-info .group .group-items-register .form-group select {
-        height: 40px; }
-    .section-info .group .group-items-register .form-check {
+      #section-info-123 .group .group-items-register .form-group input, #section-info-123 .group .group-items-register .form-group select, #section-info-4 .group .group-items-register .form-group input, #section-info-4 .group .group-items-register .form-group select, #section-info-5 .group .group-items-register .form-group input, #section-info-5 .group .group-items-register .form-group select,
+      #section-info-6 .group .group-items-register .form-group input,
+      #section-info-6 .group .group-items-register .form-group select, #section-info-7 .group .group-items-register .form-group input, #section-info-7 .group .group-items-register .form-group select,
+      #section-info-9 .group .group-items-register .form-group input,
+      #section-info-9 .group .group-items-register .form-group select, #section-info-10 .group .group-items-register .form-group input, #section-info-10 .group .group-items-register .form-group select,
+      #section-info-11 .group .group-items-register .form-group input,
+      #section-info-11 .group .group-items-register .form-group select, #section-info-12 .group .group-items-register .form-group input, #section-info-12 .group .group-items-register .form-group select,
+      #section-info-13 .group .group-items-register .form-group input,
+      #section-info-13 .group .group-items-register .form-group select {
+        height: 42px; }
+    #section-info-123 .group .group-items-register .form-check, #section-info-4 .group .group-items-register .form-check, #section-info-5 .group .group-items-register .form-check,
+    #section-info-6 .group .group-items-register .form-check, #section-info-7 .group .group-items-register .form-check,
+    #section-info-9 .group .group-items-register .form-check, #section-info-10 .group .group-items-register .form-check,
+    #section-info-11 .group .group-items-register .form-check, #section-info-12 .group .group-items-register .form-check,
+    #section-info-13 .group .group-items-register .form-check {
+      margin-top: 10px;
       margin-bottom: 10px; }
-      .section-info .group .group-items-register .form-check label {
-        font-size: 13px; }
-        .section-info .group .group-items-register .form-check label:hover, .section-info .group .group-items-register .form-check label:focus {
+      #section-info-123 .group .group-items-register .form-check label, #section-info-4 .group .group-items-register .form-check label, #section-info-5 .group .group-items-register .form-check label,
+      #section-info-6 .group .group-items-register .form-check label, #section-info-7 .group .group-items-register .form-check label,
+      #section-info-9 .group .group-items-register .form-check label, #section-info-10 .group .group-items-register .form-check label,
+      #section-info-11 .group .group-items-register .form-check label, #section-info-12 .group .group-items-register .form-check label,
+      #section-info-13 .group .group-items-register .form-check label {
+        font-size: 14px; }
+        #section-info-123 .group .group-items-register .form-check label:hover, #section-info-123 .group .group-items-register .form-check label:focus, #section-info-4 .group .group-items-register .form-check label:hover, #section-info-4 .group .group-items-register .form-check label:focus, #section-info-5 .group .group-items-register .form-check label:hover, #section-info-5 .group .group-items-register .form-check label:focus,
+        #section-info-6 .group .group-items-register .form-check label:hover,
+        #section-info-6 .group .group-items-register .form-check label:focus, #section-info-7 .group .group-items-register .form-check label:hover, #section-info-7 .group .group-items-register .form-check label:focus,
+        #section-info-9 .group .group-items-register .form-check label:hover,
+        #section-info-9 .group .group-items-register .form-check label:focus, #section-info-10 .group .group-items-register .form-check label:hover, #section-info-10 .group .group-items-register .form-check label:focus,
+        #section-info-11 .group .group-items-register .form-check label:hover,
+        #section-info-11 .group .group-items-register .form-check label:focus, #section-info-12 .group .group-items-register .form-check label:hover, #section-info-12 .group .group-items-register .form-check label:focus,
+        #section-info-13 .group .group-items-register .form-check label:hover,
+        #section-info-13 .group .group-items-register .form-check label:focus {
           outline: none !important; }
-          .section-info .group .group-items-register .form-check label:hover input, .section-info .group .group-items-register .form-check label:focus input {
+          #section-info-123 .group .group-items-register .form-check label:hover input, #section-info-123 .group .group-items-register .form-check label:focus input, #section-info-4 .group .group-items-register .form-check label:hover input, #section-info-4 .group .group-items-register .form-check label:focus input, #section-info-5 .group .group-items-register .form-check label:hover input, #section-info-5 .group .group-items-register .form-check label:focus input,
+          #section-info-6 .group .group-items-register .form-check label:hover input,
+          #section-info-6 .group .group-items-register .form-check label:focus input, #section-info-7 .group .group-items-register .form-check label:hover input, #section-info-7 .group .group-items-register .form-check label:focus input,
+          #section-info-9 .group .group-items-register .form-check label:hover input,
+          #section-info-9 .group .group-items-register .form-check label:focus input, #section-info-10 .group .group-items-register .form-check label:hover input, #section-info-10 .group .group-items-register .form-check label:focus input,
+          #section-info-11 .group .group-items-register .form-check label:hover input,
+          #section-info-11 .group .group-items-register .form-check label:focus input, #section-info-12 .group .group-items-register .form-check label:hover input, #section-info-12 .group .group-items-register .form-check label:focus input,
+          #section-info-13 .group .group-items-register .form-check label:hover input,
+          #section-info-13 .group .group-items-register .form-check label:focus input {
             outline: none !important; }
-        .section-info .group .group-items-register .form-check label input {
-          margin-right: 6px;
-          position: relative;
-          top: 2px; }
-    .section-info .group .group-items-register .group-results {
+    #section-info-123 .group .group-items-register .group-results, #section-info-4 .group .group-items-register .group-results, #section-info-5 .group .group-items-register .group-results,
+    #section-info-6 .group .group-items-register .group-results, #section-info-7 .group .group-items-register .group-results,
+    #section-info-9 .group .group-items-register .group-results, #section-info-10 .group .group-items-register .group-results,
+    #section-info-11 .group .group-items-register .group-results, #section-info-12 .group .group-items-register .group-results,
+    #section-info-13 .group .group-items-register .group-results {
       border: 1px solid #CFD8DC;
       padding: 30px 20px;
+      padding-bottom: 0;
       cursor: pointer;
       transition: all .2s ease;
       margin-bottom: 30px;
       position: relative; }
-      .section-info .group .group-items-register .group-results:after {
-        content: '';
-        background: url("../images/logged-step/tick-blue.png") no-repeat center;
-        width: 14px;
-        height: 14px;
+      #section-info-123 .group .group-items-register .group-results.group-results-13, #section-info-4 .group .group-items-register .group-results.group-results-13, #section-info-5 .group .group-items-register .group-results.group-results-13,
+      #section-info-6 .group .group-items-register .group-results.group-results-13, #section-info-7 .group .group-items-register .group-results.group-results-13,
+      #section-info-9 .group .group-items-register .group-results.group-results-13, #section-info-10 .group .group-items-register .group-results.group-results-13,
+      #section-info-11 .group .group-items-register .group-results.group-results-13, #section-info-12 .group .group-items-register .group-results.group-results-13,
+      #section-info-13 .group .group-items-register .group-results.group-results-13 {
+        padding-top: 20px;
+        padding-bottom: 20px; }
+      #section-info-123 .group .group-items-register .group-results i, #section-info-4 .group .group-items-register .group-results i, #section-info-5 .group .group-items-register .group-results i,
+      #section-info-6 .group .group-items-register .group-results i, #section-info-7 .group .group-items-register .group-results i,
+      #section-info-9 .group .group-items-register .group-results i, #section-info-10 .group .group-items-register .group-results i,
+      #section-info-11 .group .group-items-register .group-results i, #section-info-12 .group .group-items-register .group-results i,
+      #section-info-13 .group .group-items-register .group-results i {
+        color: #48a7f2;
+        opacity: 0;
         position: absolute;
         top: 10px;
         right: 10px;
-        transition: all .2s ease;
-        opacity: 0; }
-      @media screen and (min-width: 992px) {
-        .section-info .group .group-items-register .group-results {
-          -webkit-align-items: center;
-              -ms-flex-align: center;
-                  align-items: center; } }
+        transition: all .3s ease; }
       @media screen and (max-width: 991px) {
-        .section-info .group .group-items-register .group-results {
+        #section-info-123 .group .group-items-register .group-results, #section-info-4 .group .group-items-register .group-results, #section-info-5 .group .group-items-register .group-results,
+        #section-info-6 .group .group-items-register .group-results, #section-info-7 .group .group-items-register .group-results,
+        #section-info-9 .group .group-items-register .group-results, #section-info-10 .group .group-items-register .group-results,
+        #section-info-11 .group .group-items-register .group-results, #section-info-12 .group .group-items-register .group-results,
+        #section-info-13 .group .group-items-register .group-results {
           -webkit-flex-direction: column;
               -ms-flex-direction: column;
                   flex-direction: column; } }
-      .section-info .group .group-items-register .group-results:hover, .section-info .group .group-items-register .group-results:focus, .section-info .group .group-items-register .group-results.active {
+      #section-info-123 .group .group-items-register .group-results:hover, #section-info-123 .group .group-items-register .group-results:focus, #section-info-123 .group .group-items-register .group-results.active, #section-info-4 .group .group-items-register .group-results:hover, #section-info-4 .group .group-items-register .group-results:focus, #section-info-4 .group .group-items-register .group-results.active, #section-info-5 .group .group-items-register .group-results:hover, #section-info-5 .group .group-items-register .group-results:focus, #section-info-5 .group .group-items-register .group-results.active,
+      #section-info-6 .group .group-items-register .group-results:hover,
+      #section-info-6 .group .group-items-register .group-results:focus,
+      #section-info-6 .group .group-items-register .group-results.active, #section-info-7 .group .group-items-register .group-results:hover, #section-info-7 .group .group-items-register .group-results:focus, #section-info-7 .group .group-items-register .group-results.active,
+      #section-info-9 .group .group-items-register .group-results:hover,
+      #section-info-9 .group .group-items-register .group-results:focus,
+      #section-info-9 .group .group-items-register .group-results.active, #section-info-10 .group .group-items-register .group-results:hover, #section-info-10 .group .group-items-register .group-results:focus, #section-info-10 .group .group-items-register .group-results.active,
+      #section-info-11 .group .group-items-register .group-results:hover,
+      #section-info-11 .group .group-items-register .group-results:focus,
+      #section-info-11 .group .group-items-register .group-results.active, #section-info-12 .group .group-items-register .group-results:hover, #section-info-12 .group .group-items-register .group-results:focus, #section-info-12 .group .group-items-register .group-results.active,
+      #section-info-13 .group .group-items-register .group-results:hover,
+      #section-info-13 .group .group-items-register .group-results:focus,
+      #section-info-13 .group .group-items-register .group-results.active {
         border-color: #48a7f2; }
-      .section-info .group .group-items-register .group-results.active:after {
+      #section-info-123 .group .group-items-register .group-results.active i, #section-info-4 .group .group-items-register .group-results.active i, #section-info-5 .group .group-items-register .group-results.active i,
+      #section-info-6 .group .group-items-register .group-results.active i, #section-info-7 .group .group-items-register .group-results.active i,
+      #section-info-9 .group .group-items-register .group-results.active i, #section-info-10 .group .group-items-register .group-results.active i,
+      #section-info-11 .group .group-items-register .group-results.active i, #section-info-12 .group .group-items-register .group-results.active i,
+      #section-info-13 .group .group-items-register .group-results.active i {
         opacity: 1; }
-      .section-info .group .group-items-register .group-results .gr {
+      #section-info-123 .group .group-items-register .group-results .gr, #section-info-4 .group .group-items-register .group-results .gr, #section-info-5 .group .group-items-register .group-results .gr,
+      #section-info-6 .group .group-items-register .group-results .gr, #section-info-7 .group .group-items-register .group-results .gr,
+      #section-info-9 .group .group-items-register .group-results .gr, #section-info-10 .group .group-items-register .group-results .gr,
+      #section-info-11 .group .group-items-register .group-results .gr, #section-info-12 .group .group-items-register .group-results .gr,
+      #section-info-13 .group .group-items-register .group-results .gr {
         height: 100%; }
-        .section-info .group .group-items-register .group-results .gr.gr-user {
+        #section-info-123 .group .group-items-register .group-results .gr.gr-user, #section-info-4 .group .group-items-register .group-results .gr.gr-user, #section-info-5 .group .group-items-register .group-results .gr.gr-user,
+        #section-info-6 .group .group-items-register .group-results .gr.gr-user, #section-info-7 .group .group-items-register .group-results .gr.gr-user,
+        #section-info-9 .group .group-items-register .group-results .gr.gr-user, #section-info-10 .group .group-items-register .group-results .gr.gr-user,
+        #section-info-11 .group .group-items-register .group-results .gr.gr-user, #section-info-12 .group .group-items-register .group-results .gr.gr-user,
+        #section-info-13 .group .group-items-register .group-results .gr.gr-user {
           margin-right: 20px; }
           @media screen and (max-width: 991px) {
-            .section-info .group .group-items-register .group-results .gr.gr-user {
+            #section-info-123 .group .group-items-register .group-results .gr.gr-user, #section-info-4 .group .group-items-register .group-results .gr.gr-user, #section-info-5 .group .group-items-register .group-results .gr.gr-user,
+            #section-info-6 .group .group-items-register .group-results .gr.gr-user, #section-info-7 .group .group-items-register .group-results .gr.gr-user,
+            #section-info-9 .group .group-items-register .group-results .gr.gr-user, #section-info-10 .group .group-items-register .group-results .gr.gr-user,
+            #section-info-11 .group .group-items-register .group-results .gr.gr-user, #section-info-12 .group .group-items-register .group-results .gr.gr-user,
+            #section-info-13 .group .group-items-register .group-results .gr.gr-user {
               margin-right: 0;
               margin-bottom: 20px; } }
-        .section-info .group .group-items-register .group-results .gr.gr-info {
+        #section-info-123 .group .group-items-register .group-results .gr.gr-info, #section-info-4 .group .group-items-register .group-results .gr.gr-info, #section-info-5 .group .group-items-register .group-results .gr.gr-info,
+        #section-info-6 .group .group-items-register .group-results .gr.gr-info, #section-info-7 .group .group-items-register .group-results .gr.gr-info,
+        #section-info-9 .group .group-items-register .group-results .gr.gr-info, #section-info-10 .group .group-items-register .group-results .gr.gr-info,
+        #section-info-11 .group .group-items-register .group-results .gr.gr-info, #section-info-12 .group .group-items-register .group-results .gr.gr-info,
+        #section-info-13 .group .group-items-register .group-results .gr.gr-info {
           width: 100%; }
-          .section-info .group .group-items-register .group-results .gr.gr-info .gr-name {
+          #section-info-123 .group .group-items-register .group-results .gr.gr-info .gr-name, #section-info-4 .group .group-items-register .group-results .gr.gr-info .gr-name, #section-info-5 .group .group-items-register .group-results .gr.gr-info .gr-name,
+          #section-info-6 .group .group-items-register .group-results .gr.gr-info .gr-name, #section-info-7 .group .group-items-register .group-results .gr.gr-info .gr-name,
+          #section-info-9 .group .group-items-register .group-results .gr.gr-info .gr-name, #section-info-10 .group .group-items-register .group-results .gr.gr-info .gr-name,
+          #section-info-11 .group .group-items-register .group-results .gr.gr-info .gr-name, #section-info-12 .group .group-items-register .group-results .gr.gr-info .gr-name,
+          #section-info-13 .group .group-items-register .group-results .gr.gr-info .gr-name {
             font-size: 14px;
             color: #696969;
             margin-bottom: 15px;
             font-weight: bold; }
-          .section-info .group .group-items-register .group-results .gr.gr-info .gr-name-1 {
+          #section-info-123 .group .group-items-register .group-results .gr.gr-info .gr-name-1, #section-info-4 .group .group-items-register .group-results .gr.gr-info .gr-name-1, #section-info-5 .group .group-items-register .group-results .gr.gr-info .gr-name-1,
+          #section-info-6 .group .group-items-register .group-results .gr.gr-info .gr-name-1, #section-info-7 .group .group-items-register .group-results .gr.gr-info .gr-name-1,
+          #section-info-9 .group .group-items-register .group-results .gr.gr-info .gr-name-1, #section-info-10 .group .group-items-register .group-results .gr.gr-info .gr-name-1,
+          #section-info-11 .group .group-items-register .group-results .gr.gr-info .gr-name-1, #section-info-12 .group .group-items-register .group-results .gr.gr-info .gr-name-1,
+          #section-info-13 .group .group-items-register .group-results .gr.gr-info .gr-name-1 {
             font-size: 13px;
             color: #696969;
             margin-bottom: 15px; }
-          .section-info .group .group-items-register .group-results .gr.gr-info .mg-bottom-0 {
+          #section-info-123 .group .group-items-register .group-results .gr.gr-info .mg-bottom-0, #section-info-4 .group .group-items-register .group-results .gr.gr-info .mg-bottom-0, #section-info-5 .group .group-items-register .group-results .gr.gr-info .mg-bottom-0,
+          #section-info-6 .group .group-items-register .group-results .gr.gr-info .mg-bottom-0, #section-info-7 .group .group-items-register .group-results .gr.gr-info .mg-bottom-0,
+          #section-info-9 .group .group-items-register .group-results .gr.gr-info .mg-bottom-0, #section-info-10 .group .group-items-register .group-results .gr.gr-info .mg-bottom-0,
+          #section-info-11 .group .group-items-register .group-results .gr.gr-info .mg-bottom-0, #section-info-12 .group .group-items-register .group-results .gr.gr-info .mg-bottom-0,
+          #section-info-13 .group .group-items-register .group-results .gr.gr-info .mg-bottom-0 {
             margin-bottom: 0; }
-          .section-info .group .group-items-register .group-results .gr.gr-info ul {
+          #section-info-123 .group .group-items-register .group-results .gr.gr-info ul, #section-info-4 .group .group-items-register .group-results .gr.gr-info ul, #section-info-5 .group .group-items-register .group-results .gr.gr-info ul,
+          #section-info-6 .group .group-items-register .group-results .gr.gr-info ul, #section-info-7 .group .group-items-register .group-results .gr.gr-info ul,
+          #section-info-9 .group .group-items-register .group-results .gr.gr-info ul, #section-info-10 .group .group-items-register .group-results .gr.gr-info ul,
+          #section-info-11 .group .group-items-register .group-results .gr.gr-info ul, #section-info-12 .group .group-items-register .group-results .gr.gr-info ul,
+          #section-info-13 .group .group-items-register .group-results .gr.gr-info ul {
             padding-left: 0;
             list-style-type: none;
             -webkit-flex-wrap: wrap;
                 -ms-flex-wrap: wrap;
                     flex-wrap: wrap;
             height: 100%; }
-            .section-info .group .group-items-register .group-results .gr.gr-info ul li {
+            #section-info-123 .group .group-items-register .group-results .gr.gr-info ul li, #section-info-4 .group .group-items-register .group-results .gr.gr-info ul li, #section-info-5 .group .group-items-register .group-results .gr.gr-info ul li,
+            #section-info-6 .group .group-items-register .group-results .gr.gr-info ul li, #section-info-7 .group .group-items-register .group-results .gr.gr-info ul li,
+            #section-info-9 .group .group-items-register .group-results .gr.gr-info ul li, #section-info-10 .group .group-items-register .group-results .gr.gr-info ul li,
+            #section-info-11 .group .group-items-register .group-results .gr.gr-info ul li, #section-info-12 .group .group-items-register .group-results .gr.gr-info ul li,
+            #section-info-13 .group .group-items-register .group-results .gr.gr-info ul li {
               color: #696969;
-              font-size: 12px;
+              font-size: 13px;
               margin-bottom: 0;
               position: relative;
               padding-left: 30px;
               width: 20%;
               margin-bottom: 15px; }
               @media screen and (min-width: 992px) {
-                .section-info .group .group-items-register .group-results .gr.gr-info ul li:nth-child(3), .section-info .group .group-items-register .group-results .gr.gr-info ul li:nth-child(6) {
+                #section-info-123 .group .group-items-register .group-results .gr.gr-info ul li:nth-child(3), #section-info-123 .group .group-items-register .group-results .gr.gr-info ul li:nth-child(6), #section-info-4 .group .group-items-register .group-results .gr.gr-info ul li:nth-child(3), #section-info-4 .group .group-items-register .group-results .gr.gr-info ul li:nth-child(6), #section-info-5 .group .group-items-register .group-results .gr.gr-info ul li:nth-child(3), #section-info-5 .group .group-items-register .group-results .gr.gr-info ul li:nth-child(6),
+                #section-info-6 .group .group-items-register .group-results .gr.gr-info ul li:nth-child(3),
+                #section-info-6 .group .group-items-register .group-results .gr.gr-info ul li:nth-child(6), #section-info-7 .group .group-items-register .group-results .gr.gr-info ul li:nth-child(3), #section-info-7 .group .group-items-register .group-results .gr.gr-info ul li:nth-child(6),
+                #section-info-9 .group .group-items-register .group-results .gr.gr-info ul li:nth-child(3),
+                #section-info-9 .group .group-items-register .group-results .gr.gr-info ul li:nth-child(6), #section-info-10 .group .group-items-register .group-results .gr.gr-info ul li:nth-child(3), #section-info-10 .group .group-items-register .group-results .gr.gr-info ul li:nth-child(6),
+                #section-info-11 .group .group-items-register .group-results .gr.gr-info ul li:nth-child(3),
+                #section-info-11 .group .group-items-register .group-results .gr.gr-info ul li:nth-child(6), #section-info-12 .group .group-items-register .group-results .gr.gr-info ul li:nth-child(3), #section-info-12 .group .group-items-register .group-results .gr.gr-info ul li:nth-child(6),
+                #section-info-13 .group .group-items-register .group-results .gr.gr-info ul li:nth-child(3),
+                #section-info-13 .group .group-items-register .group-results .gr.gr-info ul li:nth-child(6) {
                   width: 60%; } }
               @media screen and (max-width: 991px) {
-                .section-info .group .group-items-register .group-results .gr.gr-info ul li {
+                #section-info-123 .group .group-items-register .group-results .gr.gr-info ul li, #section-info-4 .group .group-items-register .group-results .gr.gr-info ul li, #section-info-5 .group .group-items-register .group-results .gr.gr-info ul li,
+                #section-info-6 .group .group-items-register .group-results .gr.gr-info ul li, #section-info-7 .group .group-items-register .group-results .gr.gr-info ul li,
+                #section-info-9 .group .group-items-register .group-results .gr.gr-info ul li, #section-info-10 .group .group-items-register .group-results .gr.gr-info ul li,
+                #section-info-11 .group .group-items-register .group-results .gr.gr-info ul li, #section-info-12 .group .group-items-register .group-results .gr.gr-info ul li,
+                #section-info-13 .group .group-items-register .group-results .gr.gr-info ul li {
                   width: 50%; } }
               @media screen and (max-width: 599px) {
-                .section-info .group .group-items-register .group-results .gr.gr-info ul li {
+                #section-info-123 .group .group-items-register .group-results .gr.gr-info ul li, #section-info-4 .group .group-items-register .group-results .gr.gr-info ul li, #section-info-5 .group .group-items-register .group-results .gr.gr-info ul li,
+                #section-info-6 .group .group-items-register .group-results .gr.gr-info ul li, #section-info-7 .group .group-items-register .group-results .gr.gr-info ul li,
+                #section-info-9 .group .group-items-register .group-results .gr.gr-info ul li, #section-info-10 .group .group-items-register .group-results .gr.gr-info ul li,
+                #section-info-11 .group .group-items-register .group-results .gr.gr-info ul li, #section-info-12 .group .group-items-register .group-results .gr.gr-info ul li,
+                #section-info-13 .group .group-items-register .group-results .gr.gr-info ul li {
                   width: 100%; } }
-              .section-info .group .group-items-register .group-results .gr.gr-info ul li.gr-phone:before {
+              #section-info-123 .group .group-items-register .group-results .gr.gr-info ul li.gr-phone:before, #section-info-4 .group .group-items-register .group-results .gr.gr-info ul li.gr-phone:before, #section-info-5 .group .group-items-register .group-results .gr.gr-info ul li.gr-phone:before,
+              #section-info-6 .group .group-items-register .group-results .gr.gr-info ul li.gr-phone:before, #section-info-7 .group .group-items-register .group-results .gr.gr-info ul li.gr-phone:before,
+              #section-info-9 .group .group-items-register .group-results .gr.gr-info ul li.gr-phone:before, #section-info-10 .group .group-items-register .group-results .gr.gr-info ul li.gr-phone:before,
+              #section-info-11 .group .group-items-register .group-results .gr.gr-info ul li.gr-phone:before, #section-info-12 .group .group-items-register .group-results .gr.gr-info ul li.gr-phone:before,
+              #section-info-13 .group .group-items-register .group-results .gr.gr-info ul li.gr-phone:before {
                 content: '';
                 background: url("../images/icons/phone1.svg") no-repeat center;
                 width: 17px;
@@ -634,7 +1237,11 @@
                 position: absolute;
                 top: 0px;
                 left: 0; }
-              .section-info .group .group-items-register .group-results .gr.gr-info ul li.gr-sex:before {
+              #section-info-123 .group .group-items-register .group-results .gr.gr-info ul li.gr-sex:before, #section-info-4 .group .group-items-register .group-results .gr.gr-info ul li.gr-sex:before, #section-info-5 .group .group-items-register .group-results .gr.gr-info ul li.gr-sex:before,
+              #section-info-6 .group .group-items-register .group-results .gr.gr-info ul li.gr-sex:before, #section-info-7 .group .group-items-register .group-results .gr.gr-info ul li.gr-sex:before,
+              #section-info-9 .group .group-items-register .group-results .gr.gr-info ul li.gr-sex:before, #section-info-10 .group .group-items-register .group-results .gr.gr-info ul li.gr-sex:before,
+              #section-info-11 .group .group-items-register .group-results .gr.gr-info ul li.gr-sex:before, #section-info-12 .group .group-items-register .group-results .gr.gr-info ul li.gr-sex:before,
+              #section-info-13 .group .group-items-register .group-results .gr.gr-info ul li.gr-sex:before {
                 content: '';
                 background: url("../images/icons/sex.svg") no-repeat center;
                 width: 17px;
@@ -642,7 +1249,11 @@
                 position: absolute;
                 top: 2px;
                 left: 0; }
-              .section-info .group .group-items-register .group-results .gr.gr-info ul li.gr-email:before {
+              #section-info-123 .group .group-items-register .group-results .gr.gr-info ul li.gr-email:before, #section-info-4 .group .group-items-register .group-results .gr.gr-info ul li.gr-email:before, #section-info-5 .group .group-items-register .group-results .gr.gr-info ul li.gr-email:before,
+              #section-info-6 .group .group-items-register .group-results .gr.gr-info ul li.gr-email:before, #section-info-7 .group .group-items-register .group-results .gr.gr-info ul li.gr-email:before,
+              #section-info-9 .group .group-items-register .group-results .gr.gr-info ul li.gr-email:before, #section-info-10 .group .group-items-register .group-results .gr.gr-info ul li.gr-email:before,
+              #section-info-11 .group .group-items-register .group-results .gr.gr-info ul li.gr-email:before, #section-info-12 .group .group-items-register .group-results .gr.gr-info ul li.gr-email:before,
+              #section-info-13 .group .group-items-register .group-results .gr.gr-info ul li.gr-email:before {
                 content: '';
                 background: url("../images/icons/email1.svg") no-repeat center;
                 width: 17px;
@@ -650,7 +1261,11 @@
                 position: absolute;
                 top: 1px;
                 left: 0; }
-              .section-info .group .group-items-register .group-results .gr.gr-info ul li.gr-job:before {
+              #section-info-123 .group .group-items-register .group-results .gr.gr-info ul li.gr-job:before, #section-info-4 .group .group-items-register .group-results .gr.gr-info ul li.gr-job:before, #section-info-5 .group .group-items-register .group-results .gr.gr-info ul li.gr-job:before,
+              #section-info-6 .group .group-items-register .group-results .gr.gr-info ul li.gr-job:before, #section-info-7 .group .group-items-register .group-results .gr.gr-info ul li.gr-job:before,
+              #section-info-9 .group .group-items-register .group-results .gr.gr-info ul li.gr-job:before, #section-info-10 .group .group-items-register .group-results .gr.gr-info ul li.gr-job:before,
+              #section-info-11 .group .group-items-register .group-results .gr.gr-info ul li.gr-job:before, #section-info-12 .group .group-items-register .group-results .gr.gr-info ul li.gr-job:before,
+              #section-info-13 .group .group-items-register .group-results .gr.gr-info ul li.gr-job:before {
                 content: '';
                 background: url("../images/icons/build.svg") no-repeat center;
                 width: 17px;
@@ -658,7 +1273,11 @@
                 position: absolute;
                 top: 0px;
                 left: 0; }
-              .section-info .group .group-items-register .group-results .gr.gr-info ul li.gr-birthday:before {
+              #section-info-123 .group .group-items-register .group-results .gr.gr-info ul li.gr-birthday:before, #section-info-4 .group .group-items-register .group-results .gr.gr-info ul li.gr-birthday:before, #section-info-5 .group .group-items-register .group-results .gr.gr-info ul li.gr-birthday:before,
+              #section-info-6 .group .group-items-register .group-results .gr.gr-info ul li.gr-birthday:before, #section-info-7 .group .group-items-register .group-results .gr.gr-info ul li.gr-birthday:before,
+              #section-info-9 .group .group-items-register .group-results .gr.gr-info ul li.gr-birthday:before, #section-info-10 .group .group-items-register .group-results .gr.gr-info ul li.gr-birthday:before,
+              #section-info-11 .group .group-items-register .group-results .gr.gr-info ul li.gr-birthday:before, #section-info-12 .group .group-items-register .group-results .gr.gr-info ul li.gr-birthday:before,
+              #section-info-13 .group .group-items-register .group-results .gr.gr-info ul li.gr-birthday:before {
                 content: '';
                 background: url("../images/icons/calendar1.svg") no-repeat center;
                 width: 17px;
@@ -666,7 +1285,11 @@
                 position: absolute;
                 top: 1px;
                 left: 0; }
-              .section-info .group .group-items-register .group-results .gr.gr-info ul li.gr-address:before {
+              #section-info-123 .group .group-items-register .group-results .gr.gr-info ul li.gr-address:before, #section-info-4 .group .group-items-register .group-results .gr.gr-info ul li.gr-address:before, #section-info-5 .group .group-items-register .group-results .gr.gr-info ul li.gr-address:before,
+              #section-info-6 .group .group-items-register .group-results .gr.gr-info ul li.gr-address:before, #section-info-7 .group .group-items-register .group-results .gr.gr-info ul li.gr-address:before,
+              #section-info-9 .group .group-items-register .group-results .gr.gr-info ul li.gr-address:before, #section-info-10 .group .group-items-register .group-results .gr.gr-info ul li.gr-address:before,
+              #section-info-11 .group .group-items-register .group-results .gr.gr-info ul li.gr-address:before, #section-info-12 .group .group-items-register .group-results .gr.gr-info ul li.gr-address:before,
+              #section-info-13 .group .group-items-register .group-results .gr.gr-info ul li.gr-address:before {
                 content: '';
                 background: url("../images/icons/location.svg") no-repeat center;
                 width: 17px;
@@ -674,18 +1297,38 @@
                 position: absolute;
                 top: 2px;
                 left: 0; }
-  .section-info .left-columns .leftc-name {
+  #section-info-123 .left-columns .leftc-name, #section-info-4 .left-columns .leftc-name, #section-info-5 .left-columns .leftc-name,
+  #section-info-6 .left-columns .leftc-name, #section-info-7 .left-columns .leftc-name,
+  #section-info-9 .left-columns .leftc-name, #section-info-10 .left-columns .leftc-name,
+  #section-info-11 .left-columns .leftc-name, #section-info-12 .left-columns .leftc-name,
+  #section-info-13 .left-columns .leftc-name {
     font-size: 14px;
     margin-bottom: 20px; }
-    .section-info .left-columns .leftc-name a {
+    #section-info-123 .left-columns .leftc-name a, #section-info-4 .left-columns .leftc-name a, #section-info-5 .left-columns .leftc-name a,
+    #section-info-6 .left-columns .leftc-name a, #section-info-7 .left-columns .leftc-name a,
+    #section-info-9 .left-columns .leftc-name a, #section-info-10 .left-columns .leftc-name a,
+    #section-info-11 .left-columns .leftc-name a, #section-info-12 .left-columns .leftc-name a,
+    #section-info-13 .left-columns .leftc-name a {
       font-weight: bold;
       color: #3c3c3c;
       transition: all .2s ease;
       margin-left: 5px; }
-      .section-info .left-columns .leftc-name a:hover, .section-info .left-columns .leftc-name a:focus {
+      #section-info-123 .left-columns .leftc-name a:hover, #section-info-123 .left-columns .leftc-name a:focus, #section-info-4 .left-columns .leftc-name a:hover, #section-info-4 .left-columns .leftc-name a:focus, #section-info-5 .left-columns .leftc-name a:hover, #section-info-5 .left-columns .leftc-name a:focus,
+      #section-info-6 .left-columns .leftc-name a:hover,
+      #section-info-6 .left-columns .leftc-name a:focus, #section-info-7 .left-columns .leftc-name a:hover, #section-info-7 .left-columns .leftc-name a:focus,
+      #section-info-9 .left-columns .leftc-name a:hover,
+      #section-info-9 .left-columns .leftc-name a:focus, #section-info-10 .left-columns .leftc-name a:hover, #section-info-10 .left-columns .leftc-name a:focus,
+      #section-info-11 .left-columns .leftc-name a:hover,
+      #section-info-11 .left-columns .leftc-name a:focus, #section-info-12 .left-columns .leftc-name a:hover, #section-info-12 .left-columns .leftc-name a:focus,
+      #section-info-13 .left-columns .leftc-name a:hover,
+      #section-info-13 .left-columns .leftc-name a:focus {
         color: #48a7f2; }
-  .section-info .left-columns .leftc-menu a {
-    font-size: 14px;
+  #section-info-123 .left-columns .leftc-menu a, #section-info-4 .left-columns .leftc-menu a, #section-info-5 .left-columns .leftc-menu a,
+  #section-info-6 .left-columns .leftc-menu a, #section-info-7 .left-columns .leftc-menu a,
+  #section-info-9 .left-columns .leftc-menu a, #section-info-10 .left-columns .leftc-menu a,
+  #section-info-11 .left-columns .leftc-menu a, #section-info-12 .left-columns .leftc-menu a,
+  #section-info-13 .left-columns .leftc-menu a {
+    font-size: 15px;
     color: #3c3c3c;
     transition: all .2s ease;
     padding: 10px 33px;
@@ -693,41 +1336,69 @@
     margin-bottom: 10px;
     position: relative;
     overflow: hidden; }
-    .section-info .left-columns .leftc-menu a:after {
-      content: '>';
-      font-size: 17px;
-      color: #3c3c3c;
-      transition: all .2s ease;
-      position: absolute;
-      top: 50%;
-      margin-top: -10px;
-      right: 10px;
-      -webkit-transform: translateX(30px);
-              transform: translateX(30px); }
-    .section-info .left-columns .leftc-menu a:hover, .section-info .left-columns .leftc-menu a:focus, .section-info .left-columns .leftc-menu a.active {
+    #section-info-123 .left-columns .leftc-menu a:hover, #section-info-123 .left-columns .leftc-menu a:focus, #section-info-123 .left-columns .leftc-menu a.active, #section-info-4 .left-columns .leftc-menu a:hover, #section-info-4 .left-columns .leftc-menu a:focus, #section-info-4 .left-columns .leftc-menu a.active, #section-info-5 .left-columns .leftc-menu a:hover, #section-info-5 .left-columns .leftc-menu a:focus, #section-info-5 .left-columns .leftc-menu a.active,
+    #section-info-6 .left-columns .leftc-menu a:hover,
+    #section-info-6 .left-columns .leftc-menu a:focus,
+    #section-info-6 .left-columns .leftc-menu a.active, #section-info-7 .left-columns .leftc-menu a:hover, #section-info-7 .left-columns .leftc-menu a:focus, #section-info-7 .left-columns .leftc-menu a.active,
+    #section-info-9 .left-columns .leftc-menu a:hover,
+    #section-info-9 .left-columns .leftc-menu a:focus,
+    #section-info-9 .left-columns .leftc-menu a.active, #section-info-10 .left-columns .leftc-menu a:hover, #section-info-10 .left-columns .leftc-menu a:focus, #section-info-10 .left-columns .leftc-menu a.active,
+    #section-info-11 .left-columns .leftc-menu a:hover,
+    #section-info-11 .left-columns .leftc-menu a:focus,
+    #section-info-11 .left-columns .leftc-menu a.active, #section-info-12 .left-columns .leftc-menu a:hover, #section-info-12 .left-columns .leftc-menu a:focus, #section-info-12 .left-columns .leftc-menu a.active,
+    #section-info-13 .left-columns .leftc-menu a:hover,
+    #section-info-13 .left-columns .leftc-menu a:focus,
+    #section-info-13 .left-columns .leftc-menu a.active {
       background: #f0f3f8; }
-      .section-info .left-columns .leftc-menu a:hover:after, .section-info .left-columns .leftc-menu a:focus:after, .section-info .left-columns .leftc-menu a.active:after {
+      #section-info-123 .left-columns .leftc-menu a:hover i.fa-angle-right, #section-info-123 .left-columns .leftc-menu a:focus i.fa-angle-right, #section-info-123 .left-columns .leftc-menu a.active i.fa-angle-right, #section-info-4 .left-columns .leftc-menu a:hover i.fa-angle-right, #section-info-4 .left-columns .leftc-menu a:focus i.fa-angle-right, #section-info-4 .left-columns .leftc-menu a.active i.fa-angle-right, #section-info-5 .left-columns .leftc-menu a:hover i.fa-angle-right, #section-info-5 .left-columns .leftc-menu a:focus i.fa-angle-right, #section-info-5 .left-columns .leftc-menu a.active i.fa-angle-right,
+      #section-info-6 .left-columns .leftc-menu a:hover i.fa-angle-right,
+      #section-info-6 .left-columns .leftc-menu a:focus i.fa-angle-right,
+      #section-info-6 .left-columns .leftc-menu a.active i.fa-angle-right, #section-info-7 .left-columns .leftc-menu a:hover i.fa-angle-right, #section-info-7 .left-columns .leftc-menu a:focus i.fa-angle-right, #section-info-7 .left-columns .leftc-menu a.active i.fa-angle-right,
+      #section-info-9 .left-columns .leftc-menu a:hover i.fa-angle-right,
+      #section-info-9 .left-columns .leftc-menu a:focus i.fa-angle-right,
+      #section-info-9 .left-columns .leftc-menu a.active i.fa-angle-right, #section-info-10 .left-columns .leftc-menu a:hover i.fa-angle-right, #section-info-10 .left-columns .leftc-menu a:focus i.fa-angle-right, #section-info-10 .left-columns .leftc-menu a.active i.fa-angle-right,
+      #section-info-11 .left-columns .leftc-menu a:hover i.fa-angle-right,
+      #section-info-11 .left-columns .leftc-menu a:focus i.fa-angle-right,
+      #section-info-11 .left-columns .leftc-menu a.active i.fa-angle-right, #section-info-12 .left-columns .leftc-menu a:hover i.fa-angle-right, #section-info-12 .left-columns .leftc-menu a:focus i.fa-angle-right, #section-info-12 .left-columns .leftc-menu a.active i.fa-angle-right,
+      #section-info-13 .left-columns .leftc-menu a:hover i.fa-angle-right,
+      #section-info-13 .left-columns .leftc-menu a:focus i.fa-angle-right,
+      #section-info-13 .left-columns .leftc-menu a.active i.fa-angle-right {
         -webkit-transform: translateX(0);
                 transform: translateX(0); }
-    .section-info .left-columns .leftc-menu a.leftc-menu-1:before {
-      content: '';
-      background: url("../images/logged-step/left-menu-1.png") no-repeat center;
+    #section-info-123 .left-columns .leftc-menu a i.fa-angle-right, #section-info-4 .left-columns .leftc-menu a i.fa-angle-right, #section-info-5 .left-columns .leftc-menu a i.fa-angle-right,
+    #section-info-6 .left-columns .leftc-menu a i.fa-angle-right, #section-info-7 .left-columns .leftc-menu a i.fa-angle-right,
+    #section-info-9 .left-columns .leftc-menu a i.fa-angle-right, #section-info-10 .left-columns .leftc-menu a i.fa-angle-right,
+    #section-info-11 .left-columns .leftc-menu a i.fa-angle-right, #section-info-12 .left-columns .leftc-menu a i.fa-angle-right,
+    #section-info-13 .left-columns .leftc-menu a i.fa-angle-right {
+      width: 13px;
+      height: 15px;
+      position: absolute;
+      top: 50%;
+      margin-top: -8px;
+      right: 10px;
+      transition: all .2s ease;
+      -webkit-transform: translateX(30px);
+              transform: translateX(30px); }
+    #section-info-123 .left-columns .leftc-menu a i.fa-address-book, #section-info-123 .left-columns .leftc-menu a i.fa-file-medical, #section-info-4 .left-columns .leftc-menu a i.fa-address-book, #section-info-4 .left-columns .leftc-menu a i.fa-file-medical, #section-info-5 .left-columns .leftc-menu a i.fa-address-book, #section-info-5 .left-columns .leftc-menu a i.fa-file-medical,
+    #section-info-6 .left-columns .leftc-menu a i.fa-address-book,
+    #section-info-6 .left-columns .leftc-menu a i.fa-file-medical, #section-info-7 .left-columns .leftc-menu a i.fa-address-book, #section-info-7 .left-columns .leftc-menu a i.fa-file-medical,
+    #section-info-9 .left-columns .leftc-menu a i.fa-address-book,
+    #section-info-9 .left-columns .leftc-menu a i.fa-file-medical, #section-info-10 .left-columns .leftc-menu a i.fa-address-book, #section-info-10 .left-columns .leftc-menu a i.fa-file-medical,
+    #section-info-11 .left-columns .leftc-menu a i.fa-address-book,
+    #section-info-11 .left-columns .leftc-menu a i.fa-file-medical, #section-info-12 .left-columns .leftc-menu a i.fa-address-book, #section-info-12 .left-columns .leftc-menu a i.fa-file-medical,
+    #section-info-13 .left-columns .leftc-menu a i.fa-address-book,
+    #section-info-13 .left-columns .leftc-menu a i.fa-file-medical {
       width: 13px;
       height: 15px;
       position: absolute;
       top: 50%;
       margin-top: -8px;
       left: 10px; }
-    .section-info .left-columns .leftc-menu a.leftc-menu-2:before {
-      content: '';
-      background: url("../images/logged-step/left-menu-2.png") no-repeat center;
-      width: 13px;
-      height: 15px;
-      position: absolute;
-      top: 50%;
-      margin-top: -8px;
-      left: 10px; }
-  .section-info .group-dashed {
+  #section-info-123 .group-dashed, #section-info-4 .group-dashed, #section-info-5 .group-dashed,
+  #section-info-6 .group-dashed, #section-info-7 .group-dashed,
+  #section-info-9 .group-dashed, #section-info-10 .group-dashed,
+  #section-info-11 .group-dashed, #section-info-12 .group-dashed,
+  #section-info-13 .group-dashed {
     padding: 15px 20px;
     border: 1px dashed #CFD8DC;
     border-radius: 3px;
@@ -736,50 +1407,125 @@
     cursor: pointer;
     transition: all .2s ease;
     position: relative; }
-    .section-info .group-dashed:hover, .section-info .group-dashed:focus {
-      background: #CFD8DC; }
-    .section-info .group-dashed div {
+    #section-info-123 .group-dashed:hover, #section-info-123 .group-dashed:focus, #section-info-4 .group-dashed:hover, #section-info-4 .group-dashed:focus, #section-info-5 .group-dashed:hover, #section-info-5 .group-dashed:focus,
+    #section-info-6 .group-dashed:hover,
+    #section-info-6 .group-dashed:focus, #section-info-7 .group-dashed:hover, #section-info-7 .group-dashed:focus,
+    #section-info-9 .group-dashed:hover,
+    #section-info-9 .group-dashed:focus, #section-info-10 .group-dashed:hover, #section-info-10 .group-dashed:focus,
+    #section-info-11 .group-dashed:hover,
+    #section-info-11 .group-dashed:focus, #section-info-12 .group-dashed:hover, #section-info-12 .group-dashed:focus,
+    #section-info-13 .group-dashed:hover,
+    #section-info-13 .group-dashed:focus {
+      border-color: #48a7f2; }
+      #section-info-123 .group-dashed:hover div, #section-info-123 .group-dashed:hover i, #section-info-123 .group-dashed:focus div, #section-info-123 .group-dashed:focus i, #section-info-4 .group-dashed:hover div, #section-info-4 .group-dashed:hover i, #section-info-4 .group-dashed:focus div, #section-info-4 .group-dashed:focus i, #section-info-5 .group-dashed:hover div, #section-info-5 .group-dashed:hover i, #section-info-5 .group-dashed:focus div, #section-info-5 .group-dashed:focus i,
+      #section-info-6 .group-dashed:hover div,
+      #section-info-6 .group-dashed:hover i,
+      #section-info-6 .group-dashed:focus div,
+      #section-info-6 .group-dashed:focus i, #section-info-7 .group-dashed:hover div, #section-info-7 .group-dashed:hover i, #section-info-7 .group-dashed:focus div, #section-info-7 .group-dashed:focus i,
+      #section-info-9 .group-dashed:hover div,
+      #section-info-9 .group-dashed:hover i,
+      #section-info-9 .group-dashed:focus div,
+      #section-info-9 .group-dashed:focus i, #section-info-10 .group-dashed:hover div, #section-info-10 .group-dashed:hover i, #section-info-10 .group-dashed:focus div, #section-info-10 .group-dashed:focus i,
+      #section-info-11 .group-dashed:hover div,
+      #section-info-11 .group-dashed:hover i,
+      #section-info-11 .group-dashed:focus div,
+      #section-info-11 .group-dashed:focus i, #section-info-12 .group-dashed:hover div, #section-info-12 .group-dashed:hover i, #section-info-12 .group-dashed:focus div, #section-info-12 .group-dashed:focus i,
+      #section-info-13 .group-dashed:hover div,
+      #section-info-13 .group-dashed:hover i,
+      #section-info-13 .group-dashed:focus div,
+      #section-info-13 .group-dashed:focus i {
+        color: #48a7f2 !important; }
+    #section-info-123 .group-dashed div, #section-info-4 .group-dashed div, #section-info-5 .group-dashed div,
+    #section-info-6 .group-dashed div, #section-info-7 .group-dashed div,
+    #section-info-9 .group-dashed div, #section-info-10 .group-dashed div,
+    #section-info-11 .group-dashed div, #section-info-12 .group-dashed div,
+    #section-info-13 .group-dashed div {
       font-size: 14px;
       position: relative;
-      padding-left: 40px;
-      display: inline-block; }
-    .section-info .group-dashed.group-dashed-info div {
-      color: #48a7f2; }
-      .section-info .group-dashed.group-dashed-info div:before {
-        content: '';
-        background: url("../images/logged-step/user+.png") no-repeat center;
-        width: 20px;
-        height: 14px;
-        position: absolute;
-        top: 0;
-        left: 10px; }
-      .section-info .group-dashed.group-dashed-info div.gdi-book {
+      display: inline-block;
+      transition: all .2s ease; }
+    #section-info-123 .group-dashed.group-dashed-info i, #section-info-4 .group-dashed.group-dashed-info i, #section-info-5 .group-dashed.group-dashed-info i,
+    #section-info-6 .group-dashed.group-dashed-info i, #section-info-7 .group-dashed.group-dashed-info i,
+    #section-info-9 .group-dashed.group-dashed-info i, #section-info-10 .group-dashed.group-dashed-info i,
+    #section-info-11 .group-dashed.group-dashed-info i, #section-info-12 .group-dashed.group-dashed-info i,
+    #section-info-13 .group-dashed.group-dashed-info i {
+      margin-right: 5px;
+      transition: all .2s ease; }
+    #section-info-123 .group-dashed.group-dashed-info div, #section-info-4 .group-dashed.group-dashed-info div, #section-info-5 .group-dashed.group-dashed-info div,
+    #section-info-6 .group-dashed.group-dashed-info div, #section-info-7 .group-dashed.group-dashed-info div,
+    #section-info-9 .group-dashed.group-dashed-info div, #section-info-10 .group-dashed.group-dashed-info div,
+    #section-info-11 .group-dashed.group-dashed-info div, #section-info-12 .group-dashed.group-dashed-info div,
+    #section-info-13 .group-dashed.group-dashed-info div {
+      color: #696969; }
+      #section-info-123 .group-dashed.group-dashed-info div.gdi-book, #section-info-4 .group-dashed.group-dashed-info div.gdi-book, #section-info-5 .group-dashed.group-dashed-info div.gdi-book,
+      #section-info-6 .group-dashed.group-dashed-info div.gdi-book, #section-info-7 .group-dashed.group-dashed-info div.gdi-book,
+      #section-info-9 .group-dashed.group-dashed-info div.gdi-book, #section-info-10 .group-dashed.group-dashed-info div.gdi-book,
+      #section-info-11 .group-dashed.group-dashed-info div.gdi-book, #section-info-12 .group-dashed.group-dashed-info div.gdi-book,
+      #section-info-13 .group-dashed.group-dashed-info div.gdi-book {
         color: #696969; }
-        .section-info .group-dashed.group-dashed-info div.gdi-book:before {
-          background-image: url("../images/logged-step/user+-black.png"); }
-    .section-info .group-dashed.group-dashed-success {
+    #section-info-123 .group-dashed.group-dashed-success, #section-info-4 .group-dashed.group-dashed-success, #section-info-5 .group-dashed.group-dashed-success,
+    #section-info-6 .group-dashed.group-dashed-success, #section-info-7 .group-dashed.group-dashed-success,
+    #section-info-9 .group-dashed.group-dashed-success, #section-info-10 .group-dashed.group-dashed-success,
+    #section-info-11 .group-dashed.group-dashed-success, #section-info-12 .group-dashed.group-dashed-success,
+    #section-info-13 .group-dashed.group-dashed-success {
       padding-right: 30px;
       color: #40b24f;
       border: 1px solid #40b24f;
       cursor: default;
       background: transparent; }
-      .section-info .group-dashed.group-dashed-success:hover, .section-info .group-dashed.group-dashed-success:focus {
+      #section-info-123 .group-dashed.group-dashed-success:hover, #section-info-123 .group-dashed.group-dashed-success:focus, #section-info-4 .group-dashed.group-dashed-success:hover, #section-info-4 .group-dashed.group-dashed-success:focus, #section-info-5 .group-dashed.group-dashed-success:hover, #section-info-5 .group-dashed.group-dashed-success:focus,
+      #section-info-6 .group-dashed.group-dashed-success:hover,
+      #section-info-6 .group-dashed.group-dashed-success:focus, #section-info-7 .group-dashed.group-dashed-success:hover, #section-info-7 .group-dashed.group-dashed-success:focus,
+      #section-info-9 .group-dashed.group-dashed-success:hover,
+      #section-info-9 .group-dashed.group-dashed-success:focus, #section-info-10 .group-dashed.group-dashed-success:hover, #section-info-10 .group-dashed.group-dashed-success:focus,
+      #section-info-11 .group-dashed.group-dashed-success:hover,
+      #section-info-11 .group-dashed.group-dashed-success:focus, #section-info-12 .group-dashed.group-dashed-success:hover, #section-info-12 .group-dashed.group-dashed-success:focus,
+      #section-info-13 .group-dashed.group-dashed-success:hover,
+      #section-info-13 .group-dashed.group-dashed-success:focus {
+        color: #40b24f !important;
         background: transparent; }
-      .section-info .group-dashed.group-dashed-success div {
+        #section-info-123 .group-dashed.group-dashed-success:hover div, #section-info-123 .group-dashed.group-dashed-success:focus div, #section-info-4 .group-dashed.group-dashed-success:hover div, #section-info-4 .group-dashed.group-dashed-success:focus div, #section-info-5 .group-dashed.group-dashed-success:hover div, #section-info-5 .group-dashed.group-dashed-success:focus div,
+        #section-info-6 .group-dashed.group-dashed-success:hover div,
+        #section-info-6 .group-dashed.group-dashed-success:focus div, #section-info-7 .group-dashed.group-dashed-success:hover div, #section-info-7 .group-dashed.group-dashed-success:focus div,
+        #section-info-9 .group-dashed.group-dashed-success:hover div,
+        #section-info-9 .group-dashed.group-dashed-success:focus div, #section-info-10 .group-dashed.group-dashed-success:hover div, #section-info-10 .group-dashed.group-dashed-success:focus div,
+        #section-info-11 .group-dashed.group-dashed-success:hover div,
+        #section-info-11 .group-dashed.group-dashed-success:focus div, #section-info-12 .group-dashed.group-dashed-success:hover div, #section-info-12 .group-dashed.group-dashed-success:focus div,
+        #section-info-13 .group-dashed.group-dashed-success:hover div,
+        #section-info-13 .group-dashed.group-dashed-success:focus div {
+          color: #40b24f !important; }
+        #section-info-123 .group-dashed.group-dashed-success:hover i, #section-info-123 .group-dashed.group-dashed-success:focus i, #section-info-4 .group-dashed.group-dashed-success:hover i, #section-info-4 .group-dashed.group-dashed-success:focus i, #section-info-5 .group-dashed.group-dashed-success:hover i, #section-info-5 .group-dashed.group-dashed-success:focus i,
+        #section-info-6 .group-dashed.group-dashed-success:hover i,
+        #section-info-6 .group-dashed.group-dashed-success:focus i, #section-info-7 .group-dashed.group-dashed-success:hover i, #section-info-7 .group-dashed.group-dashed-success:focus i,
+        #section-info-9 .group-dashed.group-dashed-success:hover i,
+        #section-info-9 .group-dashed.group-dashed-success:focus i, #section-info-10 .group-dashed.group-dashed-success:hover i, #section-info-10 .group-dashed.group-dashed-success:focus i,
+        #section-info-11 .group-dashed.group-dashed-success:hover i,
+        #section-info-11 .group-dashed.group-dashed-success:focus i, #section-info-12 .group-dashed.group-dashed-success:hover i, #section-info-12 .group-dashed.group-dashed-success:focus i,
+        #section-info-13 .group-dashed.group-dashed-success:hover i,
+        #section-info-13 .group-dashed.group-dashed-success:focus i {
+          color: #40b24f !important; }
+      #section-info-123 .group-dashed.group-dashed-success i, #section-info-4 .group-dashed.group-dashed-success i, #section-info-5 .group-dashed.group-dashed-success i,
+      #section-info-6 .group-dashed.group-dashed-success i, #section-info-7 .group-dashed.group-dashed-success i,
+      #section-info-9 .group-dashed.group-dashed-success i, #section-info-10 .group-dashed.group-dashed-success i,
+      #section-info-11 .group-dashed.group-dashed-success i, #section-info-12 .group-dashed.group-dashed-success i,
+      #section-info-13 .group-dashed.group-dashed-success i {
+        margin-right: 5px;
+        margin-right: 5px; }
+      #section-info-123 .group-dashed.group-dashed-success div, #section-info-4 .group-dashed.group-dashed-success div, #section-info-5 .group-dashed.group-dashed-success div,
+      #section-info-6 .group-dashed.group-dashed-success div, #section-info-7 .group-dashed.group-dashed-success div,
+      #section-info-9 .group-dashed.group-dashed-success div, #section-info-10 .group-dashed.group-dashed-success div,
+      #section-info-11 .group-dashed.group-dashed-success div, #section-info-12 .group-dashed.group-dashed-success div,
+      #section-info-13 .group-dashed.group-dashed-success div {
         color: #40b24f; }
-        .section-info .group-dashed.group-dashed-success div:before {
-          content: '';
-          background: url("../images/logged-step/tick-green-i.png") no-repeat center;
-          width: 16px;
-          height: 16px;
-          position: absolute;
-          top: 0;
-          left: 10px; }
-      .section-info .group-dashed.group-dashed-success .group-dashed-close {
+      #section-info-123 .group-dashed.group-dashed-success .group-dashed-close, #section-info-4 .group-dashed.group-dashed-success .group-dashed-close, #section-info-5 .group-dashed.group-dashed-success .group-dashed-close,
+      #section-info-6 .group-dashed.group-dashed-success .group-dashed-close, #section-info-7 .group-dashed.group-dashed-success .group-dashed-close,
+      #section-info-9 .group-dashed.group-dashed-success .group-dashed-close, #section-info-10 .group-dashed.group-dashed-success .group-dashed-close,
+      #section-info-11 .group-dashed.group-dashed-success .group-dashed-close, #section-info-12 .group-dashed.group-dashed-success .group-dashed-close,
+      #section-info-13 .group-dashed.group-dashed-success .group-dashed-close {
         color: #40b24f;
         position: absolute;
-        font-size: 18px;
-        top: 10px;
+        font-size: 14px;
+        top: 15px;
         right: 10px;
         border: none;
         box-shadow: none;
@@ -787,7 +1533,14 @@
         background: transparent;
         transition: all .2s ease;
         cursor: pointer; }
-        .section-info .group-dashed.group-dashed-success .group-dashed-close:hover, .section-info .group-dashed.group-dashed-success .group-dashed-close:focus {
-          color: #3c3c3c; }
+
+#section-info-7 hr {
+  margin-bottom: 30px !important; }
+
+#section-info-7 .form-check-label input {
+  margin-top: 1px; }
+
+#section-info-7 .btn.btn-info {
+  margin-top: 30px; }
 
 /*# sourceMappingURL=logged-steps.css.map */
