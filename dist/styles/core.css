@@ -1,70 +1,17 @@
-@font-face {
-  font-family: 'robotoregular';
-  src: url("../fonts/roboto-regular.woff2") format("woff2"), url("../fonts/roboto-regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Roboto-light';
-  src: url("../fonts/Roboto-Light.woff2") format("woff2"), url("../fonts/Roboto-Light.woff") format("woff");
-  font-weight: 300;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Roboto-bold';
-  src: url("../fonts/Roboto-Bold.woff2") format("woff2"), url("../fonts/Roboto-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Roboto-Slab';
-  src: url("../fonts/RobotoSlab-Regular.woff2") format("woff2"), url("../fonts/RobotoSlab-Regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Roboto-Slab-Light';
-  src: url("../fonts/RobotoSlab-Light.woff2") format("woff2"), url("../fonts/RobotoSlab-Light.woff") format("woff");
-  font-weight: 300;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Roboto-Slab-Bold';
-  src: url("../fonts/RobotoSlab-Bold.woff2") format("woff2"), url("../fonts/RobotoSlab-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal; }
-
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&amp;subset=vietnamese");
 @font-face {
   font-family: 'Baomoi';
-  src: url("../../dist/fonts/Baomoi_gdi.eot");
-  src: url("../../dist/fonts/Baomoi_gdi.eot?#iefix") format("embedded-opentype"), url("../../dist/fonts/Baomoi_gdi.woff") format("woff"), url("../../dist/fonts/Baomoi_gdi.ttf") format("truetype");
+  src: url("../fonts/Baomoi_gdi.eot");
+  src: url("../fonts/Baomoi_gdi.eot?#iefix") format("embedded-opentype"), url("../fonts/Baomoi_gdi.woff") format("woff"), url("../fonts/Baomoi_gdi.ttf") format("truetype");
   font-weight: 300;
   font-style: normal; }
 
 @font-face {
   font-family: 'Baomoi-bold';
-  src: url("../../dist/fonts/Baomoi-SemiBold_gdi.eot");
-  src: url("../../dist/fonts/Baomoi-SemiBold_gdi.eot?#iefix") format("embedded-opentype"), url("../../dist/fonts/Baomoi-SemiBold_gdi.woff") format("woff"), url("../../dist/fonts/Baomoi-SemiBold_gdi.ttf") format("truetype");
+  src: url("../fonts/Baomoi-SemiBold_gdi.eot");
+  src: url("../fonts/Baomoi-SemiBold_gdi.eot?#iefix") format("embedded-opentype"), url("../fonts/Baomoi-SemiBold_gdi.woff") format("woff"), url("../fonts/Baomoi-SemiBold_gdi.ttf") format("truetype");
   font-weight: bold;
   font-style: normal; }
-
-.rboto {
-  font-family: 'robotoregular', serif !important; }
-
-.rbotol {
-  font-family: 'Roboto-light', serif !important; }
-
-.rbotob {
-  font-family: 'Roboto-bold', serif !important; }
-
-.rbotos {
-  font-family: 'Roboto-Slab', serif !important; }
-
-.rbotosl {
-  font-family: 'Roboto-Slab-Light', serif !important; }
-
-.rbotosb {
-  font-family: 'Roboto-Slab-Bold', serif !important; }
 
 html, body {
   font-size: 13px;
@@ -113,34 +60,19 @@ a {
   outline: none !important;
   border-radius: 3px !important; }
   .btn.btn-info {
-    background: #48a7f2 !important;
-    border: 1px solid #3c99e3 !important;
-    background: linear-gradient(135deg, #48a7f2 0%, #40a2ef 50%, #2a8bd8 51%, #1e77bd 71%, #075490 100%) !important;
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48a7f2', endColorstr='#48a7f2',GradientType=1 ) !important;
-    background-size: 400% 400% !important;
-    -webkit-animation: BtnMove 3s ease infinite !important;
-    animation: BtnMove 3s ease infinite !important;
-    -webkit-animation: BtnMove 3s ease infinite !important;
-    animation: BtnMove 3s ease infinite !important; }
+    border: 1px solid #3c99e3 !important; }
   .btn.btn-success {
-    background: #38d46a !important;
-    border: 1px solid #38d46a !important;
-    background: linear-gradient(135deg, #38d46a 0%, #3ad26b 50%, #3bcd6a 51%, #3dc469 71%, #3bb863 100%) !important;
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#38d46a', endColorstr='#38d46a',GradientType=1 ) !important;
-    background-size: 400% 400% !important;
-    -webkit-animation: BtnMove 3s ease infinite !important;
-    animation: BtnMove 3s ease infinite !important;
-    -webkit-animation: BtnMove 3s ease infinite !important;
-    animation: BtnMove 3s ease infinite !important; }
+    border: 1px solid #38d46a !important; }
   .btn:hover, .btn:focus, .btn.active {
-    opacity: 1; }
+    opacity: .8; }
   .btn.btn-default:hover, .btn.btn-default:focus, .btn.btn-default.active {
     color: #31c460 !important;
     border: 1px solid #31c460 !important;
     opacity: 1; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Baomoi-bold', serif; }
+  font-family: 'Roboto Slab', serif;
+  text-rendering: optimizeLegibility; }
 
 #popupLogin {
   top: 100px; }

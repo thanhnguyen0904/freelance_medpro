@@ -695,6 +695,10 @@
       margin: 42px 0;
       margin-bottom: 20px;
       padding: 15px;
+      .img-bar-code{
+        width: 50%;
+        margin: 0 auto;
+      }
       .brb-bill-sub-title{
         font-size: 14px;
         color: #3c3c3c;
@@ -904,6 +908,7 @@
       padding-top: 30px;
       padding-left: 42px;
       padding-right: 20px;
+      padding-bottom: 30px;
       border-top: 1px solid #CFD8DC;
       @media screen and (max-width: 767px){
         padding: 30px 20px;
@@ -914,7 +919,7 @@
         font-weight: bold;
         font-size: 15px;
         margin-bottom: 0;
-        margin-right: 20px;
+        margin-right: 10px;
         padding: 0;
         width: 100%;
         @media screen and (max-width: 767px){
@@ -927,7 +932,7 @@
         width: 100%;
         select{
           height: 42px;
-          font-size: 12px;
+          font-size: 14px;
           color: #696969;
           outline: none;
         }
@@ -942,22 +947,23 @@
         li{
           width: 50%;
           text-align: left;
-          padding: 0 10px;
+          padding: 0 25px;
           @media screen and (max-width: 767px){
             width: 100%;
             padding: 0;
             text-align: center;
           }
           .conf-f{
-            font-size: 13px;
+            font-size: 14px;
             font-weight: bold;
-            margin-bottom: 25px;
+            margin-bottom: 15px;
+            text-align: right;
           }
           .conf-t{
-            font-size: 15px;
+            font-size: 14px;
             font-weight: bold;
             color: #696969;
-            margin-bottom: 35px;
+            margin-bottom: 15px;
             @media screen and (max-width: 767px){
               margin-bottom: 30px;
             }

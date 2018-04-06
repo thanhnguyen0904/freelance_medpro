@@ -882,6 +882,11 @@
       margin: 42px 0;
       margin-bottom: 20px;
       padding: 15px; }
+      #section-booking-3 .booking-right-bill .brb-bill .img-bar-code, #section-booking-45 .booking-right-bill .brb-bill .img-bar-code,
+      #section-booking-6 .booking-right-bill .brb-bill .img-bar-code, #section-booking-9 .booking-right-bill .brb-bill .img-bar-code,
+      #section-booking-10 .booking-right-bill .brb-bill .img-bar-code, #section-booking-78 .booking-right-bill .brb-bill .img-bar-code {
+        width: 50%;
+        margin: 0 auto; }
       #section-booking-3 .booking-right-bill .brb-bill .brb-bill-sub-title, #section-booking-45 .booking-right-bill .brb-bill .brb-bill-sub-title,
       #section-booking-6 .booking-right-bill .brb-bill .brb-bill-sub-title, #section-booking-9 .booking-right-bill .brb-bill .brb-bill-sub-title,
       #section-booking-10 .booking-right-bill .brb-bill .brb-bill-sub-title, #section-booking-78 .booking-right-bill .brb-bill .brb-bill-sub-title {
@@ -1132,6 +1137,7 @@
       padding-top: 30px;
       padding-left: 42px;
       padding-right: 20px;
+      padding-bottom: 30px;
       border-top: 1px solid #CFD8DC; }
       @media screen and (max-width: 767px) {
         #section-booking-3 .booking-right-info .bri-profile, #section-booking-45 .booking-right-info .bri-profile,
@@ -1146,7 +1152,7 @@
         font-weight: bold;
         font-size: 15px;
         margin-bottom: 0;
-        margin-right: 20px;
+        margin-right: 10px;
         padding: 0;
         width: 100%; }
         @media screen and (max-width: 767px) {
@@ -1164,7 +1170,7 @@
         #section-booking-6 .booking-right-info .bri-profile .form-group select, #section-booking-9 .booking-right-info .bri-profile .form-group select,
         #section-booking-10 .booking-right-info .bri-profile .form-group select, #section-booking-78 .booking-right-info .bri-profile .form-group select {
           height: 42px;
-          font-size: 12px;
+          font-size: 14px;
           color: #696969;
           outline: none; }
       #section-booking-3 .booking-right-info .bri-profile ul, #section-booking-45 .booking-right-info .bri-profile ul,
@@ -1185,7 +1191,7 @@
         #section-booking-10 .booking-right-info .bri-profile ul li, #section-booking-78 .booking-right-info .bri-profile ul li {
           width: 50%;
           text-align: left;
-          padding: 0 10px; }
+          padding: 0 25px; }
           @media screen and (max-width: 767px) {
             #section-booking-3 .booking-right-info .bri-profile ul li, #section-booking-45 .booking-right-info .bri-profile ul li,
             #section-booking-6 .booking-right-info .bri-profile ul li, #section-booking-9 .booking-right-info .bri-profile ul li,
@@ -1196,16 +1202,17 @@
           #section-booking-3 .booking-right-info .bri-profile ul li .conf-f, #section-booking-45 .booking-right-info .bri-profile ul li .conf-f,
           #section-booking-6 .booking-right-info .bri-profile ul li .conf-f, #section-booking-9 .booking-right-info .bri-profile ul li .conf-f,
           #section-booking-10 .booking-right-info .bri-profile ul li .conf-f, #section-booking-78 .booking-right-info .bri-profile ul li .conf-f {
-            font-size: 13px;
+            font-size: 14px;
             font-weight: bold;
-            margin-bottom: 25px; }
+            margin-bottom: 15px;
+            text-align: right; }
           #section-booking-3 .booking-right-info .bri-profile ul li .conf-t, #section-booking-45 .booking-right-info .bri-profile ul li .conf-t,
           #section-booking-6 .booking-right-info .bri-profile ul li .conf-t, #section-booking-9 .booking-right-info .bri-profile ul li .conf-t,
           #section-booking-10 .booking-right-info .bri-profile ul li .conf-t, #section-booking-78 .booking-right-info .bri-profile ul li .conf-t {
-            font-size: 15px;
+            font-size: 14px;
             font-weight: bold;
             color: #696969;
-            margin-bottom: 35px; }
+            margin-bottom: 15px; }
             @media screen and (max-width: 767px) {
               #section-booking-3 .booking-right-info .bri-profile ul li .conf-t, #section-booking-45 .booking-right-info .bri-profile ul li .conf-t,
               #section-booking-6 .booking-right-info .bri-profile ul li .conf-t, #section-booking-9 .booking-right-info .bri-profile ul li .conf-t,

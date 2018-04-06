@@ -32,7 +32,18 @@ body {
     border: none;
     margin: 0 7.5px;
     text-transform: uppercase;
-    font-weight: bold; }
+    font-weight: bold;
+    background: #38d46a !important;
+    border: 1px solid #38d46a !important;
+    background: linear-gradient(135deg, #38d46a 0%, #3ad26b 50%, #3bcd6a 51%, #3dc469 71%, #3bb863 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#38d46a', endColorstr='#38d46a',GradientType=1 ) !important;
+    background-size: 400% 400% !important;
+    -webkit-animation: BtnMove 3s ease infinite !important;
+    animation: BtnMove 3s ease infinite !important;
+    -webkit-animation: BtnMove 3s ease infinite !important;
+    animation: BtnMove 3s ease infinite !important; }
+    #section-banner-home a.btn.btn-success:hover, #section-banner-home a.btn.btn-success:focus, #section-banner-home a.btn.btn-success.active {
+      opacity: 1 !important; }
     @media screen and (max-width: 767px) {
       #section-banner-home a.btn.btn-success {
         display: block;
@@ -101,7 +112,7 @@ body {
       #section-home .section-1 ul li .group.g4 {
         background: #168dc9; }
       #section-home .section-1 ul li .group h4.title {
-        font-size: 16px;
+        font-size: 14px;
         font-weight: bold;
         margin-bottom: 10px;
         text-transform: uppercase; }
@@ -204,17 +215,17 @@ body {
   @media screen and (max-width: 767px) {
     #section-home .section-3 {
       margin-bottom: 50px; } }
-  #section-home .section-3 .title {
+  #section-home .section-3 h4.title {
     font-size: 30px;
     color: #333333;
     text-transform: uppercase;
-    margin-bottom: 5px; }
-    #section-home .section-3 .title span {
+    margin-bottom: 12px; }
+    #section-home .section-3 h4.title span {
       background: #229cd9;
       padding: 5px 13px;
       color: #fff;
       font-weight: bold; }
-  #section-home .section-3 .sub-title {
+  #section-home .section-3 h5.sub-title {
     color: #36a8d3;
     font-size: 24px;
     font-weight: bold;
@@ -290,5 +301,21 @@ body {
           margin-right: 25px; }
         #section-home .section-3 ul li .group.text-left img {
           margin-right: 25px; }
+
+@-webkit-keyframes BtnMove {
+  0% {
+    background-position: 0% 31%; }
+  50% {
+    background-position: 100% 70%; }
+  100% {
+    background-position: 0% 31%; } }
+
+@keyframes BtnMove {
+  0% {
+    background-position: 0% 31%; }
+  50% {
+    background-position: 100% 70%; }
+  100% {
+    background-position: 0% 31%; } }
 
 /*# sourceMappingURL=homepage.css.map */

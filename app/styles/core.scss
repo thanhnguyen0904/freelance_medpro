@@ -2,7 +2,6 @@
 
 html,body {
   font-size: 13px;
-  //font-family: 'Roboto-Slab';
   font-family: 'Baomoi';
   color: #3c3c3c;
 }
@@ -53,37 +52,13 @@ a{
   outline: none !important;
   border-radius: 3px !important;
   &.btn-info{
-    background: rgb(72, 167, 242) !important;
-    border: 1px solid rgba(60, 153, 227,1) !important;
-    background: -moz-linear-gradient(-45deg, #48a7f2 0%, #40a2ef 50%, #2a8bd8 51%, #1e77bd 71%, #075490 100%) !important;
-    background: -webkit-linear-gradient(-45deg, #48a7f2 0%,#40a2ef 50%,#2a8bd8 51%,#1e77bd 71%,#075490 100%) !important;
-    background: linear-gradient(135deg, #48a7f2 0%,#40a2ef 50%,#2a8bd8 51%,#1e77bd 71%,#075490 100%) !important;
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48a7f2', endColorstr='#48a7f2',GradientType=1 ) !important;
-    background-size: 400% 400% !important;
-    -webkit-animation: BtnMove 3s ease infinite !important;
-    -moz-animation: BtnMove 3s ease infinite !important;
-    animation: BtnMove 3s ease infinite !important;
-    -webkit-animation: BtnMove 3s ease infinite !important;
-    -moz-animation: BtnMove 3s ease infinite !important;
-    animation: BtnMove 3s ease infinite !important;
+    border: 1px solid rgb(60, 153, 227) !important;
   }
   &.btn-success{
-    background: #38d46a !important;
-    border: 1px solid #38d46a !important;
-    background: -moz-linear-gradient(-45deg, #38d46a 0%, #3ad26b 50%, #3bcd6a 51%, #3dc469 71%, #3bb863 100%) !important;
-    background: -webkit-linear-gradient(-45deg, #38d46a 0%,#3ad26b 50%,#3bcd6a 51%,#3dc469 71%,#3bb863 100%) !important;
-    background: linear-gradient(135deg, #38d46a 0%,#3ad26b 50%,#3bcd6a 51%,#3dc469 71%,#3bb863 100%) !important;
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#38d46a', endColorstr='#38d46a',GradientType=1 ) !important;
-    background-size: 400% 400% !important;
-    -webkit-animation: BtnMove 3s ease infinite !important;
-    -moz-animation: BtnMove 3s ease infinite !important;
-    animation: BtnMove 3s ease infinite !important;
-    -webkit-animation: BtnMove 3s ease infinite !important;
-    -moz-animation: BtnMove 3s ease infinite !important;
-    animation: BtnMove 3s ease infinite !important;
+    border: 1px solid rgb(56, 212, 106) !important;
   }
   &:hover, &:focus, &.active{
-    opacity: 1;
+    opacity: .8;
   }
   &.btn-default{
     &:hover, &:focus, &.active{
@@ -95,7 +70,8 @@ a{
 }
 
 h1,h2,h3,h4,h5,h6{
-  font-family: 'Baomoi-bold', serif;
+  font-family: 'Roboto Slab', serif;
+  text-rendering: optimizeLegibility;
 }
 
 #popupLogin{

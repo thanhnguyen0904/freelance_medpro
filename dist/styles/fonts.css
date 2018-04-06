@@ -1,69 +1,16 @@
-@font-face {
-  font-family: 'robotoregular';
-  src: url("../fonts/roboto-regular.woff2") format("woff2"), url("../fonts/roboto-regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Roboto-light';
-  src: url("../fonts/Roboto-Light.woff2") format("woff2"), url("../fonts/Roboto-Light.woff") format("woff");
-  font-weight: 300;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Roboto-bold';
-  src: url("../fonts/Roboto-Bold.woff2") format("woff2"), url("../fonts/Roboto-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Roboto-Slab';
-  src: url("../fonts/RobotoSlab-Regular.woff2") format("woff2"), url("../fonts/RobotoSlab-Regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Roboto-Slab-Light';
-  src: url("../fonts/RobotoSlab-Light.woff2") format("woff2"), url("../fonts/RobotoSlab-Light.woff") format("woff");
-  font-weight: 300;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Roboto-Slab-Bold';
-  src: url("../fonts/RobotoSlab-Bold.woff2") format("woff2"), url("../fonts/RobotoSlab-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal; }
-
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&amp;subset=vietnamese");
 @font-face {
   font-family: 'Baomoi';
-  src: url("../../dist/fonts/Baomoi_gdi.eot");
-  src: url("../../dist/fonts/Baomoi_gdi.eot?#iefix") format("embedded-opentype"), url("../../dist/fonts/Baomoi_gdi.woff") format("woff"), url("../../dist/fonts/Baomoi_gdi.ttf") format("truetype");
+  src: url("../fonts/Baomoi_gdi.eot");
+  src: url("../fonts/Baomoi_gdi.eot?#iefix") format("embedded-opentype"), url("../fonts/Baomoi_gdi.woff") format("woff"), url("../fonts/Baomoi_gdi.ttf") format("truetype");
   font-weight: 300;
   font-style: normal; }
 
 @font-face {
   font-family: 'Baomoi-bold';
-  src: url("../../dist/fonts/Baomoi-SemiBold_gdi.eot");
-  src: url("../../dist/fonts/Baomoi-SemiBold_gdi.eot?#iefix") format("embedded-opentype"), url("../../dist/fonts/Baomoi-SemiBold_gdi.woff") format("woff"), url("../../dist/fonts/Baomoi-SemiBold_gdi.ttf") format("truetype");
+  src: url("../fonts/Baomoi-SemiBold_gdi.eot");
+  src: url("../fonts/Baomoi-SemiBold_gdi.eot?#iefix") format("embedded-opentype"), url("../fonts/Baomoi-SemiBold_gdi.woff") format("woff"), url("../fonts/Baomoi-SemiBold_gdi.ttf") format("truetype");
   font-weight: bold;
   font-style: normal; }
-
-.rboto {
-  font-family: 'robotoregular', serif !important; }
-
-.rbotol {
-  font-family: 'Roboto-light', serif !important; }
-
-.rbotob {
-  font-family: 'Roboto-bold', serif !important; }
-
-.rbotos {
-  font-family: 'Roboto-Slab', serif !important; }
-
-.rbotosl {
-  font-family: 'Roboto-Slab-Light', serif !important; }
-
-.rbotosb {
-  font-family: 'Roboto-Slab-Bold', serif !important; }
 
 /*# sourceMappingURL=fonts.css.map */
