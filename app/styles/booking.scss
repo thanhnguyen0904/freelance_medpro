@@ -204,7 +204,7 @@
     .table.calTable{
       margin-bottom: 0;
       tbody{
-        tr.btn-booing-tr.hidden{
+        tr.btn-booking-tr.hidden{
           display: none;
         }
         td,th{
@@ -313,6 +313,11 @@
             li{
               color: #48a7f2;
               font-weight: bold;
+              a{
+                color: #48a7f2 !important;
+                font-weight: bold !important;
+                border-color: #48a7f2 !important;
+              }
             }
             a{
               color: #48a7f2;
@@ -444,6 +449,14 @@
       height: 0;
       opacity: 0;
       margin: 0;
+      p{
+        color: #3c3c3c;
+        font-size: 14px;
+        margin-bottom: 0;
+        @media screen and (max-width: 991px){
+          margin-bottom: 15px;
+        }
+      }
       &.show{
         height: auto;
         opacity: 1;
@@ -461,14 +474,16 @@
           }
         }
       }
-      .btn-success{
+      .btn-default{
         border-radius: 50px !important;
-        padding: 12px 30px;
+        padding: 12px 20px;
         font-size: 13px;
-        color: #fff;
+        color: #48a7f2;
         font-weight: bold;
-        border: none;
-        background: #38d46a;
+        border: 1px solid #48a7f2;
+        background: transparent;
+        display: block;
+        width: 100%;
         i{
           margin-left: 5px;
           position: relative;
@@ -481,8 +496,9 @@
         color: #fff;
         font-weight: bold;
         padding: 12px 30px;
-        margin-left: 20px;
         border: none;
+        display: block;
+        width: 100%;
       }
     }
   }
@@ -1318,6 +1334,76 @@
         margin: 0 7.5px;
         text-transform: uppercase;
         border: 1px solid rgb(60, 153, 227);
+      }
+    }
+  }
+}
+
+#section-booking-3{
+  .booking-right-calendar{
+    .brc-scroll-group{
+      ul{
+        &.table-ul-top{
+          @media screen and (max-width: 991px){
+            margin-bottom: 20px;
+          }
+          li{
+            width: 33.3333% !important;
+            @media screen and (max-width: 991px){
+              width: 50% !important;
+              &:first-child {
+                width: 100% !important;
+              }
+              &:last-child{
+                margin-top: 0 !important;
+              }
+            }
+            @media screen and (max-width: 767px){
+              text-align: left !important;
+            }
+          }
+          li:first-child{
+            padding-right: 0;
+            position: relative;
+            input{
+              height: 42px;
+              width: 100%;
+              padding-left: 20px;
+              padding-right: 30px;
+              color: #696969;
+              border-radius: 50px;
+              @media screen and (max-width: 991px){
+                margin-bottom: 20px;
+              }
+            }
+            i.fas{
+              position: absolute;
+              top: 15px;
+              right: 15px;
+              color: #696969;
+            }
+          }
+        }
+
+        &.table-ul-cont{
+          li{
+            @media screen and (max-width: 767px){
+              &:not(:last-child){
+                text-align: left !important;
+              }
+            }
+          }
+          li:last-child{
+            text-align: right;
+            a{
+              width: auto;
+              padding: 8px 40px;
+              display: inline-block;
+              color: rgba(51,51,51,.5);
+              border-color: rgba(51,51,51,.5);
+            }
+          }
+        }
       }
     }
   }

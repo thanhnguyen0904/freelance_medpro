@@ -69,7 +69,7 @@
               <ul class="d-flex">
                 <li>
                   <a class="nav-menu-logo" href="/">
-                    <img class="img-fluid" src="images/app/logo.png" />
+                    <img class="img-fluid" src="../images/app/logo.png" />
                   </a>
                 </li>
                 <li class="ml-auto">
@@ -205,8 +205,9 @@
                 <div class="brct-note">THỨ 7 CHỈ KHÁM BUỔI SÁNG</div>
 
               </div>
-              <table class="calTable table">
-                <tbody>
+              <div class="table-responsive">
+                <table class="calTable table">
+                  <tbody>
                   <tr>
                     <th class="cn">Chủ Nhật</th>
                     <th>Hai</th>
@@ -216,7 +217,7 @@
                     <th>Sáu</th>
                     <th class="t7">Bảy</th>
                   </tr>
-                  <tr class="btn-booing-tr">
+                  <tr class="btn-booking-tr">
                     <td><button class="btn-booking-calendar-disable"  type="button" class="round-button-disable round-button-disable-default">01</button></td>
                     <td><button  type="button" class="round-button-disable round-button-disable-default">02</button></td>
                     <td><button  type="button" class="round-button-disable round-button-disable-default">03</button></td>
@@ -225,7 +226,7 @@
                     <td><button type="button" class="round-button round-button-default">06</button></td>
                     <td><button calmonth="2" type="button" class="round-button round-button-default">07</button></td>
                   </tr>
-                  <tr class="btn-booing-tr">
+                  <tr class="btn-booking-tr">
                     <td><button class="btn-booking-calendar-disable"  type="button" class="round-button-disable round-button-disable-default">08</button></td>
                     <td><button  type="button" class="round-button-disable round-button-disable-default">09</button></td>
                     <td><button  type="button" class="round-button-disable round-button-disable-default">10</button></td>
@@ -234,7 +235,7 @@
                     <td><button type="button" class="round-button round-button-default">13</button></td>
                     <td><button calmonth="2" type="button" class="round-button round-button-default">14</button></td>
                   </tr>
-                  <tr class="btn-booing-tr">
+                  <tr class="btn-booking-tr">
                     <td><button class="btn-booking-calendar-disable"  type="button" class="round-button-disable round-button-disable-default">15</button></td>
                     <td><button  type="button" class="round-button-disable round-button-disable-default">16</button></td>
                     <td><button  type="button" class="round-button-disable round-button-disable-default">17</button></td>
@@ -243,14 +244,17 @@
                     <td><button type="button" class="round-button round-button-default">20</button></td>
                     <td><button calmonth="2" type="button" class="round-button round-button-default">21</button></td>
                   </tr>
-                </tbody>
-              </table>
-
+                  </tbody>
+                </table>
+              </div>
               <div class="brc-scroll-group">
                 <ul class="table-ul-top">
+                  <li class="order-lg-3">
+                    <input type="text" class="form-control" placeholder="Tìm nhanh chuyên khoa" />
+                    <i class="fas fa-search"></i>
+                  </li>
                   <li>Chuyên khoa</li>
                   <li>Bảng giá tham khảo</li>
-                  <li></li>
                 </ul>
                 <ul class="table-ul-cont">
                   <li>Khám tư vấn tiêm ngừa cho người lớn</li>
@@ -275,9 +279,16 @@
                 <div class="take-off-red">Ngày nghỉ</div>
                 <div class="take-off-orange">Thứ 7 chỉ khám buổi sáng</div>
               </div>
-              <div class="brc-btn text-right">
-                <a href="javascript:void(0)" class="btn btn-success">Thăm dò chức năng hô hấp <i class="far fa-times-circle"></i></a>
-                <a href="javascript:void(0)" class="btn btn-info">XÁC NHẬN</a>
+              <div class="brc-btn row align-items-center text-center">
+                <div class="col-lg-3 col-12">
+                  <p>ĐÃ CHỌN CHUYÊN KHOA</p>
+                </div>
+                <div class="col-lg-6 col-12">
+                  <a href="javascript:void(0)" class="btn btn-default mx-auto">Thăm dò chức năng hô hấp - 150.000vnđ <i class="far fa-times-circle"></i></a>
+                </div>
+                <div class="col-lg-3 col-12">
+                  <a href="javascript:void(0)" class="btn btn-info">XÁC NHẬN</a>
+                </div>
               </div>
             </div>
           </div>
@@ -292,7 +303,7 @@
             <ul>
               <li>
                 <a class="f-logo" href="javascript:void(0)">
-                  <img class="img-fluid" src="images/app/f-logo.png" />
+                  <img class="img-fluid" src="../images/app/f-logo.png" />
                 </a>
               </li>
               <li>

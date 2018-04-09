@@ -25,11 +25,25 @@
     $('.booking-right-calendar table.table td button').on('click', function() {
       $(this).addClass('active');
       $(this).parent().addClass('active');
-      $(this).parents('tr.btn-booing-tr').siblings().addClass('hidden');
+      $(this).parents('tr.btn-booking-tr').siblings().addClass('hidden');
       $('.brc-scroll-group').addClass('show');
       $('.brc-take-off').removeClass('show');
-      $('.brc-btn').addClass('show');
     });
+
+    $('.brc-scroll-group .brc-scroll-group-btn .btn.btn-info').on('click', function() {
+      $(this).parents('.brc-scroll-group').removeClass('show');
+      ($('.booking-right-calendar table.table td').hasClass('active')) ? $('.booking-right-calendar table.table td').removeClass('active') : '';
+      ($('.booking-right-calendar table.table td button').hasClass('active')) ? $('.booking-right-calendar table.table td button').removeClass('active') : '';
+      ($('.booking-right-calendar table.table tr.btn-booking-tr').hasClass('hidden')) ? $('.booking-right-calendar table.table tr.btn-booking-tr').removeClass('hidden') : '';
+      $('.brc-take-off').addClass('show');
+      ($('.brc-btn').hasClass('show')) ? $('.brc-btn').removeClass('show') : '';
+    })
+
+    $('.brc-scroll-group ul.table-ul-cont').on('click', function(){
+      ($(this).parent().find('ul.table-ul-cont').hasClass('active')) ? $(this).parent().find('ul.table-ul-cont').removeClass('active') : '';
+      $(this).addClass('active');
+      (!$('.brc-btn').hasClass('show')) ? $('.brc-btn').addClass('show') : '';
+    })
   })
 
   function progressBar()

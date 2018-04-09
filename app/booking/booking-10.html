@@ -44,94 +44,94 @@
     <link rel="stylesheet" href="../styles/booking.css">
   </head>
   <body>
-    <header>
-      <div class="nav-desk">
-        <div class="nav-top">
-          <div class="container">
+  <header>
+    <div class="nav-desk">
+      <div class="nav-top">
+        <div class="container">
+          <ul class="d-flex">
+            <li><a class="nav-top-phone" href="javascript:void(0)">+84 562354900</a></li>
+            <li><a class="nav-top-mail" href="javascript:void(0)">info@medpro.vn</a></li>
+            <li class="ml-auto">
+              <div class="nav-top-logged">
+                0909881766
+                <ul class="nav-top-logged-dropdown dropdown-menu">
+                  <li><a href="javascript:void(0)">Thông tin tài khoản</a></li>
+                  <li><a href="javascript:void(0)">Thoát</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="nav-menu">
+        <div class="container">
+          <div class="d-flex align-items-center">
             <ul class="d-flex">
-              <li><a class="nav-top-phone" href="javascript:void(0)">+84 562354900</a></li>
-              <li><a class="nav-top-mail" href="javascript:void(0)">info@medpro.vn</a></li>
-              <li class="ml-auto">
-                <div class="nav-top-logged">
-                  0909881766
-                  <ul class="nav-top-logged-dropdown dropdown-menu">
-                    <li><a href="javascript:void(0)">Thông tin tài khoản</a></li>
-                    <li><a href="javascript:void(0)">Thoát</a></li>
-                  </ul>
-                </div>
+              <li>
+                <a class="nav-menu-logo" href="/">
+                  <img class="img-fluid" src="../images/app/logo.png" />
+                </a>
               </li>
+              <li class="ml-auto">
+                <a class="nav-menu-item" href="javascript:void(0)">trang chủ</a>
+              </li>
+              <li>
+                <a class="nav-menu-item" href="javascript:void(0)">danh sách bác sĩ</a>
+              </li>
+              <li>
+                <a class="nav-menu-item" href="javascript:void(0)">thắc mắc</a>
+              </li>
+              <li>
+                <a class="nav-menu-item" href="javascript:void(0)">liên hệ</a>
+              </li>
+              <a class="nav-menu-app" href="javascript:void(0)">
+                <img class="img-fluid d-inline-block" src="../images/logged-step/medpro-app.png" />
+              </a>
             </ul>
           </div>
         </div>
-        <div class="nav-menu">
-          <div class="container">
-            <div class="d-flex align-items-center">
-              <ul class="d-flex">
-                <li>
-                  <a class="nav-menu-logo" href="/">
-                    <img class="img-fluid" src="images/app/logo.png" />
-                  </a>
-                </li>
-                <li class="ml-auto">
-                  <a class="nav-menu-item" href="javascript:void(0)">trang chủ</a>
-                </li>
-                <li>
-                  <a class="nav-menu-item" href="javascript:void(0)">danh sách bác sĩ</a>
-                </li>
-                <li>
-                  <a class="nav-menu-item" href="javascript:void(0)">thắc mắc</a>
-                </li>
-                <li>
-                  <a class="nav-menu-item" href="javascript:void(0)">liên hệ</a>
-                </li>
-                <a class="nav-menu-app" href="javascript:void(0)">
-                  <img class="img-fluid d-inline-block" src="../images/logged-step/medpro-app.png" />
-                </a>
-              </ul>
-            </div>
+      </div>
+    </div>
+    <nav class="nav-mobile">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-3">
+            <button id="toggle-menu" class="menu-toggler mt-home">
+              <span></span>
+            </button>
+          </div>
+          <div class="col-sm-6 col-8 text-center">
+            <a class="d-block" href="/">
+              <img class="img-fluid d-inline-block" src="../images/app/logo.png" alt=""/>
+            </a>
           </div>
         </div>
       </div>
-      <nav class="nav-mobile">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-3">
-              <button id="toggle-menu" class="menu-toggler mt-home">
-                <span></span>
-              </button>
-            </div>
-            <div class="col-sm-6 col-8 text-center">
-              <a class="d-block" href="/">
-                <img class="img-fluid d-inline-block" src="../images/app/logo.png" alt=""/>
-              </a>
-            </div>
-          </div>
+    </nav>
+    <ul id="main-menu" class="menu-collapse in">
+      <div class="m-menu-top">
+        <a class="d-block" href="/">
+          <img class="img-fluid d-inline-block" src="../images/app/logo.png" alt=""/>
+        </a>
+        <div class="nav-top-logged nav-top-logged-m d-inline-block">
+          0909881766
         </div>
-      </nav>
-      <ul id="main-menu" class="menu-collapse in">
-        <div class="m-menu-top">
-          <a class="d-block" href="/">
-            <img class="img-fluid d-inline-block" src="../images/app/logo.png" alt=""/>
-          </a>
-          <div class="nav-top-logged nav-top-logged-m d-inline-block">
-            0909881766
-          </div>
-          <ul class="nav-top-logged-dropdown">
-            <li><a href="javascript:void(0)">Thông tin tài khoản</a></li>
-            <li><a href="javascript:void(0)">Thoát</a></li>
-          </ul>
-        </div>
-        <div class="m-menu">
-          <a href="javascript:void(0)">trang chủ</a>
-          <a href="javascript:void(0)">danh sách bác sĩ</a>
-          <a href="javascript:void(0)">thắc mắc</a>
-          <a href="javascript:void(0)">liên hệ</a>
-          <hr>
-          <a class="nav-top-phone" href="javascript:void(0)">+84 562354900</a>
-          <a class="nav-top-mail" href="javascript:void(0)">info@medpro.vn</a>
-        </div>
-      </ul>
-    </header>
+        <ul class="nav-top-logged-dropdown">
+          <li><a href="javascript:void(0)">Thông tin tài khoản</a></li>
+          <li><a href="javascript:void(0)">Thoát</a></li>
+        </ul>
+      </div>
+      <div class="m-menu">
+        <a href="javascript:void(0)">trang chủ</a>
+        <a href="javascript:void(0)">danh sách bác sĩ</a>
+        <a href="javascript:void(0)">thắc mắc</a>
+        <a href="javascript:void(0)">liên hệ</a>
+        <hr>
+        <a class="nav-top-phone" href="javascript:void(0)">+84 562354900</a>
+        <a class="nav-top-mail" href="javascript:void(0)">info@medpro.vn</a>
+      </div>
+    </ul>
+  </header>
     <div id="section-banner">
       <div class="container">
         <div class="row">
@@ -233,70 +233,70 @@
     </div>
 
     <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 mb-5 mb-md-0">
-            <ul>
-              <li>
-                <a class="f-logo" href="javascript:void(0)">
-                  <img class="img-fluid" src="images/app/f-logo.png" />
-                </a>
-              </li>
-              <li>
-                <p><span class="font-weight-bold">Địa chỉ:</span> 97 Trần Quang Diệu, Quận 3, TP.HCM</p>
-              </li>
-              <li>
-                <p><span class="font-weight-bold">Điện thoại:</span> (08) 434.65.79</p>
-              </li>
-              <li>
-                <p><span class="font-weight-bold">Fax:</span> (08) 434.65.80</p>
-              </li>
-              <li>
-                <a href="mailto:info@medpro.vn"><span class="font-weight-bold">Email:</span> info@medpro.vn</a>
-              </li>
-              <li>
-                <a href="http://medpro.vn"><span class="font-weight-bold">Website:</span> http://medpro.vn</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-4 mb-5 mb-md-0">
-            <ul>
-              <li>
-                <h4>Về <span class="font-weight-bold">MEDPRO</span></h4>
-              </li>
-              <li>
-                <a href="javascript:void(0)">Liên Hệ</a>
-              </li>
-              <li>
-                <a href="javascript:void(0)">Hỏi Đáp</a>
-              </li>
-              <li>
-                <a href="javascript:void(0)">Thỏa Thuận Sử Dụng</a>
-              </li>
-              <li>
-                <a href="javascript:void(0)">Quy Định Bảo Mật</a>
-              </li>
-              <li>
-                <a href="javascript:void(0)">Ứng Dụng Di Động</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-4">
-            <h4>Đăng ký nhận tin mới nhất</h4>
-            <form>
-              <div class="input-group">
-                <input type="text" class="form-control" placeholder="Vui lòng nhập địa chỉ Email">
-                <span class="input-group-btn">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-5 mb-md-0">
+          <ul>
+            <li>
+              <a class="f-logo" href="javascript:void(0)">
+                <img class="img-fluid" src="../images/app/f-logo.png" />
+              </a>
+            </li>
+            <li>
+              <p><span class="font-weight-bold">Địa chỉ:</span> 97 Trần Quang Diệu, Quận 3, TP.HCM</p>
+            </li>
+            <li>
+              <p><span class="font-weight-bold">Điện thoại:</span> (08) 434.65.79</p>
+            </li>
+            <li>
+              <p><span class="font-weight-bold">Fax:</span> (08) 434.65.80</p>
+            </li>
+            <li>
+              <a href="mailto:info@medpro.vn"><span class="font-weight-bold">Email:</span> info@medpro.vn</a>
+            </li>
+            <li>
+              <a href="http://medpro.vn"><span class="font-weight-bold">Website:</span> http://medpro.vn</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-5 mb-md-0">
+          <ul>
+            <li>
+              <h4>Về <span class="font-weight-bold">MEDPRO</span></h4>
+            </li>
+            <li>
+              <a href="javascript:void(0)">Liên Hệ</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">Hỏi Đáp</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">Thỏa Thuận Sử Dụng</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">Quy Định Bảo Mật</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">Ứng Dụng Di Động</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h4>Đăng ký nhận tin mới nhất</h4>
+          <form>
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Vui lòng nhập địa chỉ Email">
+              <span class="input-group-btn">
                   <button class="btn btn-secondary" type="button">ĐĂNG KÝ</button>
                 </span>
-              </div>
-            </form>
-            <p>* Chúng tôi cam kết không spam những thông tin không cần thiết. Bạn có thể hủy bỏ đăng ký bất cứ lúc nào</p>
-          </div>
+            </div>
+          </form>
+          <p>* Chúng tôi cam kết không spam những thông tin không cần thiết. Bạn có thể hủy bỏ đăng ký bất cứ lúc nào</p>
         </div>
-        <h5 class="font-weight-bold text-center mt-4 mt-md-0">Copyright © Công Ty PHK Việt Nam</h5>
       </div>
-    </footer>
+      <h5 class="font-weight-bold text-center mt-4 mt-md-0">Copyright © Công Ty PHK Việt Nam</h5>
+    </div>
+  </footer>
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
