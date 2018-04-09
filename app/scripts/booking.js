@@ -21,6 +21,15 @@
       (!$('.brp-atm-group').hasClass('show')) ? $('.brp-atm-group').addClass('show') : '';
       progressBar()
     })
+
+    $('.booking-right-calendar table.table td button').on('click', function() {
+      $(this).addClass('active');
+      $(this).parent().addClass('active');
+      $(this).parents('tr.btn-booing-tr').siblings().addClass('hidden');
+      $('.brc-scroll-group').addClass('show');
+      $('.brc-take-off').removeClass('show');
+      $('.brc-btn').addClass('show');
+    });
   })
 
   function progressBar()

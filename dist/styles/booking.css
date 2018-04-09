@@ -244,6 +244,10 @@
     #section-booking-6 .booking-right-calendar .table.calTable, #section-booking-9 .booking-right-calendar .table.calTable,
     #section-booking-10 .booking-right-calendar .table.calTable, #section-booking-78 .booking-right-calendar .table.calTable {
       margin-bottom: 0; }
+      #section-booking-3 .booking-right-calendar .table.calTable tbody tr.btn-booing-tr.hidden, #section-booking-45 .booking-right-calendar .table.calTable tbody tr.btn-booing-tr.hidden,
+      #section-booking-6 .booking-right-calendar .table.calTable tbody tr.btn-booing-tr.hidden, #section-booking-9 .booking-right-calendar .table.calTable tbody tr.btn-booing-tr.hidden,
+      #section-booking-10 .booking-right-calendar .table.calTable tbody tr.btn-booing-tr.hidden, #section-booking-78 .booking-right-calendar .table.calTable tbody tr.btn-booing-tr.hidden {
+        display: none; }
       #section-booking-3 .booking-right-calendar .table.calTable tbody td, #section-booking-3 .booking-right-calendar .table.calTable tbody th, #section-booking-45 .booking-right-calendar .table.calTable tbody td, #section-booking-45 .booking-right-calendar .table.calTable tbody th,
       #section-booking-6 .booking-right-calendar .table.calTable tbody td,
       #section-booking-6 .booking-right-calendar .table.calTable tbody th, #section-booking-9 .booking-right-calendar .table.calTable tbody td, #section-booking-9 .booking-right-calendar .table.calTable tbody th,

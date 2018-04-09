@@ -204,6 +204,9 @@
     .table.calTable{
       margin-bottom: 0;
       tbody{
+        tr.btn-booing-tr.hidden{
+          display: none;
+        }
         td,th{
           width: 14.2857142857%;
           text-align: center;
