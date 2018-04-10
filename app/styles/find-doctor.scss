@@ -120,16 +120,68 @@
     }
     ul{
       list-style-type: none;
-      margin-bottom: 20px;
-      padding-left: 10px;
+      margin-bottom: 0;
+      padding-left: 0;
       li{
         font-size: 12px;
         font-weight: bold;
         color: #48a7f2;
-        img{
+        &:first-child{
+          margin-bottom: 20px
+        }
+        i{
           margin-right: 5px;
-          position: relative;
-          top: -2px;
+        }
+        &.circle{
+          font-size: 13px;
+          margin-bottom: 20px;
+          color: #696969;
+          i{
+            position: relative;
+            left: -3px;
+            margin-right: 5px;
+            color: #48a7f2 !important;
+          }
+        }
+        &:last-child{
+          margin-bottom: 0 !important;
+        }
+      }
+    }
+  }
+  .find-doctor-left-2{
+    border: 1px solid #CFD8DC;
+    border-radius: 5px;
+    padding: 20px 15px;
+    background: #fff;
+    margin-bottom: 20px;
+    .blmt-name{
+      font-size: 12px;
+      font-weight: bold;
+      color: #3c3c3c;
+      margin-bottom: 15px;
+    }
+    .blmt-info{
+      font-size: 13px;
+      margin-bottom: 15px;
+      color: #696969;
+    }
+    .mg-bottom-0{
+      margin-bottom: 0;
+    }
+    form{
+      padding: 0 15px;
+      padding-top: 20px;
+      margin: 0 -15px;
+      margin-top: 15px;
+      border-top: 1px solid #CFD8DC;
+      .form-group{
+        margin-bottom: 0;
+        select{
+          height: 42px;
+          font-size: 12px;
+          color: #696969;
+          outline: none;
         }
       }
     }

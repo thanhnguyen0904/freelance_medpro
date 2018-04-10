@@ -102,16 +102,57 @@
         border-radius: 100%; }
     #section-find-doctor-1 .find-doctor-left-1 ul, #section-find-doctor-2 .find-doctor-left-1 ul {
       list-style-type: none;
-      margin-bottom: 20px;
-      padding-left: 10px; }
+      margin-bottom: 0;
+      padding-left: 0; }
       #section-find-doctor-1 .find-doctor-left-1 ul li, #section-find-doctor-2 .find-doctor-left-1 ul li {
         font-size: 12px;
         font-weight: bold;
         color: #48a7f2; }
-        #section-find-doctor-1 .find-doctor-left-1 ul li img, #section-find-doctor-2 .find-doctor-left-1 ul li img {
-          margin-right: 5px;
-          position: relative;
-          top: -2px; }
+        #section-find-doctor-1 .find-doctor-left-1 ul li:first-child, #section-find-doctor-2 .find-doctor-left-1 ul li:first-child {
+          margin-bottom: 20px; }
+        #section-find-doctor-1 .find-doctor-left-1 ul li i, #section-find-doctor-2 .find-doctor-left-1 ul li i {
+          margin-right: 5px; }
+        #section-find-doctor-1 .find-doctor-left-1 ul li.circle, #section-find-doctor-2 .find-doctor-left-1 ul li.circle {
+          font-size: 13px;
+          margin-bottom: 20px;
+          color: #696969; }
+          #section-find-doctor-1 .find-doctor-left-1 ul li.circle i, #section-find-doctor-2 .find-doctor-left-1 ul li.circle i {
+            position: relative;
+            left: -3px;
+            margin-right: 5px;
+            color: #48a7f2 !important; }
+        #section-find-doctor-1 .find-doctor-left-1 ul li:last-child, #section-find-doctor-2 .find-doctor-left-1 ul li:last-child {
+          margin-bottom: 0 !important; }
+  #section-find-doctor-1 .find-doctor-left-2, #section-find-doctor-2 .find-doctor-left-2 {
+    border: 1px solid #CFD8DC;
+    border-radius: 5px;
+    padding: 20px 15px;
+    background: #fff;
+    margin-bottom: 20px; }
+    #section-find-doctor-1 .find-doctor-left-2 .blmt-name, #section-find-doctor-2 .find-doctor-left-2 .blmt-name {
+      font-size: 12px;
+      font-weight: bold;
+      color: #3c3c3c;
+      margin-bottom: 15px; }
+    #section-find-doctor-1 .find-doctor-left-2 .blmt-info, #section-find-doctor-2 .find-doctor-left-2 .blmt-info {
+      font-size: 13px;
+      margin-bottom: 15px;
+      color: #696969; }
+    #section-find-doctor-1 .find-doctor-left-2 .mg-bottom-0, #section-find-doctor-2 .find-doctor-left-2 .mg-bottom-0 {
+      margin-bottom: 0; }
+    #section-find-doctor-1 .find-doctor-left-2 form, #section-find-doctor-2 .find-doctor-left-2 form {
+      padding: 0 15px;
+      padding-top: 20px;
+      margin: 0 -15px;
+      margin-top: 15px;
+      border-top: 1px solid #CFD8DC; }
+      #section-find-doctor-1 .find-doctor-left-2 form .form-group, #section-find-doctor-2 .find-doctor-left-2 form .form-group {
+        margin-bottom: 0; }
+        #section-find-doctor-1 .find-doctor-left-2 form .form-group select, #section-find-doctor-2 .find-doctor-left-2 form .form-group select {
+          height: 42px;
+          font-size: 12px;
+          color: #696969;
+          outline: none; }
   #section-find-doctor-1 .find-doctor-right ul.find-doctor-right-top, #section-find-doctor-2 .find-doctor-right ul.find-doctor-right-top {
     padding-left: 0;
     list-style-type: none;
