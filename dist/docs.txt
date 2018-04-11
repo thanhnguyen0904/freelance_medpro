@@ -5,12 +5,3 @@
 - Watch files for changes & reload: gulp serve
 
 - Build and serve the output from the dist build: gulp serve:dist
-
-
-local ko connect
-
-doi ti
-
-bi gi vay ong
-
-k tương thích version
