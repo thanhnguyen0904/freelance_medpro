@@ -583,6 +583,19 @@
       }
       .form-group{
         margin-bottom: 20px;
+        .pd-right-0{
+          @media screen and (min-width: 768px){
+            padding-right: 0;
+          }
+        }
+        .pd-left-0{
+          @media screen and (min-width: 768px){
+            padding-left: 0;
+          }
+        }
+        .btn-info{
+          margin-top: 30px;
+        }
         &.form-group-icons{
           position: relative;
           &:after{
@@ -602,12 +615,27 @@
           font-size: 14px;
           font-weight: bold;
           margin-bottom: 15px;
+          sup{
+            color: #f62c2c;
+          }
           span{
             font-weight: 400;
           }
         }
         input, select{
           height: 42px;
+          &.height-11{
+            height: 11px;
+          }
+        }
+        i.fas{
+          margin-left: 5px;
+          &.fa-male{
+            color: #2cb1fe;
+          }
+          &.fa-female{
+            color: #fd86bb;
+          }
         }
       }
       .form-check{

@@ -988,6 +988,26 @@
     #section-info-11 .group .group-items-register .form-group, #section-info-12 .group .group-items-register .form-group,
     #section-info-13 .group .group-items-register .form-group {
       margin-bottom: 20px; }
+      @media screen and (min-width: 768px) {
+        #section-info-123 .group .group-items-register .form-group .pd-right-0, #section-info-4 .group .group-items-register .form-group .pd-right-0, #section-info-5 .group .group-items-register .form-group .pd-right-0,
+        #section-info-6 .group .group-items-register .form-group .pd-right-0, #section-info-7 .group .group-items-register .form-group .pd-right-0,
+        #section-info-9 .group .group-items-register .form-group .pd-right-0, #section-info-10 .group .group-items-register .form-group .pd-right-0,
+        #section-info-11 .group .group-items-register .form-group .pd-right-0, #section-info-12 .group .group-items-register .form-group .pd-right-0,
+        #section-info-13 .group .group-items-register .form-group .pd-right-0 {
+          padding-right: 0; } }
+      @media screen and (min-width: 768px) {
+        #section-info-123 .group .group-items-register .form-group .pd-left-0, #section-info-4 .group .group-items-register .form-group .pd-left-0, #section-info-5 .group .group-items-register .form-group .pd-left-0,
+        #section-info-6 .group .group-items-register .form-group .pd-left-0, #section-info-7 .group .group-items-register .form-group .pd-left-0,
+        #section-info-9 .group .group-items-register .form-group .pd-left-0, #section-info-10 .group .group-items-register .form-group .pd-left-0,
+        #section-info-11 .group .group-items-register .form-group .pd-left-0, #section-info-12 .group .group-items-register .form-group .pd-left-0,
+        #section-info-13 .group .group-items-register .form-group .pd-left-0 {
+          padding-left: 0; } }
+      #section-info-123 .group .group-items-register .form-group .btn-info, #section-info-4 .group .group-items-register .form-group .btn-info, #section-info-5 .group .group-items-register .form-group .btn-info,
+      #section-info-6 .group .group-items-register .form-group .btn-info, #section-info-7 .group .group-items-register .form-group .btn-info,
+      #section-info-9 .group .group-items-register .form-group .btn-info, #section-info-10 .group .group-items-register .form-group .btn-info,
+      #section-info-11 .group .group-items-register .form-group .btn-info, #section-info-12 .group .group-items-register .form-group .btn-info,
+      #section-info-13 .group .group-items-register .form-group .btn-info {
+        margin-top: 30px; }
       #section-info-123 .group .group-items-register .form-group.form-group-icons, #section-info-4 .group .group-items-register .form-group.form-group-icons, #section-info-5 .group .group-items-register .form-group.form-group-icons,
       #section-info-6 .group .group-items-register .form-group.form-group-icons, #section-info-7 .group .group-items-register .form-group.form-group-icons,
       #section-info-9 .group .group-items-register .form-group.form-group-icons, #section-info-10 .group .group-items-register .form-group.form-group-icons,
@@ -1020,6 +1040,12 @@
         font-size: 14px;
         font-weight: bold;
         margin-bottom: 15px; }
+        #section-info-123 .group .group-items-register .form-group label sup, #section-info-4 .group .group-items-register .form-group label sup, #section-info-5 .group .group-items-register .form-group label sup,
+        #section-info-6 .group .group-items-register .form-group label sup, #section-info-7 .group .group-items-register .form-group label sup,
+        #section-info-9 .group .group-items-register .form-group label sup, #section-info-10 .group .group-items-register .form-group label sup,
+        #section-info-11 .group .group-items-register .form-group label sup, #section-info-12 .group .group-items-register .form-group label sup,
+        #section-info-13 .group .group-items-register .form-group label sup {
+          color: #f62c2c; }
         #section-info-123 .group .group-items-register .form-group label span, #section-info-4 .group .group-items-register .form-group label span, #section-info-5 .group .group-items-register .form-group label span,
         #section-info-6 .group .group-items-register .form-group label span, #section-info-7 .group .group-items-register .form-group label span,
         #section-info-9 .group .group-items-register .form-group label span, #section-info-10 .group .group-items-register .form-group label span,
@@ -1036,6 +1062,34 @@
       #section-info-13 .group .group-items-register .form-group input,
       #section-info-13 .group .group-items-register .form-group select {
         height: 42px; }
+        #section-info-123 .group .group-items-register .form-group input.height-11, #section-info-123 .group .group-items-register .form-group select.height-11, #section-info-4 .group .group-items-register .form-group input.height-11, #section-info-4 .group .group-items-register .form-group select.height-11, #section-info-5 .group .group-items-register .form-group input.height-11, #section-info-5 .group .group-items-register .form-group select.height-11,
+        #section-info-6 .group .group-items-register .form-group input.height-11,
+        #section-info-6 .group .group-items-register .form-group select.height-11, #section-info-7 .group .group-items-register .form-group input.height-11, #section-info-7 .group .group-items-register .form-group select.height-11,
+        #section-info-9 .group .group-items-register .form-group input.height-11,
+        #section-info-9 .group .group-items-register .form-group select.height-11, #section-info-10 .group .group-items-register .form-group input.height-11, #section-info-10 .group .group-items-register .form-group select.height-11,
+        #section-info-11 .group .group-items-register .form-group input.height-11,
+        #section-info-11 .group .group-items-register .form-group select.height-11, #section-info-12 .group .group-items-register .form-group input.height-11, #section-info-12 .group .group-items-register .form-group select.height-11,
+        #section-info-13 .group .group-items-register .form-group input.height-11,
+        #section-info-13 .group .group-items-register .form-group select.height-11 {
+          height: 11px; }
+      #section-info-123 .group .group-items-register .form-group i.fas, #section-info-4 .group .group-items-register .form-group i.fas, #section-info-5 .group .group-items-register .form-group i.fas,
+      #section-info-6 .group .group-items-register .form-group i.fas, #section-info-7 .group .group-items-register .form-group i.fas,
+      #section-info-9 .group .group-items-register .form-group i.fas, #section-info-10 .group .group-items-register .form-group i.fas,
+      #section-info-11 .group .group-items-register .form-group i.fas, #section-info-12 .group .group-items-register .form-group i.fas,
+      #section-info-13 .group .group-items-register .form-group i.fas {
+        margin-left: 5px; }
+        #section-info-123 .group .group-items-register .form-group i.fas.fa-male, #section-info-4 .group .group-items-register .form-group i.fas.fa-male, #section-info-5 .group .group-items-register .form-group i.fas.fa-male,
+        #section-info-6 .group .group-items-register .form-group i.fas.fa-male, #section-info-7 .group .group-items-register .form-group i.fas.fa-male,
+        #section-info-9 .group .group-items-register .form-group i.fas.fa-male, #section-info-10 .group .group-items-register .form-group i.fas.fa-male,
+        #section-info-11 .group .group-items-register .form-group i.fas.fa-male, #section-info-12 .group .group-items-register .form-group i.fas.fa-male,
+        #section-info-13 .group .group-items-register .form-group i.fas.fa-male {
+          color: #2cb1fe; }
+        #section-info-123 .group .group-items-register .form-group i.fas.fa-female, #section-info-4 .group .group-items-register .form-group i.fas.fa-female, #section-info-5 .group .group-items-register .form-group i.fas.fa-female,
+        #section-info-6 .group .group-items-register .form-group i.fas.fa-female, #section-info-7 .group .group-items-register .form-group i.fas.fa-female,
+        #section-info-9 .group .group-items-register .form-group i.fas.fa-female, #section-info-10 .group .group-items-register .form-group i.fas.fa-female,
+        #section-info-11 .group .group-items-register .form-group i.fas.fa-female, #section-info-12 .group .group-items-register .form-group i.fas.fa-female,
+        #section-info-13 .group .group-items-register .form-group i.fas.fa-female {
+          color: #fd86bb; }
     #section-info-123 .group .group-items-register .form-check, #section-info-4 .group .group-items-register .form-check, #section-info-5 .group .group-items-register .form-check,
     #section-info-6 .group .group-items-register .form-check, #section-info-7 .group .group-items-register .form-check,
     #section-info-9 .group .group-items-register .form-check, #section-info-10 .group .group-items-register .form-check,

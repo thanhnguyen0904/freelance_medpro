@@ -150,139 +150,126 @@
       </div>
     </div>
 
-    <div id="section-find-doctor-2">
+    <div id="section-find-doctor-1">
       <div class="container">
         <div class="row">
           <div class="col-md-4 col-lg-3">
-            <div class="find-doctor-left-2">
+            <div class="booking-left-menu-top">
               <div class="blmt-name">NGUYỄN QUỐC HUY (N17 - 123123)</div>
               <div class="blmt-info">Địa chỉ: Nguyễn Văn Cừ, Phường 1, Quận 3, Thành phố Hồ Chí Minh</div>
               <div class="blmt-info mg-bottom-0">Điện thoại: 0909342342</div>
-              <form>
-              <div class="form-group">
-                <select class="form-control">
-                  <option disabled selected>Đổi hồ sơ bệnh nhân</option>
-                  <option>Bệnh nhân A</option>
-                  <option>Bệnh nhân B</option>
-                  <option>Bệnh nhân C</option>
-                </select>
-              </div>
-             </form>
             </div>
-            <div class="find-doctor-left-1">
-              <h4 class="title1">QUY TRÌNH ĐẶT LỊCH</h4>
+            <div class="find-doctor-left">
+              <h4>TÌM NHANH BÁC SĨ</h4>
               <hr>
-              <!--<p class="circle">Bệnh viện khám:</p>-->
-              <ul>
-                <li><i class="fas fa-map-marker-alt"></i> BỆNH VIỆN ĐẠI HỌC Y DƯỢC</li>
-                <li class="circle"><i class="far fa-dot-circle"></i>Nội Tiết</li>
-                <li class="circle"><i class="far fa-dot-circle"></i>ThS BS Trần Thị Thùy Dung</li>
-                <li class="circle"><i class="far fa-dot-circle"></i>Ngày khám</li>
-                <li class="circle"><i class="far fa-dot-circle"></i>Giờ khám</li>
-              </ul>
-              <!--<p class="circle">Ngày đặt lịch & dịch vụ:</p>-->
-              <!--<p>Phòng khám & đặt giờ:</p>-->
+              <form>
+                <div class="form-group">
+                  <label>Họ và tên bác sĩ</label>
+                  <input type="text" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <label>Giới tính</label>
+                  <select class="form-control">
+                    <option selected disabled>Chọn giới tính</option>
+                    <option>Nam</option>
+                    <option>Nữ</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label>Học hàm/học vị</label>
+                  <select class="form-control">
+                    <option selected disabled>Chọn</option>
+                    <option>A</option>
+                    <option>B</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label>Chuyên khoa</label>
+                  <select class="form-control">
+                    <option selected disabled>Chọn</option>
+                    <option>A</option>
+                    <option>B</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label>Lịch khám</label>
+                  <select class="form-control">
+                    <option selected disabled>Chọn</option>
+                    <option>A</option>
+                    <option>B</option>
+                  </select>
+                </div>
+                <div class="form-group text-right mg-bottom-0">
+                  <button type="submit" class="btn btn-info">TRA CỨU</button>
+                </div>
+              </form>
             </div>
           </div>
           <div class="col-md-8 col-lg-9">
             <div class="booking-right-navigation">
               <ul>
-                <li><a class="active" href="javascript:void(0)">Ngày khám & Chuyên khoa <i class="fas fa-angle-right"></i></a></li>
-                <li><a class="active" href="javascript:void(0)">Phòng khám & Đặt giờ <i class="fas fa-angle-right"></i></a></li>
-                <li><a class="active mg-bottom-md-0" href="javascript:void(0)">Nhập thông tin <i class="fas fa-angle-right"></i></a></li>
-                <li><a class="mg-bottom-md-0" href="javascript:void(0)">Thanh toán</a></li>
+                <li><a class="active" href="javascript:void(0)">Bác sĩ & chuyên khoa <i class="fas fa-angle-right"></i></a></li>
+                <li><a class="" href="javascript:void(0)">Ngày & giờ khám <i class="fas fa-angle-right"></i></a></li>
+                <li><a class="mg-bottom-md-0" href="javascript:void(0)">Thanh toán <i class="fas fa-angle-right"></i></a></li>
               </ul>
             </div>
-            <div class="booking-right-calendar">
-              <div class="brc-top d-flex align-items-center text-center" data-count="0">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-default btn-default-left">
-                    <i class="fas fa-angle-left"></i>
-                  </button>
-                  <button type="button" class="btn btn-default btn-default-text">Tháng 03 - 2018</button>
-                  <button type="button" class="btn btn-default btn-default-right">
-                    <i class="fas fa-angle-right"></i>
-                  </button>
-                </div>
-              </div>
-              <div class="table-responsive">
-                <table class="calTable table">
+            <div class="find-doctor-right">
+              <!--<ul class="d-flex find-doctor-right-top">-->
+                <!--<li>#</li>-->
+                <!--<li>Họ và tên</li>-->
+                <!--<li>Học hàm/học vị</li>-->
+                <!--<li>Giới tính</li>-->
+                <!--<li>Chuyên khoa</li>-->
+                <!--<li>Lịch khám</li>-->
+                <!--<li></li>-->
+              <!--</ul>-->
+              <div class="table-responsive find-doctor-right-cont">
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th>#</th>
+                      <th>Họ và tên</th>
+                      <th>Học hàm/học vị</th>
+                      <th>Giới tính</th>
+                      <th>Chuyên khoa</th>
+                      <th>Lịch khám</th>
+                      <th>Giá tiền</th>
+                      <th></th>
+                    </tr>
+                  </thead>
                   <tbody>
-                  <tr>
-                    <th class="cn">Chủ Nhật</th>
-                    <th>Hai</th>
-                    <th>Ba</th>
-                    <th>Tư</th>
-                    <th>Năm</th>
-                    <th>Sáu</th>
-                    <th class="t7">Bảy</th>
-                  </tr>
-                  <tr class="btn-booking-tr">
-                    <td><button class="btn-booking-calendar-disable"  type="button" class="round-button-disable round-button-disable-default">01</button></td>
-                    <td><button  type="button" class="round-button-disable round-button-disable-default">02</button></td>
-                    <td><button  type="button" class="round-button-disable round-button-disable-default">03</button></td>
-                    <td><button  type="button" class="round-button-disable round-button-disable-default">04</button></td>
-                    <td><button type="button" class="round-button round-button-default">05</button></td>
-                    <td><button type="button" class="round-button round-button-default">06</button></td>
-                    <td><button calmonth="2" type="button" class="round-button round-button-default">07</button></td>
-                  </tr>
-                  <tr class="btn-booking-tr">
-                    <td><button class="btn-booking-calendar-disable"  type="button" class="round-button-disable round-button-disable-default">08</button></td>
-                    <td><button  type="button" class="round-button-disable round-button-disable-default">09</button></td>
-                    <td><button  type="button" class="round-button-disable round-button-disable-default">10</button></td>
-                    <td><button  type="button" class="round-button-disable round-button-disable-default">11</button></td>
-                    <td><button type="button" class="round-button round-button-default">12</button></td>
-                    <td><button type="button" class="round-button round-button-default">13</button></td>
-                    <td><button calmonth="2" type="button" class="round-button round-button-default">14</button></td>
-                  </tr>
-                  <tr class="btn-booking-tr">
-                    <td><button class="btn-booking-calendar-disable"  type="button" class="round-button-disable round-button-disable-default">15</button></td>
-                    <td><button  type="button" class="round-button-disable round-button-disable-default">16</button></td>
-                    <td><button  type="button" class="round-button-disable round-button-disable-default">17</button></td>
-                    <td><button  type="button" class="round-button-disable round-button-disable-default">18</button></td>
-                    <td><button type="button" class="round-button round-button-default">19</button></td>
-                    <td><button type="button" class="round-button round-button-default">20</button></td>
-                    <td><button calmonth="2" type="button" class="round-button round-button-default">21</button></td>
-                  </tr>
-                  <tr class="btn-booking-tr">
-                    <td><button class="btn-booking-calendar-disable"  type="button" class="round-button-disable round-button-disable-default">22</button></td>
-                    <td><button  type="button" class="round-button-disable round-button-disable-default">23</button></td>
-                    <td><button  type="button" class="round-button-disable round-button-disable-default">24</button></td>
-                    <td><button  type="button" class="round-button-disable round-button-disable-default">25</button></td>
-                    <td><button type="button" class="round-button round-button-default">26</button></td>
-                    <td><button type="button" class="round-button round-button-default">27</button></td>
-                    <td><button calmonth="2" type="button" class="round-button round-button-default">28</button></td>
-                  </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>Trần Thị Thùy Dung</td>
+                      <td>ThS BS</td>
+                      <td>Nữ</td>
+                      <td>Nội tiết</td>
+                      <td>Sáng thứ 2</td>
+                      <td>150.000vnđ</td>
+                      <td><button data-href="/booking/tim-bac-si-2.html" class="btn btn-info">ĐẶT CHỖ</button></td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Nguyễn Văn Khoa</td>
+                      <td>BS</td>
+                      <td>Nam</td>
+                      <td>Da liễu</td>
+                      <td>Sáng thứ 2</td>
+                      <td>150.000vnđ</td>
+                      <td><button data-href="/booking/tim-bac-si-2.html" class="btn btn-info">ĐẶT CHỖ</button></td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>Trần Cẩm Tiên</td>
+                      <td>ThS BS</td>
+                      <td>Nữ</td>
+                      <td>Tim mạch</td>
+                      <td>Sáng thứ 2</td>
+                      <td>150.000vnđ</td>
+                      <td><button data-href="/booking/tim-bac-si-2.html" class="btn btn-info">ĐẶT CHỖ</button></td>
+                    </tr>
                   </tbody>
                 </table>
-              </div>
-
-              <div class="brc-scroll-group">
-                <div class="brc-scroll-group-1 d-lg-flex align-items-center">
-                  <a href="javascript:void(0)" class="brt-btn brt-btn-1 ml-auto">ĐANG CHỌN</a>
-                  <a href="javascript:void(0)" class="brt-btn brt-btn-2">CÒN TRỐNG</a>
-                  <a href="javascript:void(0)" class="brt-btn brt-btn-3">ĐÃ ĐẦY</a>
-                </div>
-                <div class="brc-scroll-group-2">
-                  <ul>
-                    <li><a class="active active-full" href="javascript:void(0)">06:30</a></li>
-                    <li><a href="javascript:void(0)">06:30 - 07:30</a></li>
-                    <li><a href="javascript:void(0)">07:30 - 08:30</a></li>
-                    <li><a href="javascript:void(0)">08:30 - 09:30</a></li>
-                    <li><a href="javascript:void(0)">09:30 - 10:30</a></li>
-                    <li><a href="javascript:void(0)">10:30 - 11:30</a></li>
-                    <li><a href="javascript:void(0)">13:30 - 14:30</a></li>
-                    <li><a href="javascript:void(0)">14:30 - 15:30</a></li>
-                    <li><a href="javascript:void(0)">15:30 - 16:30</a></li>
-                    <li><a href="javascript:void(0)">16:30 - 17:30</a></li>
-                  </ul>
-                </div>
-                <div class="brc-scroll-group-btn text-center">
-                  <div class="btn btn-info">ẨN VÀ CHỌN NGÀY KHÁC <i class="fas fa-angle-right"></i></div>
-                </div>
-              </div>
-              <div class="brc-btn show text-right">
-                <a href="javascript:void(0)" class="btn btn-info">XÁC NHẬN</a>
               </div>
             </div>
           </div>
@@ -362,6 +349,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.js"></script>
     <script src="../scripts/main.js"></script>
-    <script src="../scripts/find-doctor.js"></script>
+    <script src="../scripts/booking.js"></script>
   </body>
 </html>

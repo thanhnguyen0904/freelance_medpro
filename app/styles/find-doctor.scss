@@ -22,12 +22,47 @@
 
 #section-find-doctor-1, #section-find-doctor-2{
   margin-bottom: 80px;
+  .booking-left-menu-top{
+    border: 1px solid #CFD8DC;
+    border-radius: 5px;
+    padding: 20px 15px;
+    background: #fff;
+    margin-bottom: 20px;
+    .blmt-name{
+      font-size: 12px;
+      font-weight: bold;
+      color: #3c3c3c;
+      margin-bottom: 15px;
+    }
+    .blmt-info{
+      font-size: 13px;
+      margin-bottom: 15px;
+      color: #696969;
+    }
+    .mg-bottom-0{
+      margin-bottom: 0;
+    }
+    form{
+      padding: 0 15px;
+      padding-top: 20px;
+      margin: 0 -15px;
+      border-top: 1px solid #CFD8DC;
+      .form-group{
+        margin-bottom: 0;
+        select{
+          height: 42px;
+          font-size: 12px;
+          color: #696969;
+          outline: none;
+        }
+      }
+    }
+  }
   .find-doctor-left{
     padding: 30px 0;
     border: 1px solid #CFD8DC;
     border-radius: 5px;
     background: #fff;
-    margin-top: 33px;
     @media screen and (max-width: 767px){
       margin-bottom: 30px;
       margin-top: 0;
@@ -228,6 +263,9 @@
           background: #fff;
           margin: 0;
           border-radius: 5px;
+          tr.btn-booking-tr.hidden{
+            display: none;
+          }
         }
         tr{
           background: none;
@@ -239,7 +277,7 @@
           color: #696969;
           font-size: 15px;
           transition: all .2s ease;
-          &:nth-child(7){
+          &:nth-child(8){
             padding: 8px 12px;
             border-right: 2px solid #CFD8DC;
             .btn.btn.btn-info{
@@ -395,6 +433,13 @@
         }
         @media screen and (max-width: 767px){
           margin: 0 -20px;
+        }
+      }
+      .show-bs{
+        font-size: 16px;
+        font-weight: bold;
+        @media screen and (max-width: 991px){
+          margin-bottom: 15px;
         }
       }
       .brc-scroll-group-1{
@@ -558,6 +603,14 @@
       height: 0;
       opacity: 0;
       margin: 0;
+      p{
+        color: #3c3c3c;
+        font-size: 14px;
+        margin-bottom: 0;
+        @media screen and (max-width: 991px){
+          margin-bottom: 15px;
+        }
+      }
       &.show{
         height: auto;
         opacity: 1;
@@ -575,18 +628,23 @@
           }
         }
       }
-      .btn-success{
+      .btn-default{
         border-radius: 50px !important;
-        padding: 12px 30px;
+        position: relative;
         font-size: 13px;
-        color: #fff;
-        font-weight: bold;
-        border: none;
-        background: #38d46a;
+        color: #48a7f2;
+        background: transparent;
+        border: 1px solid #48a7f2;
+        padding: 12px 30px !important;
+        padding-right: 40px !important;
+        display: inline-block !important;
+        white-space: normal;
+        width: auto !important;
+        transition: all .3s ease;
         i{
-          margin-left: 5px;
-          position: relative;
-          top: 1px;
+          position: absolute !important;
+          right: 15px;
+          top: 14px !important;
         }
       }
       .btn-info{
@@ -595,8 +653,9 @@
         color: #fff;
         font-weight: bold;
         padding: 12px 30px;
-        margin-left: 20px;
         border: none;
+        display: block;
+        width: 100%;
       }
     }
   }

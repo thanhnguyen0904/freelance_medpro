@@ -64,6 +64,51 @@
           font-size: 12px;
           color: #696969;
           outline: none; }
+  #section-booking-3 .booking-left-menu .booking-left-menu-ordered, #section-booking-45 .booking-left-menu .booking-left-menu-ordered,
+  #section-booking-6 .booking-left-menu .booking-left-menu-ordered, #section-booking-9 .booking-left-menu .booking-left-menu-ordered,
+  #section-booking-10 .booking-left-menu .booking-left-menu-ordered, #section-booking-78 .booking-left-menu .booking-left-menu-ordered {
+    border: 1px solid #CFD8DC;
+    border-radius: 5px;
+    padding: 20px 15px;
+    background: #fff;
+    margin-bottom: 20px;
+    display: none; }
+    #section-booking-3 .booking-left-menu .booking-left-menu-ordered.show, #section-booking-45 .booking-left-menu .booking-left-menu-ordered.show,
+    #section-booking-6 .booking-left-menu .booking-left-menu-ordered.show, #section-booking-9 .booking-left-menu .booking-left-menu-ordered.show,
+    #section-booking-10 .booking-left-menu .booking-left-menu-ordered.show, #section-booking-78 .booking-left-menu .booking-left-menu-ordered.show {
+      display: block; }
+    #section-booking-3 .booking-left-menu .booking-left-menu-ordered .blmp-name, #section-booking-45 .booking-left-menu .booking-left-menu-ordered .blmp-name,
+    #section-booking-6 .booking-left-menu .booking-left-menu-ordered .blmp-name, #section-booking-9 .booking-left-menu .booking-left-menu-ordered .blmp-name,
+    #section-booking-10 .booking-left-menu .booking-left-menu-ordered .blmp-name, #section-booking-78 .booking-left-menu .booking-left-menu-ordered .blmp-name {
+      font-size: 14px;
+      font-weight: bold;
+      color: #3c3c3c;
+      margin-bottom: 20px;
+      padding-bottom: 15px;
+      position: relative; }
+      #section-booking-3 .booking-left-menu .booking-left-menu-ordered .blmp-name:after, #section-booking-45 .booking-left-menu .booking-left-menu-ordered .blmp-name:after,
+      #section-booking-6 .booking-left-menu .booking-left-menu-ordered .blmp-name:after, #section-booking-9 .booking-left-menu .booking-left-menu-ordered .blmp-name:after,
+      #section-booking-10 .booking-left-menu .booking-left-menu-ordered .blmp-name:after, #section-booking-78 .booking-left-menu .booking-left-menu-ordered .blmp-name:after {
+        content: '';
+        background: #CFD8DC;
+        width: 80%;
+        height: 1px;
+        position: absolute;
+        left: 10%;
+        bottom: 0;
+        right: 10%; }
+    #section-booking-3 .booking-left-menu .booking-left-menu-ordered p, #section-booking-45 .booking-left-menu .booking-left-menu-ordered p,
+    #section-booking-6 .booking-left-menu .booking-left-menu-ordered p, #section-booking-9 .booking-left-menu .booking-left-menu-ordered p,
+    #section-booking-10 .booking-left-menu .booking-left-menu-ordered p, #section-booking-78 .booking-left-menu .booking-left-menu-ordered p {
+      font-size: 14px;
+      color: #696969;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex; }
+      #section-booking-3 .booking-left-menu .booking-left-menu-ordered p span, #section-booking-45 .booking-left-menu .booking-left-menu-ordered p span,
+      #section-booking-6 .booking-left-menu .booking-left-menu-ordered p span, #section-booking-9 .booking-left-menu .booking-left-menu-ordered p span,
+      #section-booking-10 .booking-left-menu .booking-left-menu-ordered p span, #section-booking-78 .booking-left-menu .booking-left-menu-ordered p span {
+        margin-left: 10px; }
   #section-booking-3 .booking-left-menu .booking-left-menu-process, #section-booking-45 .booking-left-menu .booking-left-menu-process,
   #section-booking-6 .booking-left-menu .booking-left-menu-process, #section-booking-9 .booking-left-menu .booking-left-menu-process,
   #section-booking-10 .booking-left-menu .booking-left-menu-process, #section-booking-78 .booking-left-menu .booking-left-menu-process {
@@ -387,7 +432,8 @@
         #section-booking-10 .booking-right-calendar .brc-scroll-group ul.table-ul-cont, #section-booking-78 .booking-right-calendar .brc-scroll-group ul.table-ul-cont {
           border-top: 1px solid #CFD8DC;
           padding-top: 25px;
-          margin-bottom: 25px; }
+          margin-bottom: 25px;
+          cursor: pointer; }
           @media screen and (max-width: 991px) {
             #section-booking-3 .booking-right-calendar .brc-scroll-group ul.table-ul-cont, #section-booking-45 .booking-right-calendar .brc-scroll-group ul.table-ul-cont,
             #section-booking-6 .booking-right-calendar .brc-scroll-group ul.table-ul-cont, #section-booking-9 .booking-right-calendar .brc-scroll-group ul.table-ul-cont,
@@ -903,6 +949,14 @@
         border: none;
         text-transform: uppercase;
         margin-top: 30px; }
+    #section-booking-3 .booking-right-bill .brb-bill-hide, #section-booking-45 .booking-right-bill .brb-bill-hide,
+    #section-booking-6 .booking-right-bill .brb-bill-hide, #section-booking-9 .booking-right-bill .brb-bill-hide,
+    #section-booking-10 .booking-right-bill .brb-bill-hide, #section-booking-78 .booking-right-bill .brb-bill-hide {
+      display: none; }
+      #section-booking-3 .booking-right-bill .brb-bill-hide.show, #section-booking-45 .booking-right-bill .brb-bill-hide.show,
+      #section-booking-6 .booking-right-bill .brb-bill-hide.show, #section-booking-9 .booking-right-bill .brb-bill-hide.show,
+      #section-booking-10 .booking-right-bill .brb-bill-hide.show, #section-booking-78 .booking-right-bill .brb-bill-hide.show {
+        display: block; }
     #section-booking-3 .booking-right-bill .brb-bill, #section-booking-45 .booking-right-bill .brb-bill,
     #section-booking-6 .booking-right-bill .brb-bill, #section-booking-9 .booking-right-bill .brb-bill,
     #section-booking-10 .booking-right-bill .brb-bill, #section-booking-78 .booking-right-bill .brb-bill {
@@ -1743,6 +1797,7 @@
   padding: 12px 30px !important;
   padding-right: 40px !important;
   display: inline-block !important;
+  white-space: normal;
   width: auto !important;
   transition: all .3s ease; }
   #section-booking-3 .brc-btn .btn-default i {
@@ -1783,10 +1838,10 @@
     background: transparent;
     position: relative;
     padding: 12px 30px !important;
-    padding-right: 40px !important;
     display: inline-block !important;
     width: auto !important;
-    transition: all .3s ease; }
+    transition: all .3s ease;
+    white-space: normal; }
     #section-booking-45 .brc-btn .btn-default i {
       position: absolute !important;
       right: 15px;
