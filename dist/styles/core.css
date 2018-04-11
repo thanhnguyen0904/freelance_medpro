@@ -58,8 +58,7 @@ a {
   cursor: pointer;
   box-shadow: none !important;
   outline: none !important;
-  border-radius: 3px !important;
-  white-space: pre-wrap !important; }
+  border-radius: 3px !important; }
   .btn.btn-info {
     border: 1px solid #3c99e3 !important; }
   .btn.btn-success {
