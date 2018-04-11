@@ -14,7 +14,7 @@ header {
     }
     .nav-top{
       background: #48a7f2;
-      padding: 14px 0;
+      padding: 15px 0;
       ul{
         padding-left: 0;
         margin-bottom: 0;
@@ -25,7 +25,7 @@ header {
         color: #fff;
         font-size: 14px;
         &:hover, &:focus{
-          color: #3c3c3c;
+          color: #38d46a;
         }
         &:not(last-child){
           font-size: 14px;
@@ -171,11 +171,11 @@ header {
         align-items: center;
       }
       a{
-        font-size: 15px;
+        font-size: 16px;
         font-weight: bold;
         margin: 0 20px;
         color: #3c3c3c;
-        font-family: 'Nunito', serif;
+        font-family: 'Baomoi', serif;
         text-rendering: optimizeLegibility;
         @media screen and (max-width: 1099px){
           margin: 0 10px;
@@ -189,7 +189,7 @@ header {
         }
         &.btn-success{
           color: #fff;
-          font-size: 13px;
+          font-size: 15px;
           margin-right: 0;
           background: #38d46a;
           padding: 10px 30px;

@@ -1,11 +1,24 @@
-@import url("https://fonts.googleapis.com/css?family=Nunito:400,700&subset=vietnamese");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&amp;subset=vietnamese");
+@font-face {
+  font-family: 'Baomoi';
+  src: url("../fonts/Baomoi_gdi.eot");
+  src: url("../fonts/Baomoi_gdi.eot?#iefix") format("embedded-opentype"), url("../fonts/Baomoi_gdi.woff") format("woff"), url("../fonts/Baomoi_gdi.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Baomoi-bold';
+  src: url("../fonts/Baomoi-SemiBold_gdi.eot");
+  src: url("../fonts/Baomoi-SemiBold_gdi.eot?#iefix") format("embedded-opentype"), url("../fonts/Baomoi-SemiBold_gdi.woff") format("woff"), url("../fonts/Baomoi-SemiBold_gdi.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
 html, body {
-  font-size: 13px;
-  font-family: "Nunito", sans-serif, arial;
+  font-size: 14px;
+  font-family: 'Baomoi', sans-serif, arial;
   color: #3c3c3c;
-  letter-spacing: .2px;
   text-rendering: optimizeLegibility;
-  line-height: 20px; }
+  letter-spacing: .4px; }
 
 body {
   font-size: 1rem;
@@ -18,7 +31,7 @@ body {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  line-height: 1.3; }
+  line-height: 1.2; }
   @media screen and (min-width: 992px) {
     body.opened::after {
       content: '';
@@ -60,7 +73,8 @@ a {
     opacity: 1; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Nunito', serif; }
+  font-family: 'Baomoi', serif;
+  text-rendering: optimizeLegibility; }
 
 #popupLogin {
   top: 100px; }
@@ -166,7 +180,7 @@ h1, h2, h3, h4, h5, h6 {
         -ms-flex-wrap: wrap;
             flex-wrap: wrap; }
     .booking-right-navigation ul li a {
-      font-size: 14px;
+      font-size: 13px;
       color: #696969;
       position: relative;
       padding-right: 25px;

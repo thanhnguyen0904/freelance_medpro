@@ -11,34 +11,32 @@ body{
     display: inline-block;
     font-size: 30px;
     color: #fff;
-    font-weight: bold;
-    background: rgba(72,167,242,.9);
+    background: rgba(72,167,242,.8);
     padding: 10px 15px;
-    border-radius: 2px;
     margin-bottom: 3px;
+    border-radius: 1px;
   }
   h2{
     display: inline-block;
     font-size: 32px;
     color: #fff;
-    font-weight: bold;
-    background: rgba(72,167,242,.9);
-    padding: 10px 20px;
-    border-radius: 2px;
+    background: rgba(72,167,242,.8);
+    padding: 10px 15px;
   }
   .des{
     margin: 25px 0;
-    font-size: 13px;
+    font-size: 14px;
   }
   a.btn.btn-success{
     background: #38d46a;
-    padding: 13px 32px;
-    font-size: 15px;
+    padding: 12px 32px;
     color: #fff;
     border: none;
     margin: 0 7.5px;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 16px;
+
     background: #38d46a !important;
     border: 1px solid #38d46a !important;
     background: -moz-linear-gradient(-45deg, #38d46a 0%, #3ad26b 50%, #3bcd6a 51%, #3dc469 71%, #3bb863 100%) !important;
@@ -134,7 +132,7 @@ body{
             text-transform: uppercase;
           }
           span.des{
-            font-size: 13px;
+            font-size: 14px;
           }
         }
       }
@@ -183,10 +181,10 @@ body{
           bottom: 10px;
           right: 10px;
           font-size: 12px;
-          color: #1e61c6;
+          color: #3c3c3c;
           transition: all .2s ease;
           &:hover, &:focus{
-            color: #48a7f2;
+            color: #38d46a;
           }
           @media screen and (max-width: 767px){
             position: relative;
@@ -205,8 +203,8 @@ body{
       }
       .des{
         color: #696969;
-        margin-bottom: 10px;
-        font-size: 14px;
+        margin-bottom: 5px;
+        font-size: 15px;
       }
       .btn.btn-info{
         background: #3c99e3;
@@ -217,12 +215,12 @@ body{
         text-transform: uppercase;
       }
       a.arr-right{
-        margin-bottom: 10px;
+        margin-bottom: 5px;
         position: relative;
         padding-left: 10px;
         color: #696969;
         transition: all .2s ease;
-        font-size: 14px;
+        font-size: 15px;
         &:hover, &:focus{
           color: #48a7f2;
         }
@@ -249,17 +247,16 @@ body{
       font-size: 30px;
       color: #333333;
       text-transform: uppercase;
-      margin-bottom: 20px;
+      margin-bottom: 12px;
       span{
-        background: #3793EE;
+        background: #229cd9;
         padding: 5px 13px;
         color: #fff;
         font-weight: bold;
-        border-radius: 2px;
       }
     }
     h5.sub-title{
-      color: #3793EE;
+      color: #36a8d3;
       font-size: 24px;
       font-weight: bold;
       text-transform: uppercase;

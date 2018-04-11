@@ -11,31 +11,28 @@ body {
     display: inline-block;
     font-size: 30px;
     color: #fff;
-    font-weight: bold;
-    background: rgba(72, 167, 242, 0.9);
+    background: rgba(72, 167, 242, 0.8);
     padding: 10px 15px;
-    border-radius: 2px;
-    margin-bottom: 3px; }
+    margin-bottom: 3px;
+    border-radius: 1px; }
   #section-banner-home h2 {
     display: inline-block;
     font-size: 32px;
     color: #fff;
-    font-weight: bold;
-    background: rgba(72, 167, 242, 0.9);
-    padding: 10px 20px;
-    border-radius: 2px; }
+    background: rgba(72, 167, 242, 0.8);
+    padding: 10px 15px; }
   #section-banner-home .des {
     margin: 25px 0;
-    font-size: 13px; }
+    font-size: 14px; }
   #section-banner-home a.btn.btn-success {
     background: #38d46a;
-    padding: 13px 32px;
-    font-size: 15px;
+    padding: 12px 32px;
     color: #fff;
     border: none;
     margin: 0 7.5px;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 16px;
     background: #38d46a !important;
     border: 1px solid #38d46a !important;
     background: linear-gradient(135deg, #38d46a 0%, #3ad26b 50%, #3bcd6a 51%, #3dc469 71%, #3bb863 100%) !important;
@@ -120,7 +117,7 @@ body {
         margin-bottom: 10px;
         text-transform: uppercase; }
       #section-home .section-1 ul li .group span.des {
-        font-size: 13px; }
+        font-size: 14px; }
 
 #section-home .section-2 {
   margin-top: 50px;
@@ -166,10 +163,10 @@ body {
         bottom: 10px;
         right: 10px;
         font-size: 12px;
-        color: #1e61c6;
+        color: #3c3c3c;
         transition: all .2s ease; }
         #section-home .section-2 .group.g2 a.see-more:hover, #section-home .section-2 .group.g2 a.see-more:focus {
-          color: #48a7f2; }
+          color: #38d46a; }
         @media screen and (max-width: 767px) {
           #section-home .section-2 .group.g2 a.see-more {
             position: relative;
@@ -184,8 +181,8 @@ body {
       text-transform: uppercase; }
     #section-home .section-2 .group .des {
       color: #696969;
-      margin-bottom: 10px;
-      font-size: 14px; }
+      margin-bottom: 5px;
+      font-size: 15px; }
     #section-home .section-2 .group .btn.btn-info {
       background: #3c99e3;
       padding: 10px 40px;
@@ -194,12 +191,12 @@ body {
       margin: 0 7.5px;
       text-transform: uppercase; }
     #section-home .section-2 .group a.arr-right {
-      margin-bottom: 10px;
+      margin-bottom: 5px;
       position: relative;
       padding-left: 10px;
       color: #696969;
       transition: all .2s ease;
-      font-size: 14px; }
+      font-size: 15px; }
       #section-home .section-2 .group a.arr-right:hover, #section-home .section-2 .group a.arr-right:focus {
         color: #48a7f2; }
       #section-home .section-2 .group a.arr-right:before {
@@ -222,15 +219,14 @@ body {
     font-size: 30px;
     color: #333333;
     text-transform: uppercase;
-    margin-bottom: 20px; }
+    margin-bottom: 12px; }
     #section-home .section-3 h4.title span {
-      background: #3793EE;
+      background: #229cd9;
       padding: 5px 13px;
       color: #fff;
-      font-weight: bold;
-      border-radius: 2px; }
+      font-weight: bold; }
   #section-home .section-3 h5.sub-title {
-    color: #3793EE;
+    color: #36a8d3;
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase; }
