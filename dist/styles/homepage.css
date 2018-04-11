@@ -117,7 +117,8 @@ body {
         margin-bottom: 10px;
         text-transform: uppercase; }
       #section-home .section-1 ul li .group span.des {
-        font-size: 14px; }
+        font-size: 13px;
+        font-weight: normal; }
 
 #section-home .section-2 {
   margin-top: 50px;
