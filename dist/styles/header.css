@@ -13,7 +13,7 @@ header {
         display: block; } }
     header .nav-desk .nav-top {
       background: #48a7f2;
-      padding: 12px 0; }
+      padding: 15px 0; }
       header .nav-desk .nav-top ul {
         padding-left: 0;
         margin-bottom: 0;
@@ -25,7 +25,7 @@ header {
         color: #fff;
         font-size: 14px; }
         header .nav-desk .nav-top a:hover, header .nav-desk .nav-top a:focus {
-          color: #3c3c3c; }
+          color: #38d46a; }
         header .nav-desk .nav-top a:not(last-child) {
           font-size: 14px; }
         header .nav-desk .nav-top a.nav-top-phone {
@@ -158,11 +158,11 @@ header {
             -ms-flex-align: center;
                 align-items: center; }
       header .nav-desk .nav-menu a {
-        font-size: 14px;
+        font-size: 16px;
         font-weight: bold;
         margin: 0 20px;
         color: #3c3c3c;
-        font-family: 'Roboto Slab', serif;
+        font-family: 'Baomoi', serif;
         text-rendering: optimizeLegibility;
         text-transform: uppercase; }
         @media screen and (max-width: 1099px) {
@@ -174,7 +174,7 @@ header {
           margin-left: 0; }
         header .nav-desk .nav-menu a.btn-success {
           color: #fff;
-          font-size: 13px;
+          font-size: 15px;
           margin-right: 0;
           background: #38d46a;
           padding: 10px 30px;

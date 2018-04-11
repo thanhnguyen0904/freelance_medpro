@@ -14,9 +14,11 @@
   font-style: normal; }
 
 html, body {
-  font-size: 13px;
-  font-family: 'Baomoi';
-  color: #3c3c3c; }
+  font-size: 14px;
+  font-family: 'Baomoi', sans-serif, arial;
+  color: #3c3c3c;
+  text-rendering: optimizeLegibility;
+  letter-spacing: .4px; }
 
 body {
   font-size: 1rem;
@@ -71,7 +73,7 @@ a {
     opacity: 1; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Baomoi', serif;
   text-rendering: optimizeLegibility; }
 
 #popupLogin {

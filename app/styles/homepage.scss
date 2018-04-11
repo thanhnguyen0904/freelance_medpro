@@ -11,18 +11,17 @@ body{
     display: inline-block;
     font-size: 30px;
     color: #fff;
-    font-weight: bold;
     background: rgba(72,167,242,.8);
-    padding: 5px 15px;
+    padding: 10px 15px;
     margin-bottom: 3px;
+    border-radius: 1px;
   }
   h2{
     display: inline-block;
     font-size: 32px;
     color: #fff;
-    font-weight: bold;
     background: rgba(72,167,242,.8);
-    padding: 5px 7px;
+    padding: 10px 15px;
   }
   .des{
     margin: 25px 0;
@@ -30,12 +29,13 @@ body{
   }
   a.btn.btn-success{
     background: #38d46a;
-    padding: 10px 30px;
+    padding: 12px 32px;
     color: #fff;
     border: none;
     margin: 0 7.5px;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 16px;
 
     background: #38d46a !important;
     border: 1px solid #38d46a !important;
@@ -181,10 +181,10 @@ body{
           bottom: 10px;
           right: 10px;
           font-size: 12px;
-          color: #1e61c6;
+          color: #3c3c3c;
           transition: all .2s ease;
           &:hover, &:focus{
-            color: #48a7f2;
+            color: #38d46a;
           }
           @media screen and (max-width: 767px){
             position: relative;
