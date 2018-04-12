@@ -10,7 +10,8 @@
     color: #fff;
     font-weight: bold;
     background: #31ca62;
-    padding: 3px 30px;
+    padding: 8px 25px 6px;
+    border-radius: 2px;
     margin-bottom: 15px;
   }
   h2{
@@ -28,18 +29,18 @@
     .booking-left-menu-top{
       border: 1px solid #CFD8DC;
       border-radius: 5px;
-      padding: 20px 15px;
+      padding: 20px 15px 5px;
       background: #fff;
       margin-bottom: 20px;
       .blmt-name{
-        font-size: 12px;
+        font-size: 13px;
         font-weight: bold;
         color: #3c3c3c;
         margin-bottom: 15px;
       }
       .blmt-info{
-        font-size: 13px;
-        margin-bottom: 15px;
+        font-size: 14px;
+        margin-bottom: 20px;
         color: #696969;
       }
       .mg-bottom-0{
@@ -489,7 +490,7 @@
       margin: 0;
       p{
         color: #3c3c3c;
-        font-size: 14px;
+        font-size: 13px;
         margin-bottom: 0;
         @media screen and (max-width: 991px){
           margin-bottom: 15px;
@@ -867,7 +868,7 @@
     h4{
       color: #48a7f2;
       font-weight: bold;
-      font-size: 15px;
+      font-size: 16px;
       margin-bottom: 20px;
       padding: 0 42px;
     }
@@ -958,9 +959,10 @@
             margin-left: 10px;
             display: inline-block;
             min-width: 75px;
+            color: #48a7f2;
           }
           &:first-child{
-            color: #48a7f2;
+            // color: #3c3c3c;
             margin-bottom: 10px;
           }
         }
@@ -980,7 +982,7 @@
       h4{
         color: #48a7f2;
         font-weight: bold;
-        font-size: 15px;
+        font-size: 16px;
         margin-bottom: 0;
         margin-right: 10px;
         padding: 0;
@@ -1010,7 +1012,7 @@
         li{
           width: 50%;
           text-align: left;
-          padding: 0 25px;
+          padding: 0 0 12px 25px;
           @media screen and (max-width: 767px){
             width: 100%;
             padding: 0;
@@ -1021,11 +1023,12 @@
             font-weight: bold;
             margin-bottom: 15px;
             text-align: right;
+            color: #696969;
           }
           .conf-t{
             font-size: 14px;
-            font-weight: bold;
-            color: #696969;
+            // font-weight: bold;
+
             margin-bottom: 15px;
             @media screen and (max-width: 767px){
               margin-bottom: 30px;

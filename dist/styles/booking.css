@@ -10,7 +10,8 @@
     color: #fff;
     font-weight: bold;
     background: #31ca62;
-    padding: 3px 30px;
+    padding: 8px 25px 6px;
+    border-radius: 2px;
     margin-bottom: 15px; }
   #section-banner h2 {
     font-size: 16px;
@@ -26,21 +27,21 @@
   #section-booking-10 .booking-left-menu .booking-left-menu-top, #section-booking-78 .booking-left-menu .booking-left-menu-top {
     border: 1px solid #CFD8DC;
     border-radius: 5px;
-    padding: 20px 15px;
+    padding: 20px 15px 5px;
     background: #fff;
     margin-bottom: 20px; }
     #section-booking-3 .booking-left-menu .booking-left-menu-top .blmt-name, #section-booking-45 .booking-left-menu .booking-left-menu-top .blmt-name,
     #section-booking-6 .booking-left-menu .booking-left-menu-top .blmt-name, #section-booking-9 .booking-left-menu .booking-left-menu-top .blmt-name,
     #section-booking-10 .booking-left-menu .booking-left-menu-top .blmt-name, #section-booking-78 .booking-left-menu .booking-left-menu-top .blmt-name {
-      font-size: 12px;
+      font-size: 13px;
       font-weight: bold;
       color: #3c3c3c;
       margin-bottom: 15px; }
     #section-booking-3 .booking-left-menu .booking-left-menu-top .blmt-info, #section-booking-45 .booking-left-menu .booking-left-menu-top .blmt-info,
     #section-booking-6 .booking-left-menu .booking-left-menu-top .blmt-info, #section-booking-9 .booking-left-menu .booking-left-menu-top .blmt-info,
     #section-booking-10 .booking-left-menu .booking-left-menu-top .blmt-info, #section-booking-78 .booking-left-menu .booking-left-menu-top .blmt-info {
-      font-size: 13px;
-      margin-bottom: 15px;
+      font-size: 14px;
+      margin-bottom: 20px;
       color: #696969; }
     #section-booking-3 .booking-left-menu .booking-left-menu-top .mg-bottom-0, #section-booking-45 .booking-left-menu .booking-left-menu-top .mg-bottom-0,
     #section-booking-6 .booking-left-menu .booking-left-menu-top .mg-bottom-0, #section-booking-9 .booking-left-menu .booking-left-menu-top .mg-bottom-0,
@@ -627,7 +628,7 @@
       #section-booking-6 .booking-right-calendar .brc-btn p, #section-booking-9 .booking-right-calendar .brc-btn p,
       #section-booking-10 .booking-right-calendar .brc-btn p, #section-booking-78 .booking-right-calendar .brc-btn p {
         color: #3c3c3c;
-        font-size: 14px;
+        font-size: 13px;
         margin-bottom: 0; }
         @media screen and (max-width: 991px) {
           #section-booking-3 .booking-right-calendar .brc-btn p, #section-booking-45 .booking-right-calendar .brc-btn p,
@@ -1093,7 +1094,7 @@
     #section-booking-10 .booking-right-info h4, #section-booking-78 .booking-right-info h4 {
       color: #48a7f2;
       font-weight: bold;
-      font-size: 15px;
+      font-size: 16px;
       margin-bottom: 20px;
       padding: 0 42px; }
     #section-booking-3 .booking-right-info .table-responsive, #section-booking-45 .booking-right-info .table-responsive,
@@ -1206,11 +1207,11 @@
           font-weight: bold;
           margin-left: 10px;
           display: inline-block;
-          min-width: 75px; }
+          min-width: 75px;
+          color: #48a7f2; }
         #section-booking-3 .booking-right-info .bri-price .bri-price-cont p:first-child, #section-booking-45 .booking-right-info .bri-price .bri-price-cont p:first-child,
         #section-booking-6 .booking-right-info .bri-price .bri-price-cont p:first-child, #section-booking-9 .booking-right-info .bri-price .bri-price-cont p:first-child,
         #section-booking-10 .booking-right-info .bri-price .bri-price-cont p:first-child, #section-booking-78 .booking-right-info .bri-price .bri-price-cont p:first-child {
-          color: #48a7f2;
           margin-bottom: 10px; }
     #section-booking-3 .booking-right-info .bri-profile, #section-booking-45 .booking-right-info .bri-profile,
     #section-booking-6 .booking-right-info .bri-profile, #section-booking-9 .booking-right-info .bri-profile,
@@ -1232,7 +1233,7 @@
       #section-booking-10 .booking-right-info .bri-profile h4, #section-booking-78 .booking-right-info .bri-profile h4 {
         color: #48a7f2;
         font-weight: bold;
-        font-size: 15px;
+        font-size: 16px;
         margin-bottom: 0;
         margin-right: 10px;
         padding: 0;
@@ -1273,7 +1274,7 @@
         #section-booking-10 .booking-right-info .bri-profile ul li, #section-booking-78 .booking-right-info .bri-profile ul li {
           width: 50%;
           text-align: left;
-          padding: 0 25px; }
+          padding: 0 0 12px 25px; }
           @media screen and (max-width: 767px) {
             #section-booking-3 .booking-right-info .bri-profile ul li, #section-booking-45 .booking-right-info .bri-profile ul li,
             #section-booking-6 .booking-right-info .bri-profile ul li, #section-booking-9 .booking-right-info .bri-profile ul li,
@@ -1287,13 +1288,12 @@
             font-size: 14px;
             font-weight: bold;
             margin-bottom: 15px;
-            text-align: right; }
+            text-align: right;
+            color: #696969; }
           #section-booking-3 .booking-right-info .bri-profile ul li .conf-t, #section-booking-45 .booking-right-info .bri-profile ul li .conf-t,
           #section-booking-6 .booking-right-info .bri-profile ul li .conf-t, #section-booking-9 .booking-right-info .bri-profile ul li .conf-t,
           #section-booking-10 .booking-right-info .bri-profile ul li .conf-t, #section-booking-78 .booking-right-info .bri-profile ul li .conf-t {
             font-size: 14px;
-            font-weight: bold;
-            color: #696969;
             margin-bottom: 15px; }
             @media screen and (max-width: 767px) {
               #section-booking-3 .booking-right-info .bri-profile ul li .conf-t, #section-booking-45 .booking-right-info .bri-profile ul li .conf-t,

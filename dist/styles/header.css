@@ -13,7 +13,7 @@ header {
         display: block; } }
     header .nav-desk .nav-top {
       background: #48a7f2;
-      padding: 12px 0; }
+      padding: 14px 0; }
       header .nav-desk .nav-top ul {
         padding-left: 0;
         margin-bottom: 0;
@@ -158,11 +158,11 @@ header {
             -ms-flex-align: center;
                 align-items: center; }
       header .nav-desk .nav-menu a {
-        font-size: 14px;
+        font-size: 15px;
         font-weight: bold;
         margin: 0 20px;
         color: #3c3c3c;
-        font-family: 'Roboto Slab', serif;
+        font-family: 'Nunito', serif;
         text-rendering: optimizeLegibility;
         text-transform: uppercase; }
         @media screen and (max-width: 1099px) {
