@@ -214,8 +214,6 @@
       background: #fff;
       margin: 0;
       border-radius: 5px; }
-      #section-find-doctor-1 .find-doctor-right .table-responsive.find-doctor-right-cont table tbody tr.btn-booking-tr.hidden, #section-find-doctor-2 .find-doctor-right .table-responsive.find-doctor-right-cont table tbody tr.btn-booking-tr.hidden {
-        display: none; }
     #section-find-doctor-1 .find-doctor-right .table-responsive.find-doctor-right-cont table tr, #section-find-doctor-2 .find-doctor-right .table-responsive.find-doctor-right-cont table tr {
       background: none; }
     #section-find-doctor-1 .find-doctor-right .table-responsive.find-doctor-right-cont table td, #section-find-doctor-2 .find-doctor-right .table-responsive.find-doctor-right-cont table td {
@@ -299,6 +297,8 @@
             margin-top: 15px; } }
     #section-find-doctor-1 .booking-right-calendar .table.calTable, #section-find-doctor-2 .booking-right-calendar .table.calTable {
       margin-bottom: 0; }
+      #section-find-doctor-1 .booking-right-calendar .table.calTable tbody tr.btn-booking-tr.hidden, #section-find-doctor-2 .booking-right-calendar .table.calTable tbody tr.btn-booking-tr.hidden {
+        display: none; }
       #section-find-doctor-1 .booking-right-calendar .table.calTable tbody td, #section-find-doctor-1 .booking-right-calendar .table.calTable tbody th, #section-find-doctor-2 .booking-right-calendar .table.calTable tbody td, #section-find-doctor-2 .booking-right-calendar .table.calTable tbody th {
         width: 14.2857142857%;
         text-align: center;

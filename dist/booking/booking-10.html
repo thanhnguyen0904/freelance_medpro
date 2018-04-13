@@ -156,19 +156,9 @@
           <div class="col-md-4 col-lg-3">
             <div class="booking-left-menu">
               <div class="booking-left-menu-top">
-                <div class="blmt-name">NGUYỄN QUỐC HUY (N17 - 123123)</div>
-                <div class="blmt-info">Địa chỉ: Nguyễn Văn Cừ, Phường 1, Quận 3, Thành phố Hồ Chí Minh</div>
-                <div class="blmt-info">Điện thoại: 0909342342</div>
-                <form>
-                  <div class="form-group">
-                    <select class="form-control">
-                      <option disabled selected>Đổi hồ sơ bệnh nhân</option>
-                      <option>Bệnh nhân A</option>
-                      <option>Bệnh nhân B</option>
-                      <option>Bệnh nhân C</option>
-                    </select>
-                  </div>
-                </form>
+                <div class="blmt-name" id="blmt-name">NGUYỄN QUỐC HUY (N17 - 123123)</div>
+                <div class="blmt-info" id="blmt-address">Địa chỉ: Nguyễn Văn Cừ, Phường 1, Quận 3, Thành phố Hồ Chí Minh</div>
+                <div class="blmt-info" id="blmt-phone">Điện thoại: 0909342342</div>
               </div>
               <div class="booking-left-menu-process">
                 <div class="blmp-name">QUY TRÌNH ĐẶT LỊCH</div>
@@ -196,22 +186,27 @@
               <div class="row">
                 <div class="col-md-10 mx-auto">
                   <div class="row">
+
                     <div class="col-md-6 brb-bill-hide brb-bill-hide-1">
                       <div class="brb-bill">
                         <div class="brb-bill-sub-title text-center">Bệnh viện Đại Học Y Dược TP.HCM</div>
                         <div class="brb-bill-sub-title-1 text-center">PHIẾU KHÁM BỆNH</div>
                         <h6 class="text-center">Lầu 1 - Khu A</h6>
-                        <h6 class="text-center">Phòng khám: Phòng 2</h6>
-                        <h6 class="text-center">Chuyên khoa: Thăm dò chức năng hô hấp</h6>
-                        <div class="brb-bill-number text-center">8</div>
-                        <p>Ngày khám: <span>03/03/2018</span> <i>buổi sáng</i></p>
-                        <p>Giờ khám dự kiến: <span>06: 30 - 07:30</span></p>
-                        <p>Họ tên: Nguyễn Quốc Huy</p>
-                        <p>Giới tính: Nam</p>
-                        <p>Năm sinh: 1984</p>
-                        <p>Tỉnh/TP: HCM</p>
-                        <p class="mg-bottom-2">Tiền khám: 160.000 đồng</p>
-                        <p>Số hồ sơ (Mã số bệnh nhân): <br><span>N17 - 3949333</span></p>
+                        <h6 class="text-center" id="bill-6-phongkham">Phòng khám: Phòng 2</h6>
+                        <h6 class="text-center">Chuyên khoa: <span id="bill-6-khoa">Thăm dò chức năng hô hấp</span></h6>
+                        <div class="brb-bill-number text-center">
+                          <script>
+                              document.write(Math.floor(Math.random() * 100) + 10);
+                          </script>
+                        </div>
+                        <p>Ngày khám: <span>03/03/2018</span> <span id="bill-6-buoi"><i>buổi sáng</i></span></p>
+                        <p>Giờ khám dự kiến: <span id="bill-6-giokham">06: 30 - 07:30</span></p>
+                        <p>Họ tên: <span class="bill-6-name">Nguyễn Quốc Huy</span></p>
+                        <p>Giới tính: <span class="bill-6-gioitinh">Nam</span></p>
+                        <p>Năm sinh: <span class="bill-6-year">1984</span></p>
+                        <p>Tỉnh/TP: <span class="bill-6-city">HCM</span></p>
+                        <p class="mg-bottom-2">Tiền khám: 150.000 đồng</p>
+                        <p>Số hồ sơ (Mã số bệnh nhân): <br><span class="bill-6-code">N17 - 3949333</span></p>
                         <img class="img-fluid d-inline-block img-bar-code" src="../images/app/barcode.png" />
                       </div>
                       <div class="btn btn-default">
@@ -219,22 +214,27 @@
                         In phiếu khám bệnh
                       </div>
                     </div>
+
                     <div class="col-md-6 brb-bill-hide brb-bill-hide-2">
                       <div class="brb-bill">
                         <div class="brb-bill-sub-title text-center">Bệnh viện Đại Học Y Dược TP.HCM</div>
                         <div class="brb-bill-sub-title-1 text-center">PHIẾU KHÁM BỆNH</div>
                         <h6 class="text-center">Lầu 1 - Khu A</h6>
-                        <h6 class="text-center">Phòng khám: Phòng 2</h6>
-                        <h6 class="text-center">Chuyên khoa: Thăm dò chức năng hô hấp</h6>
-                        <div class="brb-bill-number text-center">8</div>
-                        <p>Ngày khám: <span>03/03/2018</span> <i>buổi sáng</i></p>
-                        <p>Giờ khám dự kiến: <span>06: 30 - 07:30</span></p>
-                        <p>Họ tên: Nguyễn Quốc Huy</p>
-                        <p>Giới tính: Nam</p>
-                        <p>Năm sinh: 1984</p>
-                        <p>Tỉnh/TP: HCM</p>
-                        <p class="mg-bottom-2">Tiền khám: 160.000 đồng</p>
-                        <p>Số hồ sơ (Mã số bệnh nhân): <br><span>N17 - 3949333</span></p>
+                        <h6 class="text-center" id="bill-12-phongkham">Phòng khám: Phòng 2</h6>
+                        <h6 class="text-center">Chuyên khoa: <span id="bill-12-khoa">Thăm dò chức năng hô hấp</span></h6>
+                        <div class="brb-bill-number text-center">
+                          <script>
+                              document.write(Math.floor(Math.random() * 100) + 10);
+                          </script>
+                        </div>
+                        <p>Ngày khám: <span>03/03/2018</span> <span id="bill-12-buoi"><i>buổi sáng</i></span></p>
+                        <p>Giờ khám dự kiến: <span id="bill-12-giokham">06: 30 - 07:30</span></p>
+                        <p>Họ tên: <span class="bill-12-name">Nguyễn Quốc Huy</span></p>
+                        <p>Giới tính: <span class="bill-12-gioitinh">Nam</span></p>
+                        <p>Năm sinh: <span class="bill-12-year">1984</span></p>
+                        <p>Tỉnh/TP: <span class="bill-12-city">HCM</span></p>
+                        <p class="mg-bottom-2">Tiền khám: 150.000 đồng</p>
+                        <p>Số hồ sơ (Mã số bệnh nhân): <br><span class="bill-12-code">N17 - 3949333</span></p>
                         <img class="img-fluid d-inline-block img-bar-code" src="../images/app/barcode.png" />
                       </div>
                       <div class="btn btn-default">
@@ -242,22 +242,27 @@
                         In phiếu khám bệnh
                       </div>
                     </div>
+
                     <div class="col-md-6 brb-bill-hide brb-bill-hide-3">
                       <div class="brb-bill">
                         <div class="brb-bill-sub-title text-center">Bệnh viện Đại Học Y Dược TP.HCM</div>
                         <div class="brb-bill-sub-title-1 text-center">PHIẾU KHÁM BỆNH</div>
                         <h6 class="text-center">Lầu 1 - Khu A</h6>
-                        <h6 class="text-center">Phòng khám: Phòng 2</h6>
-                        <h6 class="text-center">Chuyên khoa: Thăm dò chức năng hô hấp</h6>
-                        <div class="brb-bill-number text-center">8</div>
-                        <p>Ngày khám: <span>03/03/2018</span> <i>buổi sáng</i></p>
-                        <p>Giờ khám dự kiến: <span>06: 30 - 07:30</span></p>
-                        <p>Họ tên: Nguyễn Quốc Huy</p>
-                        <p>Giới tính: Nam</p>
-                        <p>Năm sinh: 1984</p>
-                        <p>Tỉnh/TP: HCM</p>
-                        <p class="mg-bottom-2">Tiền khám: 160.000 đồng</p>
-                        <p>Số hồ sơ (Mã số bệnh nhân): <br><span>N17 - 3949333</span></p>
+                        <h6 class="text-center" id="bill-18-phongkham">Phòng khám: Phòng 2</h6>
+                        <h6 class="text-center">Chuyên khoa: <span id="bill-18-khoa">Thăm dò chức năng hô hấp</span></h6>
+                        <div class="brb-bill-number text-center">
+                          <script>
+                              document.write(Math.floor(Math.random() * 100) + 10);
+                          </script>
+                        </div>
+                        <p>Ngày khám: <span>03/03/2018</span> <span id="bill-18-buoi"><i>buổi sáng</i></span></p>
+                        <p>Giờ khám dự kiến: <span id="bill-18-giokham">06: 30 - 07:30</span></p>
+                        <p>Họ tên: <span class="bill-6-name">Nguyễn Quốc Huy</span></p>
+                        <p>Giới tính: <span class="bill-6-gioitinh">Nam</span></p>
+                        <p>Năm sinh: <span class="bill-6-year">1984</span></p>
+                        <p>Tỉnh/TP: <span class="bill-6-city">HCM</span></p>
+                        <p class="mg-bottom-2">Tiền khám: 150.000 đồng</p>
+                        <p>Số hồ sơ (Mã số bệnh nhân): <br><span class="bill-6-code">N17 - 3949333</span></p>
                         <img class="img-fluid d-inline-block img-bar-code" src="../images/app/barcode.png" />
                       </div>
                       <div class="btn btn-default">
@@ -265,6 +270,7 @@
                         In phiếu khám bệnh
                       </div>
                     </div>
+
                   </div>
                 </div>
 
@@ -274,7 +280,7 @@
                 <p class="mg-bottom-2">Bệnh nhân vào mục (Thông tin bệnh nhân)</p>
                 <p>Cảm ơn bạn đã sử dụng dịch vụ của <span>MEDPRO</span></p>
                 <div class="text-center">
-                  <button class="btn btn-success">ĐẶT LỊCH KHÁM KHÁC</button>
+                  <button class="btn btn-success">Quay về trang chủ</button>
                 </div>
               </div>
             </div>
@@ -355,6 +361,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.js"></script>
     <script src="../scripts/main.js"></script>
+    <script src="../scripts/user.js"></script>
     <script src="../scripts/booking.js"></script>
   </body>
 </html>

@@ -263,9 +263,6 @@
           background: #fff;
           margin: 0;
           border-radius: 5px;
-          tr.btn-booking-tr.hidden{
-            display: none;
-          }
         }
         tr{
           background: none;
@@ -363,6 +360,9 @@
     .table.calTable{
       margin-bottom: 0;
       tbody{
+        tr.btn-booking-tr.hidden{
+          display: none;
+        }
         td,th{
           width: 14.2857142857%;
           text-align: center;

@@ -54,7 +54,7 @@
               <li><a class="nav-top-mail" href="javascript:void(0)">info@medpro.vn</a></li>
               <li class="ml-auto">
                 <div class="nav-top-logged">
-                  0909881766
+                  <span id="nav-top-login">0909881766</span>
                   <ul class="nav-top-logged-dropdown dropdown-menu">
                     <li><a href="javascript:void(0)">Thông tin tài khoản</a></li>
                     <li><a href="javascript:void(0)">Thoát</a></li>
@@ -160,7 +160,7 @@
         <div class="group text-center">
           <h3>BỆNH NHÂN ĐÃ TỪNG KHÁM TẠI <span>BV ĐẠI HỌC Y DƯỢC</span> CHƯA?</h3>
           <a class="btn btn-default" href="javascript:void(0)" id="btn-datungkham" data-id="datungkham" role="tab" aria-controls="datungkham">Đã từng khám</a>
-          <a class="btn btn-default" href="javascript:void(0)" id="btn-chuatungkham" data-id="chuatungkham" aria-controls="chuatungkham">Chưa từng khám</a>
+          <a class="btn btn-default active" href="javascript:void(0)" id="btn-chuatungkham" data-id="chuatungkham" aria-controls="chuatungkham">Chưa từng khám</a>
           <div class="tab-content">
             <div class="tab-pane fade datungkham"role="tabpanel" aria-labelledby="btn-datungkham">
               <div class="tab-panel-group">
@@ -193,149 +193,118 @@
                 </div>
               </div>
             </div>
-            <div class="tab-pane fade chuatungkham active show" role="tabpanel" aria-labelledby="btn-chuatungkham">
+            <div class="tab-pane fade chuatungkham show active" role="tabpanel" aria-labelledby="btn-chuatungkham">
               <div class="tab-panel-group group-items-register">
-                <h2>ĐĂNG KÝ BỆNH NHÂN MỚI</h2>
+                <h2>ĐĂNG KÝ TÀI KHOẢN MỚI</h2>
                 <form>
                   <div class="row">
                     <div class="col-md-6">
                       <div class="form-group text-left">
-                        <label>Tên bệnh nhân <sup>*</sup></label>
-                        <input type="text" class="form-control" placeholder="vd: Lương" />
+                        <label>Tên bệnh nhân <span>(trường thông tin bắt buộc)</span></label>
+                        <input type="text" class="form-control" name="name" id="name" />
                       </div>
-                      <div class="form-group text-left">
-                        <label>Họ và tên lót <sup>*</sup></label>
-                        <input type="text" class="form-control" placeholder="vd: Nguyễn Thành" />
-                      </div>
-                      <div class="form-group text-left">
-                        <label>Số điện thoại <sup>*</sup></label>
-                        <input type="text" class="form-control" name="phone" />
-                      </div>
-                      <div class="form-group text-left">
-                        <label>Số CMND</label>
-                        <input type="text" class="form-control" name="phone" />
-                      </div>
-                      <div class="form-group text-left">
-                        <label>Địa chỉ email <sup>*</sup></label>
-                        <input type="text" class="form-control" name="email" />
-                      </div>
-                      <div class="form-group text-left">
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group form-group-icons text-left">
                         <label>Ngày tháng năm sinh</span></label>
-                        <div class="row">
-                          <div class="col-md-3 pd-right-0">
-                            <select class="form-control">
-                              <option>1</option>
-                              <option>2</option>
-                              <option>4</option>
-                              <option>5</option>
-                              <option>6</option>
-                              <option>7</option>
-                              <option>8</option>
-                              <option>9</option>
-                              <option>10</option>
-                              <option>11</option>
-                              <option>12</option>
-                              <option>13</option>
-                              <option>14</option>
-                              <option>15</option>
-                              <option>16</option>
-                              <option>17</option>
-                              <option>18</option>
-                              <option>19</option>
-                              <option>20</option>
-                              <option>21</option>
-                              <option>22</option>
-                              <option>23</option>
-                            </select>
-                          </div>
-                          <div class="col-md-6">
-                            <select class="form-control">
-                              <option>Tháng 1</option>
-                              <option>Tháng 2</option>
-                              <option>Tháng 3</option>
-                              <option>Tháng 4</option>
-                              <option>Tháng 5</option>
-                              <option>Tháng 6</option>
-                              <option>Tháng 7</option>
-                              <option>Tháng 8</option>
-                              <option>Tháng 9</option>
-                              <option>Tháng 10</option>
-                              <option>Tháng 11</option>
-                              <option>Tháng 12</option>
-                            </select>
-                          </div>
-                          <div class="col-md-3 pd-left-0">
-                            <select class="form-control">
-                              <option>2000</option>
-                              <option>2001</option>
-                              <option>2002</option>
-                            </select>
-                          </div>
-                        </div>
+                        <input type="text" class="form-control birthday" id="birthday" name="birthday" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group text-left">
+                        <label>Số điện thoại <span>(trường thông tin bắt buộc)</span></label>
+                        <input type="text" class="form-control" name="phone" id="phone" />
                       </div>
                     </div>
                     <div class="col-md-6">
                       <div class="form-group text-left">
-                        <label class="d-block">Giới tính <sup>*</sup></label>
-                        <div class="form-check form-check-inline">
-                          <label class="form-check-label">
-                            <input class="form-check-input height-11" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Nam
-                            <i class="fas fa-male"></i>
-                          </label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                          <label class="form-check-label">
-                            <input class="form-check-input height-11" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Nữ
-                            <i class="fas fa-female"></i>
-                          </label>
-                        </div>
-                      </div>
-                      <div class="form-group text-left">
-                        <label>Chọn quốc gia <sup>*</sup></label>
-                        <select class="form-control">
-                          <option>Việt Nam</option>
-                          <option>Indonesia</option>
-                          <option>Lào</option>
-                          <option>Thái Lan</option>
+                        <label>Giới tính <span>(trường thông tin bắt buộc)</span></label>
+                        <select class="form-control" id="gender" name="gender">
+                          <option value="1">Nam</option>
+                          <option value="0">Nữ</option>
                         </select>
-                      </div>
-                      <div class="form-group text-left">
-                        <label>Dân tộc <sup>*</sup></label>
-                        <select class="form-control">
-                          <option>Kinh</option>
-                          <option>Hoa</option>
-                          <option>Tày</option>
-                          <option>Thái</option>
-                        </select>
-                      </div>
-                      <div class="form-group text-left">
-                        <label>Chọn tỉnh thành<sup>*</sup></label>
-                        <select class="form-control">
-                          <option>TP.HCM</option>
-                          <option>Hà Nội</option>
-                          <option>Thái Nguyên</option>
-                          <option>Đà Nẵng</option>
-                        </select>
-                      </div>
-                      <div class="form-group text-left">
-                        <label>Chọn quận huyện<sup>*</sup></label>
-                        <select class="form-control">
-                          <option>Quận 3</option>
-                          <option>Quận 4</option>
-                          <option>Quận 5</option>
-                          <option>Quận 6</option>
-                        </select>
-                      </div>
-                      <div class="form-group text-left">
-                        <label>Địa chỉ thường trú <sup>*</sup></label>
-                        <input type="text" class="form-control" />
                       </div>
                     </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group text-left">
+                        <label>Số CMND <span>(trường thông tin bắt buộc)</span></label>
+                        <input type="text" class="form-control" name="cmnd" id="cmnd" />
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group text-left">
+                        <label>Chọn tỉnh thành</span></label>
+                        <select id="city" class="form-control">
+                          <option value="TP.HCM">TP.HCM</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group text-left">
+                        <label>Địa chỉ email <span>(trường thông tin bắt buộc)</span></label>
+                        <input type="text" class="form-control" name="email" id="email" />
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group text-left">
+                        <label>Chọn Quận/Huyện</span></label>
+                        <select class="form-control" id="district">
+                          <option value="Quận 1">Quận 1</option>
+                          <option value="Quận 2">Quận 2</option>
+                          <option value="Quận 3">Quận 3</option>
+                          <option value="Quận 4">Quận 4</option>
+                          <option value="Quận 5">Quận 5</option>
+                          <option value="Quận 6">Quận 6</option>
+                          <option value="Quận 7">Quận 7</option>
+                          <option value="Quận 8">Quận 8</option>
+                          <option value="Quận 9">Quận 9</option>
+                          <option value="Quận 10">Quận 10</option>
+                          <option value="Quận 11">Quận 11</option>
+                          <option value="Quận 12">Quận 12</option>
+                          <option value="Quận Thủ Đức">Quận Thủ Đức</option>
+                          <option value="Quận Gò Vấp">Quận Gò Vấp</option>
+                          <option value="Quận Bình Thạnh">Quận Bình Thạnh</option>
+                          <option value="Quận Tân Bình">Quận Tân Bình</option>
+                          <option value="Quận Tân Phú">Quận Tân Phú</option>
+                          <option value="Quận Phú Nhuận">Quận Phú Nhuận</option>
+                          <option value="Quận Bình Tân">Quận Bình Tân</option>
+                          <option value="Huyện Củ Chi">Huyện Củ Chi</option>
+                          <option value="Huyện Hóc Môn">Huyện Hóc Môn</option>
+                          <option value="Huyện Bình Chánh">Huyện Bình Chánh</option>
+                          <option value="Huyện Nhà Bè">Huyện Nhà Bè</option>
+                          <option value="Huyện Cần Giờ">Huyện Cần Giờ</option>
+                        </select>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group text-left">
+                        <label>Dân tộc</label>
+                        <input type="text" class="form-control" name="dantoc" id="dantoc" value="Kinh" />
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="form-group text-left">
+                        <label>Địa chỉ</label>
+                        <input type="text" class="form-control" value="97 Trần Quang Diệu , Phường 14, Quận 03,Tp.Hồ Chí Minh" name="address" id="address"/>
+                      </div>
+                    </div>
+
                   </div>
 
                   <div class="form-check text-left">
                     <label class="form-check-label">
-                      <input type="checkbox" class="form-check-input">
+                      <input type="checkbox"  id="CheckTerm" value="0" class="form-check-input">
                       Tôi đồng ý với các <a href="javascript:void(0)">điều khoản & quy định</a> của Medpro
                     </label>
                   </div>
@@ -348,7 +317,7 @@
                   <div class="row">
                     <div class="col-md-6 mx-auto">
                       <div class="form-group">
-                        <button type="submit" class="btn btn-info">Xác nhận</button>
+                        <button type="button" id="CreateNew" class="btn btn-info">Xác nhận</button>
                       </div>
                     </div>
                   </div>
@@ -429,10 +398,12 @@
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
     <script src="scripts/main.js"></script>
+    <script src="scripts/user.js"></script>
     <script src="scripts/logged-step.js"></script>
   </body>
 </html>

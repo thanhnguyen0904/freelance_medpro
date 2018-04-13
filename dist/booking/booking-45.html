@@ -53,7 +53,7 @@
             <li><a class="nav-top-mail" href="javascript:void(0)">info@medpro.vn</a></li>
             <li class="ml-auto">
               <div class="nav-top-logged">
-                0909881766
+                <span id="nav-top-login">0909881766</span>
                 <ul class="nav-top-logged-dropdown dropdown-menu">
                   <li><a href="javascript:void(0)">Thông tin tài khoản</a></li>
                   <li><a href="javascript:void(0)">Thoát</a></li>
@@ -156,9 +156,9 @@
           <div class="col-md-4 col-lg-3">
             <div class="booking-left-menu">
               <div class="booking-left-menu-top">
-                <div class="blmt-name">NGUYỄN QUỐC HUY (N17 - 123123)</div>
-                <div class="blmt-info">Địa chỉ: Nguyễn Văn Cừ, Phường 1, Quận 3, Thành phố Hồ Chí Minh</div>
-                <div class="blmt-info">Điện thoại: 0909342342</div>
+                <div class="blmt-name" id="blmt-name">NGUYỄN QUỐC HUY (N17 - 123123)</div>
+                <div class="blmt-info" id="blmt-address">Địa chỉ: Nguyễn Văn Cừ, Phường 1, Quận 3, Thành phố Hồ Chí Minh</div>
+                <div class="blmt-info" id="blmt-phone">Điện thoại: 0909342342</div>
                 <!--<form>-->
                   <!--<div class="form-group">-->
                     <!--<select class="form-control">-->
@@ -169,6 +169,13 @@
                     <!--</select>-->
                   <!--</div>-->
                 <!--</form>-->
+              </div>
+              <div class="booking-left-menu-ordered">
+                <div class="blmp-name">LỊCH KHÁM ĐÃ ĐẶT</div>
+                <p><i class="fas fa-address-book"></i><span></span></p>
+                <p><i class="fas fa-user-md"></i><span></span></p>
+                <p><i class="far fa-calendar-check"></i><span></span></p>
+                <p><i class="far fa-clock"></i><span></span></p>
               </div>
               <div class="booking-left-menu-process">
                 <div class="blmp-name">QUY TRÌNH ĐẶT LỊCH</div>
@@ -203,18 +210,18 @@
                   <i class="fas fa-angle-left"></i>
                   <img class="img-fluid" src="../images/booking/hoso.png" />
                   <div class="brt-cont-right">
-                    <div class="brt-cont-name">THS CK1 - THS - TRẦN THỊ THU VÂN</div>
+                    <div class="brt-cont-name">ThS Ck1 - ThS - Trần Thị Thu Vân</div>
                     <div class="brt-cont-code"><span>phòng khám 01</span>/ <span class="font-weight-bold">CẢ NGÀY</span></div>
                   </div>
                 </div>
                 <div class="brt-cont-hide">
                   <ul>
-                    <li><a class="active active-full" href="javascript:void(0)">06:30</a></li>
-                    <li><a href="javascript:void(0)">06:30 - 07:30</a></li>
+                    <li><a class="active active-full" href="javascript:void(0)">06:30 - 07:30</a></li>
                     <li><a href="javascript:void(0)">07:30 - 08:30</a></li>
                     <li><a href="javascript:void(0)">08:30 - 09:30</a></li>
                     <li><a href="javascript:void(0)">09:30 - 10:30</a></li>
                     <li><a href="javascript:void(0)">10:30 - 11:30</a></li>
+                    <li><a href="javascript:void(0)">11:30 - 12:30</a></li>
                     <li><a href="javascript:void(0)">13:30 - 14:30</a></li>
                     <li><a href="javascript:void(0)">14:30 - 15:30</a></li>
                     <li><a href="javascript:void(0)">15:30 - 16:30</a></li>
@@ -227,18 +234,18 @@
                   <i class="fas fa-angle-left"></i>
                   <img class="img-fluid" src="../images/booking/hoso.png" />
                   <div class="brt-cont-right">
-                    <div class="brt-cont-name">THS CK1 - THS - HUỲNH THỊ PHƯƠNG DUNG</div>
+                    <div class="brt-cont-name">ThS Ck1 - ThS - Huỳnh Thị Phương Dung</div>
                     <div class="brt-cont-code"><span>phòng khám 02</span>/ <span class="font-weight-bold">CẢ NGÀY</span></div>
                   </div>
                 </div>
                 <div class="brt-cont-hide">
                   <ul>
-                    <li><a href="javascript:void(0)">06:30</a></li>
-                    <li><a href="javascript:void(0)">06:30 - 07:30</a></li>
+                    <li><a class="active active-full" href="javascript:void(0)">06:30 - 07:30</a></li>
                     <li><a href="javascript:void(0)">07:30 - 08:30</a></li>
                     <li><a href="javascript:void(0)">08:30 - 09:30</a></li>
-                    <li><a class="active active-full" href="javascript:void(0)">09:30 - 10:30</a></li>
+                    <li><a href="javascript:void(0)">09:30 - 10:30</a></li>
                     <li><a href="javascript:void(0)">10:30 - 11:30</a></li>
+                    <li><a href="javascript:void(0)">11:30 - 12:30</a></li>
                     <li><a href="javascript:void(0)">13:30 - 14:30</a></li>
                     <li><a href="javascript:void(0)">14:30 - 15:30</a></li>
                     <li><a href="javascript:void(0)">15:30 - 16:30</a></li>
@@ -251,20 +258,20 @@
                   <i class="fas fa-angle-left"></i>
                   <img class="img-fluid" src="../images/booking/hoso.png" />
                   <div class="brt-cont-right">
-                    <div class="brt-cont-name">THS CK1 - THS - NGUYỄN THỊ HỒNG THẮM</div>
+                    <div class="brt-cont-name">ThS Ck1 - ThS - Nguyễn Thị Hồng Thắm</div>
                     <div class="brt-cont-code"><span>phòng khám 03</span>/ <span class="font-weight-bold">CẢ NGÀY</span></div>
                   </div>
                 </div>
                 <div class="brt-cont-hide">
                   <ul>
-                    <li><a href="javascript:void(0)">06:30</a></li>
-                    <li><a href="javascript:void(0)">06:30 - 07:30</a></li>
-                    <li><a class="active active-full" href="javascript:void(0)">07:30 - 08:30</a></li>
+                    <li><a class="active active-full" href="javascript:void(0)">06:30 - 07:30</a></li>
+                    <li><a href="javascript:void(0)">07:30 - 08:30</a></li>
                     <li><a href="javascript:void(0)">08:30 - 09:30</a></li>
-                    <li><a class="active active-full" href="javascript:void(0)">09:30 - 10:30</a></li>
+                    <li><a href="javascript:void(0)">09:30 - 10:30</a></li>
                     <li><a href="javascript:void(0)">10:30 - 11:30</a></li>
+                    <li><a href="javascript:void(0)">11:30 - 12:30</a></li>
                     <li><a href="javascript:void(0)">13:30 - 14:30</a></li>
-                    <li><a class="active active-full" href="javascript:void(0)">14:30 - 15:30</a></li>
+                    <li><a href="javascript:void(0)">14:30 - 15:30</a></li>
                     <li><a href="javascript:void(0)">15:30 - 16:30</a></li>
                     <li><a href="javascript:void(0)">16:30 - 17:30</a></li>
                   </ul>
@@ -362,6 +369,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.js"></script>
     <script src="../scripts/main.js"></script>
+    <script src="../scripts/user.js"></script>
     <script src="../scripts/booking.js"></script>
   </body>
 </html>

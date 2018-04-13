@@ -33,10 +33,11 @@
     #section-booking-3 .booking-left-menu .booking-left-menu-top .blmt-name, #section-booking-45 .booking-left-menu .booking-left-menu-top .blmt-name,
     #section-booking-6 .booking-left-menu .booking-left-menu-top .blmt-name, #section-booking-9 .booking-left-menu .booking-left-menu-top .blmt-name,
     #section-booking-10 .booking-left-menu .booking-left-menu-top .blmt-name, #section-booking-78 .booking-left-menu .booking-left-menu-top .blmt-name {
-      font-size: 13px;
+      font-size: 14px;
       font-weight: bold;
       color: #3c3c3c;
-      margin-bottom: 15px; }
+      margin-bottom: 15px;
+      text-transform: uppercase; }
     #section-booking-3 .booking-left-menu .booking-left-menu-top .blmt-info, #section-booking-45 .booking-left-menu .booking-left-menu-top .blmt-info,
     #section-booking-6 .booking-left-menu .booking-left-menu-top .blmt-info, #section-booking-9 .booking-left-menu .booking-left-menu-top .blmt-info,
     #section-booking-10 .booking-left-menu .booking-left-menu-top .blmt-info, #section-booking-78 .booking-left-menu .booking-left-menu-top .blmt-info {
@@ -1371,10 +1372,11 @@
       #section-booking-3 .booking-right-payment .brp-right h5, #section-booking-45 .booking-right-payment .brp-right h5,
       #section-booking-6 .booking-right-payment .brp-right h5, #section-booking-9 .booking-right-payment .brp-right h5,
       #section-booking-10 .booking-right-payment .brp-right h5, #section-booking-78 .booking-right-payment .brp-right h5 {
-        font-weight: 400;
+        font-weight: 700;
         padding: 0 15px;
         font-size: 15px;
-        margin-bottom: 0; }
+        margin-bottom: 0;
+        margin-top: 10px; }
     #section-booking-3 .booking-right-payment input, #section-booking-45 .booking-right-payment input,
     #section-booking-6 .booking-right-payment input, #section-booking-9 .booking-right-payment input,
     #section-booking-10 .booking-right-payment input, #section-booking-78 .booking-right-payment input {

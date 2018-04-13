@@ -53,7 +53,7 @@
             <li><a class="nav-top-mail" href="javascript:void(0)">info@medpro.vn</a></li>
             <li class="ml-auto">
               <div class="nav-top-logged">
-                0909881766
+                <span id="nav-top-login">0909881766</span>
                 <ul class="nav-top-logged-dropdown dropdown-menu">
                   <li><a href="javascript:void(0)">Thông tin tài khoản</a></li>
                   <li><a href="javascript:void(0)">Thoát</a></li>
@@ -156,19 +156,9 @@
           <div class="col-md-4 col-lg-3">
             <div class="booking-left-menu">
               <div class="booking-left-menu-top">
-                <div class="blmt-name">NGUYỄN QUỐC HUY (N17 - 123123)</div>
-                <div class="blmt-info">Địa chỉ: Nguyễn Văn Cừ, Phường 1, Quận 3, Thành phố Hồ Chí Minh</div>
-                <div class="blmt-info">Điện thoại: 0909342342</div>
-                <form>
-                  <div class="form-group">
-                    <select class="form-control">
-                      <option disabled selected>Đổi hồ sơ bệnh nhân</option>
-                      <option>Bệnh nhân A</option>
-                      <option>Bệnh nhân B</option>
-                      <option>Bệnh nhân C</option>
-                    </select>
-                  </div>
-                </form>
+                <div class="blmt-name" id="blmt-name">NGUYỄN QUỐC HUY (N17 - 123123)</div>
+                <div class="blmt-info" id="blmt-address">Địa chỉ: Nguyễn Văn Cừ, Phường 1, Quận 3, Thành phố Hồ Chí Minh</div>
+                <div class="blmt-info" id="blmt-phone">Điện thoại: 0909342342</div>
               </div>
               <div class="booking-left-menu-process">
                 <div class="blmp-name">QUY TRÌNH ĐẶT LỊCH</div>
@@ -195,25 +185,53 @@
               <div class="row">
                 <div class="col-lg-4 order-lg-2">
                   <div class="brp-right">
-                    <p>Nguyễn Quốc Huy</p>
-                    <p>SĐT: +84 909343232</p>
-                    <p>Email: quochuyen332@gmail.com</p>
+                    <p id="pay-name">Nguyễn Quốc Huy</p>
+                    <p id="pay-phone">SĐT: +84 909343232</p>
+                    <p id="pay-email">Email: quochuyen332@gmail.com</p>
                     <hr>
                     <h4>HÓA ĐƠN THANH TOÁN</h4>
-                    <div class="d-flex">
-                      <p class="df-l">Chuyên khoa</p>
-                      <p class="df-r">Thăm dò chức năng hô hấp</p>
-                    </div>
-                    <div class="d-flex">
-                      <p class="df-l">Tiền khám</p>
-                      <p class="df-r">160.000 vnđ</p>
-                    </div>
+
+                   <div id="Book-6" style="display: none">
+                       <div class="d-flex">
+                           <p class="df-l">Chuyên khoa</p>
+                           <p class="df-r" id="Book-6-khoa">Thăm dò chức năng hô hấp</p>
+                       </div>
+                       <div class="d-flex">
+                           <p class="df-l">Tiền khám</p>
+                           <p class="df-r" id="Book-6-money">160.000 vnđ</p>
+                       </div>
+                   </div>
+
+                      <hr id="Hr-Book-6">
+                      <div id="Book-12" style="display: none">
+                          <div class="d-flex">
+                              <p class="df-l">Chuyên khoa</p>
+                              <p class="df-r" id="Book-12-khoa">Thăm dò chức năng hô hấp</p>
+                          </div>
+                          <div class="d-flex">
+                              <p class="df-l">Tiền khám</p>
+                              <p class="df-r" id="Book-12-money">160.000 vnđ</p>
+                          </div>
+                      </div>
+
+                      <hr id="Hr-Book-12">
+                      <div id="Book-18" style="display: none">
+                          <div class="d-flex">
+                              <p class="df-l">Chuyên khoa</p>
+                              <p class="df-r" id="Book-18-khoa">Thăm dò chức năng hô hấp</p>
+                          </div>
+                          <div class="d-flex">
+                              <p class="df-l">Tiền khám</p>
+                              <p class="df-r" id="Book-18-money">160.000 vnđ</p>
+                          </div>
+                      </div>
+
+
                     <div class="d-flex">
                       <p class="df-l">Phí đăng ký</p>
                       <p class="df-r">10.000 vnđ</p>
                     </div>
-                    <hr>
-                    <h5 class="text-right">TỔNG CỘNG: 160.000 VNĐ</h5>
+                    <h5 class="text-right" id="TotalPayVi">TỔNG CỘNG: 160.0000 VNĐ</h5>
                   </div>
                 </div>
                 <div class="col-lg-8 order-lg-1">
@@ -397,8 +415,8 @@
                   </div>
                 </div>
               </div>
-              <div class="brp-payment-btn text-right">
-                <button class="btn btn-info">THANH TOÁN</button>
+              <div class="brp-payment-btn text-right" id="DisplayPayMent" style="display: none">
+                <button class="btn btn-info" onclick="window.location.href ='/booking/booking-10.html';">THANH TOÁN</button>
               </div>
             </div>
           </div>
@@ -473,10 +491,12 @@
   </footer>
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.js"></script>
     <script src="../scripts/main.js"></script>
+    <script src="../scripts/user.js"></script>
     <script src="../scripts/booking.js"></script>
   </body>
 </html>
