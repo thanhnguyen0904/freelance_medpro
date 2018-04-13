@@ -719,8 +719,9 @@
       #section-booking-6 .booking-right-time .brt-top .brt-btn, #section-booking-9 .booking-right-time .brt-top .brt-btn,
       #section-booking-10 .booking-right-time .brt-top .brt-btn, #section-booking-78 .booking-right-time .brt-top .brt-btn {
         font-size: 10px;
-        padding: 5px 8px;
-        transition: all .2s ease; }
+        padding: 6px 10px 2px;
+        transition: all .2s ease;
+        border-radius: 2px; }
         @media screen and (max-width: 500px) {
           #section-booking-3 .booking-right-time .brt-top .brt-btn, #section-booking-45 .booking-right-time .brt-top .brt-btn,
           #section-booking-6 .booking-right-time .brt-top .brt-btn, #section-booking-9 .booking-right-time .brt-top .brt-btn,
@@ -750,9 +751,8 @@
         #section-booking-3 .booking-right-time .brt-top .brt-btn.brt-btn-3, #section-booking-45 .booking-right-time .brt-top .brt-btn.brt-btn-3,
         #section-booking-6 .booking-right-time .brt-top .brt-btn.brt-btn-3, #section-booking-9 .booking-right-time .brt-top .brt-btn.brt-btn-3,
         #section-booking-10 .booking-right-time .brt-top .brt-btn.brt-btn-3, #section-booking-78 .booking-right-time .brt-top .brt-btn.brt-btn-3 {
-          color: #f26522;
-          border: 1px solid #f26522;
-          background: #fff; }
+          color: #fff;
+          background: #f26522; }
     #section-booking-3 .booking-right-time .btn.btn-info, #section-booking-45 .booking-right-time .btn.btn-info,
     #section-booking-6 .booking-right-time .btn.btn-info, #section-booking-9 .booking-right-time .btn.btn-info,
     #section-booking-10 .booking-right-time .btn.btn-info, #section-booking-78 .booking-right-time .btn.btn-info {
@@ -1708,7 +1708,7 @@
               display: -webkit-flex;
               display: -ms-flexbox;
               display: flex;
-              transition: all .3s ease; }
+              transition: all .2s ease; }
               #section-booking-3 .booking-right-payment .brp-left .form-group .brp-atm-group ul li a:hover, #section-booking-3 .booking-right-payment .brp-left .form-group .brp-atm-group ul li a:focus, #section-booking-3 .booking-right-payment .brp-left .form-group .brp-atm-group ul li a.active, #section-booking-45 .booking-right-payment .brp-left .form-group .brp-atm-group ul li a:hover, #section-booking-45 .booking-right-payment .brp-left .form-group .brp-atm-group ul li a:focus, #section-booking-45 .booking-right-payment .brp-left .form-group .brp-atm-group ul li a.active,
               #section-booking-6 .booking-right-payment .brp-left .form-group .brp-atm-group ul li a:hover,
               #section-booking-6 .booking-right-payment .brp-left .form-group .brp-atm-group ul li a:focus,
@@ -1716,7 +1716,8 @@
               #section-booking-10 .booking-right-payment .brp-left .form-group .brp-atm-group ul li a:hover,
               #section-booking-10 .booking-right-payment .brp-left .form-group .brp-atm-group ul li a:focus,
               #section-booking-10 .booking-right-payment .brp-left .form-group .brp-atm-group ul li a.active, #section-booking-78 .booking-right-payment .brp-left .form-group .brp-atm-group ul li a:hover, #section-booking-78 .booking-right-payment .brp-left .form-group .brp-atm-group ul li a:focus, #section-booking-78 .booking-right-payment .brp-left .form-group .brp-atm-group ul li a.active {
-                background: #48a7f2; }
+                border: 1px dashed #48a7f2;
+                background: #f9f9f9; }
     #section-booking-3 .booking-right-payment .brp-payment-btn, #section-booking-45 .booking-right-payment .brp-payment-btn,
     #section-booking-6 .booking-right-payment .brp-payment-btn, #section-booking-9 .booking-right-payment .brp-payment-btn,
     #section-booking-10 .booking-right-payment .brp-payment-btn, #section-booking-78 .booking-right-payment .brp-payment-btn {
@@ -1814,7 +1815,7 @@
   margin: 0; }
   #section-booking-45 .brc-btn p {
     color: #3c3c3c;
-    font-size: 14px;
+    font-size: 12px;
     margin-bottom: 0; }
     @media screen and (max-width: 991px) {
       #section-booking-45 .brc-btn p {
@@ -1839,15 +1840,15 @@
     border: 1px solid #48a7f2;
     background: transparent;
     position: relative;
-    padding: 12px 30px !important;
+    padding: 12px 28px !important;
     display: inline-block !important;
     width: auto !important;
     transition: all .3s ease;
     white-space: normal; }
     #section-booking-45 .brc-btn .btn-default i {
       position: absolute !important;
-      right: 15px;
-      top: 14px !important; }
+      right: 12px;
+      top: 20px !important; }
   #section-booking-45 .brc-btn .btn-info {
     width: 100%; }
 

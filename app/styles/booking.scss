@@ -565,8 +565,9 @@
       }
       .brt-btn{
         font-size: 10px;
-        padding: 5px 8px;
+        padding: 6px 10px 2px;
         transition: all .2s ease;
+        border-radius: 2px;
         @media screen and (max-width: 500px){
           display: block;
           margin-bottom: 10px;
@@ -588,9 +589,9 @@
           }
         }
         &.brt-btn-3{
-          color: #f26522;
-          border: 1px solid #f26522;
-          background: #fff;
+          color: #fff;
+          // border: 1px solid #f26522;
+          background: #f26522;
         }
       }
     }
@@ -1356,9 +1357,10 @@
                 height: 100%;
                 align-items: center;
                 display: flex;
-                transition: all .3s ease;
+                transition: all .2s ease;
                 &:hover, &:focus, &.active{
-                  background: rgba(72,167,242,1);
+                  border: 1px dashed #48a7f2;
+                  background: #f9f9f9;
                 }
               }
             }
@@ -1486,7 +1488,7 @@
     margin: 0;
     p{
       color: #3c3c3c;
-      font-size: 14px;
+      font-size: 12px;
       margin-bottom: 0;
       @media screen and (max-width: 991px){
         margin-bottom: 15px;
@@ -1517,15 +1519,15 @@
       border: 1px solid #48a7f2;
       background: transparent;
       position: relative;
-      padding: 12px 30px !important;
+      padding: 12px 28px !important;
       display: inline-block !important;
       width: auto !important;
       transition: all .3s ease;
       white-space: normal;
       i{
         position: absolute !important;
-        right: 15px;
-        top: 14px !important;
+        right: 12px;
+        top: 20px !important;
       }
     }
     .btn-info{
