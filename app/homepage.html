@@ -51,7 +51,7 @@
             <ul class="d-flex">
               <li><a class="nav-top-phone" href="javascript:void(0)">+84 562354900</a></li>
               <li><a class="nav-top-mail" href="javascript:void(0)">info@medpro.vn</a></li>
-              <li class="ml-auto"><a class="nav-top-login" href="javascript:void(0)">Đăng nhập</a></li>
+              <li class="ml-auto" id="LoginHome"><a class="nav-top-login" id="nav-top-login" href="javascript:void(0)">Đăng nhập</a></li>
             </ul>
           </div>
         </div>
@@ -77,7 +77,7 @@
                   <a class="nav-menu-item" href="javascript:void(0)">liên hệ</a>
                 </li>
                 <li>
-                  <a class="btn btn-success" href="/booking/booking-123.html">đặt lịch khám</a>
+                  <a class="btn btn-success" href="/booking/booking-1.html">đặt lịch khám</a>
                 </li>
               </ul>
             </div>
@@ -130,7 +130,7 @@
               Với hệ thống đặt chỗ mới, bạn sẽ không lo về điều đó, hãy trải nghiệm và tận hưởng dịch vụ tốt nhất
             </div>
             <a class="btn btn-success" href="javascript:void(0)">đăng ký khám theo bác sĩ</a>
-            <a class="btn btn-success" href="javascript:void(0)">đăng ký khám theo ngày</a>
+            <a class="btn btn-success" href="/booking/booking-123.html">đăng ký khám theo ngày</a>
           </div>
         </div>
       </div>
@@ -320,11 +320,45 @@
       </div>
     </footer>
 
+
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Đăng nhập MedPro</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Nhập số điện thoại di động</label>
+                <input type="text" class="form-control" id="exampleInputEmail1"  placeholder="Nhập số điện thoại">
+              </div>
+            </form>
+
+            <div style="display: none" id="MessageSuccess" class="alert alert-success" role="alert">
+              Đăng nhập thành công
+            </div>
+
+            <div style="display: none" id="MessageError" class="alert alert-danger" role="alert">
+              Vui lòng nhập số điện thoại
+            </div>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" id="GoLogin">Tiếp</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
     <script src="scripts/main.js"></script>
-    <script src="scripts/clear-cookie.js"></script>
+    <script src="scripts/user.js"></script>
   </body>
 </html>

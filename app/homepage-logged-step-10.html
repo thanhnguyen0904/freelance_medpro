@@ -165,7 +165,8 @@
             </div>
           </div>
           <div class="col-md-8 col-lg-9">
-            <div class="group-dashed group-dashed-success">
+
+            <div id="SuccessFinish" style="display: none" class="group-dashed group-dashed-success">
               <i class="fas fa-info-circle"></i>
               <div>
                 Hồ sơ bệnh nhân đã được cập nhật thành công
@@ -174,78 +175,67 @@
                 <i class="fas fa-times"></i>
               </button>
             </div>
+
             <div class="group group-files-update">
               <div class="row">
                 <div class="col-xl-9">
                   <form>
                     <div class="form-group">
                       <label class="gfu-name">Tên bệnh nhân</label>
-                      <input type="text" class="form-control" value="NGUYỄN QUỐC HUY" />
+                      <input type="text" name="name" id="name" class="form-control" value="NGUYỄN QUỐC HUY" />
                     </div>
                     <div class="form-group">
                       <label class="gfu-name">Mã bệnh nhân</label>
-                      <div class="input-value">N17-37427346</div>
+                      <div class="input-value" id="code">N17-37427346</div>
                     </div>
                     <div class="form-group">
                       <label class="gfu-name">Ngày tháng năm sinh</label>
                       <ul class="gfu-ul">
                         <li>
-                          <select class="form-control">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
+                          <select class="form-control" id="date">
                           </select>
                         </li>
                         <li>
-                          <select class="form-control">
-                            <option>Tháng 1</option>
-                            <option>Tháng 2</option>
-                            <option>Tháng 3</option>
-                          </select>
+                          <select class="form-control" id="month"></select>
                         </li>
                         <li>
-                          <select class="form-control">
-                            <option>1990</option>
-                            <option>1991</option>
-                            <option>1992</option>
-                          </select>
+                          <select class="form-control" id="year"></select>
                         </li>
                       </ul>
                     </div>
                     <div class="form-group">
                       <label class="gfu-name">Số điện thoại</label>
-                      <input type="text" class="form-control" value="0933993344" />
+                      <input type="text" id="phone" name="phone" class="form-control" value="0933993344" />
                     </div>
                     <div class="form-group">
                       <label class="gfu-name">Số CMND</label>
-                      <div class="input-value">37427346</div>
+                      <div class="input-value" id="cmnd">37427346</div>
                     </div>
                     <div class="form-group">
                       <label class="gfu-name">Địa chỉ email</label>
-                      <input type="text" class="form-control" value="test@gmail.com" />
+                      <input type="text" id="email" name="email" class="form-control" value="test@gmail.com" />
                     </div>
                     <div class="form-group">
                       <label class="gfu-name">Giới tính</label>
                       <div class="form-check form-check-inline">
                         <label class="form-check-label">
-                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Nam
+                          <input class="form-check-input" type="radio"  name="inlineRadioOptions" id="male" value="1"> Nam
                         </label>
                       </div>
                       <div class="form-check form-check-inline">
                         <label class="form-check-label">
-                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Nữ
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="female" value="0"> Nữ
                         </label>
                       </div>
                     </div>
                     <div class="form-group">
                       <label class="gfu-name">Địa chỉ</label>
-                      <input type="text" class="form-control" value="43 Nguyễn Văn Cừ, phường 4, quận 3" />
+                      <input type="text" id="address" name="address" class="form-control" value="43 Nguyễn Văn Cừ, phường 4, quận 3" />
                     </div>
                     <div class="form-group">
                       <label class="gfu-name">Tỉnh/ Thành phố</label>
                       <select class="form-control">
                         <option>TP.HCM</option>
-                        <option>Hà Nội</option>
                       </select>
                     </div>
                     <div class="form-group">
@@ -259,7 +249,7 @@
                     </div>
                     <div class="form-group">
                       <label class="gfu-name"></label>
-                      <div class="btn btn-info">Xác nhận</div>
+                      <div class="btn btn-info" id="UpdatePatient">Cập nhật</div>
                     </div>
                   </form>
                 </div>
@@ -340,6 +330,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
     <script src="scripts/main.js"></script>
+    <script src="scripts/user.js"></script>
     <script src="scripts/logged-step.js"></script>
   </body>
 </html>

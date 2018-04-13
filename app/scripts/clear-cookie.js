@@ -2,7 +2,8 @@
 (function ($) {
   'use strict'
 
-  $(document).ready(function () {
+  $(document).ready(function ()
+  {
     console.log($.cookie());
     $.removeCookie('1');
     $.removeCookie('2');

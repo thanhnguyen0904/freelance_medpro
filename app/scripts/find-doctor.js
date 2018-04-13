@@ -8,6 +8,8 @@
     $.cookie('17', 'Phòng khám 04');
 
     $('#section-find-doctor-2 .booking-right-calendar table tr td button').on('click', function() {
+      ($(this).parents('tr').find('button').hasClass('active')) ? $(this).parents('tr').find('button').removeClass('active') : '';
+      ($(this).parents('tr').find('td').hasClass('active')) ? $(this).parents('tr').find('td').removeClass('active') : '';
       $.cookie('ngay3', $(this).text());
       $(this).addClass('active');
       $(this).parent().addClass('active');
@@ -30,21 +32,5 @@
       ($('.brc-btn').hasClass('show')) ? $('.brc-btn').removeClass('show') : '';
     })
 
-    $('.booking-right-calendar table.calTable tr td button').on('click', function(){
-      if(!$(this).hasClass('btn-booking-calendar-disable')){
-        if($(this).parents('tbody').find('td').hasClass('active')){
-          $(this).parents('tbody').find('td').removeClass('active')
-          $(this).parents('tbody').find('td button').removeClass('active')
-          if($(this).parents('tbody').find('tr').hasClass('show')){
-            $(this).parents('tbody').find('tr.show').removeClass('show')
-            $(this).parents('tbody').find('tr').find('.brc-scroll-group.show').removeClass('show')
-          }
-        }
-        $(this).toggleClass('active')
-        $(this).parent().toggleClass('active')
-        $(this).parents('tr').next().addClass('show')
-        $(this).parents('tr').next().find('.brc-scroll-group').addClass('show')
-      }
-    })
   })
 })(jQuery)
